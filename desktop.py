@@ -62,7 +62,8 @@ class App:
         self.preview = ttk.Label(root); self.preview.pack(pady=4)
         controls = ttk.Frame(root); controls.pack(fill='x', padx=10)
         for label, callback in [('① 生成修改前后审核单', self.make_review),
-                                ('② 我已审核，批准此版本', self.approve), ('③ 应用到已上传视频并定时公开', self.apply)]:
+                                ('② 我已审核，批准此版本', self.approve), ('③ 应用到已上传视频并定时公开', self.apply),
+                                ('核对线上结果（只读）', self.verify)]:
             button = ttk.Button(controls, text=label, command=callback)
             button.pack(side='left', padx=5); self.buttons.append(button)
         self.log = tk.Text(root, height=14, wrap='word')
@@ -209,6 +210,11 @@ class App:
             with run.upload_lock(run.ROOT / self.config['work'] / iid):
                 run.apply_changes(self.config, argparse.Namespace(job=iid))
         self.task(operation)
+
+    def verify(self):
+        try: iid=self.selected()
+        except Exception as exc: messagebox.showerror('请选择任务',str(exc));return
+        self.task(lambda:run.verify_existing(self.config,argparse.Namespace(job=iid)))
 
 
 if __name__ == '__main__':

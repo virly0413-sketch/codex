@@ -189,6 +189,54 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(remote.thumbnails.return_value.set.call_count,1)
         self.assertEqual(run.load(self.directory/'apply_state.json')['stage'],'done')
 
+    def test_known_server_normalizations_and_added_defaults(self):
+        package=self.review_and_approve(); expected=run.desired_state(package)
+        actual=copy.deepcopy(expected)
+        actual['status']['containsSyntheticMedia']=False
+        actual['status']['publishAt']=self.when.astimezone(dt.timezone(dt.timedelta(hours=8))).isoformat()
+        actual['snippet']['tags'].reverse()
+        actual['snippet']['defaultLanguage']='ZH'
+        differences,added=run.state_differences(expected,actual)
+        self.assertEqual(differences,[])
+        self.assertEqual(added['status']['containsSyntheticMedia'],False)
+
+    def test_verification_polls_reads_without_resending_writes(self):
+        package=self.review_and_approve()
+        thumb=copy.deepcopy(self.video);thumb['etag']='version1'
+        final=self.after_video(package);final['status']['containsSyntheticMedia']=False
+        remote=self.remote([self.video,thumb,self.video,final])
+        with patch.object(run,'auth',return_value=remote),patch('googleapiclient.http.MediaFileUpload'), \
+             patch.object(run.time,'sleep'),contextlib.redirect_stdout(io.StringIO()):
+            run.apply_changes(self.config,self.args)
+        self.assertEqual(remote.videos.return_value.update.call_count,1)
+        self.assertEqual(remote.thumbnails.return_value.set.call_count,1)
+        self.assertTrue(run.load(self.directory/'verification.json')['metadata_and_schedule_confirmed'])
+
+    def test_wrong_description_or_schedule_stays_unconfirmed_with_field_report(self):
+        package=self.review_and_approve();video=self.after_video(package)
+        video['snippet']['description']='Wrong description'
+        video['status']['publishAt']=(self.when+dt.timedelta(hours=1)).isoformat()
+        remote=self.remote([video,video,video])
+        with patch.object(run.time,'sleep'),contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaisesRegex(ValueError,'snippet.description'):
+                run.verify_result(remote,self.config,package,self.directory)
+        report=run.load(self.directory/'verification.json')
+        self.assertFalse(report['metadata_and_schedule_confirmed'])
+        self.assertEqual({d['field'] for d in report['differences']},{'snippet.description','status.publishAt'})
+        remote.videos.return_value.update.assert_not_called()
+        remote.thumbnails.return_value.set.assert_not_called()
+
+    def test_read_only_verify_recovers_old_uncertain_result_without_mutations(self):
+        package=self.review_and_approve();video=self.after_video(package)
+        video['status']['containsSyntheticMedia']=False
+        remote=self.remote([video])
+        run.save(self.directory/'apply_state.json',{'stage':'metadata_started','fingerprint':run.fingerprint(package)})
+        with patch.object(run,'auth',return_value=remote),contextlib.redirect_stdout(io.StringIO()):
+            run.verify_existing(self.config,self.args)
+        self.assertTrue(run.load(self.directory/'verification.json')['metadata_and_schedule_confirmed'])
+        remote.videos.return_value.update.assert_not_called()
+        remote.thumbnails.return_value.set.assert_not_called()
+
     def test_concurrent_operation_lock(self):
         with run.upload_lock(self.directory):
             with self.assertRaises(ValueError):

@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import sys
 import tempfile
+import time
 import shutil
 import zipfile
 from contextlib import contextmanager
@@ -233,6 +234,77 @@ def remote_state(video):
             'status': {k: video['status'][k] for k in STATUS_FIELDS if k in video['status']}}
 
 
+def desired_state(package):
+    return {'id':package['video_id'], 'channel_id':package['channel_id'],
+        'snippet':dict(package['remote_before']['snippet'], title=package['title'], description=package['description_after']),
+        'status':dict(package['remote_before']['status'], privacyStatus='private', publishAt=package['publish_at'])}
+
+
+def state_differences(expected, actual):
+    """Validate every requested/preserved field; tolerate only known semantic equivalences."""
+    differences = []
+    missing = object()
+    for section in ('identity', 'snippet', 'status'):
+        want = {k:expected[k] for k in ('id','channel_id')} if section == 'identity' else expected[section]
+        got = actual if section == 'identity' else actual[section]
+        for key, value in want.items():
+            returned = got.get(key, missing)
+            equal = returned is not missing and value == returned
+            if returned is not missing and key == 'publishAt':
+                try:
+                    equal = dt.datetime.fromisoformat(value.replace('Z','+00:00')) == dt.datetime.fromisoformat(returned.replace('Z','+00:00'))
+                except (TypeError, ValueError): equal = False
+            elif key == 'tags':
+                # Empty tags and an omitted tags field represent the same empty list.
+                actual_tags = [] if returned is missing else returned
+                equal = isinstance(value,list) and isinstance(actual_tags,list) and sorted(value) == sorted(actual_tags)
+            elif returned is not missing and key in ('defaultLanguage','defaultAudioLanguage'):
+                equal = str(value).casefold() == str(returned).casefold()
+            if not equal:
+                differences.append({'field':section+'.'+key, 'expected':value,
+                                    'actual':returned if returned is not missing else None,
+                                    'actual_missing':returned is missing})
+    # Extra fields returned by the service were not requested changes. Record, don't treat them as failures.
+    added = {s:{k:v for k,v in actual[s].items() if k not in expected[s]} for s in ('snippet','status')}
+    return differences, added
+
+
+def verify_result(youtube, config, package, directory, first_video=None, attempts=3):
+    expected = desired_state(package)
+    for attempt in range(attempts):
+        actual_video = first_video if attempt == 0 and first_video is not None else get_video(youtube,config,package['video_id'])
+        actual = remote_state(actual_video)
+        differences, added = state_differences(expected, actual)
+        report = dict(video_id=package['video_id'], fingerprint=fingerprint(package),
+            checked_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+            metadata_and_schedule_confirmed=not differences,
+            thumbnail_confirmation='Not verified by readback; visually confirm the actual thumbnail in Studio',
+            differences=differences, server_added_fields=added, expected=expected, actual=actual)
+        save(directory/'verification.json',report)
+        if not differences:
+            print('线上标题、说明及排期已核对一致；保留字段已核对。封面需在 Studio 目视确认。')
+            return report
+        print('线上核对第',attempt+1,'次，差异字段：',', '.join(d['field'] for d in differences))
+        if attempt+1 < attempts:
+            time.sleep(2*(attempt+1))
+    for difference in differences:
+        def brief(value):
+            text=json.dumps(value,ensure_ascii=False)
+            return text if len(text)<=160 else text[:160]+'…（完整内容仅保存在本机 verification.json）'
+        print(difference['field'], '\n  审核值：',brief(difference['expected']), '\n  返回值：',brief(difference['actual']))
+    raise ValueError('线上结果未确认，差异字段：'+', '.join(d['field'] for d in differences)+
+        '。部分修改可能已生效；未重新写入。请在 Studio 核对，或点击“核对线上结果”。本机报告：'+str(directory/'verification.json'))
+
+
+def verify_existing(config, args):
+    directory = ROOT/config['work']/args.job
+    package=load(directory/'review.json')
+    if package.get('workflow') != 'existing_video_v2' or package['channel_id'] != config['channel_id']:
+        raise ValueError('审核单不是当前频道的现有视频审核单。请重新生成。')
+    verify_result(auth(config),config,package,directory)
+    print('本次仅查询并保存核对报告，未修改 YouTube。')
+
+
 def get_video(youtube, config, video_id):
     items = read_request(youtube.videos().list(part='snippet,status', id=video_id), '读取视频信息').get('items', [])
     if len(items) != 1 or items[0]['snippet']['channelId'] != config['channel_id']:
@@ -338,15 +410,13 @@ def apply_changes(config, args):
     state = load(state_path) if state_path.exists() else {}
     if state and state.get('fingerprint') != fingerprint(package):
         raise ValueError('Another reviewed change has execution state. Inspect Studio and archive old state before continuing.')
-    desired_snippet = dict(package['remote_before']['snippet'], title=package['title'], description=package['description_after'])
-    desired_status = dict(package['remote_before']['status'], privacyStatus='private', publishAt=package['publish_at'])
-    desired = {'id':package['video_id'], 'channel_id':config['channel_id'], 'snippet':desired_snippet, 'status':desired_status}
+    desired = desired_state(package)
+    desired_snippet, desired_status = desired['snippet'], desired['status']
     if state.get('stage') in ('metadata_started', 'done'):
-        if remote_state(current) == desired:
-            save(state_path, dict(fingerprint=fingerprint(package), stage='done', video_id=package['video_id']))
-            print('Approved changes already confirmed on existing video:', package['video_id'])
-            return
-        raise ValueError('Previous result differs or is uncertain. Inspect Studio and generate a fresh review; no changes made.')
+        verify_result(youtube,config,package,directory,first_video=current)
+        save(state_path, dict(fingerprint=fingerprint(package), stage='done', video_id=package['video_id']))
+        print('Approved changes already confirmed on existing video:', package['video_id'])
+        return
     if remote_state(current) != package['remote_before']:
         raise ValueError('Video metadata changed since review. Fetch and approve a fresh review.')
     if state.get('stage') == 'thumbnail_started':
@@ -374,14 +444,7 @@ def apply_changes(config, args):
     if not current.get('etag'): raise ValueError('Missing remote version ETag; stop without metadata changes.')
     request.headers['If-Match'] = current['etag']
     request.execute()
-    actual = get_video(youtube, config, package['video_id'])
-    # Compare timestamps as instants; YouTube may normalize the timezone representation.
-    actual_state = remote_state(actual)
-    actual_time = actual_state['status'].get('publishAt')
-    if actual_time and dt.datetime.fromisoformat(actual_time.replace('Z', '+00:00')) == when:
-        actual_state['status']['publishAt'] = package['publish_at']
-    if actual_state != desired:
-        raise ValueError('YouTube result differs from approved changes. Check Studio; do not blindly retry.')
+    verify_result(youtube,config,package,directory)
     save(state_path, dict(fingerprint=fingerprint(package), stage='done', video_id=package['video_id']))
     print('Updated and scheduled existing video:', package['video_url'], package['publish_local'])
 
@@ -408,6 +471,7 @@ def main():
     app.add_argument('--fingerprint', required=True)
     app.add_argument('--confirm-rights-audio-restrictions', action='store_true', required=True)
     apply = commands.add_parser('apply'); apply.add_argument('--job', required=True)
+    verify = commands.add_parser('verify'); verify.add_argument('--job', required=True)
     args = parser.parse_args(); config = load(args.config)
     if args.command == 'plan': plan(config)
     elif args.command == 'auth': auth(config, reauthorize=args.reauth); print('Channel authentication verified.')
@@ -416,6 +480,7 @@ def main():
     elif args.command == 'import-pack': import_pack(config, args)
     elif args.command == 'review': review(config, args)
     elif args.command == 'approve': approve(config, args)
+    elif args.command == 'verify': verify_existing(config,args)
     elif args.command == 'apply-approved': apply_approved(config)
     elif args.command == 'apply':
         with upload_lock(ROOT / config['work'] / args.job): apply_changes(config, args)
