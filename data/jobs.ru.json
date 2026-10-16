@@ -1,1 +1,288 @@
-[]
+[
+  {
+    "job_id": "964846aa48c8e107",
+    "channel": "俄语男频",
+    "date": "2026-10-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-18T17:00:00+08:00",
+    "publish_at": "2026-10-18T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "满朝文武都是我兄弟",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 631,
+        "resource_title": "《满朝文武都是我兄弟》",
+        "drama_code": "2609 EN95",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ru",
+        "audio_availability": ""
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "ru_audio_availability_unverified",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "6decdd50a1e428ef",
+    "channel": "俄语男频",
+    "date": "2026-10-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-19T17:00:00+08:00",
+    "publish_at": "2026-10-19T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "开局流放我用系统搬空皇帝库房",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 634,
+        "resource_title": "《开局流放我用系统搬空皇帝库房》AI仿真人",
+        "drama_code": "2609 EN97",
+        "category": "男频",
+        "minutes": "61",
+        "episodes": "45",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "7266a5268d7e57d2",
+    "channel": "俄语男频",
+    "date": "2026-10-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-20T17:00:00+08:00",
+    "publish_at": "2026-10-20T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "是谁坑惨了朕",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 812,
+        "resource_title": "《是谁坑惨了朕》AI仿真人",
+        "drama_code": "2609 KR71",
+        "category": "男频",
+        "minutes": "92",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": ""
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "ru_audio_availability_unverified",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "61942ec8808cd387",
+    "channel": "俄语男频",
+    "date": "2026-10-21",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-21T17:00:00+08:00",
+    "publish_at": "2026-10-21T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "我真是昏君你们快造反吧",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 736,
+        "resource_title": "《我真是昏君你们快造反吧》 AI仿真人",
+        "drama_code": "2609 KR37",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "40",
+        "audio_language": "ru",
+        "audio_availability": ""
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "ru_audio_availability_unverified",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "f804c9c05b7c6961",
+    "channel": "俄语男频",
+    "date": "2026-10-22",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-22T17:00:00+08:00",
+    "publish_at": "2026-10-22T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "边疆老卒御赐老婆后我越活越勇",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 964,
+        "resource_title": "《边疆老卒御赐老婆后我越活越勇》AI真人",
+        "drama_code": "2026 WW27",
+        "category": "男频",
+        "minutes": "82",
+        "episodes": "42",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "0b2988d6eef2dffc",
+    "channel": "俄语男频",
+    "date": "2026-10-23",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-23T17:00:00+08:00",
+    "publish_at": "2026-10-23T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "我靠刷题重振宗门",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 726,
+        "resource_title": "《我靠刷题重振宗门》AI仿真人",
+        "drama_code": "2609 KR33",
+        "category": "男频",
+        "minutes": "96",
+        "episodes": "58",
+        "audio_language": "ru",
+        "audio_availability": ""
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "ru_audio_availability_unverified",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "07fcc4f6c78120fc",
+    "channel": "俄语男频",
+    "date": "2026-10-24",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-24T17:00:00+08:00",
+    "publish_at": "2026-10-24T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "大师兄竟是御兽宗宗主",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 670,
+        "resource_title": "《大师兄竟是御兽宗宗主》 ",
+        "drama_code": "2609 KR15",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ru",
+        "audio_availability": ""
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "ru_audio_availability_unverified",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  },
+  {
+    "job_id": "8b7ee46eed2c78ff",
+    "channel": "俄语男频",
+    "date": "2026-10-25",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-25T17:00:00+08:00",
+    "publish_at": "2026-10-25T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "开局上交系统我直升满级大佬",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 668,
+        "resource_title": "《开局上交系统我直升满级大佬》",
+        "drama_code": "2609 KR13",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ru",
+        "audio_availability": ""
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "ru_audio_availability_unverified",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru"
+  }
+]

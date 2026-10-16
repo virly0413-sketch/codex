@@ -1,6 +1,6 @@
 {
   "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
-  "channel_name": "俄语男频频道（待确认名称）",
+  "channel_name": "俄语男频",
   "work": "local_work_ru",
   "oauth_client": "client_secret.json",
   "oauth_token": "token.ru.json",
@@ -8,5 +8,8 @@
   "proxy_url": "",
   "http_timeout_seconds": 30,
   "assets_path": "assets_ru",
-  "language": "ru"
+  "language": "ru",
+  "schedule_channel_name": "俄语男频",
+  "start_date": "2026-10-18",
+  "thumbnail_text_mode": "none"
 }

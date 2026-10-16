@@ -1,8 +1,205 @@
 {
   "version": 2,
   "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+  "channel": "俄语男频",
   "language": "ru",
-  "jobs": [],
-  "sha256": {},
-  "status": "awaiting_schedule"
+  "thumbnail_text_mode": "none",
+  "generation_method": "ChatGPT conversation",
+  "research_status": "Synopsis-based; current Russian competitor research not performed",
+  "jobs": [
+    {
+      "job_id": "964846aa48c8e107",
+      "title_zh": "满朝文武都是我兄弟",
+      "titles": [
+        "Его вели на казнь, но вся империя встала на его сторону",
+        "Он был посмешищем двора. Теперь министры сами отдают ему трон",
+        "Брат обвинил его в мятеже — и невольно помог ему стать императором"
+      ],
+      "drama_code": "2609 EN95",
+      "candidate_codes": [
+        "2609 EN95"
+      ],
+      "covers": [
+        "covers/964846aa48c8e107.jpg"
+      ],
+      "reasoning": "落魄皇子被陷害到满朝拥护的身份反转",
+      "publish_local": "2026-10-18T17:00:00+08:00",
+      "publish_at": "2026-10-18T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "6decdd50a1e428ef",
+      "title_zh": "开局流放我用系统搬空皇帝库房",
+      "titles": [
+        "Император изгнал его семью. Он забрал всю казну",
+        "Его отправили в ссылку с пятью невестками — но у него была система",
+        "Последнего наследника хотели убить. Он создал свою силу на богатстве империи"
+      ],
+      "drama_code": "2609 EN97",
+      "candidate_codes": [
+        "2609 EN97"
+      ],
+      "covers": [
+        "covers/6decdd50a1e428ef.jpg"
+      ],
+      "reasoning": "流放绝境、国库物资与护家逆袭",
+      "publish_local": "2026-10-19T17:00:00+08:00",
+      "publish_at": "2026-10-19T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "7266a5268d7e57d2",
+      "title_zh": "是谁坑惨了朕",
+      "titles": [
+        "Императрица приказала ему умереть. Он привёл армию к её дворцу",
+        "Он служил ей верой и правдой. В ответ получил приказ о смерти",
+        "Семьсот тысяч солдат или верность предавшей его императрице?"
+      ],
+      "drama_code": "2609 KR71",
+      "candidate_codes": [
+        "2609 KR71"
+      ],
+      "covers": [
+        "covers/7266a5268d7e57d2.jpg"
+      ],
+      "reasoning": "忠臣遭赐死后的拒绝服从与权力反转",
+      "publish_local": "2026-10-20T17:00:00+08:00",
+      "publish_at": "2026-10-20T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "61942ec8808cd387",
+      "title_zh": "我真是昏君你们快造反吧",
+      "titles": [
+        "Ему осталось жить три дня. Чтобы выжить, он решил стать худшим императором",
+        "Чем хуже он правит, тем щедрее награды. Император получил странную систему",
+        "Он губит удачу империи, чтобы обрести бессмертие"
+      ],
+      "drama_code": "2609 KR37",
+      "candidate_codes": [
+        "2609 KR37"
+      ],
+      "covers": [
+        "covers/61942ec8808cd387.jpg"
+      ],
+      "reasoning": "昏君行为换取寿命奖励的反常机制",
+      "publish_local": "2026-10-21T17:00:00+08:00",
+      "publish_at": "2026-10-21T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "f804c9c05b7c6961",
+      "title_zh": "边疆老卒御赐老婆后我越活越勇",
+      "titles": [
+        "В 53 года он пошёл в солдаты ради еды. Три жены изменили его судьбу",
+        "Император подарил старому солдату трёх жён — и пробудил его силу",
+        "Старый солдат получил систему и начал путь к новой жизни"
+      ],
+      "drama_code": "2026 WW27",
+      "candidate_codes": [
+        "2026 WW27"
+      ],
+      "covers": [
+        "covers/f804c9c05b7c6961.jpg"
+      ],
+      "reasoning": "老卒生存困境与系统续命成长",
+      "publish_local": "2026-10-22T17:00:00+08:00",
+      "publish_at": "2026-10-22T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "0b2988d6eef2dffc",
+      "title_zh": "我靠刷题重振宗门",
+      "titles": [
+        "Пока другие искали тайные техники, он заставил учеников учиться",
+        "Он возродил слабую секту с помощью науки и задач",
+        "Над его методами смеялись. Теперь его ученики побеждают великие секты"
+      ],
+      "drama_code": "2609 KR33",
+      "candidate_codes": [
+        "2609 KR33"
+      ],
+      "covers": [
+        "covers/0b2988d6eef2dffc.jpg"
+      ],
+      "reasoning": "学习刷题与传统修炼的反差",
+      "publish_local": "2026-10-23T17:00:00+08:00",
+      "publish_at": "2026-10-23T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "07fcc4f6c78120fc",
+      "title_zh": "大师兄竟是御兽宗宗主",
+      "titles": [
+        "Четыре старшие ученицы предали его. Он выбрал путь повелителя зверей",
+        "Они погубили его прорыв. Он стал сильнее, не полагаясь ни на кого",
+        "Он вознёсся в мир бессмертных. Предавшим его осталось лишь сожалеть"
+      ],
+      "drama_code": "2609 KR15",
+      "candidate_codes": [
+        "2609 KR15"
+      ],
+      "covers": [
+        "covers/07fcc4f6c78120fc.jpg"
+      ],
+      "reasoning": "师姐背叛与御兽独立崛起",
+      "publish_local": "2026-10-24T17:00:00+08:00",
+      "publish_at": "2026-10-24T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    },
+    {
+      "job_id": "8b7ee46eed2c78ff",
+      "title_zh": "开局上交系统我直升满级大佬",
+      "titles": [
+        "Семья отняла его дар. Он отдал систему — и обрёл силу защитить Землю",
+        "Его система давала уровни за забой свиней. Кто ожидал такого прорыва?",
+        "Его изгнали из семьи. Теперь он собирает отряд, чтобы спасти свой мир"
+      ],
+      "drama_code": "2609 KR13",
+      "candidate_codes": [
+        "2609 KR13"
+      ],
+      "covers": [
+        "covers/8b7ee46eed2c78ff.jpg"
+      ],
+      "reasoning": "低门槛升级系统与守护蓝星的规模反差",
+      "publish_local": "2026-10-25T17:00:00+08:00",
+      "publish_at": "2026-10-25T09:00:00Z",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。"
+    }
+  ],
+  "sha256": {
+    "covers/964846aa48c8e107.jpg": "4b0c6e039acf82c40b62d3bc3fdffbf95a88e7bfc4187fb2902b1fdaaedaba27",
+    "covers/6decdd50a1e428ef.jpg": "d84b3214a122122bb2e257c47b22edb6266f6adc49138a330b7f3af067721ed3",
+    "covers/7266a5268d7e57d2.jpg": "f05ee95ca1b2342baddfffae94b1a9bb9f5c19d3b7d9f01f4f17c6644cba0916",
+    "covers/61942ec8808cd387.jpg": "cef0adaadc60ef176fdd25d8ba65b0351bf70c08e5d4053161a134c1f6c69947",
+    "covers/f804c9c05b7c6961.jpg": "ac7ffd5661baea3f4fea8842d87ae4a44dd1734bf8d9e33af545d9cc76b98966",
+    "covers/0b2988d6eef2dffc.jpg": "c64c7d0cf61ec207b9346311d4091dbc495507f357e9e4519c23ced54a7e1a94",
+    "covers/07fcc4f6c78120fc.jpg": "58df5e7e1b1bbaf2ab8eb84cbc8268c87854679cae812688c24d986b676c83f6",
+    "covers/8b7ee46eed2c78ff.jpg": "94af4e2c04a10d5be60cf9a7ebcf1b2a2b477932c5a658b91506b848f6f54ee8"
+  }
 }

@@ -129,7 +129,8 @@ def plan(config):
                     entry['blockers'].append('past_publish_time_do_not_backfill_automatically')
     else:
         jobs = prepare(ROOT / config['schedule'], ROOT / config['resources'],
-                       config['channel_name'], now.astimezone(ZoneInfo('Asia/Shanghai')).date(), now)
+                       config.get('schedule_channel_name',config['channel_name']),
+                       now.astimezone(ZoneInfo('Asia/Shanghai')).date(), now, language=config.get('language','en'))
     if config.get('start_date'):
         start_date = dt.date.fromisoformat(config['start_date']).isoformat()
         jobs = [j for j in jobs if j['date'] >= start_date]
@@ -179,6 +180,8 @@ def import_pack(config, args):
     manifest = load(pack / 'manifest.json')
     if manifest.get('channel_id') and manifest['channel_id'] != config['channel_id']:
         raise ValueError('素材包属于其他频道，禁止导入。')
+    if manifest.get('language') and config.get('language') and manifest['language'] != config['language']:
+        raise ValueError('素材包语种与当前频道配置不符，禁止导入。')
     jobs = {j['job_id']: j for j in load(ROOT / config['work'] / 'queue.json')}
     count = 0
     for entry in manifest['jobs']:

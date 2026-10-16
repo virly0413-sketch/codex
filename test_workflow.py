@@ -1,5 +1,6 @@
 import argparse
 import contextlib
+import csv
 import copy
 import datetime as dt
 import io
@@ -10,7 +11,7 @@ from unittest.mock import MagicMock, patch
 
 import run
 import networking
-from prepare import description_with_code
+from prepare import description_with_code, prepare
 
 RELEASE_ROOT = run.ROOT
 
@@ -258,7 +259,7 @@ class WorkflowTests(unittest.TestCase):
         authentication.assert_not_called()
         self.assertFalse((self.directory/'approval.json').exists())
 
-    def test_russian_profile_has_no_english_schedule_and_is_isolated(self):
+    def test_russian_profile_has_its_own_schedule_and_is_isolated(self):
         ru=run.load(RELEASE_ROOT/'profiles/russian.json')
         en=run.load(RELEASE_ROOT/'profiles/english.json')
         self.assertEqual(ru['channel_id'],'UC_o03Jz0Ek8xYGE_oy3zapg')
@@ -268,9 +269,36 @@ class WorkflowTests(unittest.TestCase):
         with contextlib.redirect_stdout(io.StringIO()):
             run.plan(ru)
             run.import_pack(ru,argparse.Namespace(pack=str(RELEASE_ROOT/ru['assets_path'])))
-        self.assertEqual(run.load(run.ROOT/ru['work']/'queue.json'),[])
+        jobs=run.load(run.ROOT/ru['work']/'queue.json')
+        self.assertEqual(len(jobs),8)
+        self.assertEqual(min(j['date'] for j in jobs),'2026-10-18')
+        self.assertEqual(max(j['date'] for j in jobs),'2026-10-25')
+        self.assertTrue(all(j['channel_id']==ru['channel_id'] and j['language']=='ru' for j in jobs))
+        self.assertTrue(all(j['publish_local'][11:16]=='17:00' for j in jobs))
+        manifest=run.load(RELEASE_ROOT/ru['assets_path']/'manifest.json')
+        self.assertEqual({j['job_id'] for j in jobs},{j['job_id'] for j in manifest['jobs']})
+        for j in manifest['jobs']:
+            self.assertEqual(len(j['titles']),3)
+            for title in j['titles']:
+                self.assertLessEqual(len(title),100)
+            for cover in j['covers']:
+                self.assertEqual(run.digest(RELEASE_ROOT/ru['assets_path']/cover),manifest['sha256'][cover])
         with self.assertRaisesRegex(ValueError,'其他频道'):
             run.import_pack(en,argparse.Namespace(pack=str(RELEASE_ROOT/ru['assets_path'])))
+
+    def test_csv_reader_uses_russian_audio_column(self):
+        schedule=run.ROOT/'schedule.csv';resource=run.ROOT/'resource.csv'
+        with schedule.open('w',encoding='utf-8',newline='') as f:
+            csv.writer(f).writerows([['日期','2026.10.18'],['俄语男频','示例']])
+        header=['']*30;header[4]='英语';header[14]='俄语'
+        row=['']*30;row[0]='《示例》';row[1]='CODE';row[14]='有'
+        with resource.open('w',encoding='utf-8',newline='') as f:
+            csv.writer(f).writerows([['']*30,header,row])
+        ru=prepare(schedule,resource,'俄语男频',dt.date(2026,10,16),language='ru')[0]
+        en=prepare(schedule,resource,'俄语男频',dt.date(2026,10,16),language='en')[0]
+        self.assertEqual(ru['candidates'][0]['audio_availability'],'有')
+        self.assertNotIn('ru_audio_availability_unverified',ru['blockers'])
+        self.assertIn('en_audio_availability_unverified',en['blockers'])
 
     def test_concurrent_operation_lock(self):
         with run.upload_lock(self.directory):

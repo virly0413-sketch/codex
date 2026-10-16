@@ -31,20 +31,25 @@ def read(path):
         return list(csv.reader(stream))
 
 
-def prepare(schedule, resources, channel, today, now=None):
+def prepare(schedule, resources, channel, today, now=None, language='en'):
     now = now or dt.datetime.now(ZoneInfo('Asia/Shanghai'))
     table, catalog = read(schedule), read(resources)
     channel_rows = [row for row in table[1:] if row and row[0].strip() == channel]
     if len(channel_rows) != 1:
         raise ValueError('Expected exactly one channel row')
     index = {}
+    language_header = {'en':'英语','ru':'俄语'}.get(language)
+    if not language_header or language_header not in catalog[1]:
+        raise ValueError('Unsupported or missing audio language column')
+    audio_column = catalog[1].index(language_header)
     for line, row in enumerate(catalog[2:], 3):
         if not row or not row[0].strip():
             continue
         row = row + [''] * max(0, 30 - len(row))
         entry = dict(resource_csv_line=line, resource_title=row[0], drama_code=row[1],
                      english_availability=row[4], category=row[22], minutes=row[25],
-                     episodes=row[26], synopsis=row[27], tags=row[28])
+                     episodes=row[26], synopsis=row[27], tags=row[28],
+                     audio_language=language, audio_availability=row[audio_column])
         index.setdefault(normalize(row[0]), []).append(entry)
     queue = []
     for date, cell in zip(table[0][1:], channel_rows[0][1:]):
@@ -69,8 +74,8 @@ def prepare(schedule, resources, channel, today, now=None):
                 blockers.append('past_publish_time_do_not_backfill_automatically')
             if len(matches) != 1:
                 blockers.append('version_selection_required' if matches else 'resource_match_missing')
-            elif not matches[0]['english_availability'].strip():
-                blockers.append('english_audio_availability_unverified')
+            elif not matches[0]['audio_availability'].strip():
+                blockers.append(language+'_audio_availability_unverified')
             elif not matches[0]['drama_code'].strip():
                 blockers.append('drama_code_missing')
             key = f'{channel}|{day}|{slot}|{title}'
@@ -94,8 +99,9 @@ def main():
     parser.add_argument('--channel', default='Supreme Hero Flicks')
     parser.add_argument('--today', required=True, type=dt.date.fromisoformat)
     parser.add_argument('--out', required=True)
+    parser.add_argument('--language', choices=['en','ru'], default='en')
     args = parser.parse_args()
-    queue = prepare(args.schedule, args.resources, args.channel, args.today)
+    queue = prepare(args.schedule, args.resources, args.channel, args.today, language=args.language)
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / 'queue.json').write_text(json.dumps(queue, ensure_ascii=False, indent=2), encoding='utf-8')
