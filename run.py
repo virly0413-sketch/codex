@@ -1,4 +1,4 @@
-"""Import ChatGPT-created assets -> exact approval -> scheduled YouTube upload. No generation API."""
+"""Import ChatGPT-created assets -> exact approval -> updates to existing YouTube videos. No generation API."""
 import argparse
 import datetime as dt
 import hashlib
@@ -11,7 +11,7 @@ import shutil
 import zipfile
 from contextlib import contextmanager
 
-from prepare import prepare, description_with_code
+from prepare import prepare, description_with_code, normalize
 
 ROOT = Path(__file__).resolve().parent
 
@@ -119,38 +119,6 @@ def job(config, job_id):
 
 
 
-def review(config, args):
-    j = job(config, args.job)
-    directory = ROOT / config['work'] / args.job
-    creative = load(directory / 'creative.json')
-    video = Path(args.video).resolve()
-    if not video.is_file():
-        raise ValueError('Video file does not exist.')
-    if not (1 <= args.title <= len(creative['titles']) and 1 <= args.cover <= creative['cover_count']):
-        raise ValueError('Title or cover selection out of range.')
-    chosen_code = args.code or creative.get('drama_code')
-    candidates = [c for c in j['candidates'] if c['drama_code'] == chosen_code]
-    if len(candidates) != 1:
-        raise ValueError('Choose the exact resource version with --code; no code is guessed.')
-    description = Path(args.description).read_bytes().decode('utf-8')
-    cover = directory / f'cover_{args.cover}.jpg'
-    from zoneinfo import ZoneInfo
-    local = dt.datetime.fromisoformat(args.publish_local).replace(tzinfo=ZoneInfo('Asia/Shanghai')) if args.publish_local else dt.datetime.fromisoformat(j['publish_local']).astimezone(ZoneInfo('Asia/Shanghai'))
-    if args.publish_local and dt.datetime.fromisoformat(args.publish_local).tzinfo is not None:
-        raise ValueError('Use local clock time without offset, e.g. 2026-10-17T17:00:00')
-    if local <= dt.datetime.now(dt.timezone.utc):
-        raise ValueError('Past schedule: explicitly provide a future --publish-local and review it again.')
-    package = dict(job_id=args.job, channel_id=config['channel_id'],
-        title=creative['titles'][args.title - 1], video=str(video), video_sha256=digest(video),
-        thumbnail=str(cover.resolve()), thumbnail_sha256=digest(cover),
-        description_before=description,
-        description_after=description_with_code(description, chosen_code),
-        publish_local=local.isoformat(), publish_at=local.astimezone(dt.timezone.utc).isoformat().replace('+00:00', 'Z'),
-        drama_code=chosen_code, demo=False)
-    save(directory / 'review.json', package)
-    print(json.dumps(package, ensure_ascii=False, indent=2))
-    print('\nReview fingerprint:', fingerprint(package))
-    print('Review files, synopsis accuracy, English audio, rights, restrictions and timing before approve.')
 
 
 
@@ -158,80 +126,17 @@ def review(config, args):
 def approve(config, args):
     directory = ROOT / config['work'] / args.job
     package = load(directory / 'review.json')
-    if package['demo']:
-        raise ValueError('Demo packages cannot be approved or uploaded.')
+    if package.get('demo') or package.get('workflow') != 'existing_video_v2':
+        raise ValueError('Only current existing-video reviews can be approved.')
     expected = fingerprint(package)
     if args.fingerprint != expected:
         raise ValueError('Fingerprint mismatch. Review the current package again.')
     save(directory / 'approval.json', dict(fingerprint=expected,
         approved_at=dt.datetime.now(dt.timezone.utc).isoformat(),
         rights_audio_restrictions_confirmed=True))
-    print('Approved this exact package locally. Upload requires a separate upload command.')
+    print('Approved this exact package locally. Apply requires a separate command; no remote changes made.')
 
 
-def upload(config, args):
-    from googleapiclient.http import MediaFileUpload
-    directory = ROOT / config['work'] / args.job
-    package = load(directory / 'review.json')
-    approval = load(directory / 'approval.json')
-    if package['demo'] or approval['fingerprint'] != fingerprint(package):
-        raise ValueError('Missing or stale approval.')
-    if package['channel_id'] != config['channel_id']:
-        raise ValueError('Channel changed; regenerate review and approval.')
-    for field in ['video', 'thumbnail']:
-        if digest(package[field]) != package[field + '_sha256']:
-            raise ValueError('Approved asset changed: ' + field)
-    when = dt.datetime.fromisoformat(package['publish_at'].replace('Z', '+00:00'))
-    if when <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=15):
-        raise ValueError('Publish time must be >15 minutes ahead. No automatic rescheduling.')
-    youtube = auth(config)
-    state_path = directory / 'upload_state.json'
-    state = load(state_path) if state_path.exists() else {}
-    if state.get('fingerprint') and state['fingerprint'] != fingerprint(package):
-        raise ValueError('An upload exists for another package. Resolve it manually; do not duplicate.')
-    if state.get('inserting') and not state.get('video_id'):
-        raise ValueError('Prior upload outcome uncertain. Check YouTube Studio; do not blindly retry.')
-    if state.get('scheduled'):
-        actual = youtube.videos().list(part='status', id=state['video_id']).execute()['items'][0]['status']
-        print('Already scheduled by this program; no new changes made:', state['video_id'], actual)
-        return
-    if not state.get('video_id'):
-        save(state_path, dict(inserting=True, fingerprint=fingerprint(package)))
-        request = youtube.videos().insert(part='snippet,status', body={
-            'snippet': {'title': package['title'], 'description': package['description_after'],
-                        'categoryId': '24', 'defaultLanguage': 'en'},
-            'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False}},
-            media_body=MediaFileUpload(package['video'], resumable=True))
-        response = None
-        while response is None:
-            _, response = request.next_chunk()
-        state = dict(video_id=response['id'], fingerprint=fingerprint(package))
-        save(state_path, state)
-    video_id = state['video_id']
-    current = youtube.videos().list(part='snippet,status', id=video_id).execute()['items'][0]
-    if current['snippet']['channelId'] != config['channel_id']:
-        raise ValueError('Uploaded video belongs to another channel.')
-    if (current['snippet']['title'] != package['title'] or
-            current['snippet']['description'] != package['description_after']):
-        raise ValueError('Remote metadata changed. Stop and review in Studio.')
-    if Path(package['thumbnail']).stat().st_size >= 2 * 1024 * 1024:
-        raise ValueError('Thumbnail exceeds 2 MB. Replace and reapprove before retrying.')
-    youtube.thumbnails().set(videoId=video_id,
-        media_body=MediaFileUpload(package['thumbnail'])).execute()
-    if when <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=5):
-        raise ValueError('Upload took too long. Video remains private; review a new schedule.')
-    youtube.videos().update(part='status', body={'id': video_id, 'status': {
-        'privacyStatus': 'private', 'publishAt': package['publish_at'],
-        'selfDeclaredMadeForKids': False}}).execute()
-    actual = youtube.videos().list(part='status', id=video_id).execute()['items'][0]['status']
-    if actual.get('privacyStatus') != 'private' or not actual.get('publishAt'):
-        raise ValueError('Schedule not confirmed. Check Studio; do not claim scheduled.')
-    actual_when = dt.datetime.fromisoformat(actual['publishAt'].replace('Z', '+00:00'))
-    if actual_when != when:
-        raise ValueError('Remote publication time differs; check Studio.')
-    state.update(scheduled=True, status=actual)
-    save(state_path, state)
-    print('YouTube confirmed schedule:', video_id, package['publish_local'])
 
 
 def import_pack(config, args):
@@ -285,64 +190,201 @@ def import_pack(config, args):
     print('Imported', count, 'packages. No API Key required; no uploads or approvals performed.')
 
 
-def upload_approved(config):
-    count = 0
-    work = ROOT / config['work']
-    for path in sorted(work.glob('*/approval.json')):
-        args = argparse.Namespace(job=path.parent.name)
-        try:
-            with upload_lock(path.parent):
-                upload(config, args)
-            count += 1
-        except Exception as exc:
-            print('Stopped:', args.job, type(exc).__name__, str(exc)[:200])
-            raise ValueError('Batch stopped. Review the failed job before continuing.')
-    print('Processed approved jobs:', count)
+SNIPPET_FIELDS = ('title', 'description', 'categoryId', 'tags', 'defaultLanguage', 'defaultAudioLanguage')
+STATUS_FIELDS = ('privacyStatus', 'publishAt', 'license', 'embeddable',
+                 'publicStatsViewable', 'selfDeclaredMadeForKids', 'containsSyntheticMedia')
+
+
+def remote_state(video):
+    return {'id': video['id'], 'channel_id': video['snippet']['channelId'],
+            'snippet': {k: video['snippet'][k] for k in SNIPPET_FIELDS if k in video['snippet']},
+            'status': {k: video['status'][k] for k in STATUS_FIELDS if k in video['status']}}
+
+
+def get_video(youtube, config, video_id):
+    items = youtube.videos().list(part='snippet,status', id=video_id).execute().get('items', [])
+    if len(items) != 1 or items[0]['snippet']['channelId'] != config['channel_id']:
+        raise ValueError('Video missing, inaccessible, or belongs to a different channel.')
+    return items[0]
+
+
+def scan(config, args=None):
+    youtube = auth(config)
+    channels = youtube.channels().list(part='contentDetails', id=config['channel_id']).execute()['items']
+    playlist = channels[0]['contentDetails']['relatedPlaylists']['uploads']
+    ids, page = [], None
+    while True:
+        response = youtube.playlistItems().list(part='contentDetails', playlistId=playlist,
+            maxResults=50, pageToken=page).execute()
+        ids.extend(item['contentDetails']['videoId'] for item in response.get('items', []))
+        page = response.get('nextPageToken')
+        if not page: break
+    videos = []
+    ids = list(dict.fromkeys(ids))
+    for offset in range(0, len(ids), 50):
+        response = youtube.videos().list(part='snippet,status', id=','.join(ids[offset:offset+50])).execute()
+        videos.extend(v for v in response.get('items', []) if v['snippet']['channelId'] == config['channel_id'])
+    save(ROOT / config['work'] / 'channel_videos.json', videos)
+    for video in videos:
+        print(video['id'], video['status']['privacyStatus'], video['snippet']['title'])
+    print('Scanned', len(videos), 'existing channel videos. Read-only; nothing changed.')
+
+
+def match_videos(title_zh, videos):
+    key = normalize(title_zh)
+    return [v for v in videos if key and key in normalize(v['snippet']['title'])]
+
+
+def review(config, args):
+    j = job(config, args.job)
+    directory = ROOT / config['work'] / args.job
+    creative = load(directory / 'creative.json')
+    if not (1 <= args.title <= len(creative['titles']) and 1 <= args.cover <= creative['cover_count']):
+        raise ValueError('Title or cover selection out of range.')
+    chosen_code = args.code or creative.get('drama_code')
+    if len([c for c in j['candidates'] if c['drama_code'] == chosen_code]) != 1:
+        raise ValueError('Choose the exact resource version with --code.')
+    video_id = args.video_id
+    if not video_id:
+        cache = ROOT / config['work'] / 'channel_videos.json'
+        if not cache.exists(): raise ValueError('Run scan first, or provide --video-id.')
+        matches = match_videos(j['title_zh'], load(cache))
+        if len(matches) != 1:
+            raise ValueError('Title match is missing or ambiguous. Select the exact --video-id after inspection.')
+        video_id = matches[0]['id']
+    youtube = auth(config)
+    video = get_video(youtube, config, video_id)
+    if video['status'].get('privacyStatus') != 'private':
+        raise ValueError('Scheduling requires an existing private, never-published video. No privacy change made.')
+    if video['status'].get('uploadStatus') in ('failed', 'rejected', 'deleted'):
+        raise ValueError('Video processing failed or the video was rejected/deleted.')
+    from zoneinfo import ZoneInfo
+    if args.publish_local:
+        local = dt.datetime.fromisoformat(args.publish_local)
+        if local.tzinfo: raise ValueError('Provide Beijing local time without offset.')
+        local = local.replace(tzinfo=ZoneInfo('Asia/Shanghai'))
+    else:
+        local = dt.datetime.fromisoformat(j['publish_local']).astimezone(ZoneInfo('Asia/Shanghai'))
+    if local <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=5):
+        raise ValueError('Choose a future schedule at least 5 minutes ahead; no automatic rescheduling.')
+    description = video['snippet'].get('description', '')
+    cover = directory / f'cover_{args.cover}.jpg'
+    after = description_with_code(description, chosen_code)
+    if len(after) > 5000: raise ValueError('Description plus code exceeds YouTube limit.')
+    package = dict(workflow='existing_video_v2', job_id=args.job, channel_id=config['channel_id'],
+        video_id=video_id, video_url='https://www.youtube.com/watch?v=' + video_id,
+        title_before=video['snippet']['title'], title=creative['titles'][args.title - 1],
+        description_before=description, description_after=after,
+        thumbnail=str(cover.resolve()), thumbnail_sha256=digest(cover),
+        thumbnail_before=video['snippet'].get('thumbnails', {}),
+        remote_before=remote_state(video), remote_etag=video.get('etag'),
+        publish_local=local.isoformat(), publish_at=local.astimezone(dt.timezone.utc).isoformat().replace('+00:00', 'Z'),
+        drama_code=chosen_code, demo=False)
+    save(directory / 'review.json', package)
+    print(json.dumps(package, ensure_ascii=False, indent=2))
+    print('Review fingerprint:', fingerprint(package))
+    print('Read-only review saved. Verify the exact video, title, cover, original description and schedule before approval.')
+
+
+def apply_changes(config, args):
+    from googleapiclient.http import MediaFileUpload
+    directory = ROOT / config['work'] / args.job
+    package, approval = load(directory / 'review.json'), load(directory / 'approval.json')
+    if (package.get('workflow') != 'existing_video_v2' or
+            approval['fingerprint'] != fingerprint(package) or package.get('demo')):
+        raise ValueError('Missing/stale approval or legacy upload review. Generate and approve a new review.')
+    if package['channel_id'] != config['channel_id'] or digest(package['thumbnail']) != package['thumbnail_sha256']:
+        raise ValueError('Channel or thumbnail changed. Review and approve again.')
+    if Path(package['thumbnail']).stat().st_size >= 2 * 1024 * 1024:
+        raise ValueError('Thumbnail must be under 2 MB.')
+    youtube = auth(config)
+    current = get_video(youtube, config, package['video_id'])
+    state_path = directory / 'apply_state.json'
+    state = load(state_path) if state_path.exists() else {}
+    if state and state.get('fingerprint') != fingerprint(package):
+        raise ValueError('Another reviewed change has execution state. Inspect Studio and archive old state before continuing.')
+    desired_snippet = dict(package['remote_before']['snippet'], title=package['title'], description=package['description_after'])
+    desired_status = dict(package['remote_before']['status'], privacyStatus='private', publishAt=package['publish_at'])
+    desired = {'id':package['video_id'], 'channel_id':config['channel_id'], 'snippet':desired_snippet, 'status':desired_status}
+    if state.get('stage') in ('metadata_started', 'done'):
+        if remote_state(current) == desired:
+            save(state_path, dict(fingerprint=fingerprint(package), stage='done', video_id=package['video_id']))
+            print('Approved changes already confirmed on existing video:', package['video_id'])
+            return
+        raise ValueError('Previous result differs or is uncertain. Inspect Studio and generate a fresh review; no changes made.')
+    if remote_state(current) != package['remote_before']:
+        raise ValueError('Video metadata changed since review. Fetch and approve a fresh review.')
+    if state.get('stage') == 'thumbnail_started':
+        raise ValueError('Prior thumbnail operation outcome uncertain. Inspect Studio and generate a fresh review.')
+    if not state and current.get('etag') != package['remote_etag']:
+        raise ValueError('Video changed since review (including thumbnail). Review again.')
+    when = dt.datetime.fromisoformat(package['publish_at'].replace('Z', '+00:00'))
+    if when <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=5):
+        raise ValueError('Publish time must be >5 minutes ahead. No automatic rescheduling.')
+    if state.get('stage') != 'thumbnail_done':
+        save(state_path, dict(fingerprint=fingerprint(package), stage='thumbnail_started'))
+        youtube.thumbnails().set(videoId=package['video_id'], media_body=MediaFileUpload(package['thumbnail'])).execute()
+        current = get_video(youtube, config, package['video_id'])
+        if remote_state(current) != package['remote_before']:
+            raise ValueError('Metadata changed while applying thumbnail. Stop and review; thumbnail may already be changed.')
+        save(state_path, dict(fingerprint=fingerprint(package), stage='thumbnail_done', etag=current.get('etag')))
+    else:
+        if current.get('etag') != state.get('etag'):
+            raise ValueError('Video changed after thumbnail step. Stop and review again.')
+    if when <= dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=2):
+        raise ValueError('Too close to schedule. Thumbnail may be changed; re-review a new time.')
+    save(state_path, dict(fingerprint=fingerprint(package), stage='metadata_started'))
+    request = youtube.videos().update(part='snippet,status', body={
+        'id': package['video_id'], 'snippet': desired_snippet, 'status': desired_status})
+    if not current.get('etag'): raise ValueError('Missing remote version ETag; stop without metadata changes.')
+    request.headers['If-Match'] = current['etag']
+    request.execute()
+    actual = get_video(youtube, config, package['video_id'])
+    # Compare timestamps as instants; YouTube may normalize the timezone representation.
+    actual_state = remote_state(actual)
+    actual_time = actual_state['status'].get('publishAt')
+    if actual_time and dt.datetime.fromisoformat(actual_time.replace('Z', '+00:00')) == when:
+        actual_state['status']['publishAt'] = package['publish_at']
+    if actual_state != desired:
+        raise ValueError('YouTube result differs from approved changes. Check Studio; do not blindly retry.')
+    save(state_path, dict(fingerprint=fingerprint(package), stage='done', video_id=package['video_id']))
+    print('Updated and scheduled existing video:', package['video_url'], package['publish_local'])
+
+
+def apply_approved(config):
+    for path in sorted((ROOT / config['work']).glob('*/approval.json')):
+        with upload_lock(path.parent):
+            apply_changes(config, argparse.Namespace(job=path.parent.name))
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', default=str(ROOT / 'config.json'))
     commands = parser.add_subparsers(dest='command', required=True)
-    commands.add_parser('plan')
-    commands.add_parser('auth')
-    imp = commands.add_parser('import-pack')
-    imp.add_argument('--pack', default=str(ROOT / 'assets'))
+    for name in ['plan', 'auth', 'scan', 'apply-approved']: commands.add_parser(name)
+    imp = commands.add_parser('import-pack'); imp.add_argument('--pack', default=str(ROOT / 'assets'))
     rev = commands.add_parser('review')
-    rev.add_argument('--job', required=True)
-    rev.add_argument('--video', required=True)
-    rev.add_argument('--description', required=True)
-    rev.add_argument('--title', type=int, default=1)
-    rev.add_argument('--cover', type=int, default=1)
-    rev.add_argument('--code', help='Required for ambiguous versions')
-    rev.add_argument('--publish-local', help='Explicit new Beijing clock time if original date expired')
-    app = commands.add_parser('approve')
-    app.add_argument('--job', required=True)
+    rev.add_argument('--job', required=True); rev.add_argument('--video-id')
+    rev.add_argument('--title', type=int, default=1); rev.add_argument('--cover', type=int, default=1)
+    rev.add_argument('--code'); rev.add_argument('--publish-local')
+    app = commands.add_parser('approve'); app.add_argument('--job', required=True)
     app.add_argument('--fingerprint', required=True)
     app.add_argument('--confirm-rights-audio-restrictions', action='store_true', required=True)
-    up = commands.add_parser('upload')
-    up.add_argument('--job', required=True)
-    commands.add_parser('upload-approved')
-    args = parser.parse_args()
-    config = load(args.config)
+    apply = commands.add_parser('apply'); apply.add_argument('--job', required=True)
+    args = parser.parse_args(); config = load(args.config)
     if args.command == 'plan': plan(config)
     elif args.command == 'auth': auth(config); print('Channel authentication verified.')
+    elif args.command == 'scan': scan(config)
     elif args.command == 'import-pack': import_pack(config, args)
     elif args.command == 'review': review(config, args)
     elif args.command == 'approve': approve(config, args)
-    elif args.command == 'upload-approved': upload_approved(config)
-    elif args.command == 'upload':
-        with upload_lock(ROOT / config['work'] / args.job):
-            upload(config, args)
+    elif args.command == 'apply-approved': apply_approved(config)
+    elif args.command == 'apply':
+        with upload_lock(ROOT / config['work'] / args.job): apply_changes(config, args)
 
 
 if __name__ == '__main__':
-    try:
-        main()
+    try: main()
     except Exception as exc:
         print(f'Error: {type(exc).__name__}: {str(exc)[:350]}', file=sys.stderr)
         sys.exit(1)
-
-
-
-

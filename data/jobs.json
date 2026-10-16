@@ -23,10 +23,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -56,10 +56,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -89,10 +89,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -122,10 +122,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -155,10 +155,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -188,10 +188,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -221,10 +221,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
@@ -254,10 +254,10 @@
       }
     ],
     "blockers": [
-      "source_video_missing",
       "rights_and_color_coded_restrictions_unverified",
       "human_approval_required",
-      "youtube_oauth_not_connected"
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
     ],
     "approved": false,
     "title_en": null,
