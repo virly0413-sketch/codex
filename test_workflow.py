@@ -219,5 +219,34 @@ class WorkflowTests(unittest.TestCase):
             networking.read_request(request,'扫描')
         request.execute.assert_called_once_with(num_retries=2)
 
+    def test_channel_mismatch_shows_actual_and_does_not_change_target(self):
+        with contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaisesRegex(ValueError,'Other channel'):
+                run.verify_channel(self.config,[{'id':'wrong','snippet':{'title':'Other channel'}}])
+            run.verify_channel(self.config,[{'id':'channel','snippet':{'title':'Right channel'}}])
+            with self.assertRaisesRegex(ValueError,'无频道'):
+                run.verify_channel(self.config,[])
+        self.assertEqual(self.config['channel_id'],'channel')
+
+    def test_failed_channel_switch_preserves_previous_token(self):
+        config=dict(self.config,oauth_token='token.json',oauth_client='client_secret.json')
+        token=run.ROOT/'token.json';token.write_text('previous-local-token')
+        flow=MagicMock();credentials=MagicMock()
+        credentials.to_json.return_value='new-matched-token'
+        flow.run_local_server.return_value=credentials
+        youtube=MagicMock()
+        result=youtube.channels.return_value.list.return_value.execute
+        result.return_value={'items':[{'id':'wrong','snippet':{'title':'Personal channel'}}]}
+        with patch('google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file',return_value=flow), \
+             patch('google_auth_httplib2.AuthorizedHttp'), \
+             patch('googleapiclient.discovery.build',return_value=youtube), \
+             contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaises(ValueError):run.auth(config,reauthorize=True)
+            self.assertEqual(token.read_text(),'previous-local-token')
+            result.return_value={'items':[{'id':'channel','snippet':{'title':'Supreme Hero Flicks'}}]}
+            run.auth(config,reauthorize=True)
+        self.assertEqual(token.read_text(),'new-matched-token')
+        self.assertIn('select_account',flow.run_local_server.call_args.kwargs['prompt'])
+
 
 if __name__=='__main__':unittest.main()

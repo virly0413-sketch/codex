@@ -22,6 +22,7 @@ class App:
         bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
         self.buttons = []
         for label, callback in [('导入内置素材', self.import_assets), ('YouTube 官方授权', self.authorize),
+                                ('切换授权频道', self.switch_channel),
                                 ('扫描频道已上传视频', self.scan_channel), ('刷新列表', self.refresh)]:
             button = ttk.Button(bar, text=label, command=callback)
             button.pack(side='left', padx=5); self.buttons.append(button)
@@ -136,6 +137,10 @@ class App:
 
     def authorize(self):
         self.task(lambda: run.auth(self.config))
+
+    def switch_channel(self):
+        if messagebox.askyesno('切换授权频道', '将重新打开 Google 授权页面，请选择管理 Supreme Hero Flicks 的账号和品牌频道。\n只在频道ID匹配成功后保存新授权，不修改任何视频。'):
+            self.task(lambda: run.auth(self.config, reauthorize=True))
 
     def refresh(self):
         for iid in self.tree.get_children(): self.tree.delete(iid)

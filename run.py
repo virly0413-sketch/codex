@@ -63,7 +63,17 @@ def fingerprint(package):
 
 
 
-def auth(config):
+def verify_channel(config, channels):
+    expected = config['channel_id']
+    actual = '\n'.join(c.get('snippet', {}).get('title', '未返回名称') + ' | ' + c['id'] for c in channels)
+    print('目标频道：', config.get('channel_name', ''), '|', expected)
+    print('本次授权返回的频道：\n' + (actual or '未返回可访问的频道'))
+    if expected not in [c['id'] for c in channels]:
+        raise ValueError('授权频道不匹配。目标：' + expected + '；实际：' + (actual or '无频道') +
+            '。请点击“切换授权频道”，选择正确 Google 账号及 Supreme Hero Flicks 品牌频道；不会自动改目标频道。')
+
+
+def auth(config, reauthorize=False):
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
     from google_auth_oauthlib.flow import InstalledAppFlow
@@ -73,7 +83,7 @@ def auth(config):
     session = requests_session(config)
     token = ROOT / config['oauth_token']
     scopes = ['https://www.googleapis.com/auth/youtube.force-ssl']
-    creds = Credentials.from_authorized_user_file(str(token), scopes) if token.exists() else None
+    creds = Credentials.from_authorized_user_file(str(token), scopes) if token.exists() and not reauthorize else None
     if creds and creds.expired and creds.refresh_token:
         request = Request(session=session)
         def timed_request(*args, **kwargs):
@@ -88,16 +98,21 @@ def auth(config):
         flow = InstalledAppFlow.from_client_secrets_file(str(ROOT / config['oauth_client']), scopes)
         flow.oauth2session.proxies.update(session.proxies)
         flow.oauth2session.trust_env = session.trust_env
+        original_request = flow.oauth2session.request
+        def bounded_request(*args, **kwargs):
+            kwargs['timeout'] = kwargs.get('timeout') or timeout
+            return original_request(*args, **kwargs)
+        flow.oauth2session.request = bounded_request
         print('请在浏览器完成授权；回调地址 localhost 应直连。')
-        creds = flow.run_local_server(port=0, timeout_seconds=180, timeout=timeout)
-    token.write_text(creds.to_json(), encoding='utf-8')
-    token.chmod(0o600)
+        creds = flow.run_local_server(port=0, timeout_seconds=180, prompt='consent select_account')
     youtube = build('youtube', 'v3', http=AuthorizedHttp(creds, http=http_transport(config)),
                     static_discovery=True, cache_discovery=False)
     print('正在核对 YouTube 频道…')
-    channels = read_request(youtube.channels().list(part='id', mine=True), '核对频道').get('items', [])
-    if config['channel_id'] not in [c['id'] for c in channels]:
-        raise ValueError('OAuth account/channel does not match configured channel_id.')
+    channels = read_request(youtube.channels().list(part='id,snippet', mine=True), '核对频道').get('items', [])
+    verify_channel(config, channels)
+    # A failed channel switch must never overwrite a previously usable binding.
+    token.write_text(creds.to_json(), encoding='utf-8')
+    token.chmod(0o600)
     return youtube
 
 
@@ -381,7 +396,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', default=str(ROOT / 'config.json'))
     commands = parser.add_subparsers(dest='command', required=True)
-    for name in ['plan', 'auth', 'scan', 'diagnose', 'apply-approved']: commands.add_parser(name)
+    for name in ['plan', 'scan', 'diagnose', 'apply-approved']: commands.add_parser(name)
+    authentication = commands.add_parser('auth')
+    authentication.add_argument('--reauth', action='store_true', help='Choose the Google account and brand channel again')
     imp = commands.add_parser('import-pack'); imp.add_argument('--pack', default=str(ROOT / 'assets'))
     rev = commands.add_parser('review')
     rev.add_argument('--job', required=True); rev.add_argument('--video-id')
@@ -393,7 +410,7 @@ def main():
     apply = commands.add_parser('apply'); apply.add_argument('--job', required=True)
     args = parser.parse_args(); config = load(args.config)
     if args.command == 'plan': plan(config)
-    elif args.command == 'auth': auth(config); print('Channel authentication verified.')
+    elif args.command == 'auth': auth(config, reauthorize=args.reauth); print('Channel authentication verified.')
     elif args.command == 'diagnose': diagnose(config)
     elif args.command == 'scan': scan(config)
     elif args.command == 'import-pack': import_pack(config, args)
