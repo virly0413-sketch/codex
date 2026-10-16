@@ -71,7 +71,7 @@ def verify_channel(config, channels):
     print('本次授权返回的频道：\n' + (actual or '未返回可访问的频道'))
     if expected not in [c['id'] for c in channels]:
         raise ValueError('授权频道不匹配。目标：' + expected + '；实际：' + (actual or '无频道') +
-            '。请点击“切换授权频道”，选择正确 Google 账号及 Supreme Hero Flicks 品牌频道；不会自动改目标频道。')
+            '。请点击“切换授权频道”，选择管理目标频道的正确账号/品牌频道；不会自动改目标频道。')
 
 
 def auth(config, reauthorize=False):
@@ -134,6 +134,7 @@ def plan(config):
         start_date = dt.date.fromisoformat(config['start_date']).isoformat()
         jobs = [j for j in jobs if j['date'] >= start_date]
     save(ROOT / config['work'] / 'queue.json', jobs)
+    if not jobs: print('当前频道暂无排片；未沿用其他频道的任务。请先提供该频道排片与素材。')
     for j in jobs:
         if j['publish_at'] and dt.datetime.fromisoformat(j['publish_at'].replace('Z', '+00:00')) > now:
             print(j['job_id'], j['publish_local'], j['title_zh'],
@@ -176,6 +177,8 @@ def import_pack(config, args):
     from PIL import Image, ImageOps
     pack = Path(args.pack).resolve()
     manifest = load(pack / 'manifest.json')
+    if manifest.get('channel_id') and manifest['channel_id'] != config['channel_id']:
+        raise ValueError('素材包属于其他频道，禁止导入。')
     jobs = {j['job_id']: j for j in load(ROOT / config['work'] / 'queue.json')}
     count = 0
     for entry in manifest['jobs']:
@@ -501,7 +504,7 @@ def main():
     for name in ['plan', 'scan', 'diagnose', 'apply-approved']: commands.add_parser(name)
     authentication = commands.add_parser('auth')
     authentication.add_argument('--reauth', action='store_true', help='Choose the Google account and brand channel again')
-    imp = commands.add_parser('import-pack'); imp.add_argument('--pack', default=str(ROOT / 'assets'))
+    imp = commands.add_parser('import-pack'); imp.add_argument('--pack')
     rev = commands.add_parser('review')
     rev.add_argument('--job', required=True); rev.add_argument('--video-id')
     rev.add_argument('--title', type=int, default=1); rev.add_argument('--cover', type=int, default=1)
@@ -520,7 +523,9 @@ def main():
     elif args.command == 'auth': auth(config, reauthorize=args.reauth); print('Channel authentication verified.')
     elif args.command == 'diagnose': diagnose(config)
     elif args.command == 'scan': scan(config)
-    elif args.command == 'import-pack': import_pack(config, args)
+    elif args.command == 'import-pack':
+        if not args.pack: args.pack=str(ROOT/config.get('assets_path','assets'))
+        import_pack(config, args)
     elif args.command == 'review': review(config, args)
     elif args.command == 'approve': approve(config, args)
     elif args.command == 'verify': verify_existing(config,args)

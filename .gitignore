@@ -12,3 +12,6 @@ data/*.csv
 *.mov
 *.mkv
 *.zip
+
+token*.json
+local_work*/

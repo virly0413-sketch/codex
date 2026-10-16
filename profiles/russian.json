@@ -1,0 +1,12 @@
+{
+  "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+  "channel_name": "俄语男频频道（待确认名称）",
+  "work": "local_work_ru",
+  "oauth_client": "client_secret.json",
+  "oauth_token": "token.ru.json",
+  "planning_source": "data/jobs.ru.json",
+  "proxy_url": "http://127.0.0.1:7897",
+  "http_timeout_seconds": 30,
+  "assets_path": "assets_ru",
+  "language": "ru"
+}

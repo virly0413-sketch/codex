@@ -258,6 +258,20 @@ class WorkflowTests(unittest.TestCase):
         authentication.assert_not_called()
         self.assertFalse((self.directory/'approval.json').exists())
 
+    def test_russian_profile_has_no_english_schedule_and_is_isolated(self):
+        ru=run.load(RELEASE_ROOT/'profiles/russian.json')
+        en=run.load(RELEASE_ROOT/'profiles/english.json')
+        self.assertEqual(ru['channel_id'],'UC_o03Jz0Ek8xYGE_oy3zapg')
+        self.assertNotEqual(ru['work'],en['work'])
+        self.assertNotEqual(ru['oauth_token'],en['oauth_token'])
+        ru['planning_source']=str(RELEASE_ROOT/ru['planning_source'])
+        with contextlib.redirect_stdout(io.StringIO()):
+            run.plan(ru)
+            run.import_pack(ru,argparse.Namespace(pack=str(RELEASE_ROOT/ru['assets_path'])))
+        self.assertEqual(run.load(run.ROOT/ru['work']/'queue.json'),[])
+        with self.assertRaisesRegex(ValueError,'其他频道'):
+            run.import_pack(en,argparse.Namespace(pack=str(RELEASE_ROOT/ru['assets_path'])))
+
     def test_concurrent_operation_lock(self):
         with run.upload_lock(self.directory):
             with self.assertRaises(ValueError):

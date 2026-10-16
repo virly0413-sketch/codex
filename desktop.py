@@ -17,7 +17,7 @@ class App:
         self.config = run.load(run.ROOT / 'config.json')
         self.jobs = {}
         self.busy = False
-        root.title('Supreme Hero Flicks · 已上传视频匹配、审核与定时发布（无需生成 API）')
+        root.title(self.config['channel_name']+' · 已上传视频匹配与定时发布')
         root.geometry('1160x900')
         bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
         self.buttons = []
@@ -27,6 +27,7 @@ class App:
             button = ttk.Button(bar, text=label, command=callback)
             button.pack(side='left', padx=5); self.buttons.append(button)
         ttk.Label(root, text='先选择视频、标题、封面、代码和时间；点击“发布”即授权执行，无需额外审核。所有时间为北京时间。').pack(anchor='w', padx=15)
+        ttk.Label(root,text='目标频道：'+self.config['channel_id']).pack(anchor='w',padx=15)
         network = ttk.Frame(root); network.pack(fill='x', padx=10, pady=4)
         self.proxy = tk.StringVar(value=self.config.get('proxy_url', ''))
         self.timeout = tk.StringVar(value=str(self.config.get('http_timeout_seconds', 30)))
@@ -132,14 +133,14 @@ class App:
     def import_assets(self):
         def operation():
             run.plan(self.config)
-            run.import_pack(self.config, argparse.Namespace(pack=str(run.ROOT / 'assets')))
+            run.import_pack(self.config, argparse.Namespace(pack=str(run.ROOT / self.config.get('assets_path','assets'))))
         self.task(operation, self.refresh)
 
     def authorize(self):
         self.task(lambda: run.auth(self.config))
 
     def switch_channel(self):
-        if messagebox.askyesno('切换授权频道', '将重新打开 Google 授权页面，请选择管理 @bikan29-v8f（Supreme Hero Flicks）的账号和品牌频道。\n只在频道ID匹配成功后保存新授权，不修改任何视频。'):
+        if messagebox.askyesno('切换授权频道', '将重新打开 Google 授权页面，请选择管理以下目标频道的账号/品牌频道：\n'+self.config['channel_id']+'\n只在频道ID匹配成功后保存新授权，不修改任何视频。'):
             self.task(lambda: run.auth(self.config, reauthorize=True))
 
     def refresh(self):
