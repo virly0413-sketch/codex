@@ -455,6 +455,45 @@ def apply_approved(config):
             apply_changes(config, argparse.Namespace(job=path.parent.name))
 
 
+def publish(config, args):
+    """One explicit publish action: fetch current data, bind the exact intent, then apply."""
+    directory=ROOT/config['work']/args.job
+    creative=load(directory/'creative.json')
+    j=job(config,args.job)
+    video_id=args.video_id
+    if not video_id:
+        cache=ROOT/config['work']/'channel_videos.json'
+        if not cache.exists():raise ValueError('请先扫描频道并选择具体视频。')
+        matches=match_videos(j['title_zh'],load(cache))
+        if len(matches)!=1:raise ValueError('视频匹配不唯一，请先选择具体视频再发布。')
+        video_id=matches[0]['id']
+    from zoneinfo import ZoneInfo
+    if args.publish_local:
+        local=dt.datetime.fromisoformat(args.publish_local)
+        if local.tzinfo:raise ValueError('请输入不带时区后缀的北京时间。')
+        local=local.replace(tzinfo=ZoneInfo('Asia/Shanghai'))
+    else:local=dt.datetime.fromisoformat(j['publish_local'])
+    intent=dict(channel_id=config['channel_id'],video_id=video_id,
+        title=creative['titles'][args.title-1],drama_code=args.code or creative.get('drama_code'),
+        thumbnail_sha256=digest(directory/f'cover_{args.cover}.jpg'),
+        publish_at=local.astimezone(dt.timezone.utc).isoformat().replace('+00:00','Z'))
+    with upload_lock(directory):
+        if (directory/'apply_state.json').exists():
+            old=load(directory/'review.json')
+            if any(old.get(k)!=v for k,v in intent.items()):
+                raise ValueError('该任务已有另一组发布结果或未完成操作。请先核对线上结果，不能覆盖不确定状态。')
+            apply_changes(config,argparse.Namespace(job=args.job))
+            return
+        review(config,args)
+        package=load(directory/'review.json')
+        if any(package.get(k)!=v for k,v in intent.items()):
+            raise ValueError('发布过程中选择发生变化，已停止。请重新选择后点击发布。')
+        save(directory/'approval.json',dict(fingerprint=fingerprint(package),
+            approved_at=dt.datetime.now(dt.timezone.utc).isoformat(),authorization='explicit_publish_action'))
+        print('正在执行本次点击发布的内容，不再要求单独批准。')
+        apply_changes(config,argparse.Namespace(job=args.job))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', default=str(ROOT / 'config.json'))
@@ -472,6 +511,10 @@ def main():
     app.add_argument('--confirm-rights-audio-restrictions', action='store_true', required=True)
     apply = commands.add_parser('apply'); apply.add_argument('--job', required=True)
     verify = commands.add_parser('verify'); verify.add_argument('--job', required=True)
+    pub = commands.add_parser('publish')
+    pub.add_argument('--job',required=True); pub.add_argument('--video-id')
+    pub.add_argument('--title',type=int,default=1); pub.add_argument('--cover',type=int,default=1)
+    pub.add_argument('--code'); pub.add_argument('--publish-local')
     args = parser.parse_args(); config = load(args.config)
     if args.command == 'plan': plan(config)
     elif args.command == 'auth': auth(config, reauthorize=args.reauth); print('Channel authentication verified.')
@@ -481,6 +524,7 @@ def main():
     elif args.command == 'review': review(config, args)
     elif args.command == 'approve': approve(config, args)
     elif args.command == 'verify': verify_existing(config,args)
+    elif args.command == 'publish': publish(config,args)
     elif args.command == 'apply-approved': apply_approved(config)
     elif args.command == 'apply':
         with upload_lock(ROOT / config['work'] / args.job): apply_changes(config, args)

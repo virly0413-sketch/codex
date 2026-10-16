@@ -237,6 +237,27 @@ class WorkflowTests(unittest.TestCase):
         remote.videos.return_value.update.assert_not_called()
         remote.thumbnails.return_value.set.assert_not_called()
 
+    def test_single_publish_action_needs_no_separate_approval_and_is_idempotent(self):
+        thumb=copy.deepcopy(self.video);thumb['etag']='version1'
+        final=self.after_video({'title':'Title A','description_after':self.video['snippet']['description']+'CODE',
+                               'publish_at':self.when.isoformat().replace('+00:00','Z')})
+        remote=self.remote([self.video,self.video,thumb,final,final])
+        with patch.object(run,'auth',return_value=remote),patch('googleapiclient.http.MediaFileUpload'), \
+             patch.object(run,'approve') as separate_approval,contextlib.redirect_stdout(io.StringIO()):
+            run.publish(self.config,self.args)
+            run.publish(self.config,self.args)
+        separate_approval.assert_not_called()
+        self.assertEqual(remote.videos.return_value.update.call_count,1)
+        self.assertEqual(run.load(self.directory/'approval.json')['authorization'],'explicit_publish_action')
+
+    def test_single_publish_does_not_guess_ambiguous_video(self):
+        self.args.video_id=None
+        run.save(run.ROOT/'local_work/channel_videos.json',[self.video,dict(self.video,id='other')])
+        with patch.object(run,'auth') as authentication,self.assertRaises(ValueError):
+            run.publish(self.config,self.args)
+        authentication.assert_not_called()
+        self.assertFalse((self.directory/'approval.json').exists())
+
     def test_concurrent_operation_lock(self):
         with run.upload_lock(self.directory):
             with self.assertRaises(ValueError):

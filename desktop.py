@@ -26,7 +26,7 @@ class App:
                                 ('扫描频道已上传视频', self.scan_channel), ('刷新列表', self.refresh)]:
             button = ttk.Button(bar, text=label, command=callback)
             button.pack(side='left', padx=5); self.buttons.append(button)
-        ttk.Label(root, text='素材由当前对话生成；此程序不调用 OpenAI，不会自动批准。所有时间为北京时间。').pack(anchor='w', padx=15)
+        ttk.Label(root, text='先选择视频、标题、封面、代码和时间；点击“发布”即授权执行，无需额外审核。所有时间为北京时间。').pack(anchor='w', padx=15)
         network = ttk.Frame(root); network.pack(fill='x', padx=10, pady=4)
         self.proxy = tk.StringVar(value=self.config.get('proxy_url', ''))
         self.timeout = tk.StringVar(value=str(self.config.get('http_timeout_seconds', 30)))
@@ -61,8 +61,7 @@ class App:
         form.columnconfigure(1, weight=1)
         self.preview = ttk.Label(root); self.preview.pack(pady=4)
         controls = ttk.Frame(root); controls.pack(fill='x', padx=10)
-        for label, callback in [('① 生成修改前后审核单', self.make_review),
-                                ('② 我已审核，批准此版本', self.approve), ('③ 应用到已上传视频并定时公开', self.apply),
+        for label, callback in [('发布（按所选时间定时公开）', self.publish),
                                 ('核对线上结果（只读）', self.verify)]:
             button = ttk.Button(controls, text=label, command=callback)
             button.pack(side='left', padx=5); self.buttons.append(button)
@@ -184,6 +183,17 @@ class App:
                 publish_local=self.publish.get())
         except Exception as exc: messagebox.showerror('请检查输入', str(exc)); return
         self.task(lambda: run.review(self.config, args))
+
+    def publish(self):
+        try:
+            iid=self.selected()
+            creative=run.load(run.ROOT/self.config['work']/iid/'creative.json')
+            if not self.video.get().strip():raise ValueError('请先扫描并选择要发布的具体视频。')
+            args=argparse.Namespace(job=iid,video_id=self.video.get().split(' | ',1)[0].strip(),
+                title=creative['titles'].index(self.title.get())+1,cover=1,code=self.code.get(),
+                publish_local=self.publish.get())
+        except Exception as exc:messagebox.showerror('请检查发布内容',str(exc));return
+        self.task(lambda:run.publish(self.config,args))
 
     def approve(self):
         try:
