@@ -1,0 +1,9 @@
+{
+  "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+  "channel_name": "Supreme Hero Flicks",
+  "work": "local_work",
+  "oauth_client": "client_secret.json",
+  "oauth_token": "token.json",
+  "start_date": "2026-10-22",
+  "planning_source": "data/jobs.json"
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "job_id": "7ff1ce4d989eebf9",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-22",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-22T17:00:00+08:00",
+    "publish_at": "2026-10-22T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "师娘送我出狱我横扫天下",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 968,
+        "resource_title": "《师娘送我出狱我横扫天下》AI+实拍",
+        "drama_code": "2026 WW17",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "106",
+        "episodes": "72"
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "ffcc3b2f725eb070",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-22",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-22T21:00:00+08:00",
+    "publish_at": "2026-10-22T13:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "太初神帝",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 990,
+        "resource_title": "太初神帝",
+        "drama_code": "2026 WW44",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "",
+        "episodes": ""
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "84eead742b9a69f3",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-23",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-23T17:00:00+08:00",
+    "publish_at": "2026-10-23T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "全球通缉：开局五星级越狱",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 985,
+        "resource_title": "全球通缉：开局五星级越狱",
+        "drama_code": "2026 WW41",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "",
+        "episodes": ""
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "ca70ba19367e1d41",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-23",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-23T21:00:00+08:00",
+    "publish_at": "2026-10-23T13:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "纵横商海：被校花撞飞后，我苟成了世界首富",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 1002,
+        "resource_title": "《纵横商海：被校花撞飞后，我苟成了世界首富》",
+        "drama_code": "2026 WW47",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "",
+        "episodes": ""
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "5936e0e3055e29de",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-24",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-24T17:00:00+08:00",
+    "publish_at": "2026-10-24T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "被换灵骨后我成了大帝",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 1009,
+        "resource_title": "《被换灵骨后我成了大帝》AI+实拍",
+        "drama_code": "2026 WW48",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "122",
+        "episodes": "76"
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "dde9541d385a35b4",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-24",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-24T21:00:00+08:00",
+    "publish_at": "2026-10-24T13:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "满级枪神回都市开局领证",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 1022,
+        "resource_title": "《满级枪神回都市开局领证》AI+实拍",
+        "drama_code": "2026 WW54",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "100.4",
+        "episodes": "68"
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "c62a252a45b17666",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-25",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-25T17:00:00+08:00",
+    "publish_at": "2026-10-25T09:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "我剑即天威",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 1043,
+        "resource_title": "《我剑即天威》AI+实拍",
+        "drama_code": "2026 WW60",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "104",
+        "episodes": "74"
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  },
+  {
+    "job_id": "f3152002554769fe",
+    "channel": "Supreme Hero Flicks",
+    "date": "2026-10-25",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-25T21:00:00+08:00",
+    "publish_at": "2026-10-25T13:00:00Z",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "title_zh": "我的女友竟然是偶像歌手",
+    "status": "needs_review",
+    "candidates": [
+      {
+        "resource_csv_line": 984,
+        "resource_title": "我的女友竟然是偶像歌手",
+        "drama_code": "2026 WW40",
+        "english_availability": "有",
+        "category": "男频",
+        "minutes": "",
+        "episodes": ""
+      }
+    ],
+    "blockers": [
+      "source_video_missing",
+      "rights_and_color_coded_restrictions_unverified",
+      "human_approval_required",
+      "youtube_oauth_not_connected"
+    ],
+    "approved": false,
+    "title_en": null,
+    "thumbnail": null
+  }
+]

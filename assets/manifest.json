@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "channel": "Supreme Hero Flicks",
+  "generation_method": "ChatGPT conversation image generation; no client generation API",
+  "research_status": "Synopsis-based creative; current popular-channel research not performed",
+  "jobs": [
+    {
+      "job_id": "7ff1ce4d989eebf9",
+      "title_zh": "师娘送我出狱我横扫天下",
+      "titles": [
+        "They Destroyed His Family. Six Years Later, He Walked Out of Prison",
+        "Five Masters Trained Him. Now No One Can Stop His Revenge",
+        "He Returned from Prison—and Crashed the Wedding to Save His Fiancee"
+      ],
+      "drama_code": "2026 WW17",
+      "candidate_codes": [
+        "2026 WW17"
+      ],
+      "covers": [
+        "covers/7ff1ce4d989eebf9.jpg"
+      ],
+      "reasoning": "出狱归来与救未婚妻的强冲突",
+      "publish_local": "2026-10-22T17:00:00+08:00",
+      "publish_at": "2026-10-22T09:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "ffcc3b2f725eb070",
+      "title_zh": "太初神帝",
+      "titles": [
+        "The Man Who Looks Half-Asleep Is the Emperor Who Freed Humanity",
+        "He Walked Away from a Divine Throne. No One Guessed Who He Was",
+        "A Quiet Young Man Hid the Power of Humanity's Only God Emperor"
+      ],
+      "drama_code": "2026 WW44",
+      "candidate_codes": [
+        "2026 WW44"
+      ],
+      "covers": [
+        "covers/ffcc3b2f725eb070.jpg"
+      ],
+      "reasoning": "慵懒普通外貌与万古神帝的反差",
+      "publish_local": "2026-10-22T21:00:00+08:00",
+      "publish_at": "2026-10-22T13:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "84eead742b9a69f3",
+      "title_zh": "全球通缉：开局五星级越狱",
+      "titles": [
+        "They Locked Him in Maximum Security. His Escape Was Just the Beginning",
+        "The World's Best Hunters Came for Him. He Turned the Chase into a Show",
+        "A Fugitive System Made Him Uncatchable—and the Whole World Was Watching"
+      ],
+      "drama_code": "2026 WW41",
+      "candidate_codes": [
+        "2026 WW41"
+      ],
+      "covers": [
+        "covers/84eead742b9a69f3.jpg"
+      ],
+      "reasoning": "直播追逃与系统越狱的博弈悬念",
+      "publish_local": "2026-10-23T17:00:00+08:00",
+      "publish_at": "2026-10-23T09:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "ca70ba19367e1d41",
+      "title_zh": "纵横商海：被校花撞飞后，我苟成了世界首富",
+      "titles": [
+        "One Accident Let Him See Hidden Treasures—and Everyone's Future Fortune",
+        "He Could Spot Every Fake. Quietly, He Became the World's Richest Man",
+        "A Campus Accident Changed His Eyes. Now No Fortune Could Stay Hidden"
+      ],
+      "drama_code": "2026 WW47",
+      "candidate_codes": [
+        "2026 WW47"
+      ],
+      "covers": [
+        "covers/ca70ba19367e1d41.jpg"
+      ],
+      "reasoning": "透视鉴宝和预知气运带来的财富上升",
+      "publish_local": "2026-10-23T21:00:00+08:00",
+      "publish_at": "2026-10-23T13:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "5936e0e3055e29de",
+      "title_zh": "被换灵骨后我成了大帝",
+      "titles": [
+        "His Family Stole His Spirit Bones. They Never Knew an Emperor Would Return",
+        "Betrayed by His Own Family, He Awakened an Ancient Emperor's Soul",
+        "They Took His Sword Power. Her Sacrifice Awakened Something Far Greater"
+      ],
+      "drama_code": "2026 WW48",
+      "candidate_codes": [
+        "2026 WW48"
+      ],
+      "covers": [
+        "covers/5936e0e3055e29de.jpg"
+      ],
+      "reasoning": "家族夺骨背叛与大帝觉醒",
+      "publish_local": "2026-10-24T17:00:00+08:00",
+      "publish_at": "2026-10-24T09:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "dde9541d385a35b4",
+      "title_zh": "满级枪神回都市开局领证",
+      "titles": [
+        "He Came Back for a Diploma—and a Marriage. No One Knew He Was the Gun God",
+        "They Kidnapped His Wife. The World's Most Feared Gunman Came Alone",
+        "A Quiet Graduate Returned to Town. His Secret Terrified Every Enemy"
+      ],
+      "drama_code": "2026 WW54",
+      "candidate_codes": [
+        "2026 WW54"
+      ],
+      "covers": [
+        "covers/dde9541d385a35b4.jpg"
+      ],
+      "reasoning": "毕业领证日常与顶级枪神身份反差",
+      "publish_local": "2026-10-24T21:00:00+08:00",
+      "publish_at": "2026-10-24T13:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "c62a252a45b17666",
+      "title_zh": "我剑即天威",
+      "titles": [
+        "Ten Years as a Failure—One Sword System Made Every Blade Bow to Him",
+        "They Mocked His Broken Talent. Then Ten Thousand Swords Answered",
+        "One Basic Sword Move Became His Path from Outcast to Prodigy"
+      ],
+      "drama_code": "2026 WW60",
+      "candidate_codes": [
+        "2026 WW60"
+      ],
+      "covers": [
+        "covers/c62a252a45b17666.jpg"
+      ],
+      "reasoning": "废体十年与剑法万倍增幅的逆袭",
+      "publish_local": "2026-10-25T17:00:00+08:00",
+      "publish_at": "2026-10-25T09:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    },
+    {
+      "job_id": "f3152002554769fe",
+      "title_zh": "我的女友竟然是偶像歌手",
+      "titles": [
+        "He Only Wanted a Quiet Music Career. The Campus Star Confessed on Live TV",
+        "His Songs Took Over the Music World—Then the Star Singer Chose Him",
+        "A Low-Key Producer Wrote the Hits. No One Expected Her Public Confession"
+      ],
+      "drama_code": "2026 WW40",
+      "candidate_codes": [
+        "2026 WW40"
+      ],
+      "covers": [
+        "covers/f3152002554769fe.jpg"
+      ],
+      "reasoning": "幕后低调音乐人与歌手公开表白的情感反差",
+      "publish_local": "2026-10-25T21:00:00+08:00",
+      "publish_at": "2026-10-25T13:00:00Z",
+      "thumbnail_note": "AI剧情概念图，非真实剧照，需人工审核。"
+    }
+  ],
+  "sha256": {
+    "covers/7ff1ce4d989eebf9.jpg": "300ef2eabec72058db07510aa6e78c2117b744c2d9245dc6fbbe3300f0943b19",
+    "covers/ffcc3b2f725eb070.jpg": "81b04b79031532395d1bbc5ba3fe3ebec171ef0e877fe473f0a121a8aabf6a1e",
+    "covers/84eead742b9a69f3.jpg": "54cd371dc7b1d74a14b76de2d57d0f7c65fcef0d6284b86797407a3903ac54c0",
+    "covers/ca70ba19367e1d41.jpg": "093bb6b78a9132627cc3310b901b65d5e0e845d52825c09cc8d02bcbd2032e87",
+    "covers/5936e0e3055e29de.jpg": "679447364b72555201f4dcaa030ff5d71980bb7ca8ee00081c104a0b5ffef936",
+    "covers/dde9541d385a35b4.jpg": "ea48a0ecc0a379915fd32eb2b4ca26b7ae8fe6a39fbe2d2d0b1f459e03d146d0",
+    "covers/c62a252a45b17666.jpg": "98494801c744f4a8ee2f992958b04c04a0999ff94216e299cf9057825192215a",
+    "covers/f3152002554769fe.jpg": "650b809214832668f7b313fe12f567175964ed8ab055056aa6f2721d60387765"
+  }
+}

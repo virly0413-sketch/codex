@@ -1,0 +1,14 @@
+.venv/
+token.json
+client_secret.json
+.env
+work/
+__pycache__/
+
+local_work/
+
+data/*.csv
+*.mp4
+*.mov
+*.mkv
+*.zip
