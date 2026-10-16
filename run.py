@@ -12,6 +12,7 @@ import zipfile
 from contextlib import contextmanager
 
 from prepare import prepare, description_with_code, normalize
+from networking import timeout_seconds, requests_session, http_transport, read_request, diagnose
 
 ROOT = Path(__file__).resolve().parent
 
@@ -67,18 +68,34 @@ def auth(config):
     from google.auth.transport.requests import Request
     from google_auth_oauthlib.flow import InstalledAppFlow
     from googleapiclient.discovery import build
+    from google_auth_httplib2 import AuthorizedHttp
+    timeout = timeout_seconds(config)
+    session = requests_session(config)
     token = ROOT / config['oauth_token']
     scopes = ['https://www.googleapis.com/auth/youtube.force-ssl']
     creds = Credentials.from_authorized_user_file(str(token), scopes) if token.exists() else None
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
+        request = Request(session=session)
+        def timed_request(*args, **kwargs):
+            kwargs['timeout'] = kwargs.get('timeout') or timeout
+            return request(*args, **kwargs)
+        print('正在刷新 Google 授权…')
+        try:
+            creds.refresh(timed_request)
+        except Exception as exc:
+            raise RuntimeError('Google 授权刷新失败（' + type(exc).__name__ + '）。先检查代理和“诊断连接”；若令牌确已失效再重新授权。') from exc
     if not creds or not creds.valid:
         flow = InstalledAppFlow.from_client_secrets_file(str(ROOT / config['oauth_client']), scopes)
-        creds = flow.run_local_server(port=0)
+        flow.oauth2session.proxies.update(session.proxies)
+        flow.oauth2session.trust_env = session.trust_env
+        print('请在浏览器完成授权；回调地址 localhost 应直连。')
+        creds = flow.run_local_server(port=0, timeout_seconds=180, timeout=timeout)
     token.write_text(creds.to_json(), encoding='utf-8')
     token.chmod(0o600)
-    youtube = build('youtube', 'v3', credentials=creds)
-    channels = youtube.channels().list(part='id', mine=True).execute().get('items', [])
+    youtube = build('youtube', 'v3', http=AuthorizedHttp(creds, http=http_transport(config)),
+                    static_discovery=True, cache_discovery=False)
+    print('正在核对 YouTube 频道…')
+    channels = read_request(youtube.channels().list(part='id', mine=True), '核对频道').get('items', [])
     if config['channel_id'] not in [c['id'] for c in channels]:
         raise ValueError('OAuth account/channel does not match configured channel_id.')
     return youtube
@@ -202,7 +219,7 @@ def remote_state(video):
 
 
 def get_video(youtube, config, video_id):
-    items = youtube.videos().list(part='snippet,status', id=video_id).execute().get('items', [])
+    items = read_request(youtube.videos().list(part='snippet,status', id=video_id), '读取视频信息').get('items', [])
     if len(items) != 1 or items[0]['snippet']['channelId'] != config['channel_id']:
         raise ValueError('Video missing, inaccessible, or belongs to a different channel.')
     return items[0]
@@ -210,19 +227,22 @@ def get_video(youtube, config, video_id):
 
 def scan(config, args=None):
     youtube = auth(config)
-    channels = youtube.channels().list(part='contentDetails', id=config['channel_id']).execute()['items']
+    print('正在读取频道上传列表…')
+    channels = read_request(youtube.channels().list(part='contentDetails', id=config['channel_id']), '读取上传列表')['items']
     playlist = channels[0]['contentDetails']['relatedPlaylists']['uploads']
     ids, page = [], None
     while True:
-        response = youtube.playlistItems().list(part='contentDetails', playlistId=playlist,
-            maxResults=50, pageToken=page).execute()
+        print('正在读取视频列表，第', len(ids)//50+1, '页…')
+        response = read_request(youtube.playlistItems().list(part='contentDetails', playlistId=playlist,
+            maxResults=50, pageToken=page), '读取视频列表')
         ids.extend(item['contentDetails']['videoId'] for item in response.get('items', []))
         page = response.get('nextPageToken')
         if not page: break
     videos = []
     ids = list(dict.fromkeys(ids))
     for offset in range(0, len(ids), 50):
-        response = youtube.videos().list(part='snippet,status', id=','.join(ids[offset:offset+50])).execute()
+        print('正在读取视频详情，第', offset//50+1, '批…')
+        response = read_request(youtube.videos().list(part='snippet,status', id=','.join(ids[offset:offset+50])), '读取视频详情')
         videos.extend(v for v in response.get('items', []) if v['snippet']['channelId'] == config['channel_id'])
     save(ROOT / config['work'] / 'channel_videos.json', videos)
     for video in videos:
@@ -361,7 +381,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', default=str(ROOT / 'config.json'))
     commands = parser.add_subparsers(dest='command', required=True)
-    for name in ['plan', 'auth', 'scan', 'apply-approved']: commands.add_parser(name)
+    for name in ['plan', 'auth', 'scan', 'diagnose', 'apply-approved']: commands.add_parser(name)
     imp = commands.add_parser('import-pack'); imp.add_argument('--pack', default=str(ROOT / 'assets'))
     rev = commands.add_parser('review')
     rev.add_argument('--job', required=True); rev.add_argument('--video-id')
@@ -374,6 +394,7 @@ def main():
     args = parser.parse_args(); config = load(args.config)
     if args.command == 'plan': plan(config)
     elif args.command == 'auth': auth(config); print('Channel authentication verified.')
+    elif args.command == 'diagnose': diagnose(config)
     elif args.command == 'scan': scan(config)
     elif args.command == 'import-pack': import_pack(config, args)
     elif args.command == 'review': review(config, args)

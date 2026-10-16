@@ -5,5 +5,7 @@
   "oauth_client": "client_secret.json",
   "oauth_token": "token.json",
   "start_date": "2026-10-22",
-  "planning_source": "data/jobs.json"
+  "planning_source": "data/jobs.json",
+  "proxy_url": "",
+  "http_timeout_seconds": 30
 }

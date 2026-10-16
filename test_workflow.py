@@ -9,6 +9,7 @@ from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 import run
+import networking
 from prepare import description_with_code
 
 RELEASE_ROOT = run.ROOT
@@ -193,6 +194,30 @@ class WorkflowTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 with run.upload_lock(self.directory):pass
         self.assertFalse((self.directory/'upload.lock').exists())
+
+    def test_proxy_shared_by_requests_and_api_transport(self):
+        config={'proxy_url':'http://127.0.0.1:7890','http_timeout_seconds':17}
+        session=networking.requests_session(config)
+        self.assertFalse(session.trust_env)
+        self.assertEqual(session.proxies['https'],config['proxy_url'])
+        transport=networking.http_transport(config)
+        self.assertEqual(transport.timeout,17)
+        self.assertEqual(transport.proxy_info.proxy_host,'127.0.0.1')
+        self.assertEqual(transport.proxy_info.proxy_port,7890)
+        transport=networking.http_transport({'proxy_url':'socks5h://127.0.0.1:1080'})
+        self.assertTrue(transport.proxy_info.proxy_rdns)
+
+    def test_invalid_proxy_and_timeout_rejected(self):
+        for value in ['https://127.0.0.1:7890','http://user:pass@localhost:8080','127.0.0.1:7890','http://localhost:port']:
+            with self.assertRaises(ValueError):networking.proxy_url({'proxy_url':value})
+        with self.assertRaises(ValueError):networking.timeout_seconds({'http_timeout_seconds':1})
+
+    def test_safe_read_retry_and_actionable_error(self):
+        request=MagicMock()
+        request.execute.side_effect=TimeoutError('connection timed out')
+        with self.assertRaisesRegex(RuntimeError,'代理'):
+            networking.read_request(request,'扫描')
+        request.execute.assert_called_once_with(num_retries=2)
 
 
 if __name__=='__main__':unittest.main()

@@ -8,6 +8,7 @@ from tkinter import ttk, messagebox
 from pathlib import Path
 
 import run
+from networking import proxy_url, timeout_seconds
 
 
 class App:
@@ -25,6 +26,16 @@ class App:
             button = ttk.Button(bar, text=label, command=callback)
             button.pack(side='left', padx=5); self.buttons.append(button)
         ttk.Label(root, text='素材由当前对话生成；此程序不调用 OpenAI，不会自动批准。所有时间为北京时间。').pack(anchor='w', padx=15)
+        network = ttk.Frame(root); network.pack(fill='x', padx=10, pady=4)
+        self.proxy = tk.StringVar(value=self.config.get('proxy_url', ''))
+        self.timeout = tk.StringVar(value=str(self.config.get('http_timeout_seconds', 30)))
+        ttk.Label(network, text='程序代理（可留空）').pack(side='left')
+        ttk.Entry(network, textvariable=self.proxy, width=34).pack(side='left', padx=5)
+        ttk.Label(network, text='超时秒数').pack(side='left')
+        ttk.Entry(network, textvariable=self.timeout, width=5).pack(side='left', padx=5)
+        for label, callback in [('保存网络设置', self.save_network), ('诊断连接', self.diagnose)]:
+            button=ttk.Button(network,text=label,command=callback)
+            button.pack(side='left',padx=4); self.buttons.append(button)
         self.tree = ttk.Treeview(root, columns=('date', 'title', 'code'), show='headings', height=9)
         for key, label, width in [('date', '原排期（北京）', 190), ('title', '剧名', 460), ('code', '候选剧集代码', 320)]:
             self.tree.heading(key, text=label); self.tree.column(key, width=width)
@@ -80,22 +91,42 @@ class App:
         self.busy = True
         for button in self.buttons: button.configure(state='disabled')
         self.log.insert('end', '\n处理中，请等待；不要重复点击或关闭操作窗口。\n')
+        def append(text):
+            self.log.insert('end',text); self.log.see('end')
+        app=self
+        class ProgressStream:
+            def write(self,text):
+                if text: app.root.after(0,lambda value=text:append(value))
+                return len(text)
+            def flush(self): pass
         def work():
-            output = io.StringIO()
             try:
-                with contextlib.redirect_stdout(output): fn()
+                with contextlib.redirect_stdout(ProgressStream()): fn()
                 error = None
             except Exception as exc:
                 error = str(exc)[:500]
             def finish():
                 self.busy = False
                 for button in self.buttons: button.configure(state='normal')
-                self.log.insert('end', output.getvalue() + ('\n错误：' + error if error else '\n完成。') + '\n')
+                self.log.insert('end', ('\n错误：' + error if error else '\n完成。') + '\n')
                 self.log.see('end')
                 if error: messagebox.showerror('操作未完成', error)
                 elif after: after()
             self.root.after(0, finish)
         threading.Thread(target=work, daemon=True).start()
+
+    def save_network(self):
+        try:
+            config=dict(self.config,proxy_url=self.proxy.get().strip(),http_timeout_seconds=int(self.timeout.get()))
+            proxy_url(config);timeout_seconds(config)
+            run.save(run.ROOT/'config.json',config);self.config=config
+            self.log.insert('end','\n网络设置已保存。下一次授权/扫描使用新设置。\n')
+            return True
+        except Exception as exc:
+            messagebox.showerror('网络设置错误',str(exc));return False
+
+    def diagnose(self):
+        if self.save_network(): self.task(lambda:run.diagnose(self.config))
 
     def import_assets(self):
         def operation():

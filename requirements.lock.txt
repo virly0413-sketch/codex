@@ -19,6 +19,7 @@ pyasn1==0.6.4
 pyasn1_modules==0.4.2
 pycparser==3.11
 pyparsing==3.3.3
+PySocks==1.7.1
 requests==2.34.2
 requests-oauthlib==2.0.0
 typing_extensions==4.16.0
