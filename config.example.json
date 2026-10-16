@@ -1,5 +1,5 @@
 {
-  "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+  "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
   "channel_name": "Supreme Hero Flicks",
   "work": "local_work",
   "oauth_client": "client_secret.json",
@@ -7,5 +7,6 @@
   "start_date": "2026-10-22",
   "planning_source": "data/jobs.json",
   "proxy_url": "",
-  "http_timeout_seconds": 30
+  "http_timeout_seconds": 30,
+  "channel_handle": "@bikan29-v8f"
 }

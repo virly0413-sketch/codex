@@ -66,7 +66,7 @@ def fingerprint(package):
 def verify_channel(config, channels):
     expected = config['channel_id']
     actual = '\n'.join(c.get('snippet', {}).get('title', '未返回名称') + ' | ' + c['id'] for c in channels)
-    print('目标频道：', config.get('channel_name', ''), '|', expected)
+    print('目标频道：', config.get('channel_name', ''), config.get('channel_handle', ''), '|', expected)
     print('本次授权返回的频道：\n' + (actual or '未返回可访问的频道'))
     if expected not in [c['id'] for c in channels]:
         raise ValueError('授权频道不匹配。目标：' + expected + '；实际：' + (actual or '无频道') +

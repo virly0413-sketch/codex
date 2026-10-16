@@ -139,7 +139,7 @@ class App:
         self.task(lambda: run.auth(self.config))
 
     def switch_channel(self):
-        if messagebox.askyesno('切换授权频道', '将重新打开 Google 授权页面，请选择管理 Supreme Hero Flicks 的账号和品牌频道。\n只在频道ID匹配成功后保存新授权，不修改任何视频。'):
+        if messagebox.askyesno('切换授权频道', '将重新打开 Google 授权页面，请选择管理 @bikan29-v8f（Supreme Hero Flicks）的账号和品牌频道。\n只在频道ID匹配成功后保存新授权，不修改任何视频。'):
             self.task(lambda: run.auth(self.config, reauthorize=True))
 
     def refresh(self):

@@ -46,7 +46,7 @@
 
 ## 授权频道不匹配
 
-出现 OAuth account/channel does not match configured channel_id 或“授权频道不匹配”，表示已收到 YouTube 响应，但当前 OAuth 返回的频道不是目标频道。目标 ID 保持 UCaQI24vmsim_8jDI0NuwbEg，不应为了绕过检查随意改成个人频道。
+出现 OAuth account/channel does not match configured channel_id 或“授权频道不匹配”，表示已收到 YouTube 响应，但当前 OAuth 返回的频道不是目标频道。目标 ID 保持 UC0koaDPTujsoVj-Tw27J0Qg，不应为了绕过检查随意改成个人频道。
 
 1. 点击“切换授权频道”（或终端 python run.py auth --reauth），在 Google 页面重新选择账号并确认权限。
 2. 同一 Google 登录账号可能有个人频道和多个品牌频道。如页面出现频道列表，选择 Supreme Hero Flicks 对应的品牌频道。
@@ -55,3 +55,6 @@
 5. 新版日志显示“目标频道”和“本次授权返回的频道”名称及 ID。仍不匹配时，只需提供这些名称和 ID，不要发送 token.json、client_secret.json 或授权回调地址。
 
 频道匹配成功后才写入新 token.json。选错频道不会覆盖此前保存的令牌，也不会修改频道或视频。切换账号不会更改排片或目标频道配置。
+
+
+目标频道信息已按用户提供更新：标识名 @bikan29-v8f，频道 ID UC0koaDPTujsoVj-Tw27J0Qg。排片表中的频道名称仍使用 Supreme Hero Flicks 以对应现有素材。更新后重新授权/核对频道、扫描并生成审核单；原频道的批准记录不能用于新频道。此 ID 尚需在本机通过 OAuth 返回信息核实，更新配置本身不执行任何 YouTube 修改。
