@@ -91,10 +91,12 @@ class MonitorTests(unittest.TestCase):
         _,folder=self.scan(self.api([self.video(region={'allowed':[]})]))
         prior=(folder/'latest.json').read_bytes()
         old_csv=(folder/'blocked_videos.csv').read_bytes()
+        old_excel=(folder/'blocked_videos.xlsx').read_bytes()
         api=self.api([self.video()]);api.videos.return_value.list.return_value.execute.side_effect=TimeoutError()
         with self.assertRaises(RuntimeError):self.scan(api)
         self.assertEqual((folder/'latest.json').read_bytes(),prior)
         self.assertEqual((folder/'blocked_videos.csv').read_bytes(),old_csv)
+        self.assertEqual((folder/'blocked_videos.xlsx').read_bytes(),old_excel)
 
     def test_untrusted_titles_csv_formula_and_html_escape(self):
         video=self.video(region={'allowed':[]});video['snippet']['title']='=HYPERLINK("x")<script>alert(1)</script>'
@@ -116,6 +118,33 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(auth.call_args.args[0]['oauth_token'],'token.ru.monitor.json')
         self.assertEqual(auth.call_args.kwargs['scopes'],['https://www.googleapis.com/auth/youtube.readonly'])
         self.assertEqual(self.config,original)
+
+    def test_excel_two_columns_unique_videos_and_literal_title(self):
+        from openpyxl import load_workbook
+        video=self.video(region={'allowed':[]},upload='rejected')
+        video['snippet']['title']='=HYPERLINK("bad")'
+        _,folder=self.scan(self.api([video]))
+        book=load_workbook(folder/'blocked_videos.xlsx')
+        try:
+            sheet=book.active
+            self.assertEqual(list(sheet.values),[('视频名称','视频链接'),
+                ('=HYPERLINK("bad")','https://www.youtube.com/watch?v=abc12345678')])
+            self.assertEqual(sheet['A2'].data_type,'s')
+            self.assertEqual(sheet['B2'].hyperlink.target,'https://www.youtube.com/watch?v=abc12345678')
+        finally:book.close()
+
+    def test_excel_no_findings_contains_only_headers(self):
+        from openpyxl import load_workbook
+        _,folder=self.scan(self.api([self.video()]))
+        book=load_workbook(folder/'blocked_videos.xlsx')
+        try:self.assertEqual(list(book.active.values),[('视频名称','视频链接')])
+        finally:book.close()
+
+    def test_command_runs_exactly_one_scan(self):
+        with patch('sys.argv',['blocked_monitor.py']),patch.object(monitor.run,'load',return_value=self.config),\
+                patch.object(monitor,'scan') as scan:
+            self.assertEqual(monitor.main(),0)
+        scan.assert_called_once_with(self.config,None)
 
 
 if __name__=='__main__':unittest.main()

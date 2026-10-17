@@ -1,6 +1,6 @@
 # 俄语男频 · 无字封面与单击发布
 
-新增：[YouTube禁播/限制自动检测](MONITOR_GUIDE.md)。Windows双击 `start_monitor_windows.bat`，支持只读授权、定时扫描与视频名称/链接导出。普通API无法保证覆盖Studio所有版权封锁，具体范围见说明。
+新增：[YouTube禁播/限制单次检测](MONITOR_GUIDE.md)。Windows双击 `start_monitor_windows.bat`，每次点击扫描一次，生成仅含视频名称、视频链接两列的Excel，无定时轮询。普通API无法保证覆盖Studio所有版权封锁，具体范围见说明。
 
 目标频道：**UC_o03Jz0Ek8xYGE_oy3zapg**。已按新排片表的“俄语男频”行制作 **2026年10月18—25日共8条排片、24个俄语标题、8张无文字封面**，每天北京时间 **17:00**。
 

@@ -7,7 +7,6 @@ import io
 import json
 from pathlib import Path
 import sys
-import time
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 
@@ -105,6 +104,50 @@ def atomic_text(path, body, encoding='utf-8'):
         if Path(temp).exists(): Path(temp).unlink()
 
 
+def export_excel(path, rows):
+    """Export one row per video, using literal strings and clickable links."""
+    import os
+    import tempfile
+    from openpyxl import Workbook
+    from openpyxl.styles import Alignment, Font, PatternFill
+    book = Workbook()
+    sheet = book.active
+    sheet.title = '禁播及被拒视频'
+    sheet.append(['视频名称', '视频链接'])
+    seen = set()
+    for row in rows:
+        url = row['视频链接']
+        if url in seen:
+            continue
+        seen.add(url)
+        sheet.append([row['视频名称'], url])
+        title_cell, url_cell = sheet[sheet.max_row]
+        title_cell.data_type = 's'
+        url_cell.data_type = 's'
+        url_cell.hyperlink = url
+        url_cell.style = 'Hyperlink'
+        title_cell.alignment = Alignment(wrap_text=True, vertical='top')
+    for cell in sheet[1]:
+        cell.font = Font(bold=True, color='FFFFFF')
+        cell.fill = PatternFill('solid', fgColor='17365D')
+    sheet.column_dimensions['A'].width = 70
+    sheet.column_dimensions['B'].width = 65
+    sheet.freeze_panes = 'A2'
+    sheet.auto_filter.ref = sheet.dimensions
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp = tempfile.mkstemp(dir=path.parent, suffix='.xlsx')
+    os.close(fd)
+    try:
+        book.save(temp)
+        os.replace(temp, path)
+    except PermissionError as exc:
+        raise PermissionError('无法保存Excel，请先关闭已打开的blocked_videos.xlsx，并确认报告目录可写。') from exc
+    finally:
+        book.close()
+        if Path(temp).exists(): Path(temp).unlink()
+
+
 def monitor_auth(config, reauthorize=False):
     config = dict(config)
     original = Path(config['oauth_token'])
@@ -152,6 +195,7 @@ def scan(config, output=None, youtube=None):
     stamp = checked.strftime('%Y%m%d_%H%M%S_%f')
     body = json.dumps(report, ensure_ascii=False, indent=2)
     # Complete every remote read before replacing the last successful scan.
+    export_excel(folder / 'blocked_videos.xlsx', blocked)
     atomic_text(folder / f'scan_{stamp}.json', body)
     for filename, data in [('blocked_videos.csv', blocked), ('attention.csv', attention),
                            ('newly_detected.csv', new), ('all_videos.csv', rows)]:
@@ -170,6 +214,7 @@ def scan(config, output=None, youtube=None):
     atomic_text(previous_path, body)
     print(f'完成：{len(ids)}条上传记录，{report["blocked_video_count"]}个视频返回禁播/被拒标记。')
     print('报告目录：', folder.resolve())
+    print('Excel文件：', (folder / 'blocked_videos.xlsx').resolve())
     print(LIMITATION)
     return report, folder.resolve()
 
@@ -178,22 +223,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--config', default=str(run.ROOT / 'config.json'))
     parser.add_argument('--output', type=Path)
-    parser.add_argument('--watch', action='store_true', help='保持运行并定时扫描')
-    parser.add_argument('--interval', type=int, default=1800, help='轮询秒数，至少60，默认1800')
     parser.add_argument('--reauth', action='store_true', help='重新选择账号/品牌频道')
     args = parser.parse_args()
-    if args.interval < 60: parser.error('--interval至少60秒')
     config = run.load(args.config)
     if args.reauth: monitor_auth(config, reauthorize=True)
-    while True:
-        try:
-            scan(config, args.output)
-        except Exception as exc:
-            print(f'扫描未完成，未标记成功：{exc}', file=sys.stderr)
-            if not args.watch: return 1
-        if not args.watch: return 0
-        print(f'{args.interval}秒后再次扫描；Ctrl+C停止。', flush=True)
-        time.sleep(args.interval)
+    try:
+        scan(config, args.output)
+    except Exception as exc:
+        print(f'扫描未完成，未标记成功：{exc}', file=sys.stderr)
+        return 1
+    return 0
 
 
 if __name__ == '__main__':

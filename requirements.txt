@@ -3,3 +3,4 @@ google-auth-oauthlib>=1.2,<2
 Pillow>=10.4,<13
 tzdata>=2024.2
 PySocks>=1.7.1,<2
+openpyxl>=3.1.5,<4
