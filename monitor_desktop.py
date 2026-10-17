@@ -1,0 +1,161 @@
+"""Desktop interface for the read-only YouTube restriction monitor."""
+import contextlib
+from pathlib import Path
+import queue
+import re
+import threading
+import tkinter as tk
+from tkinter import filedialog, messagebox, ttk
+import webbrowser
+
+import blocked_monitor as monitor
+import run
+from networking import proxy_url
+
+
+class App:
+    def __init__(self, root):
+        self.root, self.events = root, queue.Queue()
+        self.busy, self.timer, self.folder = False, None, None
+        self.config = run.load(run.ROOT / 'config.json')
+        root.title('YouTube 禁播与限制检测 · 只读')
+        root.geometry('1120x760')
+        self.channel = tk.StringVar(value=self.config['channel_id'])
+        self.name = tk.StringVar(value=self.config.get('channel_name', ''))
+        self.proxy = tk.StringVar(value=self.config.get('proxy_url', ''))
+        self.client = tk.StringVar(value=self.config.get('oauth_client', 'client_secret.json'))
+        self.minutes = tk.StringVar(value='30')
+        self.auto = tk.BooleanVar(value=False)
+        top = ttk.Frame(root, padding=12); top.pack(fill='x')
+        self.buttons = []
+        for row, (label, var) in enumerate([('频道ID（UC开头）', self.channel), ('频道名称', self.name),
+                                           ('程序代理', self.proxy), ('OAuth客户端文件', self.client)]):
+            ttk.Label(top, text=label).grid(row=row, column=0, sticky='w', pady=4)
+            ttk.Entry(top, textvariable=var, width=72).grid(row=row, column=1, sticky='ew', padx=8)
+        for label, callback, row in [('导入频道配置', self.load_config, 0), ('选择客户端文件', self.choose_client, 3)]:
+            button = ttk.Button(top, text=label, command=callback); button.grid(row=row, column=2)
+            self.buttons.append(button)
+        top.columnconfigure(1, weight=1)
+        ttk.Label(root, text='仅查询，不修改视频。首次运行需浏览器授权；请选中目标品牌频道。').pack(anchor='w', padx=12)
+        ttk.Label(root, text=monitor.LIMITATION, wraplength=1070).pack(anchor='w', padx=12, pady=6)
+        controls = ttk.Frame(root, padding=12); controls.pack(fill='x')
+        for label, callback in [('立即检测', self.start), ('切换授权账号/频道', self.reauth),
+                                ('打开本地报告', self.open_report), ('打开报告目录', self.open_folder)]:
+            button = ttk.Button(controls, text=label, command=callback); button.pack(side='left', padx=4)
+            self.buttons.append(button)
+        ttk.Checkbutton(controls, text='自动检测', variable=self.auto, command=self.toggle_auto).pack(side='left', padx=8)
+        ttk.Entry(controls, textvariable=self.minutes, width=5).pack(side='left')
+        ttk.Label(controls, text='分钟/次').pack(side='left')
+        self.status = tk.StringVar(value='尚未检测')
+        ttk.Label(root, textvariable=self.status).pack(anchor='w', padx=12)
+        self.tree = ttk.Treeview(root, columns=('title', 'category', 'reason', 'url'), show='headings', height=13)
+        for key, label, width in [('title','视频名称',290),('category','分类',110),('reason','限制详情',360),('url','视频链接',300)]:
+            self.tree.heading(key,text=label);self.tree.column(key,width=width)
+        self.tree.pack(fill='both',expand=True,padx=12,pady=8)
+        self.tree.bind('<Double-1>', self.open_video)
+        self.log = tk.Text(root,height=9,wrap='word');self.log.pack(fill='both',padx=12,pady=8)
+        root.after(150,self.poll)
+        root.protocol('WM_DELETE_WINDOW',self.close)
+
+    def load_config(self):
+        path=filedialog.askopenfilename(initialdir=run.ROOT/'profiles',filetypes=[('JSON','*.json')])
+        if not path:return
+        try:
+            config=run.load(path)
+            self.channel.set(config['channel_id']);self.name.set(config.get('channel_name',''))
+            self.proxy.set(config.get('proxy_url',''));self.client.set(config.get('oauth_client','client_secret.json'))
+            self.config=config
+        except Exception as exc:messagebox.showerror('配置读取失败',str(exc))
+
+    def choose_client(self):
+        path=filedialog.askopenfilename(filetypes=[('JSON','*.json')])
+        if path:self.client.set(path)
+
+    def settings(self):
+        channel=self.channel.get().strip()
+        if not re.fullmatch(r'UC[A-Za-z0-9_-]{22}',channel):raise ValueError('请输入完整24字符的UC频道ID。')
+        minutes=int(self.minutes.get())
+        if minutes<1:raise ValueError('检测间隔至少1分钟，建议30分钟以节约配额。')
+        config=dict(self.config,channel_id=channel,channel_name=self.name.get().strip(),
+            proxy_url=self.proxy.get().strip(),oauth_client=self.client.get().strip(),
+            oauth_token='token.'+channel+'.json')
+        proxy_url(config)
+        if not (run.ROOT/config['oauth_client']).is_file():raise ValueError('请先选择Google桌面OAuth客户端JSON文件。')
+        return config,minutes
+
+    def start(self, reauthorize=False):
+        if self.busy:return
+        try:config,minutes=self.settings()
+        except Exception as exc:
+            self.auto.set(False);messagebox.showerror('请检查设置',str(exc));return
+        if self.timer:self.root.after_cancel(self.timer);self.timer=None
+        self.busy=True
+        for b in self.buttons:b.configure(state='disabled')
+        self.status.set('正在扫描，请等待…')
+        events=self.events
+        class Stream:
+            def write(self,text):
+                if text:events.put(('log',text))
+                return len(text)
+            def flush(self):pass
+        def worker():
+            try:
+                with contextlib.redirect_stdout(Stream()):
+                    api=monitor.monitor_auth(config,reauthorize=reauthorize)
+                    result=monitor.scan(config,youtube=api)
+                events.put(('result',result))
+            except Exception as exc:events.put(('error',str(exc)))
+            finally:events.put(('done',minutes))
+        threading.Thread(target=worker,daemon=True).start()
+
+    def reauth(self):self.start(reauthorize=True)
+
+    def poll(self):
+        try:
+            while True:
+                event,value=self.events.get_nowait()
+                if event=='log':self.log.insert('end',value);self.log.see('end')
+                elif event=='result':
+                    report,self.folder=value
+                    for iid in self.tree.get_children():self.tree.delete(iid)
+                    for row in report['blocked']+report['attention']:
+                        self.tree.insert('', 'end',values=(row['视频名称'],row['分类'],row['限制详情'],row['视频链接']))
+                    self.status.set(f"{report['channel_name']} | {report['checked_at']} | 扫描{report['upload_list_count']}条 | 禁播/被拒{report['blocked_video_count']}个 | 新增/变更{len(report['newly_detected'])}条")
+                elif event=='error':
+                    self.status.set('检测失败；当前列表/报告保留上次结果，不代表本次状态。')
+                    self.log.insert('end','\n错误：'+value+'\n');self.log.see('end')
+                elif event=='done':
+                    self.busy=False
+                    for b in self.buttons:b.configure(state='normal')
+                    if self.auto.get():self.timer=self.root.after(value*60000,self.start)
+        except queue.Empty:pass
+        self.root.after(150,self.poll)
+
+    def toggle_auto(self):
+        if self.timer:self.root.after_cancel(self.timer);self.timer=None
+        if self.auto.get() and not self.busy:self.start()
+
+    def open_video(self,event=None):
+        item=self.tree.selection()
+        if item:webbrowser.open(self.tree.item(item[0],'values')[3])
+
+    def open_report(self):
+        if self.folder:webbrowser.open((self.folder/'report.html').as_uri())
+        else:messagebox.showinfo('尚无报告','先完成一次检测。')
+
+    def open_folder(self):
+        if self.folder:
+            import os,sys,subprocess
+            if sys.platform=='win32':os.startfile(self.folder)
+            elif sys.platform=='darwin':subprocess.Popen(['open',str(self.folder)])
+            else:subprocess.Popen(['xdg-open',str(self.folder)])
+        else:messagebox.showinfo('尚无报告','先完成一次检测。')
+
+    def close(self):
+        if self.busy:
+            messagebox.showinfo('检测中','请等待本次只读扫描完成后关闭。');return
+        self.root.destroy()
+
+
+if __name__=='__main__':
+    root=tk.Tk();App(root);root.mainloop()

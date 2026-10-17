@@ -74,7 +74,7 @@ def verify_channel(config, channels):
             '。请点击“切换授权频道”，选择管理目标频道的正确账号/品牌频道；不会自动改目标频道。')
 
 
-def auth(config, reauthorize=False):
+def auth(config, reauthorize=False, scopes=None):
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
     from google_auth_oauthlib.flow import InstalledAppFlow
@@ -83,7 +83,7 @@ def auth(config, reauthorize=False):
     timeout = timeout_seconds(config)
     session = requests_session(config)
     token = ROOT / config['oauth_token']
-    scopes = ['https://www.googleapis.com/auth/youtube.force-ssl']
+    scopes = scopes or ['https://www.googleapis.com/auth/youtube.force-ssl']
     creds = Credentials.from_authorized_user_file(str(token), scopes) if token.exists() and not reauthorize else None
     if creds and creds.expired and creds.refresh_token:
         request = Request(session=session)
