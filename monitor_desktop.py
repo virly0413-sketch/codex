@@ -18,7 +18,7 @@ class App:
         self.root, self.events = root, queue.Queue()
         self.busy, self.folder = False, None
         self.config = run.load(run.ROOT / 'config.json')
-        root.title('YouTube 禁播与限制检测 · 只读')
+        root.title('YouTube 版权问题登记 · 只读')
         root.geometry('1120x760')
         self.channel = tk.StringVar(value=self.config['channel_id'])
         self.name = tk.StringVar(value=self.config.get('channel_name', ''))
@@ -111,9 +111,9 @@ class App:
                 elif event=='result':
                     report,self.folder=value
                     for iid in self.tree.get_children():self.tree.delete(iid)
-                    for row in report['blocked']+report['attention']+report.get('revenue',[]):
+                    for row in report['registered']:
                         self.tree.insert('', 'end',values=(row['视频名称'],row['分类'],row['限制详情'],row['视频链接']))
-                    self.status.set(f"{report['channel_name']} | {report['checked_at']} | 扫描{report['upload_list_count']}条 | 禁播/被拒{report['blocked_video_count']}个 | Excel登记{report['excel_video_count']}个 | 收益状态无法通过API判断")
+                    self.status.set(f"{report['channel_name']} | {report['checked_at']} | 扫描{report['upload_list_count']}条 | Excel登记{report['excel_video_count']}个 | 仅API明确版权原因，非全部版权声明")
                     self.log.insert('end','\nExcel已生成：'+str(self.folder/'blocked_videos.xlsx')+'\n点击“打开Excel”查看，或点击“Excel另存为…”保存到桌面。\n')
                     self.log.see('end')
                 elif event=='error':
@@ -139,7 +139,7 @@ class App:
     def save_excel(self):
         if not self.folder:
             messagebox.showinfo('尚无Excel','先点击“扫描一次并导出Excel”。');return
-        path=filedialog.asksaveasfilename(defaultextension='.xlsx',initialfile='禁播与收益限制视频名单.xlsx',
+        path=filedialog.asksaveasfilename(defaultextension='.xlsx',initialfile='版权问题视频名单.xlsx',
             filetypes=[('Excel工作簿','*.xlsx')])
         if path:
             try:

@@ -42,7 +42,7 @@ class MonitorTests(unittest.TestCase):
 
     def scan(self,api):
         with contextlib.redirect_stdout(io.StringIO()):
-            return monitor.scan(self.config,self.output,youtube=api)
+            return monitor.scan(self.config,self.output,youtube=api,copyright_only=False)
 
     def test_private_unlisted_embed_disabled_and_licensed_not_bans(self):
         for privacy in ['private','unlisted','public']:

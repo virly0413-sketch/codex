@@ -13,8 +13,9 @@ from zoneinfo import ZoneInfo
 import run
 from networking import read_request
 
-LIMITATION = ('普通YouTube API不提供完整Content ID版权声明/Studio限制详情；'
-              '也不提供黄标、广告适宜性或完整收益状态；需另行登录Studio检查收益。未返回禁播标记不代表无限制。私密、未列出和关闭嵌入不作为禁播。')
+LIMITATION = ('普通YouTube API不提供全部Content ID版权声明、版权警告或版权收益归属。'
+              '本入口仅登记API明确返回copyright原因的视频；地区禁播、年龄限制和收益关闭不能据此认定为版权问题。'
+              '空名单不代表没有版权问题。')
 FIELDS = ['频道名称', '频道ID', '视频名称', '视频链接', 'Studio链接', '分类', '限制详情',
           '上传状态', '可见性', '检测时间']
 
@@ -104,7 +105,7 @@ def atomic_text(path, body, encoding='utf-8'):
         if Path(temp).exists(): Path(temp).unlink()
 
 
-def export_excel(path, rows, studio=None):
+def export_excel(path, rows, studio=None, copyright_only=False):
     """Export one row per video, using literal strings and clickable links."""
     import os
     import tempfile
@@ -112,7 +113,7 @@ def export_excel(path, rows, studio=None):
     from openpyxl.styles import Alignment, Font, PatternFill
     book = Workbook()
     sheet = book.active
-    sheet.title = '需处理视频'
+    sheet.title = '版权问题' if copyright_only else '需处理视频'
     sheet.append(['视频名称', '视频链接'])
     seen = set()
     for row in rows:
@@ -146,8 +147,9 @@ def export_excel(path, rows, studio=None):
     coverage = book.create_sheet('检测范围')
     coverage.append(['项目', '结果'])
     coverage.append(['普通API', LIMITATION])
-    coverage.append(['Studio收益检查', ('已完成，检查'+str(studio['checked'])+'个视频') if studio is not None else '未执行，不能判断是否存在收入限制'])
-    coverage.append(['收益说明', '收益关闭、审核中、未知状态均登记为待核对；不等同于确认收入受限。Studio页面变化可能导致无法识别。'])
+    if not copyright_only: coverage.append(['Studio收益检查', ('已完成，检查'+str(studio['checked'])+'个视频') if studio is not None else '未执行，不能判断是否存在收入限制'])
+    coverage.append(['名单口径', '只登记API明确返回copyright原因的视频，不含所有Content ID声明，未确认原因的禁播也不算版权问题' if copyright_only else '兼容模式：限制及待核对记录'])
+    if not copyright_only: coverage.append(['收益说明', '收益关闭、审核中、未知状态均登记为待核对；不等同于确认收入受限。Studio页面变化可能导致无法识别。'])
     coverage.column_dimensions['A'].width=25;coverage.column_dimensions['B'].width=130
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -172,7 +174,7 @@ def monitor_auth(config, reauthorize=False):
                     scopes=['https://www.googleapis.com/auth/youtube.readonly'])
 
 
-def scan(config, output=None, youtube=None, studio=None):
+def scan(config, output=None, youtube=None, studio=None, copyright_only=True):
     if youtube is None:
         youtube = monitor_auth(config)
     channel, ids, videos, fallback = read_channel(youtube, config['channel_id'])
@@ -201,6 +203,8 @@ def scan(config, output=None, youtube=None, studio=None):
             revenue.append(row)
     blocked = [r for r in rows if r['分类'] in ('禁播', '上传被拒')]
     attention = [r for r in rows if r['分类'] not in ('禁播', '上传被拒', 'API未返回禁播标记')]
+    copyright_rows = [r for r in blocked if r['分类']=='上传被拒' and r['限制详情']=='YouTube拒绝上传：copyright']
+    registered = copyright_rows if copyright_only else blocked + attention + revenue
     folder = (Path(output) if output else run.ROOT / 'blocked_reports') / config['channel_id']
     folder.mkdir(parents=True, exist_ok=True)
     previous_path = folder / 'latest.json'
@@ -212,25 +216,26 @@ def scan(config, output=None, youtube=None, studio=None):
         checked_at=when, upload_list_count=len(ids), details_returned=len(videos),
         blocked_video_count=len({r['视频链接'] for r in blocked}), blocked=blocked,
         attention=attention, revenue=revenue, studio_checked=studio['checked'] if studio is not None else None,
-        excel_video_count=len({r['视频链接'] for r in blocked+attention+revenue}),
+        copyright_only=copyright_only, copyright=copyright_rows, registered=registered,
+        excel_video_count=len({r['视频链接'] for r in registered}),
         newly_detected=new, limitation=LIMITATION,
         scope='仅频道上传列表中API仍返回的条目；不覆盖已从上传列表消失的视频',
         all_videos=rows)
     stamp = checked.strftime('%Y%m%d_%H%M%S_%f')
     body = json.dumps(report, ensure_ascii=False, indent=2)
     # Complete every remote read before replacing the last successful scan.
-    export_excel(folder / 'blocked_videos.xlsx', blocked + attention + revenue, studio)
+    export_excel(folder / 'blocked_videos.xlsx', registered, studio, copyright_only)
     atomic_text(folder / f'scan_{stamp}.json', body)
     for filename, data in [('blocked_videos.csv', blocked), ('attention.csv', attention),
-                           ('newly_detected.csv', new), ('all_videos.csv', rows), ('revenue.csv', revenue)]:
+                           ('newly_detected.csv', new), ('all_videos.csv', rows), ('revenue.csv', revenue), ('copyright_videos.csv', copyright_rows)]:
         atomic_text(folder / filename, csv_text(data), 'utf-8-sig')
     rendered = ''.join('<tr>' + ''.join('<td>' + (f'<a href="{html.escape(r[k], quote=True)}" target="_blank" rel="noopener noreferrer">打开</a>'
         if k in ('视频链接', 'Studio链接') else html.escape(str(r[k]))) + '</td>'
-        for k in FIELDS) + '</tr>' for r in blocked + attention + revenue)
+        for k in FIELDS) + '</tr>' for r in registered)
     page = ('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>YouTube限制检测报告</title>'
         '<style>body{font:15px system-ui;margin:24px}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:8px}th{background:#edf2f7}</style>'
         '<h1>YouTube限制检测报告</h1><p>' + html.escape(channel['snippet']['title'] + ' | ' + when) + '</p>'
-        f'<p>Excel共{report["excel_video_count"]}个需处理/待核对视频；Studio收益检查：{report["studio_checked"] if studio is not None else "未执行"}。上传列表：{len(ids)}条；禁播/被拒：{report["blocked_video_count"]}个视频；本次新增或原因变更：{len(new)}条记录。</p>'
+        f'<p>Excel共{report["excel_video_count"]}个登记视频；Studio收益检查：{report["studio_checked"] if studio is not None else "未执行"}。上传列表：{len(ids)}条；禁播/被拒：{report["blocked_video_count"]}个视频；本次新增或原因变更：{len(new)}条记录。</p>'
         '<p>' + html.escape(LIMITATION) + '</p><p>' + html.escape(report['scope']) + '</p><table><tr>' +
         ''.join('<th>' + html.escape(k) + '</th>' for k in FIELDS) + '</tr>' + rendered + '</table>'
         '<p>没有列出限制记录时，仅表示本次API未返回相关标记。</p></html>')

@@ -28,7 +28,7 @@ class RevenueTests(unittest.TestCase):
             {'视频名称':'=unsafe','视频链接':'https://www.youtube.com/watch?v=abc12345678','分类':'收入限制','限制详情':'Limited'},
             {'视频名称':'second','视频链接':'https://www.youtube.com/watch?v=other123456','分类':'收益待核对','限制详情':'未显示'}]}
         with contextlib.redirect_stdout(io.StringIO()):
-            report,folder=monitor.scan(helper.config,helper.output,youtube=helper.api([video]),studio=studio)
+            report,folder=monitor.scan(helper.config,helper.output,youtube=helper.api([video]),studio=studio,copyright_only=False)
         self.assertEqual(report['excel_video_count'],2)
         self.assertEqual(report['studio_checked'],2)
         book=load_workbook(folder/'blocked_videos.xlsx')
