@@ -29,6 +29,20 @@
       !row.hidden && row.getAttribute('aria-hidden')!=='true' && !row.matches('[loading], [aria-busy="true"], [is-ghost], [is-placeholder], .skeleton, .placeholder') &&
       Boolean(row.textContent.trim()||row.querySelector('[href], [data-video-id], [video-id], img')));
   }
+  const models=new WeakMap();let modelError='';
+  async function refreshModels(){
+    const current=rows(),token='sc_'+Array.from(crypto.getRandomValues(new Uint32Array(2))).map(x=>x.toString(16).padStart(8,'0')).join('');
+    current.forEach((row,i)=>{row.setAttribute('data-studio-copyright-token',token);row.setAttribute('data-studio-copyright-key',String(i));});
+    try{
+      const response=await chrome.runtime.sendMessage({type:'studioRows',token});
+      if(response?.error)throw new Error(response.error);
+      for(const item of response?.rows || []){
+        const row=current[Number(item.key)];
+        if(row?.isConnected && (row.textContent||'').slice(0,1200)===item.text)models.set(row,item);
+      }
+    }catch(error){modelError=error.message;}
+    finally{current.forEach(row=>{row.removeAttribute('data-studio-copyright-token');row.removeAttribute('data-studio-copyright-key');});}
+  }
   function rowInfo(row){
     const candidates=[];
     for(const node of [row,...row.querySelectorAll('[data-video-id], [video-id]')]){
@@ -51,36 +65,41 @@
       const id=(image.getAttribute('src')||'').match(/^https:\/\/(?:i|img)\.ytimg\.com\/(?:vi|vi_webp)\/([A-Za-z0-9_-]{11})\//)?.[1];
       if(id)candidates.push(id);
     }
+    const model=models.get(row);
+    const validModel=model&&(row.textContent||'').slice(0,1200)===model.text?model:null;
+    if(validModel?.id)candidates.push(validModel.id);
     const unique=[...new Set(candidates)];
-    if(unique.length!==1)throw new Error('视频ID尚未加载或链接无法识别');
-    const titleNodes=[...row.querySelectorAll('#video-title, .video-title, [data-video-title], #title'),...anchors.filter(a=>!/thumbnail/i.test(a.id)&&/\/video\/|watch\?/.test(a.getAttribute('href')||''))];
+    const id=unique.length===1&&!validModel?.conflictingIds?unique[0]:null;
+    const titleNodes=[...row.querySelectorAll('#video-title, .video-title, [data-video-title], #title, #video-title-link, [id="video-title"]'),...anchors.filter(a=>!/thumbnail/i.test(a.id)&&/\/video\/|watch\?/.test(a.getAttribute('href')||''))];
     let title='';
     for(const node of titleNodes){
       title=(node.getAttribute('data-video-title')||node.getAttribute('title')||node.innerText||node.textContent||'').trim();
       if(title&&!/^\d{1,3}:\d{2}(?::\d{2})?$/.test(title))break;
       title='';
     }
-    // A known ID is retained even if Studio puts the title in an unsupported element.
-    return {id:unique[0],title:title||'名称未读取（视频ID：'+unique[0]+'）',missingTitle:!title,row};
+    if(!title&&validModel?.title)title=validModel.title;
+    return {id,title:title||'名称未读取'+(id?'（视频ID：'+id+'）':''),missingTitle:!title,missingId:!id,row,
+      identity:id||'unresolved:'+title+'|'+cellText(visibilityCell(row))};
   }
   function visibilityCell(row){
-    return row.querySelector('#visibility, #visibility-cell, #privacy, ytcp-video-visibility') || columnCell(row,/^(公开范围|可见性|Visibility|Видимость|Доступ|Visibilidad|공개 상태)$/i);
+    return row.querySelector('#visibility, #visibility-cell, #privacy, #video-visibility, #visibility-status, ytcp-video-visibility, ytcp-video-list-cell-visibility, [column-id="visibility"], [data-column-id="visibility"]') || columnCell(row,/^(公开范围|可见性|Visibility|Видимость|Доступ|Visibilidad|공개 상태)$/i);
   }
   async function readyRows(){
     let lastError;
     for(let attempt=0;attempt<20;attempt++){
       verify();
       try{
+        await refreshModels();
         const current=rows().map(rowInfo);
         if(!current.length)throw new Error('当前列表没有加载出视频行');
         if(current.some(r=>!cellText(visibilityCell(r.row))))throw new Error('尚未读取到公开范围列');
-        if(current.some(r=>r.missingTitle)&&attempt<4){await pause(500);continue;}
+        if(current.some(r=>r.missingTitle||r.missingId)&&attempt<4){await pause(500);continue;}
         return current;
       }catch(error){lastError=error;await pause(500);}
     }
-    throw new Error('等待列表加载后仍无法读取：'+lastError.message+'。请确认已筛选私享/定时视频，刷新Studio页面后重试。');
+    throw new Error('等待列表加载后仍无法读取：'+lastError.message+'。请确认已筛选草稿/私享/定时/不公开列出视频，刷新Studio页面后重试。');
   }
-  const ids=()=>rows().map(r=>rowInfo(r).id).join(',');
+  const ids=()=>rows().map(r=>rowInfo(r).identity).join(',');
   function nav(id){
     const elements=Array.from(document.querySelectorAll('#'+id)).filter(visible);
     if(elements.length!==1)throw new Error('无法识别Studio翻页控件，未能确认名单完整。');
@@ -90,7 +109,7 @@
   async function changePage(button){
     const before=ids();button.click();const deadline=Date.now()+40000;let last='',stable=0;
     while(Date.now()<deadline){
-      await pause(300);verify();let current='';try{current=ids();}catch{continue;}
+      await pause(300);verify();let current='';try{await refreshModels();current=ids();}catch{continue;}
       if(current&&current!==before){stable=current===last?stable+1:0;last=current;if(stable>=3)return;}
     }
     throw new Error('翻页后列表未稳定，未导出未完成的名单。');
@@ -101,64 +120,71 @@
     const cells=Array.from(row.querySelectorAll('[role="cell"], [role="gridcell"]'));
     return index>=0?cells[index]:null;
   }
-  function restrictionCell(row){
-    return row.querySelector('#restrictions, #restrictions-cell, ytcp-video-restrictions') || columnCell(row,/^(限制|Restrictions|Ограничения|Restricciones|제한사항)$/i);
+  function restrictionFields(row){
+    const fields=Array.from(row.querySelectorAll('#restrictions, #restrictions-cell, #video-restrictions, #notifications, #notification, #notifications-cell, #notification-cell, #notification-container, #notifications-container, #notification-text, #video-notification, #video-notifications, ytcp-video-restrictions, ytcp-video-notification, ytcp-video-notifications, ytcp-video-list-cell-restrictions, ytcp-video-list-cell-notification, ytcp-video-list-cell-notifications, [column-id="notifications"], [data-column-id="notifications"]'));
+    for(const pattern of [/^(限制|Restrictions|Ограничения|Restricciones|제한사항)$/i,/^(通知|Notifications|Уведомления|Notificaciones|알림)$/i]){
+      const field=columnCell(row,pattern);if(field&&!fields.includes(field))fields.push(field);
+    }
+    return fields;
   }
   function validateUnpublished(current){
     for(const info of current){
       const label=cellText(visibilityCell(info.row));
       const kind=StudioCopyright.visibility(label);
-      if(kind==='private'||kind==='scheduled'||(includeUnlisted&&kind==='unlisted'))continue;
+      if(kind==='draft'||kind==='private'||kind==='scheduled'||(includeUnlisted&&kind==='unlisted'))continue;
       if(kind==='unknown')throw new Error('无法确认视频公开范围：'+info.title+'。请检查公开范围列及页面语言，程序不会猜测未发布状态。');
-      throw new Error('当前列表包含'+(kind==='unlisted'?'不公开列出':'已公开')+'视频。请先在Studio“公开范围”筛选中只选择私享/定时发布'+(includeUnlisted?'/不公开列出':'')+'，然后重新扫描；程序不会遍历全部公开视频。');
+      throw new Error('当前列表包含'+(kind==='unlisted'?'不公开列出':'已公开')+'视频。请先在Studio“公开范围”筛选中只选择草稿/私享/定时发布'+(includeUnlisted?'/不公开列出':'')+'，然后重新扫描；程序不会遍历全部公开视频。');
     }
   }
   function toBase64(bytes){let value='';for(let i=0;i<bytes.length;i+=16384)value+=String.fromCharCode(...bytes.subarray(i,i+16384));return btoa(value);}
   async function run(){
     try{
-      text.textContent='正在确认未发布视频列表…\n请先在Studio公开范围筛选中选择私享、定时发布、不公开列出。';
+      text.textContent='正在确认未发布视频列表…\n请先在Studio公开范围筛选中选择草稿、私享、定时发布、不公开列出。';
       const initial=await readyRows();
       validateUnpublished(initial);
       for(let i=0;!disabled(nav('navigate-before'));i++){
         if(i>=10000)throw new Error('回到第一页超过安全上限');
         await changePage(nav('navigate-before'));
       }
-      const found=[],unknown=[],missingNames=[],seen=new Set(),pageSignatures=new Set();let checked=0,pages=0;
+      const found=[],unknown=[],missingNames=[],missingLinks=[],seen=new Set(),pageSignatures=new Set();let checked=0,pages=0;
       while(true){
-        verify();const current=await readyRows(),signature=current.map(r=>r.id).join(',');
+        verify();const current=await readyRows(),signature=current.map(r=>r.identity).join(',');
         validateUnpublished(current);
         if(!signature||pageSignatures.has(signature))throw new Error('列表为空或重复，无法确认扫描完成。');
         pageSignatures.add(signature);pages++;
-        for(const {id,title,row,missingTitle} of current){
-          if(seen.has(id))continue;seen.add(id);checked++;
-          const cell=restrictionCell(row);
-          if(!cell)throw new Error('无法定位版权限制列。请确认当前是内容列表；页面结构可能已改变。');
-          const restriction=cellText(cell),category=StudioCopyright.classify(restriction);
-          const info={title,id,visibility:cellText(visibilityCell(row)),url:'https://www.youtube.com/watch?v='+id,restriction,category};
+        for(const [index,{id,title,row,missingTitle,missingId}] of current.entries()){
+          const key=id||'page:'+pages+':row:'+index;
+          if(seen.has(key))continue;seen.add(key);checked++;
+          const fields=restrictionFields(row);
+          if(!fields.length)throw new Error('无法定位版权限制或通知列。请确认当前是内容列表；页面结构可能已改变。');
+          const restriction=[...new Set(fields.map(cellText).filter(Boolean))].join(' | '),category=StudioCopyright.classify(restriction);
+          const info={title,id,visibility:cellText(visibilityCell(row)),key,url:id?'https://www.youtube.com/watch?v='+id:'',restriction,category};
           if(missingTitle)missingNames.push(info);
+          if(missingId)missingLinks.push(info);
           if(category)found.push(info);
           else if(category===undefined)unknown.push(info);
         }
         if(ids()!==signature)throw new Error('读取过程中列表发生变化，请重新扫描。');
-        text.textContent=`已检查 ${checked} 个未发布视频，${pages} 页\n版权/禁播标识 ${found.length} 个；其他或未识别限制 ${unknown.length} 个\n扫描期间不要手动翻页或修改筛选。`;
+        text.textContent=`已检查 ${checked} 个未发布视频，${pages} 页\n版权/禁播/收入提示 ${found.length} 个；其他或未识别限制 ${unknown.length} 个\n扫描期间不要手动翻页或修改筛选。`;
         const next=nav('navigate-after');if(disabled(next))break;
         if(pages>=10000)throw new Error('超过分页安全上限，未导出。');
         await changePage(next);
       }
       verify();
-      const unique=Array.from(new Map(found.map(r=>[r.id,r])).values());
+      const unique=Array.from(new Map(found.map(r=>[r.key,r])).values());
       const now=new Date(),stamp=now.toISOString().replace(/[-:]/g,'').slice(0,15).replace('T','_');
       const sheets=[
-        {name:'版权及禁播视频',rows:[['视频名称','视频链接'],...unique.map(r=>[r.title,r.url])]},
+        {name:'版权禁播及收入提示',rows:[['视频名称','视频链接'],...unique.map(r=>[r.title,r.url])]},
         {name:'版权限制详情',rows:[['视频名称','视频链接','分类','Studio限制原文','公开范围'],...found.map(r=>[r.title,r.url,r.category,r.restriction,r.visibility])]},
         {name:'其他或未识别限制',rows:[['视频名称','视频链接','Studio限制原文'],...unknown.map(r=>[r.title,r.url,r.restriction||'空白/未加载，必须人工核对'])]},
         {name:'名称待核对',rows:[['视频名称','视频链接','公开范围'],...missingNames.map(r=>[r.title,r.url,r.visibility])]},
-        {name:'检测范围',rows:[['项目','结果'],['来源','当前已登录的Studio可见列表；未读取Cookie或发送到外部服务器'],['频道ID',channel],['页面地址',location.href],['筛选条件',originalFilters||'未识别到筛选标签（以页面实际条件为准）'],['未发布口径',includeUnlisted?'私享、定时发布、不公开列出':'私享、定时发布（不含不公开列出）'],['名称待核对',String(missingNames.length)],['检查数量',String(checked)],['检查页数',String(pages)],['导出时间',now.toISOString()],['范围','仅当前列表标签和筛选结果；需要检查Shorts/直播时分别打开对应列表扫描。'],['版权与收益','版权声明不一定影响收益。仅记录列表版权/禁播文字；是否分成、具体权利人和地区以版权详情为准。'],['识别边界','页面结构或语言变化可能无法识别。请核对其他或未识别限制表；零版权记录不保证没有版权问题。']]}
+        {name:'链接待核对',rows:[['视频名称','视频链接','公开范围','限制或通知原文','说明'],...missingLinks.map(r=>[r.title,'',r.visibility,r.restriction,'草稿未显示可确认的视频ID；未伪造视频链接，请在Studio编辑草稿中核对'])]},
+        {name:'检测范围',rows:[['项目','结果'],['来源','当前已登录的Studio可见列表；未读取Cookie或发送到外部服务器'],['频道ID',channel],['页面地址',location.href],['筛选条件',originalFilters||'未识别到筛选标签（以页面实际条件为准）'],['未发布口径',includeUnlisted?'草稿、私享、定时发布、不公开列出':'草稿、私享、定时发布（不含不公开列出）'],['名称待核对',String(missingNames.length)],['链接待核对',String(missingLinks.length)],['页面行读取',modelError?'部分读取失败；未确认的链接保留为空，需人工核对':'已尝试读取当前行绑定的视频ID（只读，不打开草稿）'],['检查数量',String(checked)],['检查页数',String(pages)],['导出时间',now.toISOString()],['范围','仅当前列表标签和筛选结果；需要检查Shorts/直播时分别打开对应列表扫描。'],['版权与收益','版权声明不一定影响收益。仅记录列表版权/禁播文字；是否分成、具体权利人和地区以版权详情为准。'],['识别边界','页面结构或语言变化可能无法识别。请核对其他或未识别限制表；零版权记录不保证没有版权问题。']]}
       ];
       const bytes=StudioCopyright.workbook(sheets);
       const response=await chrome.runtime.sendMessage({type:'copyrightExcel',filename:'Studio_copyright_'+channel+'_'+stamp+'.xlsx',url:'data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,'+toBase64(bytes)});
       if(response?.error)throw new Error('保存Excel失败：'+response.error);
-      text.textContent=`扫描完成：${checked} 个未发布视频\n登记版权/禁播 ${unique.length} 个；其他或未识别限制 ${unknown.length} 个；名称待核对 ${missingNames.length} 个。\n已发起Excel下载，请完成保存并在Chrome下载列表确认。`;
+      text.textContent=`列表读取结束：${checked} 个未发布视频\n登记版权/禁播/收入提示 ${unique.length} 个；其他或未识别限制 ${unknown.length} 个；名称待核对 ${missingNames.length} 个；链接待核对 ${missingLinks.length} 个。\n已发起Excel下载，请完成保存并在Chrome下载列表确认。`;
     }catch(error){text.textContent='扫描未完成：'+error.message+'\n请修复后再次点击扩展。不会把部分扫描当作完整名单。';}
     finally{globalThis.__studioCopyrightRunning=false;button.textContent='关闭提示';button.onclick=()=>host.remove();}
   }

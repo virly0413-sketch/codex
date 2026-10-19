@@ -11,7 +11,7 @@ test('classify copyright and blocked labels without mistaking age or revenue sta
   assert.equal(core.StudioCopyright.classify('None'),null);
   for(const label of ['Age restriction','年龄限制','Limited','No copyright issues',''])assert.equal(core.StudioCopyright.classify(label),undefined);
 });
-function fixture(pages,{missingCell=false,failNext=false,start=0,rowMarkup=null,extraRow=''}={}){
+function fixture(pages,{missingCell=false,failNext=false,start=0,rowMarkup=null,extraRow='',bridgeFailure=false}={}){
   const channel='UC_o03Jz0Ek8xYGE_oy3zapg';
   const dom=new JSDOM('<html><body><div id="rows"></div><button id="navigate-before">prev</button><button id="navigate-after">next</button></body></html>',{url:'https://studio.youtube.com/channel/'+channel+'/videos/upload',runScripts:'outside-only'});
   const w=dom.window;w.TextEncoder=TextEncoder;w.alert=()=>{};
@@ -19,8 +19,9 @@ function fixture(pages,{missingCell=false,failNext=false,start=0,rowMarkup=null,
   const realTimeout=w.setTimeout.bind(w);w.setTimeout=(fn,ms)=>realTimeout(fn,0);
   if(failNext){let now=0;w.Date.now=()=>now+=10000;}
   let index=start;const messages=[];
-  w.chrome={runtime:{sendMessage:async m=>{messages.push(m);return {id:1};}}};
-  function render(){w.document.getElementById('rows').innerHTML=pages[index].map((r,i)=>rowMarkup?rowMarkup(r,i):`<ytcp-video-row><a href="/video/${r[0]}/edit" title="${r[1]}">${r[1]}</a>${missingCell?'':`<div id="restrictions">${r[2]}</div>`}<div id="visibility">${r[3]||'Private'}</div></ytcp-video-row>`).join('')+extraRow;w.document.getElementById('navigate-before').disabled=index===0;w.document.getElementById('navigate-after').disabled=index===pages.length-1;}
+  w.eval(source('model_reader.js'));
+  w.chrome={runtime:{sendMessage:async m=>{if(m.type==='studioRows')return bridgeFailure?{error:'bridge unavailable'}:{rows:w.readStudioRowModels(m.token)};messages.push(m);return {id:1};}}};
+  function render(){w.document.getElementById('rows').innerHTML=pages[index].map((r,i)=>rowMarkup?rowMarkup(r,i):`<ytcp-video-row><a href="/video/${r[0]}/edit" title="${r[1]}">${r[1]}</a>${missingCell?'':`<div id="restrictions">${r[2]}</div>`}<div id="visibility">${r[3]||'Private'}</div></ytcp-video-row>`).join('')+extraRow;Array.from(w.document.querySelectorAll('ytcp-video-row')).forEach((row,i)=>{if(pages[index][i]?.[5])row.data=pages[index][i][5];});w.document.getElementById('navigate-before').disabled=index===0;w.document.getElementById('navigate-after').disabled=index===pages.length-1;}
   w.document.getElementById('navigate-before').onclick=()=>{index--;render();};
   w.document.getElementById('navigate-after').onclick=()=>{if(!failNext){index++;render();}};render();
   w.eval(source('xlsx.js'));w.eval(source('content.js'));
@@ -28,7 +29,7 @@ function fixture(pages,{missingCell=false,failNext=false,start=0,rowMarkup=null,
 }
 test('reads existing tab, returns to first page, paginates, exports copyright and blocked',async()=>{
   const f=fixture([[['copyright01','Copyright drama','Copyright'],['normal00001','Copyright in TITLE only','None']],[['blocked0001','Blocked drama','Copyright — Blocked'],['agerisk0001','Other','年龄限制']]],{start:1});
-  try{assert.match(await f.done(),/扫描完成：4 个未发布视频/);assert.equal(f.messages.length,1);assert.match(f.messages[0].filename,/\.xlsx$/);
+  try{assert.match(await f.done(),/列表读取结束：4 个未发布视频/);assert.equal(f.messages.length,1);assert.match(f.messages[0].filename,/\.xlsx$/);
     const bytes=Buffer.from(f.messages[0].url.split(',')[1],'base64');
     let at=0,main='';while(bytes.readUInt32LE(at)===0x04034b50){const size=bytes.readUInt32LE(at+18),n=bytes.readUInt16LE(at+26),extra=bytes.readUInt16LE(at+28),name=bytes.subarray(at+30,at+30+n).toString(),begin=at+30+n+extra;if(name==='xl/worksheets/sheet1.xml')main=bytes.subarray(begin,begin+size).toString();at=begin+size;}
     assert.match(main,/Copyright drama/);assert.match(main,/Blocked drama/);assert.doesNotMatch(main,/TITLE only|Other/);
@@ -36,7 +37,7 @@ test('reads existing tab, returns to first page, paginates, exports copyright an
   }finally{f.dom.window.close();}
 });
 test('missing restrictions column fails without exporting a misleading empty workbook',async()=>{
-  const f=fixture([[['copyright01','A','Copyright']]],{missingCell:true});try{assert.match(await f.done(),/无法定位版权限制列/);assert.equal(f.messages.length,0);}finally{f.dom.window.close();}
+  const f=fixture([[['copyright01','A','Copyright']]],{missingCell:true});try{assert.match(await f.done(),/无法定位版权限制或通知列/);assert.equal(f.messages.length,0);}finally{f.dom.window.close();}
 });
 test('pagination timeout does not export a partial result',async()=>{
   const f=fixture([[['copyright01','A','Copyright']],[['blocked0001','B','Blocked']]],{failNext:true});try{assert.match(await f.done(),/翻页后列表未稳定/);assert.equal(f.messages.length,0);}finally{f.dom.window.close();}
@@ -60,7 +61,7 @@ test('recognizes private scheduled and unlisted without confusing public',()=>{
 });
 test('includes all three unpublished types in default scan',async()=>{
   const f=fixture([[['copyright01','A','Copyright','Private'],['blocked0001','B','Blocked','Scheduled'],['unlisted001','C','Copyright','Unlisted']]]);
-  try{assert.match(await f.done(),/扫描完成：3/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/unlisted001/);}finally{f.dom.window.close();}
+  try{assert.match(await f.done(),/列表读取结束：3/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/unlisted001/);}finally{f.dom.window.close();}
 });
 test('public list is refused before any next-page navigation',async()=>{
   const f=fixture([[['public00001','A','Copyright','Public']],[['copyright01','B','Copyright','Private']]]);
@@ -68,13 +69,55 @@ test('public list is refused before any next-page navigation',async()=>{
 });
 test('handles separate title text and standard YouTube watch link plus blank placeholder',async()=>{
   const f=fixture([[['copyright01','Separate title','Copyright']]],{rowMarkup:r=>`<ytcp-video-row><a id="video-thumbnail" href="https://www.youtube.com/watch?v=${r[0]}">1:20:00</a><span id="video-title">${r[1]}</span><div id="restrictions">${r[2]}</div><div id="visibility">私享</div></ytcp-video-row>`,extraRow:'<ytcp-video-row></ytcp-video-row>'});
-  try{assert.match(await f.done(),/扫描完成：1/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/Separate title/);assert.doesNotMatch(main,/1:20:00/);}finally{f.dom.window.close();}
+  try{assert.match(await f.done(),/列表读取结束：1/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/Separate title/);assert.doesNotMatch(main,/1:20:00/);}finally{f.dom.window.close();}
 });
 test('thumbnail URL can supply missing video ID',async()=>{
   const f=fixture([[['copyright01','Thumbnail source','Copyright']]],{rowMarkup:r=>`<ytcp-video-row><img src="https://i.ytimg.com/vi/${r[0]}/hqdefault.jpg"><span id="video-title">${r[1]}</span><div id="restrictions">${r[2]}</div><div id="visibility">Private</div></ytcp-video-row>`});
-  try{assert.match(await f.done(),/扫描完成：1/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet1.xml'),/Thumbnail source/);}finally{f.dom.window.close();}
+  try{assert.match(await f.done(),/列表读取结束：1/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet1.xml'),/Thumbnail source/);}finally{f.dom.window.close();}
 });
 test('missing title preserves link and explicitly marks name for review',async()=>{
   const f=fixture([[['copyright01','','Copyright']]]);
-  try{assert.match(await f.done(),/扫描完成：1/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet1.xml'),/名称未读取/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet4.xml'),/copyright01/);}finally{f.dom.window.close();}
+  try{assert.match(await f.done(),/列表读取结束：1/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet1.xml'),/名称未读取/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet4.xml'),/copyright01/);}finally{f.dom.window.close();}
+});
+
+test('draft rows without anchors use only the marked row-bound video model',async()=>{
+  const f=fixture([[['copyright01','Draft with claim','可能存在收入限制','草稿',null,{video:{videoId:'copyright01',title:'Draft with claim'},unrelatedSecret:'not-exported'}]]],{rowMarkup:r=>`<ytcp-video-row><span id="video-title">${r[1]}</span><div id="notifications">${r[2]}</div><div id="visibility">${r[3]}</div><button>编辑草稿</button></ytcp-video-row>`});
+  try{assert.match(await f.done(),/列表读取结束：1/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/Draft with claim/);assert.match(main,/watch\?v=copyright01/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet2.xml'),/可能存在收入限制（通知，原因待核对）/);assert.doesNotMatch(Buffer.from(f.messages[0].url.split(',')[1],'base64').toString(),/not-exported/);}finally{f.dom.window.close();}
+});
+test('draft with no extractable ID preserves its name and marks the missing link',async()=>{
+  const f=fixture([[['copyright01','No ID draft','可能存在收入限制','草稿']]],{bridgeFailure:true,rowMarkup:r=>`<ytcp-video-row><span id="video-title">${r[1]}</span><div id="notifications">${r[2]}</div><div id="visibility">草稿</div><button>编辑草稿</button></ytcp-video-row>`});
+  try{assert.match(await f.done(),/链接待核对 1/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/No ID draft/);assert.doesNotMatch(main,/watch\?v=/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet5.xml'),/未伪造视频链接/);}finally{f.dom.window.close();}
+});
+test('draft model IDs stay attached to the correct row across pagination',async()=>{
+  const pages=[[['copyright01','First draft','Copyright','草稿',null,{videoId:'copyright01'}]],[['blocked0001','Second draft','Blocked','草稿',null,{videoId:'blocked0001'}]]];
+  const f=fixture(pages,{rowMarkup:r=>`<ytcp-video-row><span id="video-title">${r[1]}</span><div id="notifications">${r[2]}</div><div id="visibility">草稿</div></ytcp-video-row>`});
+  try{assert.match(await f.done(),/列表读取结束：2/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/copyright01/);assert.match(main,/blocked0001/);}finally{f.dom.window.close();}
+});
+test('model reader never walks unrelated global account or token objects',()=>{
+  const d=new JSDOM('<ytcp-video-row data-studio-copyright-token="sc_0000000000000000" data-studio-copyright-key="0"></ytcp-video-row>',{runScripts:'outside-only'});
+  try{const row=d.window.document.querySelector('ytcp-video-row');row.__data={videoData:{videoId:'copyright01',title:'Draft title'},session:{videoId:'wrong000001',token:'private-token'}};d.window.eval(source('model_reader.js'));const result=d.window.readStudioRowModels('sc_0000000000000000');assert.equal(result[0].id,'copyright01');assert.doesNotMatch(JSON.stringify(result),/private-token|wrong000001/);}finally{d.window.close();}
+});
+test('notice and restrictions columns are both considered',async()=>{
+  const f=fixture([[['copyright01','Draft notice','可能存在收入限制','草稿',null,{videoId:'copyright01'}]]],{rowMarkup:r=>`<ytcp-video-row><span id="video-title">${r[1]}</span><div id="restrictions">—</div><div id="notification-container">${r[2]}</div><div id="visibility">草稿</div></ytcp-video-row>`});
+  try{await f.done();assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet1.xml'),/Draft notice/);}finally{f.dom.window.close();}
+});
+
+test('background bridge injects only into the sender Studio frame and returns sanitized row data',()=>{
+  const d=new JSDOM('<ytcp-video-row data-studio-copyright-token="sc_0000000000000000" data-studio-copyright-key="0"><span>A draft</span></ytcp-video-row>',{runScripts:'outside-only'});
+  try{
+    d.window.document.querySelector('ytcp-video-row').data={videoId:'copyright01',title:'A draft'};
+    let listener,injected;
+    const sandbox={chrome:{runtime:{onMessage:{addListener(fn){listener=fn;}}},scripting:{executeScript(options,callback){injected=options;const fn=d.window.eval('('+options.func.toString()+')');callback([{result:fn(...options.args)}]);}}}};
+    vm.createContext(sandbox);sandbox.importScripts=name=>vm.runInContext(source(name),sandbox);vm.runInContext(source('background.js'),sandbox);
+    let response;
+    const keepAlive=listener({type:'studioRows',token:'sc_0000000000000000'},{url:'https://studio.youtube.com/channel/UC_o03Jz0Ek8xYGE_oy3zapg/videos/upload',tab:{id:7},frameId:0},r=>response=r);
+    assert.equal(keepAlive,true);assert.equal(injected.world,'MAIN');assert.equal(injected.target.tabId,7);assert.equal(injected.target.frameIds[0],0);assert.equal(response.rows[0].id,'copyright01');
+  }finally{d.window.close();}
+});
+test('background bridge rejects non-Studio senders',()=>{
+  let listener,calls=0,response;
+  const sandbox={chrome:{runtime:{onMessage:{addListener(fn){listener=fn;}}},scripting:{executeScript(){calls++;}}}};
+  vm.createContext(sandbox);sandbox.importScripts=name=>vm.runInContext(source(name),sandbox);vm.runInContext(source('background.js'),sandbox);
+  listener({type:'studioRows',token:'sc_0000000000000000'},{url:'https://example.com',tab:{id:1}},r=>response=r);
+  assert.equal(calls,0);assert.match(response.error,/无效/);
 });

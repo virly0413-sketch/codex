@@ -48,10 +48,12 @@
     const blocked=/(blocked|禁播|屏蔽|заблокир|bloquead)/i.test(text);
     if(copyright)return blocked?'版权问题及禁播标识':'版权声明/版权问题';
     if(blocked)return '禁播（版权原因待核对）';
+    if(/(可能存在收入限|可能.*(?:收益|收入).*限制|potential.*(?:revenue|monetization|ad suitability)|possible.*(?:revenue|monetization|ad restriction)|ad suitability issues)/i.test(text))return '可能存在收入限制（通知，原因待核对）';
     return undefined;
   }
   function visibility(text){
     text=String(text||'').replace(/\s+/g,' ').trim();
+    if(/(draft|草稿|черновик|borrador|초안)/i.test(text))return 'draft';
     if(/(scheduled|定时|已安排|预定发布|排定|запланирован|programad|예약)/i.test(text))return 'scheduled';
     if(/(unlisted|不公开|非公开|не в списке|по ссылке|no listado|일부 공개)/i.test(text))return 'unlisted';
     if(/(private|私密|私享|私人|ограниченный доступ|privad|비공개)/i.test(text))return 'private';
