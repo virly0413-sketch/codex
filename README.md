@@ -1,8 +1,8 @@
-# 俄语男频 · 无字封面与单击发布
+# 俄语男频 · 最新22部排片、无字封面与单击发布
 
 新增：[YouTube禁播/限制单次检测](MONITOR_GUIDE.md)。Windows双击 `start_monitor_windows.bat`，每次点击扫描一次，生成仅含视频名称、视频链接两列的Excel，无定时轮询。普通API无法保证覆盖Studio所有版权封锁，具体范围见说明。
 
-目标频道：**UC_o03Jz0Ek8xYGE_oy3zapg**。已按新排片表的“俄语男频”行制作 **2026年10月18—25日共8条排片、24个俄语标题、8张无文字封面**，每天北京时间 **17:00**。
+目标频道：**UC_o03Jz0Ek8xYGE_oy3zapg**。已按最新《排片表 - 俄语.csv》制作 **2026年10月20日—11月10日共22条排片、66个俄语标题、22张无文字封面**，每天北京时间 **17:00**。原表10月26日起日期为空，本包按每日一部顺延，可在发布前修改。[完整俄语使用说明](RUSSIAN_GUIDE.md)。
 
 标题根据资源表剧情简介制作；封面是 AI 剧情概念画面，没有叠加标题文字。语种栏空白不等于已确认配音，标题未声称俄语音轨已验证。无实时竞品数据验证或流量承诺。
 
@@ -10,8 +10,8 @@
 
 1. 本页绿色 **Code → Download ZIP**，完整解压。
 2. 安装 Python 3.10+（包含 Tk；Windows 选中 Add Python to PATH）。
-3. Windows 双击 start_windows.bat；Mac/Linux 运行 bash start_mac_linux.sh。
-4. 点击“导入内置素材”，加载俄语排片和封面。也可双击 **assets_ru/index.html** 离线查看，标题表为 assets_ru/titles.csv。
+3. Windows 双击 **start_russian_windows.bat**；Mac/Linux安装依赖后运行 `python desktop.py --config profiles/russian.json`。
+4. 点击“导入内置素材”，加载最新俄语排片和封面。也可双击 **assets_ru_20261020/index.html** 离线查看，标题表为 **assets_ru_20261020/titles.xlsx**。铁锤武魂剧有两个版本，请在代码框选择已上传视频的对应版本。
 5. 配置 client_secret.json，通过“切换授权频道”选择目标俄语频道，再扫描已上传视频。
 6. 选择视频、标题、代码和北京时间，点击一次 **“发布”**。无需另点审核、批准或确认。
 
@@ -19,10 +19,10 @@
 
 ## 配置和验证
 
-- 默认配置与 profiles/russian.json 相同；俄语使用 token.ru.json、local_work_ru，英语历史配置在 profiles/english.json，不混用令牌与素材。
+- 默认配置与 profiles/russian.json 相同；本批俄语使用 token.ru.json、local_work_ru_20261020，英语配置在 profiles/english.json，不混用任务与素材。旧俄语配置保存在 profiles/russian_20261018.json。
 - 本机代理预设 http://127.0.0.1:7897；可在界面保存新地址并运行“诊断连接”。
 - 需要 Google Cloud YouTube Data API v3 桌面 OAuth；具体步骤见 [使用说明.md](使用说明.md)。
 - 标题与封面已在 ChatGPT 对话中制作，程序不需要 OpenAI API Key。后续新批次仍需生成新素材再导入。
-- 已通过26项离线/模拟测试、8条素材导入、图片完整性和尺寸验证。真实俄语频道读取及修改尚未实测；没有在本次聊天中修改 YouTube。
+- 提供工作流与禁播检测离线/模拟测试，涵盖素材导入、版本选择和发布按钮回调。真实俄语频道读取及修改尚未实测；没有在本次聊天中修改 YouTube。
 
 仅发布选定排片、代码和生成素材，不包含原始资源表、网盘链接、提取码、视频或授权令牌。不要提交本机 token*.json 和 local_work*/。

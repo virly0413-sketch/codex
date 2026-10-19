@@ -1,0 +1,805 @@
+[
+  {
+    "job_id": "b8a7f97e9541ac4d",
+    "title_zh": "边疆老卒御赐老婆后我越活越勇",
+    "publish_local": "2026-10-20T17:00:00+08:00",
+    "publish_at": "2026-10-20T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 964,
+        "resource_title": "《边疆老卒御赐老婆后我越活越勇》AI真人",
+        "drama_code": "2026 WW27",
+        "category": "男频",
+        "minutes": "82",
+        "episodes": "42",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "CSV日期表头"
+  },
+  {
+    "job_id": "f8e28bff3949ceb7",
+    "title_zh": "我宗门真的全是老弱病残啊",
+    "publish_local": "2026-10-21T17:00:00+08:00",
+    "publish_at": "2026-10-21T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-21",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 873,
+        "resource_title": "《我宗门真的全是老弱病残啊》",
+        "drama_code": "2609 KR87",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "预计50集",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "CSV日期表头"
+  },
+  {
+    "job_id": "9b796ac5d9ca1ad9",
+    "title_zh": "我靠医术横扫江都",
+    "publish_local": "2026-10-22T17:00:00+08:00",
+    "publish_at": "2026-10-22T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-22",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 781,
+        "resource_title": "《我靠医术横扫江都》AI仿真人",
+        "drama_code": "2609 KR54",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "50",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "CSV日期表头"
+  },
+  {
+    "job_id": "37a93a9138773323",
+    "title_zh": "武魂觉醒我用锤子一人成军",
+    "publish_local": "2026-10-23T17:00:00+08:00",
+    "publish_at": "2026-10-23T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-23",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 801,
+        "resource_title": "《武魂觉醒我用锤子一人成军》AI仿真人",
+        "drama_code": "2609 KR64",
+        "category": "男频",
+        "minutes": "90",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      },
+      {
+        "resource_csv_line": 1019,
+        "resource_title": "《武魂觉醒我用锤子一人成军》AI+实拍",
+        "drama_code": "2026 WW52",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "66+1集花絮",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required",
+      "version_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "CSV日期表头"
+  },
+  {
+    "job_id": "63d7c6d42ccaa0f1",
+    "title_zh": "九龙归位震八方",
+    "publish_local": "2026-10-24T17:00:00+08:00",
+    "publish_at": "2026-10-24T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-24",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 847,
+        "resource_title": "《九龙归位震八方》AI真人",
+        "drama_code": "2609 KR81",
+        "category": "男频",
+        "minutes": "93",
+        "episodes": "58",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "CSV日期表头"
+  },
+  {
+    "job_id": "5144bea95f73bb37",
+    "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+    "publish_local": "2026-10-25T17:00:00+08:00",
+    "publish_at": "2026-10-25T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-25",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 856,
+        "resource_title": "《分家后我靠聚宝镯走上人生巅峰》AI真人",
+        "drama_code": "2609 KR83",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "CSV日期表头"
+  },
+  {
+    "job_id": "b4af15379647394c",
+    "title_zh": "我相亲捡属性开局怒怼化债女",
+    "publish_local": "2026-10-26T17:00:00+08:00",
+    "publish_at": "2026-10-26T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-26",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 783,
+        "resource_title": "《我相亲捡属性开局怒怼化债女》AI仿真人",
+        "drama_code": "2609 KR55",
+        "category": "男频",
+        "minutes": "135",
+        "episodes": "69",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "a50e30c1abceae7e",
+    "title_zh": "归来后我踩碎所有偏见",
+    "publish_local": "2026-10-27T17:00:00+08:00",
+    "publish_at": "2026-10-27T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-27",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 904,
+        "resource_title": "《归来后我踩碎所有偏见》AI+实拍",
+        "drama_code": "2026 WW32",
+        "category": "男频",
+        "minutes": "92",
+        "episodes": "47",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "fdfea1102168d1b6",
+    "title_zh": "战神归来前妻你哭什么",
+    "publish_local": "2026-10-28T17:00:00+08:00",
+    "publish_at": "2026-10-28T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-28",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 887,
+        "resource_title": "《战神归来前妻你哭什么》AI真人",
+        "drama_code": "2609 KR91",
+        "category": "男频",
+        "minutes": "83",
+        "episodes": "45",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "391a300958fe92a1",
+    "title_zh": "旁人笑我木讷不知我有老仙金手指",
+    "publish_local": "2026-10-29T17:00:00+08:00",
+    "publish_at": "2026-10-29T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-29",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 848,
+        "resource_title": "《旁人笑我木讷不知我有老仙金手指》AI真人",
+        "drama_code": "2609 KR82",
+        "category": "男频",
+        "minutes": "88",
+        "episodes": "59",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "8cc9dbbf7f042ea0",
+    "title_zh": "婚礼照常新娘换人",
+    "publish_local": "2026-10-30T17:00:00+08:00",
+    "publish_at": "2026-10-30T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-30",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 861,
+        "resource_title": "《婚礼照常新娘换人》AI真人",
+        "drama_code": "2609 KR84",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "52",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "5944b148c1049991",
+    "title_zh": "穿越女频开局送皇后白月光进东厂",
+    "publish_local": "2026-10-31T17:00:00+08:00",
+    "publish_at": "2026-10-31T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-10-31",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 863,
+        "resource_title": "《穿越女频开局送皇后白月光进东厂》",
+        "drama_code": "2609 KR85",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "27f6b05b2111701d",
+    "title_zh": "龙神报恩我一出海鱼获满满",
+    "publish_local": "2026-11-01T17:00:00+08:00",
+    "publish_at": "2026-11-01T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-01",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 824,
+        "resource_title": "《龙神报恩我一出海鱼获满满》AI真人",
+        "drama_code": "2609 KR76",
+        "category": "男频",
+        "minutes": "73",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "55dd1d5b511f879b",
+    "title_zh": "我造的机甲被老婆直播曝光了",
+    "publish_local": "2026-11-02T17:00:00+08:00",
+    "publish_at": "2026-11-02T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-02",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 826,
+        "resource_title": "《我造的机甲被老婆直播曝光了》AI真人",
+        "drama_code": "2609 KR77",
+        "category": "男频",
+        "minutes": "72",
+        "episodes": "59",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "a95bbf002f446a39",
+    "title_zh": "猴王报恩全村傻眼了",
+    "publish_local": "2026-11-03T17:00:00+08:00",
+    "publish_at": "2026-11-03T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-03",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 819,
+        "resource_title": "《猴王报恩全村傻眼了》AI仿真人",
+        "drama_code": "2609 KR73",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "48af242905be51ee",
+    "title_zh": "我家浴缸通海底",
+    "publish_local": "2026-11-04T17:00:00+08:00",
+    "publish_at": "2026-11-04T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-04",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 775,
+        "resource_title": "《我家浴缸通海底》AI仿真人 ",
+        "drama_code": "2609 KR51",
+        "category": "男频",
+        "minutes": "75",
+        "episodes": "46",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "6a52a2fd61484b9d",
+    "title_zh": "玄孙女曝光我的仙人身份藏不住了",
+    "publish_local": "2026-11-05T17:00:00+08:00",
+    "publish_at": "2026-11-05T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-05",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 734,
+        "resource_title": "《玄孙女曝光我的仙人身份藏不住了》",
+        "drama_code": "2609 KR35",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "67c66b33e9125a96",
+    "title_zh": "渔夫从神奇龙珠开始起飞",
+    "publish_local": "2026-11-06T17:00:00+08:00",
+    "publish_at": "2026-11-06T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 720,
+        "resource_title": "《渔夫从神奇龙珠开始起飞》AI仿真人",
+        "drama_code": "2609 KR30",
+        "category": "男频",
+        "minutes": "67",
+        "episodes": "预计50",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "ce29be7c0c642ec7",
+    "title_zh": "万倍返还弟子越强我越神",
+    "publish_local": "2026-11-07T17:00:00+08:00",
+    "publish_at": "2026-11-07T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 760,
+        "resource_title": "《万倍返还弟子越强我越神》AI仿真人",
+        "drama_code": "2609 KR44",
+        "category": "男频",
+        "minutes": "97",
+        "episodes": "61",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "914af35d09455799",
+    "title_zh": "满级大师兄制霸都市",
+    "publish_local": "2026-11-08T17:00:00+08:00",
+    "publish_at": "2026-11-08T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 769,
+        "resource_title": "《满级大师兄制霸都市》AI仿真人",
+        "drama_code": "2609 KR48",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "72f0278cf90fd0aa",
+    "title_zh": "囤千万物资到古代娶女帝",
+    "publish_local": "2026-11-09T17:00:00+08:00",
+    "publish_at": "2026-11-09T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 719,
+        "resource_title": "《囤千万物资到古代娶女帝》AI仿真人",
+        "drama_code": "2609 KR29",
+        "category": "男频",
+        "minutes": "72",
+        "episodes": "预计50",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  },
+  {
+    "job_id": "a3592257ee20d1b5",
+    "title_zh": "跌入古井觉醒神农秘术",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "channel": "俄语男频",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "status": "awaiting_video_selection",
+    "candidates": [
+      {
+        "resource_csv_line": 745,
+        "resource_title": "《跌入古井觉醒神农秘术》AI仿真人",
+        "drama_code": "2609 KR41",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "52",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false,
+    "title_ru": null,
+    "thumbnail": null,
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date_source": "空白表头按每日一部顺延"
+  }
+]

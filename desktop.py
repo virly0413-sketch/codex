@@ -12,9 +12,10 @@ from networking import proxy_url, timeout_seconds
 
 
 class App:
-    def __init__(self, root):
+    def __init__(self, root, config_path=None):
         self.root = root
-        self.config = run.load(run.ROOT / 'config.json')
+        self.config_path = Path(config_path or run.ROOT / 'config.json').resolve()
+        self.config = run.load(self.config_path)
         self.jobs = {}
         self.busy = False
         root.title(self.config['channel_name']+' · 已上传视频匹配与定时发布')
@@ -44,21 +45,23 @@ class App:
         self.tree.pack(fill='x', padx=10, pady=8)
         self.tree.bind('<<TreeviewSelect>>', self.select)
         form = ttk.Frame(root); form.pack(fill='x', padx=10)
-        self.video, self.publish = tk.StringVar(), tk.StringVar()
+        self.video, self.publish_time = tk.StringVar(), tk.StringVar()
         self.title = tk.StringVar(); self.code = tk.StringVar()
+        self.version_info = tk.StringVar()
         ttk.Label(form, text='YouTube 已上传视频').grid(row=0, column=0, sticky='w')
         self.video_box = ttk.Combobox(form, textvariable=self.video, width=95)
         self.video_box.grid(row=0, column=1, sticky='ew', pady=4)
         ttk.Label(form, text='先扫描频道；按中文剧名匹配，多条/无匹配时选择，或直接输入视频ID').grid(row=1, column=1, sticky='w')
-        ttk.Label(form, text='英语标题').grid(row=2, column=0, sticky='w')
+        ttk.Label(form, text={'ru':'俄语标题','en':'英语标题'}.get(self.config.get('language','en'),'视频标题')).grid(row=2, column=0, sticky='w')
         self.title_box = ttk.Combobox(form, textvariable=self.title, state='readonly', width=95)
         self.title_box.grid(row=2, column=1, sticky='ew', pady=4)
         ttk.Label(form, text='剧集版本代码').grid(row=3, column=0, sticky='w')
         self.code_box = ttk.Combobox(form, textvariable=self.code, state='readonly')
         self.code_box.grid(row=3, column=1, sticky='w', pady=4)
         ttk.Label(form, text='发布时间（北京）').grid(row=4, column=0, sticky='w')
-        ttk.Entry(form, textvariable=self.publish, width=35).grid(row=4, column=1, sticky='w', pady=4)
-        ttk.Label(form, text='格式 2026-10-17T17:00:00；过期排期需明确修改后重新审核').grid(row=5, column=1, sticky='w')
+        ttk.Entry(form, textvariable=self.publish_time, width=35).grid(row=4, column=1, sticky='w', pady=4)
+        ttk.Label(form, text='格式 2026-10-20T17:00:00；过期排期需改为未来时间，多版本剧需选择对应代码。').grid(row=5, column=1, sticky='w')
+        ttk.Label(form, textvariable=self.version_info, wraplength=850).grid(row=6, column=1, sticky='w')
         form.columnconfigure(1, weight=1)
         self.preview = ttk.Label(root); self.preview.pack(pady=4)
         controls = ttk.Frame(root); controls.pack(fill='x', padx=10)
@@ -121,7 +124,7 @@ class App:
         try:
             config=dict(self.config,proxy_url=self.proxy.get().strip(),http_timeout_seconds=int(self.timeout.get()))
             proxy_url(config);timeout_seconds(config)
-            run.save(run.ROOT/'config.json',config);self.config=config
+            run.save(self.config_path,config);self.config=config
             self.log.insert('end','\n网络设置已保存。下一次授权/扫描使用新设置。\n')
             return True
         except Exception as exc:
@@ -161,7 +164,9 @@ class App:
             self.title_box['values'] = creative['titles']; self.title.set(creative['titles'][0])
             self.code_box['values'] = [c['drama_code'] for c in j['candidates']]
             self.code.set(creative.get('drama_code') or '')
-            self.publish.set(j['publish_local'][:19] if j['publish_local'] else '')
+            self.version_info.set('；'.join(f"{c['drama_code']}：{c.get('minutes','?')}分钟 / {c.get('episodes','?')}集"
+                                             for c in j['candidates']))
+            self.publish_time.set(j['publish_local'][:19] if j['publish_local'] else '')
             cache = run.ROOT / self.config['work'] / 'channel_videos.json'
             videos = run.load(cache) if cache.exists() else []
             private = [v for v in videos if v['status'].get('privacyStatus') == 'private']
@@ -181,7 +186,7 @@ class App:
             creative = run.load(run.ROOT / self.config['work'] / iid / 'creative.json')
             args = argparse.Namespace(job=iid, video_id=self.video.get().split(' | ', 1)[0].strip() or None,
                 title=creative['titles'].index(self.title.get())+1, cover=1, code=self.code.get(),
-                publish_local=self.publish.get())
+                publish_local=self.publish_time.get())
         except Exception as exc: messagebox.showerror('请检查输入', str(exc)); return
         self.task(lambda: run.review(self.config, args))
 
@@ -192,7 +197,7 @@ class App:
             if not self.video.get().strip():raise ValueError('请先扫描并选择要发布的具体视频。')
             args=argparse.Namespace(job=iid,video_id=self.video.get().split(' | ',1)[0].strip(),
                 title=creative['titles'].index(self.title.get())+1,cover=1,code=self.code.get(),
-                publish_local=self.publish.get())
+                publish_local=self.publish_time.get())
         except Exception as exc:messagebox.showerror('请检查发布内容',str(exc));return
         self.task(lambda:run.publish(self.config,args))
 
@@ -229,4 +234,7 @@ class App:
 
 
 if __name__ == '__main__':
-    window = tk.Tk(); App(window); window.mainloop()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--config', default=str(run.ROOT/'config.json'))
+    args = parser.parse_args()
+    window = tk.Tk(); App(window, args.config); window.mainloop()

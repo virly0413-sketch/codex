@@ -1,0 +1,586 @@
+{
+  "version": 2,
+  "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+  "channel": "俄语男频",
+  "language": "ru",
+  "thumbnail_text_mode": "none",
+  "generation_method": "ChatGPT conversation; supplied resource synopsis; one existing same-drama composition reused with background lettering removed",
+  "research_status": "Synopsis-based; current Russian competitor research not performed",
+  "jobs": [
+    {
+      "job_id": "b8a7f97e9541ac4d",
+      "title_zh": "边疆老卒御赐老婆后我越活越勇",
+      "publish_local": "2026-10-20T17:00:00+08:00",
+      "publish_at": "2026-10-20T09:00:00Z",
+      "titles": [
+        "В 53 года он пошёл в солдаты ради еды. Три жены изменили его судьбу",
+        "Император подарил старому солдату трёх жён — и пробудил его силу",
+        "Старый солдат получил систему и начал жизнь заново"
+      ],
+      "drama_code": "2026 WW27",
+      "candidate_codes": [
+        "2026 WW27"
+      ],
+      "covers": [
+        "covers/b8a7f97e9541ac4d.jpg"
+      ],
+      "reasoning": "老卒生存困境、御赐三女与回春升级反差",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "CSV日期表头"
+    },
+    {
+      "job_id": "f8e28bff3949ceb7",
+      "title_zh": "我宗门真的全是老弱病残啊",
+      "publish_local": "2026-10-21T17:00:00+08:00",
+      "publish_at": "2026-10-21T09:00:00Z",
+      "titles": [
+        "Все смеялись над его немощными учителями. Но они вырастили чудовище",
+        "Он носил воду и рубил дрова. Никто не знал, какую силу он обрёл",
+        "Его считали бездарным. Один удар раскрыл тайну трёх старых мастеров"
+      ],
+      "drama_code": "2609 KR87",
+      "candidate_codes": [
+        "2609 KR87"
+      ],
+      "covers": [
+        "covers/f8e28bff3949ceb7.jpg"
+      ],
+      "reasoning": "老弱师父外表与隐世强者真相反差",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "CSV日期表头"
+    },
+    {
+      "job_id": "9b796ac5d9ca1ad9",
+      "title_zh": "我靠医术横扫江都",
+      "publish_local": "2026-10-22T17:00:00+08:00",
+      "publish_at": "2026-10-22T09:00:00Z",
+      "titles": [
+        "Пять мастеров отправили его жениться. Жених оказался опаснее всех врагов",
+        "Он приехал ради помолвки — и разрушил заговор против семьи невесты",
+        "Его приняли за простака. Но этот жених владеет тайными искусствами"
+      ],
+      "drama_code": "2609 KR54",
+      "candidate_codes": [
+        "2609 KR54"
+      ],
+      "covers": [
+        "covers/9b796ac5d9ca1ad9.jpg"
+      ],
+      "reasoning": "被轻视的婚约对象与神医实力反转",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "CSV日期表头"
+    },
+    {
+      "job_id": "37a93a9138773323",
+      "title_zh": "武魂觉醒我用锤子一人成军",
+      "publish_local": "2026-10-23T17:00:00+08:00",
+      "publish_at": "2026-10-23T09:00:00Z",
+      "titles": [
+        "Его даром был жалкий молот. Он превратил зверей в механическую армию",
+        "Невеста отвергла его слабый дар. Теперь за ним идёт армия стальных зверей",
+        "Над его молотом смеялись. Пока он не создал механического дракона"
+      ],
+      "drama_code": null,
+      "candidate_codes": [
+        "2609 KR64",
+        "2026 WW52"
+      ],
+      "covers": [
+        "covers/37a93a9138773323.jpg"
+      ],
+      "reasoning": "废武魂铁锤与机械兽军团的视觉反差",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "请按已上传视频版本选择代码；不自动猜测。",
+      "date_source": "CSV日期表头"
+    },
+    {
+      "job_id": "63d7c6d42ccaa0f1",
+      "title_zh": "九龙归位震八方",
+      "publish_local": "2026-10-24T17:00:00+08:00",
+      "publish_at": "2026-10-24T09:00:00Z",
+      "titles": [
+        "Она предложила фиктивный брак. Жених оказался повелителем тайного ордена",
+        "Его презирали на семейном пиру. Один приказ заставил всех замолчать",
+        "Бывшая невеста пришла на свадьбу — и узнала, кого потеряла"
+      ],
+      "drama_code": "2609 KR81",
+      "candidate_codes": [
+        "2609 KR81"
+      ],
+      "covers": [
+        "covers/63d7c6d42ccaa0f1.jpg"
+      ],
+      "reasoning": "假结婚、宴会轻视与隐藏身份揭晓",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "CSV日期表头"
+    },
+    {
+      "job_id": "5144bea95f73bb37",
+      "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+      "publish_local": "2026-10-25T17:00:00+08:00",
+      "publish_at": "2026-10-25T09:00:00Z",
+      "titles": [
+        "Брату отдали лучший сад, ему — пустую гору. Но браслет остался у него",
+        "Семья выгнала его на бесплодную землю. Вскоре все пожалели об этом",
+        "Он ушёл из семьи с одним браслетом — и превратил пустошь в богатство"
+      ],
+      "drama_code": "2609 KR83",
+      "candidate_codes": [
+        "2609 KR83"
+      ],
+      "covers": [
+        "covers/5144bea95f73bb37.jpg"
+      ],
+      "reasoning": "偏心分家、荒山与灵水果园逆袭",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "CSV日期表头"
+    },
+    {
+      "job_id": "b4af15379647394c",
+      "title_zh": "我相亲捡属性开局怒怼化债女",
+      "publish_local": "2026-10-26T17:00:00+08:00",
+      "publish_at": "2026-10-26T09:00:00Z",
+      "titles": [
+        "Свидания давали ему деньги и таланты. Он раскрыл чужие корыстные планы",
+        "Его бросили без денег. Новая система превратила свидания в путь к успеху",
+        "На свидании его хотели использовать. Но он уже разгадал этот план"
+      ],
+      "drama_code": "2609 KR55",
+      "candidate_codes": [
+        "2609 KR55"
+      ],
+      "covers": [
+        "covers/b4af15379647394c.jpg"
+      ],
+      "reasoning": "相亲骗局与属性奖励成长机制",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "a50e30c1abceae7e",
+      "title_zh": "归来后我踩碎所有偏见",
+      "publish_local": "2026-10-27T17:00:00+08:00",
+      "publish_at": "2026-10-27T09:00:00Z",
+      "titles": [
+        "Он отсидел за чужое преступление. Вернувшись, забрал всё украденное",
+        "Семья выбрала приёмного сына. Он доказал, кто написал их лучшие песни",
+        "Они украли его песни и жизнь. После тюрьмы он отказался прощать"
+      ],
+      "drama_code": "2026 WW32",
+      "candidate_codes": [
+        "2026 WW32"
+      ],
+      "covers": [
+        "covers/a50e30c1abceae7e.jpg"
+      ],
+      "reasoning": "替罪入狱、作品被盗与断亲夺回人生",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "fdfea1102168d1b6",
+      "title_zh": "战神归来前妻你哭什么",
+      "publish_local": "2026-10-28T17:00:00+08:00",
+      "publish_at": "2026-10-28T09:00:00Z",
+      "titles": [
+        "Жена считала его домохозяином. После развода узнала, кем он был",
+        "Он тайно спасал её бизнес. Она променяла его на помощника",
+        "Она унизила мужа перед всеми. Но за ним стояла целая империя"
+      ],
+      "drama_code": "2609 KR91",
+      "candidate_codes": [
+        "2609 KR91"
+      ],
+      "covers": [
+        "covers/fdfea1102168d1b6.jpg"
+      ],
+      "reasoning": "居家丈夫被背叛与战神幕后身份反转",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "391a300958fe92a1",
+      "title_zh": "旁人笑我木讷不知我有老仙金手指",
+      "publish_local": "2026-10-29T17:00:00+08:00",
+      "publish_at": "2026-10-29T09:00:00Z",
+      "titles": [
+        "Его считали глупым слугой. Древний дух пробудил в нём невероятный дар",
+        "Над ним смеялась вся секта. Пока его меч не рассёк горную вершину",
+        "Он стал учеником духа из нефритового амулета — и потряс всю секту"
+      ],
+      "drama_code": "2609 KR82",
+      "candidate_codes": [
+        "2609 KR82"
+      ],
+      "covers": [
+        "covers/391a300958fe92a1.jpg"
+      ],
+      "reasoning": "被嘲木讷杂役与玉佩老仙指点的爆发",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "8cc9dbbf7f042ea0",
+      "title_zh": "婚礼照常新娘换人",
+      "publish_local": "2026-10-30T17:00:00+08:00",
+      "publish_at": "2026-10-30T09:00:00Z",
+      "titles": [
+        "На свадьбе он сменил невесту. Лишь тогда бывшая узнала, кто он такой",
+        "Три года его унижали в семье. В день свадьбы он выбрал другую",
+        "Она вернулась к первой любви. Он женился на другой и раскрыл своё богатство"
+      ],
+      "drama_code": "2609 KR84",
+      "candidate_codes": [
+        "2609 KR84"
+      ],
+      "covers": [
+        "covers/8cc9dbbf7f042ea0.jpg"
+      ],
+      "reasoning": "婚礼换新娘与豪门继承人身份反转",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "5944b148c1049991",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "publish_local": "2026-10-31T17:00:00+08:00",
+      "publish_at": "2026-10-31T09:00:00Z",
+      "titles": [
+        "Он проснулся в теле униженного императора. Теперь дворец играет по его правилам",
+        "Императрица держала его на коленях. Но прежний император уже исчез",
+        "Все считали его марионеткой. Он отнял власть у тех, кто им управлял"
+      ],
+      "drama_code": "2609 KR85",
+      "candidate_codes": [
+        "2609 KR85"
+      ],
+      "covers": [
+        "covers/5944b148c1049991.jpg"
+      ],
+      "reasoning": "受辱傀儡皇帝觉醒后反掌权力",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "27f6b05b2111701d",
+      "title_zh": "龙神报恩我一出海鱼获满满",
+      "publish_local": "2026-11-01T17:00:00+08:00",
+      "publish_at": "2026-11-01T09:00:00Z",
+      "titles": [
+        "Он спас дракона и купил старую лодку. Теперь море само отдаёт ему богатство",
+        "Родня выгнала рыбака. Но дракон пришёл защитить своего спасителя",
+        "Его лодку хотели сжечь. Из моря поднялся дракон, которому он спас жизнь"
+      ],
+      "drama_code": "2609 KR76",
+      "candidate_codes": [
+        "2609 KR76"
+      ],
+      "covers": [
+        "covers/27f6b05b2111701d.jpg"
+      ],
+      "reasoning": "旧船渔夫救龙获报与恶亲戚目睹神龙",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "55dd1d5b511f879b",
+      "title_zh": "我造的机甲被老婆直播曝光了",
+      "publish_local": "2026-11-02T17:00:00+08:00",
+      "publish_at": "2026-11-02T09:00:00Z",
+      "titles": [
+        "Жена искала его тайник в прямом эфире — и нашла четырёхметрового робота",
+        "Все смеялись над её мужем. Пока его секретная машина не ожила",
+        "Его считали бездельником. Один прямой эфир раскрыл тайного учёного"
+      ],
+      "drama_code": "2609 KR77",
+      "candidate_codes": [
+        "2609 KR77"
+      ],
+      "covers": [
+        "covers/55dd1d5b511f879b.jpg"
+      ],
+      "reasoning": "邋遢居家丈夫与四米机甲科学家身份反转",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "a95bbf002f446a39",
+      "title_zh": "猴王报恩全村傻眼了",
+      "publish_local": "2026-11-03T17:00:00+08:00",
+      "publish_at": "2026-11-03T09:00:00Z",
+      "titles": [
+        "Он спас маленькую обезьяну. Когда пришла беда, за него вступился царь обезьян",
+        "У него хотели снести лечебницу. Но с гор спустился царь обезьян",
+        "Сельские богачи унизили лекаря. Они не знали, кому он однажды спас жизнь"
+      ],
+      "drama_code": "2609 KR73",
+      "candidate_codes": [
+        "2609 KR73"
+      ],
+      "covers": [
+        "covers/a95bbf002f446a39.jpg"
+      ],
+      "reasoning": "救幼猴善举与猴王护恩阻止恶霸的回报",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "48af242905be51ee",
+      "title_zh": "我家浴缸通海底",
+      "publish_local": "2026-11-04T17:00:00+08:00",
+      "publish_at": "2026-11-04T09:00:00Z",
+      "titles": [
+        "Семья не ценила его труд. В съёмной квартире он нашёл путь на морское дно",
+        "Он съехал с женой и дочерью. Их старая ванна скрывала невероятную тайну",
+        "За краем старой ванны оказалось море. Его новая жизнь началась в тесной квартире"
+      ],
+      "drama_code": "2609 KR51",
+      "candidate_codes": [
+        "2609 KR51"
+      ],
+      "covers": [
+        "covers/48af242905be51ee.jpg"
+      ],
+      "reasoning": "被家人辜负的顶梁柱与出租屋浴缸海底通道",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "6a52a2fd61484b9d",
+      "title_zh": "玄孙女曝光我的仙人身份藏不住了",
+      "publish_local": "2026-11-05T17:00:00+08:00",
+      "publish_at": "2026-11-05T09:00:00Z",
+      "titles": [
+        "Праправнучка включила камеру — и раскрыла тайну бессмертного предка",
+        "Они пришли снести родовой дом. Но его хозяин оказался бессмертным",
+        "Семья считала его легендой. Он вернулся и заставил обидчиков пожалеть"
+      ],
+      "drama_code": "2609 KR35",
+      "candidate_codes": [
+        "2609 KR35"
+      ],
+      "covers": [
+        "covers/6a52a2fd61484b9d.jpg"
+      ],
+      "reasoning": "晚辈直播撞见突破与拆迁惊动仙人老祖",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "67c66b33e9125a96",
+      "title_zh": "渔夫从神奇龙珠开始起飞",
+      "publish_local": "2026-11-06T17:00:00+08:00",
+      "publish_at": "2026-11-06T09:00:00Z",
+      "titles": [
+        "Ему достались долги брата. Волшебная жемчужина превратила рыбака в богача",
+        "Бандиты окружили его лодку. Он позвал акул и китов на помощь",
+        "Над бедным рыбаком смеялись. Но море слушалось его приказов"
+      ],
+      "drama_code": "2609 KR30",
+      "candidate_codes": [
+        "2609 KR30"
+      ],
+      "covers": [
+        "covers/67c66b33e9125a96.jpg"
+      ],
+      "reasoning": "亡兄债务与龙珠御海、鲸鲨护船反差",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "ce29be7c0c642ec7",
+      "title_zh": "万倍返还弟子越强我越神",
+      "publish_local": "2026-11-07T17:00:00+08:00",
+      "publish_at": "2026-11-07T09:00:00Z",
+      "titles": [
+        "Его предал лучший друг. Сила учеников помогла ему вернуться сильнее",
+        "Он сделал обезьяну своим учеником — и исцелил смертельные раны",
+        "Дочь унизили из-за слабости. Отец пробудил в ней силу ледяного феникса"
+      ],
+      "drama_code": "2609 KR44",
+      "candidate_codes": [
+        "2609 KR44"
+      ],
+      "covers": [
+        "covers/ce29be7c0c642ec7.jpg"
+      ],
+      "reasoning": "投资弟子返还修为与神猴、冰凰天赋成长",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "914af35d09455799",
+      "title_zh": "满级大师兄制霸都市",
+      "publish_local": "2026-11-08T17:00:00+08:00",
+      "publish_at": "2026-11-08T09:00:00Z",
+      "titles": [
+        "Старшая сестра отказалась от жениха. Младшая узнала, какого мастера он скрывал",
+        "Он спустился с гор ради свадьбы — и спас всю семью невесты",
+        "Его считали простым женихом. Но он остановил стрелков одним копьём"
+      ],
+      "drama_code": "2609 KR48",
+      "candidate_codes": [
+        "2609 KR48"
+      ],
+      "covers": [
+        "covers/914af35d09455799.jpg"
+      ],
+      "reasoning": "下山婚约、姐妹换嫁与医武双绝能力反转",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "72f0278cf90fd0aa",
+      "title_zh": "囤千万物资到古代娶女帝",
+      "publish_local": "2026-11-09T17:00:00+08:00",
+      "publish_at": "2026-11-09T09:00:00Z",
+      "titles": [
+        "До переноса в древность оставалась неделя. Он успел запастись всем",
+        "Он попал в древность бедным сиротой — с целым складом из будущего",
+        "Современные запасы сделали его советником императора и мужем бывшей правительницы"
+      ],
+      "drama_code": "2609 KR29",
+      "candidate_codes": [
+        "2609 KR29"
+      ],
+      "covers": [
+        "covers/72f0278cf90fd0aa.jpg"
+      ],
+      "reasoning": "提前一周囤货与古代贫民身份反差",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    },
+    {
+      "job_id": "a3592257ee20d1b5",
+      "title_zh": "跌入古井觉醒神农秘术",
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "publish_at": "2026-11-10T09:00:00Z",
+      "titles": [
+        "Его бросили в старый колодец. На дне он обрёл дар древнего целителя",
+        "Деревня считала его глупцом. Вернувшись из колодца, он раскрыл их преступления",
+        "Его пытались убрать навсегда. Но древний дух сделал его мастером исцеления"
+      ],
+      "drama_code": "2609 KR41",
+      "candidate_codes": [
+        "2609 KR41"
+      ],
+      "covers": [
+        "covers/a3592257ee20d1b5.jpg"
+      ],
+      "reasoning": "被害坠井与神农传承、装傻逆袭",
+      "language": "ru",
+      "thumbnail_text_mode": "none",
+      "audio_availability": "有",
+      "thumbnail_note": "无文字AI剧情概念图，非实际剧照。",
+      "version_note": "",
+      "date_source": "空白表头按每日一部顺延"
+    }
+  ],
+  "sha256": {
+    "covers/b8a7f97e9541ac4d.jpg": "e8591f2eb10c3643e077fae82a7b2e6d4399a57b6533b78682bbe82f50fa65fa",
+    "covers/f8e28bff3949ceb7.jpg": "73a929bd6768e6fda1aab40c03e6100df00a2f743d866622fc469db891026dd8",
+    "covers/9b796ac5d9ca1ad9.jpg": "2a354ea37f6d2eeeae4ab4810b3f4014c5fd7a851e3bd64c11c6a543641ad40e",
+    "covers/37a93a9138773323.jpg": "9c762cc568ef7333158b5b4966d39292c6fd265716b79f5f68b8cf0b1e931f7d",
+    "covers/63d7c6d42ccaa0f1.jpg": "506278501a01040237064f13a8c2e37d0f5bab80de3d1be624286bdd9c795b21",
+    "covers/5144bea95f73bb37.jpg": "534de4529c81e23cfa842a9ce49739b8fb80d588b05f8a0946e6c6a819c083a7",
+    "covers/b4af15379647394c.jpg": "1636d5155df3c9c0b6a60d02956d2ea6fa39a553e3deb2f5650668b08498c421",
+    "covers/a50e30c1abceae7e.jpg": "2a084beda75b077d722e0cb495f74e25af0ca769bbb24fd81cbb140b2b29ae08",
+    "covers/fdfea1102168d1b6.jpg": "9a7ea2e3bcae0da572b618466d0ce008537cb090ce9c188547dc5550f8a258f9",
+    "covers/391a300958fe92a1.jpg": "96369dee8af654a7674dbd7a0421ca5d6efaf61cb247477ccd184bbf104eeafd",
+    "covers/8cc9dbbf7f042ea0.jpg": "0a0959d1a9f3c01db52427620066d7ed4630e256f86410a40754410a0efbedca",
+    "covers/5944b148c1049991.jpg": "988722bad79bb9baac5df5251b408bc4e3b7afe57a8aa86feffe840889bae7fc",
+    "covers/27f6b05b2111701d.jpg": "36d764bf39d4311fb7c7e376ed5fa1b3f576549cfebf71adda721bd676b9916e",
+    "covers/55dd1d5b511f879b.jpg": "7cf03c461d0f6fcfe9ad6b8af80e304f39f0d7e3a6b054bb0ead10112dbf4b66",
+    "covers/a95bbf002f446a39.jpg": "b44dc646606f74ecf75da5ac53e850e6252e6203693b5f40127605d3fabc7eb3",
+    "covers/48af242905be51ee.jpg": "531c9d632d6b2a976ed7a7e2f981d361f3c9911c1842744c0916e7dc04e3ac69",
+    "covers/6a52a2fd61484b9d.jpg": "9910d41abe425f4f4774b55875c839fc2165dff9d2f6d6fb146d1fd0d361296f",
+    "covers/67c66b33e9125a96.jpg": "a4bacc69699ae16ccfd92ecab8fe5187f63a8b41d677f4e3fd73fb1d9d6dfdbf",
+    "covers/ce29be7c0c642ec7.jpg": "30e46fd9d787cd3a91514ab729781fdf87fd51772762361062c2a2957fa92aa5",
+    "covers/914af35d09455799.jpg": "ff395eabbc44ed50a5e40ab021d1aa94093cf8520efcae4a8751944919ed0cc4",
+    "covers/72f0278cf90fd0aa.jpg": "d5c7f1c656f6e85d855e858d760248d41a1d1097dee62c1e5bd3cfc9a36a27a5",
+    "covers/a3592257ee20d1b5.jpg": "d6870113bba56c11050b9e8c05b4476ecf3f90f02ca5f10f36fe920a64b060ad"
+  }
+}

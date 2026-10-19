@@ -270,9 +270,9 @@ class WorkflowTests(unittest.TestCase):
             run.plan(ru)
             run.import_pack(ru,argparse.Namespace(pack=str(RELEASE_ROOT/ru['assets_path'])))
         jobs=run.load(run.ROOT/ru['work']/'queue.json')
-        self.assertEqual(len(jobs),8)
-        self.assertEqual(min(j['date'] for j in jobs),'2026-10-18')
-        self.assertEqual(max(j['date'] for j in jobs),'2026-10-25')
+        self.assertEqual(len(jobs),22)
+        self.assertEqual(min(j['date'] for j in jobs),'2026-10-20')
+        self.assertEqual(max(j['date'] for j in jobs),'2026-11-10')
         self.assertTrue(all(j['channel_id']==ru['channel_id'] and j['language']=='ru' for j in jobs))
         self.assertTrue(all(j['publish_local'][11:16]=='17:00' for j in jobs))
         manifest=run.load(RELEASE_ROOT/ru['assets_path']/'manifest.json')
@@ -285,6 +285,39 @@ class WorkflowTests(unittest.TestCase):
                 self.assertEqual(run.digest(RELEASE_ROOT/ru['assets_path']/cover),manifest['sha256'][cover])
         with self.assertRaisesRegex(ValueError,'其他频道'):
             run.import_pack(en,argparse.Namespace(pack=str(RELEASE_ROOT/ru['assets_path'])))
+
+    def test_russian_ambiguous_version_does_not_guess_code(self):
+        ru=run.load(RELEASE_ROOT/'profiles/russian.json')
+        entries=run.load(RELEASE_ROOT/ru['planning_source'])
+        hammer=next(j for j in entries if j['title_zh']=='武魂觉醒我用锤子一人成军')
+        self.assertEqual({c['drama_code'] for c in hammer['candidates']},{'2609 KR64','2026 WW52'})
+        manifest=run.load(RELEASE_ROOT/ru['assets_path']/'manifest.json')
+        asset=next(j for j in manifest['jobs'] if j['job_id']==hammer['job_id'])
+        self.assertIsNone(asset['drama_code'])
+        run.save(run.ROOT/'local_work/queue.json',[dict(hammer,job_id='job')])
+        run.save(self.directory/'creative.json',dict(asset,cover_count=1))
+        args=argparse.Namespace(job='job',title=1,cover=1,code=None,video_id='existing123',publish_local=None)
+        with patch.object(run,'auth') as authentication,self.assertRaisesRegex(ValueError,'exact resource version'):
+            run.review(self.config,args)
+        authentication.assert_not_called()
+
+    def test_desktop_publish_button_retains_callable_after_time_field_creation(self):
+        import desktop
+        config=run.load(RELEASE_ROOT/'profiles/russian.json')
+        with contextlib.ExitStack() as stack:
+            for name in ['Frame','Label','Entry','Treeview','Combobox']:
+                stack.enter_context(patch.object(desktop.ttk,name))
+            buttons=stack.enter_context(patch.object(desktop.ttk,'Button'))
+            stack.enter_context(patch.object(desktop.tk,'StringVar'))
+            stack.enter_context(patch.object(desktop.tk,'Text'))
+            stack.enter_context(patch.object(desktop.App,'refresh'))
+            stack.enter_context(patch.object(desktop.run,'load',return_value=config))
+            app=desktop.App(MagicMock(),RELEASE_ROOT/'profiles/russian.json')
+        callback=next(call.kwargs['command'] for call in buttons.call_args_list
+                      if call.kwargs.get('text')=='发布（按所选时间定时公开）')
+        self.assertTrue(callable(callback))
+        self.assertEqual(callback,app.publish)
+        self.assertEqual(app.config_path,RELEASE_ROOT/'profiles/russian.json')
 
     def test_csv_reader_uses_russian_audio_column(self):
         schedule=run.ROOT/'schedule.csv';resource=run.ROOT/'resource.csv'
