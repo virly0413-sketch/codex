@@ -1,10 +1,10 @@
 {
-  "channel_id": "",
+  "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
   "channel_name": "무협역전숏드",
   "language": "ko",
-  "work": "local_work_ko_20261026",
+  "work": "local_work_ko_20261026/UCYIkDEkNEAiaJA2HkBZtNFA",
   "oauth_client": "client_secret.json",
-  "oauth_token": "token.ko.json",
+  "oauth_token": "token.ko.UCYIkDEkNEAiaJA2HkBZtNFA.json",
   "planning_source": "data/jobs.ko.20261026.json",
   "assets_path": "assets_ko_20261026",
   "start_date": "2026-10-26",

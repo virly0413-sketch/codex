@@ -35,6 +35,8 @@ def main():
             expected=korean_config(saved['channel_id'])
             # Always use this Korean batch, keeping locally saved network/client choices only.
             config=dict(expected,**{k:saved[k] for k in ('proxy_url','http_timeout_seconds','oauth_client') if k in saved})
+        elif not saved and not args.change_channel and run.load(run.ROOT/'profiles/korean.json').get('channel_id'):
+            config=korean_config(run.load(run.ROOT/'profiles/korean.json')['channel_id'])
         else:
             while True:
                 channel_id=simpledialog.askstring('绑定韩语频道',

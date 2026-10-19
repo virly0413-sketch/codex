@@ -1,6 +1,6 @@
 # 俄语男频 · 最新22部排片、无字封面与单击发布
 
-韩语发布入口：[韩语素材接入原发布程序](KOREAN_GUIDE.md)。双击 `start_korean_windows.bat`，首次填韩语UC频道ID；点击导入内置素材即可加载21条韩语排片和封面，扫描已上传私密视频后选择标题并定时发布。使用独立配置和令牌。
+韩语发布入口：[韩语素材接入原发布程序](KOREAN_GUIDE.md)。双击 `start_korean_windows.bat`，已预设韩语UCYIkDEkNEAiaJA2HkBZtNFA；点击导入内置素材即可加载21条韩语排片和封面，扫描已上传私密视频后选择标题并定时发布。使用独立配置和令牌。
 
 新增：[JCHD排片片源核对](SHARE_CHECK_GUIDE.md)。双击 `start_share_check_windows.bat`，按具体排片行、日期和语种扫描本机可访问的共享目录，导出未匹配、多个版本和已找到的Excel；不需要YouTube授权，不修改视频。
 

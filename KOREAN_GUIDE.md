@@ -6,7 +6,7 @@
 
 1. 完整解压 **韩语发布程序ZIP**，双击 `start_korean_windows.bat`，不要运行英语/俄语启动文件。需Python 3.10+，首次自动安装requirements.txt依赖。
 2. 把原程序目录的 **client_secret.json** 复制到本包中，与start_korean_windows.bat同一目录。可使用相同Google桌面OAuth客户端，不需要把文件发给任何人。
-3. 首次启动输入 **韩语频道真实UC频道ID**。可在Studio“设置 → 频道 → 高级设置 → 管理YouTube账号”相关入口或YouTube“设置 → 高级设置”查看频道ID。不要填@标识名，也不要沿用英语、俄语ID。
+3. 已预设用户提供的韩语频道 **UCYIkDEkNEAiaJA2HkBZtNFA**（무협역전숏드），全新解压后无需再次输入ID。仍须完成Google授权，程序会核对授权频道是否一致。若沿用旧文件夹，会保留此前本机保存的频道；如需纠正旧绑定，用 `start_korean_windows.bat --change-channel` 重新填入上述ID。
 
 ## 在原界面中使用
 
