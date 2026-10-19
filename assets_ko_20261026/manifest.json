@@ -1,0 +1,474 @@
+{
+  "version": 1,
+  "channel": "무협역전숏드",
+  "language": "ko",
+  "jobs": [
+    {
+      "job_id": "3ede24b25d4a13ba",
+      "date": "2026-10-26",
+      "title_zh": "代号枪神",
+      "titles": [
+        "3년 만에 돌아온 학생, 사라진 동안 세계 최강의 총잡이가 되었다!",
+        "수업은 3년 결석, 시험은 전 과목 만점! 이 남자의 진짜 임무는?",
+        "평범한 대학생인 줄 알았는데… 약혼녀를 구한 남자의 정체는 총신"
+      ],
+      "drama_code": "2609 KR31",
+      "covers": [
+        "covers/2026-10-26_代号枪神.jpg"
+      ],
+      "reasoning": "普通大学生归来实为枪神＋满分考试反差＋救未婚妻；人物明确成年。",
+      "language": "ko",
+      "source_cell": "AP2",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "用户已确认韩语10月26—28日原排期",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "a4500cccb4c9b992",
+      "date": "2026-10-27",
+      "title_zh": "满级大师兄制霸都市",
+      "titles": [
+        "시집가기 싫다는 언니 대신 동생이 선택한 남자, 알고 보니 만렙 사형!",
+        "산에서 내려온 남자의 정체에 회장이 무릎을 꿇었다! 만렙 사형의 도시 접수",
+        "혼인을 거절당한 사형, 신의 침술과 압도적 무공으로 판을 뒤집다"
+      ],
+      "drama_code": "2609 KR48",
+      "covers": [
+        "covers/2026-10-27_满级大师兄制霸都市.jpg"
+      ],
+      "reasoning": "高人下山＋姐姐拒婚妹妹代嫁＋身份令牌与神医武力双反转。",
+      "language": "ko",
+      "source_cell": "AQ2",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "用户已确认韩语10月26—28日原排期",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "b5bc24bc512415c9",
+      "date": "2026-10-28",
+      "title_zh": "老年逆袭我竟成为山野之王",
+      "titles": [
+        "아들에게 모든 걸 주고 버림받은 아버지, 산으로 돌아가 인생 역전에 성공했다",
+        "허름한 노인이라 무시했는데… 특급 호텔이 먼저 찾는 산골 사장이 됐다!",
+        "빈손으로 고향에 돌아온 아버지, 산에서 찾은 기회로 다시 일어선다"
+      ],
+      "drama_code": "2026 WW20",
+      "covers": [
+        "covers/2026-10-28_老年逆袭我竟成为山野之王.jpg"
+      ],
+      "reasoning": "老人被子女苛待返乡＋山货供货酒店＋晚年创业逆袭；不画孙辈。",
+      "language": "ko",
+      "source_cell": "AR2",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "用户已确认韩语10月26—28日原排期",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "9a9d337806e0fcb8",
+      "date": "2026-10-29",
+      "title_zh": "从蚁王开始吞噬成神",
+      "titles": [
+        "아내의 배신으로 추락한 재벌 후계자, 개미 왕으로 돌아와 복수한다!",
+        "작은 개미로 깨어난 남자, 백만 개미 군단을 이끌고 회사를 되찾다",
+        "죽은 줄 알았던 남편이 돌아왔다… 이번엔 개미 군단을 거느리고!"
+      ],
+      "drama_code": "2609 KR57",
+      "covers": [
+        "covers/2026-10-29_从蚁王开始吞噬成神.jpg"
+      ],
+      "reasoning": "妻子背叛＋灵魂寄蚂蚁进化＋百万蚁群夺回家业。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-10-29",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "4fb50108a33048ec",
+      "date": "2026-10-30",
+      "title_zh": "大爷俺踢球养活饥荒年全家",
+      "titles": [
+        "기근에 시달리던 노포졸, 현대 축구장으로 넘어와 월드컵을 제패한다!",
+        "무공으로 축구를 한다고? 한 끼를 구하러 온 노인이 세계를 놀라게 했다",
+        "옛날 포졸의 발차기에 골문이 흔들렸다! 축구로 고향을 먹여 살리는 남자"
+      ],
+      "drama_code": "2609 KR65",
+      "covers": [
+        "covers/2026-10-30_大爷俺踢球养活饥荒年全家.jpg"
+      ],
+      "reasoning": "古代老捕快穿现代＋古武踢足球＋带物资回乡解饥荒。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-10-30",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "b6a6bc1d2dc6718a",
+      "date": "2026-10-31",
+      "title_zh": "空车超载还我三个亿的货",
+      "titles": [
+        "빈 트럭이 과적이라고? 변호사 아들, 사라진 3억 위안 화물부터 내놓으라 했다!",
+        "아버지에게 매긴 황당한 과적 벌금, 신입 변호사의 반격이 시작됐다",
+        "20년간 당한 운전기사들, 빈 트럭 한 대로 부패한 요금소를 무너뜨리다"
+      ],
+      "drama_code": "2609 KR59",
+      "covers": [
+        "covers/2026-10-31_空车超载还我三个亿的货.jpg"
+      ],
+      "reasoning": "空车超载荒诞冲突＋律师替父维权＋三亿玉石反向追责。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-10-31",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "3e53891b8c69e570",
+      "date": "2026-11-01",
+      "title_zh": "奈何桥上不许刹车",
+      "titles": [
+        "저승 다리에서는 브레이크 금지! 영구차 운전사의 목숨 건 질주",
+        "죽은 자를 운송하던 밤, 막힌 저승길을 뚫어야 살아 돌아간다!",
+        "함정에 빠진 영구차 기사, 기이한 술법으로 저승의 다리를 돌파하다"
+      ],
+      "drama_code": "2609 KR72",
+      "covers": [
+        "covers/2026-11-01_奈何桥上不许刹车.jpg"
+      ],
+      "reasoning": "阴阳运输险途＋同行设局＋灵车冲过奈何桥；封面无尸体或血腥。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-01",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "d4229b488e53edb1",
+      "date": "2026-11-02",
+      "title_zh": "诡异擂台开局召唤左千户",
+      "titles": [
+        "신들이 봉인된 결투장, 그가 소환한 것은 신이 아닌 인간 영웅이었다!",
+        "세 번의 패배로 무너진 국운… 칼을 든 인간이 괴이한 신에게 맞선다",
+        "아무도 부를 수 없던 신들 대신, 만계의 영웅들을 불러낸 남자"
+      ],
+      "drama_code": "2026 WW30",
+      "covers": [
+        "covers/2026-11-02_诡异擂台开局召唤左千户.jpg"
+      ],
+      "reasoning": "国运绝境＋无法召神转召人族英雄＋以凡人战神。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-02",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "6bcc2c0b5e5d656f",
+      "date": "2026-11-03",
+      "title_zh": "请祖宗出面讨公道",
+      "titles": [
+        "돌아가신 조상 5대가 빚을 졌다고? 본인을 데려오라던 은행 앞에 관을 가져왔다!",
+        "10년 모은 돈을 빼앗긴 남자, 조상의 빚이라는 거짓말을 뒤집다",
+        "죽은 조상의 보증인이라니… 온 마을을 속인 은행에 제대로 반격했다"
+      ],
+      "drama_code": "2609 KR62",
+      "covers": [
+        "covers/2026-11-03_请祖宗出面讨公道.jpg"
+      ],
+      "reasoning": "五代亡祖欠债荒诞设局＋银行要求本人到场＋抬棺维权揭信息盗用。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-03",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "4962035fe5ec8aee",
+      "date": "2026-11-04",
+      "title_zh": "不当黄牛全族发愁",
+      "titles": [
+        "가족에게 평생 부려 먹히던 아들, 더는 희생하지 않자 집안이 뒤집혔다!",
+        "아내까지 빼앗으려는 가족에게 반격! 감정을 모으는 시스템으로 인생 역전",
+        "효도만 강요하던 집안을 떠났다! 아내를 지키고 장원까지 오른 남자"
+      ],
+      "drama_code": "2609 KR56",
+      "covers": [
+        "covers/2026-11-04_不当黄牛全族发愁.jpg"
+      ],
+      "reasoning": "被家族当黄牛压榨＋觉醒情绪系统＋护妻并科举逆袭；不画性威胁。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-04",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "3260261e625a96ed",
+      "date": "2026-11-05",
+      "title_zh": "九龙归位震八方",
+      "titles": [
+        "가짜 결혼식에 권력자들이 줄줄이 인사하러 왔다! 신랑의 정체는 염라전주",
+        "버린 약혼자가 신랑으로 돌아왔다… 그의 명패 하나에 연회장이 얼어붙었다",
+        "정체를 감춘 남자와 계약 결혼, 알고 보니 모두가 두려워하는 절대자였다"
+      ],
+      "drama_code": "2609 KR81",
+      "covers": [
+        "covers/2026-11-05_九龙归位震八方.jpg"
+      ],
+      "reasoning": "假婚约＋曾羞辱者震惊＋权贵朝贺曝光阎罗殿主。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-05",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "c5ac72cb67b149f3",
+      "date": "2026-11-06",
+      "title_zh": "自立门户干火锅，表哥急疯了",
+      "titles": [
+        "쫓아낸 요리사가 맞은편에 훠궈집을 열자, 사촌의 가게가 텅 비었다!",
+        "쫓겨난 요리사가 가져간 것은 비법 하나… 손님들이 모두 길 건너로 향했다",
+        "함께 키운 가게에서 버림받은 남자, 진짜 훠궈의 맛으로 복수한다"
+      ],
+      "drama_code": "2609 KR58",
+      "covers": [
+        "covers/2026-11-06_自立门户干火锅，表哥急疯了.jpg"
+      ],
+      "reasoning": "合伙人背叛＋带走祖传底料对街开店＋客流反转。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-06",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "3e263f85ee36bf43",
+      "date": "2026-11-07",
+      "title_zh": "不过一瓶醋",
+      "titles": [
+        "싸구려 식재료로 속이던 사촌, 거래를 끊은 현장소장이 사실은 그룹 회장이었다!",
+        "큰 단체 주문을 기대했는데… 손님들은 그의 식당을 지나 옆집으로 갔다",
+        "도와준 은혜를 탐욕으로 갚은 친척, 진짜 회장이 거래처를 바꾸자 끝났다"
+      ],
+      "drama_code": "2609 KR69",
+      "covers": [
+        "covers/2026-11-07_不过一瓶醋.jpg"
+      ],
+      "reasoning": "亲戚克扣食材＋隐藏董事长及时止损＋工人大单越店反转。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-07",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "f32258186b4f0969",
+      "date": "2026-11-08",
+      "title_zh": "归来后我踩碎所有偏见",
+      "titles": [
+        "대신 감옥까지 갔는데 재능도 빼앗겼다! 출소한 진짜 아들의 반격",
+        "가족이 편든 가짜 천재, 진짜 주인이 부른 노래 한 곡에 무너졌다!",
+        "3년 만에 돌아온 남자, 도둑맞은 노래와 인생을 되찾고 가족을 끊어냈다"
+      ],
+      "drama_code": "2026 WW32",
+      "covers": [
+        "covers/2026-11-08_归来后我踩碎所有偏见.jpg"
+      ],
+      "reasoning": "替养子顶罪三年＋作品被窃＋原创歌实力反击断亲。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-08",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "154d9ddbd59ef4d9",
+      "date": "2026-11-09",
+      "title_zh": "我宗门真的全是老弱病残啊",
+      "titles": [
+        "노약자뿐이라던 문파, 물 긷고 장작 패던 제자가 이미 절대고수였다!",
+        "잡영근이라 무시했는데… 스승들이 시킨 집안일이 최강의 수련이었다",
+        "숨은 고수들이 키운 제자가 하산했다! 모두가 비웃던 청년의 진짜 실력"
+      ],
+      "drama_code": "2609 KR87",
+      "covers": [
+        "covers/2026-11-09_我宗门真的全是老弱病残啊.jpg"
+      ],
+      "reasoning": "老弱病残宗门反差＋日常重劳作即绝世修炼＋下山碾压。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-09",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "c4915d381607ce40",
+      "date": "2026-11-10",
+      "title_zh": "只想种地扶贫奈何万民归顺",
+      "titles": [
+        "백성을 먹여 살리려 했을 뿐인데… 버려진 황태자에게 천하가 모여들었다!",
+        "가뭄의 땅에 농장 시스템이 열렸다! 굶주린 백성들이 선택한 새 황제",
+        "왕위를 노린 적 없는데? 농사짓던 폐태자가 민심으로 제국을 뒤집다"
+      ],
+      "drama_code": "2609 KR66",
+      "covers": [
+        "covers/2026-11-10_只想种地扶贫奈何万民归顺.jpg"
+      ],
+      "reasoning": "废太子流放旱地＋农场系统供粮＋以温饱收服民心。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-10",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "e01e045effc68eb5",
+      "date": "2026-11-11",
+      "title_zh": "旁人笑我木讷不知我有老仙金手指",
+      "titles": [
+        "둔하다고 허드렛일만 시켰는데… 옥패 속 고수를 깨우자 천재가 되었다!",
+        "모두가 비웃던 잡역 제자, 단 한 자루의 검으로 산봉우리를 갈랐다",
+        "열 번 숨 쉬는 사이 수련의 문을 열었다! 고대 스승을 만난 청년의 역전"
+      ],
+      "drama_code": "2609 KR82",
+      "covers": [
+        "covers/2026-11-11_旁人笑我木讷不知我有老仙金手指.jpg"
+      ],
+      "reasoning": "被贬杂役＋玉佩中上古师父指导＋宗门大比惊人天赋。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-11",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "f08b4c67ed4bd735",
+      "date": "2026-11-12",
+      "title_zh": "市井枭雄",
+      "titles": [
+        "가게를 키워 놓자 임대료를 폭등시킨 건물주, 맞은편으로 옮기니 손님도 따라왔다!",
+        "10년 키운 슈퍼를 빼앗으려던 건물주, 결국 그 상가를 통째로 잃었다",
+        "텅 빈 매장을 보고도 몰랐다… 쫓아낸 세입자가 상가의 새 주인이 될 줄은!"
+      ],
+      "drama_code": "2609 KR60",
+      "covers": [
+        "covers/2026-11-12_市井枭雄.jpg"
+      ],
+      "reasoning": "房东贪婪暴涨租金＋商户连夜搬空对街逆袭＋最终买下原商场。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-12",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "e1fffc2b0fcb361e",
+      "date": "2026-11-13",
+      "title_zh": "逆天纸扎铺",
+      "titles": [
+        "귀신에게 쓴 돈이 100배로 돌아온다! 종이 공예점 주인의 기막힌 돈벌이",
+        "파혼당한 가게 주인, 어머니를 살리려다 저승의 큰손이 되었다!",
+        "귀신들의 소원을 들어줬을 뿐인데… 저승 전체가 그의 뒷배가 됐다"
+      ],
+      "drama_code": "2609 KR75",
+      "covers": [
+        "covers/2026-11-13_逆天纸扎铺.jpg"
+      ],
+      "reasoning": "纸扎铺小老板＋给诡花钱百倍返还＋救母并获阴司撑腰。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-13",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "5ba9100bd42adcc4",
+      "date": "2026-11-14",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "titles": [
+        "황후에게 휘둘리던 황제, 현대인이 깨어나자 더는 무릎 꿇지 않았다!",
+        "황후가 감싸던 남자를 끌어내렸다! 꼭두각시 황제의 통쾌한 반격",
+        "눈밭에 무릎 꿇던 황제가 바뀌었다… 권신과 황후를 뒤집은 남자"
+      ],
+      "drama_code": "2609 KR85",
+      "covers": [
+        "covers/2026-11-14_穿越女频开局送皇后白月光进东厂.jpg"
+      ],
+      "reasoning": "穿成窝囊皇帝＋拒绝继续被操纵＋废后反击权臣；无暴力刑罚画面。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-14",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    },
+    {
+      "job_id": "1d62dd8dc9ce8843",
+      "date": "2026-11-15",
+      "title_zh": "山海计划我把整个修仙界上交了",
+      "titles": [
+        "옷장 너머가 수선계였다! 비밀을 현대에 가져오자 과학과 선술이 맞붙었다",
+        "이세계에서 광산 노예가 될 뻔한 남자, 외골격 전투복을 입고 돌아왔다!",
+        "수선계를 혼자 독차지하지 않았다! 두 세계를 연결한 남자의 산해 프로젝트"
+      ],
+      "drama_code": "2609 KR27",
+      "covers": [
+        "covers/2026-11-15_山海计划我把整个修仙界上交了.jpg"
+      ],
+      "reasoning": "衣柜通修仙界＋现代科技外骨骼反攻＋两界合作共荣。",
+      "language": "ko",
+      "source_cell": "续排表/韩语男频/2026-11-15",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "date_source": "此前编排的7天错峰韩语续排表",
+      "thumbnail_note": "AI剧情概念图，非实际剧照；仅成年人，女性衣着得体，不含文字。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-10-26_代号枪神.jpg": "90e825b6c057e32f56dfe5df79699584e2132ab72578f96e980a9a243bdc51ae",
+    "covers/2026-10-27_满级大师兄制霸都市.jpg": "7e605675448a1b76bab78a8ec9e0861cce242b0960befdcde06b96089c64349a",
+    "covers/2026-10-28_老年逆袭我竟成为山野之王.jpg": "0ca1e3c99ca9190baff9863723320ce54b879fd8d10fd4236beccdd9283694c8",
+    "covers/2026-10-29_从蚁王开始吞噬成神.jpg": "6f4ee86a58210253acfe5cc0009c2769e88d2c355e3755af85146ade47fb6fc1",
+    "covers/2026-10-30_大爷俺踢球养活饥荒年全家.jpg": "03041a4a0127273cc040d7eba0267634f87473ededc487246d6a1fd7a8673fe4",
+    "covers/2026-10-31_空车超载还我三个亿的货.jpg": "afb5dd3cee44cb22563c5ae7349a094873a52872e8a173e9b6990e27c0681b77",
+    "covers/2026-11-01_奈何桥上不许刹车.jpg": "631d7b105505bb6cc8df3893bd2d31c9f049a57ef7031c97a6fe4554e0a98ab4",
+    "covers/2026-11-02_诡异擂台开局召唤左千户.jpg": "9a1d393e4e100e654a1c26951472ee33b7aa434995e5e74f8486df12d708638b",
+    "covers/2026-11-03_请祖宗出面讨公道.jpg": "82b743af6c8b9541e12a2b5cb39e6d9f684931faeea06df6004c1538579f8b86",
+    "covers/2026-11-04_不当黄牛全族发愁.jpg": "341cffa80d2278a081551d2869733594a5038b726f5311c366c52d30a5ab67b4",
+    "covers/2026-11-05_九龙归位震八方.jpg": "6bb6307902f026f40b2d3fba8df1d9dad6290caa85ada8c401909935fa196027",
+    "covers/2026-11-06_自立门户干火锅，表哥急疯了.jpg": "1c9037ad129227eb79587cbdbbc1b2763054b8418eeac02ce2f6b57d0beb9a2a",
+    "covers/2026-11-07_不过一瓶醋.jpg": "2a18dcd1c21ac203ecca504592631975f79a496255ff1bc5242d77b58850fa9b",
+    "covers/2026-11-08_归来后我踩碎所有偏见.jpg": "07657408995d9d117a8b22e12c408fd47b834cd355d85a2e581f605b12905d6f",
+    "covers/2026-11-09_我宗门真的全是老弱病残啊.jpg": "fcd3368918f5f613665fc0f424b550b37fd0fc2a027afa42d7aac120292b9ad2",
+    "covers/2026-11-10_只想种地扶贫奈何万民归顺.jpg": "81ada186cbc23533e3bf2dc7586f0f1ccfbd339644d0202fc4c56cb48ef9ac0c",
+    "covers/2026-11-11_旁人笑我木讷不知我有老仙金手指.jpg": "886b4449dca5bb59f22cbce348d6be7dd441379edfe327b0ae23aa00d6e8977b",
+    "covers/2026-11-12_市井枭雄.jpg": "6edc8f06a0441598139f01eb541a34f1591b430309cab551c69e543e7779f1ea",
+    "covers/2026-11-13_逆天纸扎铺.jpg": "66873c8b91766ca29e6bd3009dbc02e8d40e8165dfb88fdc41080c0f51cc8d7e",
+    "covers/2026-11-14_穿越女频开局送皇后白月光进东厂.jpg": "79b20027a53fb139eb3ade373dc2633afb195c736ec0dc2e291be17d6c0c0bcb",
+    "covers/2026-11-15_山海计划我把整个修仙界上交了.jpg": "0f8d12fa5ee43a20974153b2576587a3fa181168673120be97c9d83389060cdf"
+  },
+  "generation_method": "ChatGPT; supplied resource synopses; new text-free AI concept thumbnails",
+  "research_status": "根据所给简介创作，未进行实时韩语竞品数据抓取或流量验证。",
+  "scope": "最新上传表中韩语频道10月26日—11月15日共21部，包含此前生成的10月29—11月15日续排。"
+}
