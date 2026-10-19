@@ -1,0 +1,674 @@
+[
+  {
+    "job_id": "3ede24b25d4a13ba",
+    "title_zh": "代号枪神",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-10-26",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-26T17:00:00+08:00",
+    "publish_at": "2026-10-26T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 723,
+        "resource_title": "《代号枪神》",
+        "drama_code": "2609 KR31",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "用户已确认韩语10月26—28日原排期",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a4500cccb4c9b992",
+    "title_zh": "满级大师兄制霸都市",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-10-27",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-27T17:00:00+08:00",
+    "publish_at": "2026-10-27T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 769,
+        "resource_title": "《满级大师兄制霸都市》AI仿真人",
+        "drama_code": "2609 KR48",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "用户已确认韩语10月26—28日原排期",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b5bc24bc512415c9",
+    "title_zh": "老年逆袭我竟成为山野之王",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-10-28",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-28T17:00:00+08:00",
+    "publish_at": "2026-10-28T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 932,
+        "resource_title": "《老年逆袭我竟成为山野之王》AI真人",
+        "drama_code": "2026 WW20",
+        "category": "男频",
+        "minutes": "",
+        "episodes": "预计50集",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "用户已确认韩语10月26—28日原排期",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "9a9d337806e0fcb8",
+    "title_zh": "从蚁王开始吞噬成神",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-10-29",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-29T17:00:00+08:00",
+    "publish_at": "2026-10-29T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 787,
+        "resource_title": "《从蚁王开始吞噬成神》",
+        "drama_code": "2609 KR57",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4fb50108a33048ec",
+    "title_zh": "大爷俺踢球养活饥荒年全家",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-10-30",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-30T17:00:00+08:00",
+    "publish_at": "2026-10-30T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 802,
+        "resource_title": "《大爷俺踢球养活饥荒年全家》AI仿真人",
+        "drama_code": "2609 KR65",
+        "category": "男频",
+        "minutes": "84",
+        "episodes": "60",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b6a6bc1d2dc6718a",
+    "title_zh": "空车超载还我三个亿的货",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-10-31",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-31T17:00:00+08:00",
+    "publish_at": "2026-10-31T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 792,
+        "resource_title": "《空车超载还我三个亿的货》AI仿真人",
+        "drama_code": "2609 KR59",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "45",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3e53891b8c69e570",
+    "title_zh": "奈何桥上不许刹车",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-01",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-01T17:00:00+08:00",
+    "publish_at": "2026-11-01T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 813,
+        "resource_title": "《奈何桥上不许刹车》AI仿真人",
+        "drama_code": "2609 KR72",
+        "category": "男频",
+        "minutes": "85",
+        "episodes": "50",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d4229b488e53edb1",
+    "title_zh": "诡异擂台开局召唤左千户",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-02",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-02T17:00:00+08:00",
+    "publish_at": "2026-11-02T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 897,
+        "resource_title": "《诡异擂台开局召唤左千户》AI真人",
+        "drama_code": "2026 WW30",
+        "category": "男频",
+        "minutes": "69",
+        "episodes": "51",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "6bcc2c0b5e5d656f",
+    "title_zh": "请祖宗出面讨公道",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-03",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-03T17:00:00+08:00",
+    "publish_at": "2026-11-03T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 797,
+        "resource_title": "《请祖宗出面讨公道》AI仿真人",
+        "drama_code": "2609 KR62",
+        "category": "男频",
+        "minutes": "83",
+        "episodes": "55",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4962035fe5ec8aee",
+    "title_zh": "不当黄牛全族发愁",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-04",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-04T17:00:00+08:00",
+    "publish_at": "2026-11-04T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 786,
+        "resource_title": "《不当黄牛全族发愁》",
+        "drama_code": "2609 KR56",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3260261e625a96ed",
+    "title_zh": "九龙归位震八方",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-05",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T17:00:00+08:00",
+    "publish_at": "2026-11-05T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 847,
+        "resource_title": "《九龙归位震八方》AI真人",
+        "drama_code": "2609 KR81",
+        "category": "男频",
+        "minutes": "93",
+        "episodes": "58",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c5ac72cb67b149f3",
+    "title_zh": "自立门户干火锅，表哥急疯了",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T17:00:00+08:00",
+    "publish_at": "2026-11-06T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 791,
+        "resource_title": "《自立门户干火锅，表哥急疯了》AI仿真人",
+        "drama_code": "2609 KR58",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "40",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3e263f85ee36bf43",
+    "title_zh": "不过一瓶醋",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T17:00:00+08:00",
+    "publish_at": "2026-11-07T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 808,
+        "resource_title": "《不过一瓶醋》AI仿真人",
+        "drama_code": "2609 KR69",
+        "category": "男频",
+        "minutes": "79",
+        "episodes": "47",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f32258186b4f0969",
+    "title_zh": "归来后我踩碎所有偏见",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T17:00:00+08:00",
+    "publish_at": "2026-11-08T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 904,
+        "resource_title": "《归来后我踩碎所有偏见》AI+实拍",
+        "drama_code": "2026 WW32",
+        "category": "男频",
+        "minutes": "92",
+        "episodes": "47",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "154d9ddbd59ef4d9",
+    "title_zh": "我宗门真的全是老弱病残啊",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T17:00:00+08:00",
+    "publish_at": "2026-11-09T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 873,
+        "resource_title": "《我宗门真的全是老弱病残啊》",
+        "drama_code": "2609 KR87",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "预计50集",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c4915d381607ce40",
+    "title_zh": "只想种地扶贫奈何万民归顺",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 803,
+        "resource_title": "《只想种地扶贫奈何万民归顺》AI仿真人",
+        "drama_code": "2609 KR66",
+        "category": "男频",
+        "minutes": "83",
+        "episodes": "45",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e01e045effc68eb5",
+    "title_zh": "旁人笑我木讷不知我有老仙金手指",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T17:00:00+08:00",
+    "publish_at": "2026-11-11T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 848,
+        "resource_title": "《旁人笑我木讷不知我有老仙金手指》AI真人",
+        "drama_code": "2609 KR82",
+        "category": "男频",
+        "minutes": "88",
+        "episodes": "59",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f08b4c67ed4bd735",
+    "title_zh": "市井枭雄",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T17:00:00+08:00",
+    "publish_at": "2026-11-12T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 793,
+        "resource_title": "《市井枭雄》AI仿真人",
+        "drama_code": "2609 KR60",
+        "category": "男频",
+        "minutes": "63",
+        "episodes": "45",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e1fffc2b0fcb361e",
+    "title_zh": "逆天纸扎铺",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T17:00:00+08:00",
+    "publish_at": "2026-11-13T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 821,
+        "resource_title": "《逆天纸扎铺》AI真人",
+        "drama_code": "2609 KR75",
+        "category": "男频",
+        "minutes": "101",
+        "episodes": "56",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "5ba9100bd42adcc4",
+    "title_zh": "穿越女频开局送皇后白月光进东厂",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T17:00:00+08:00",
+    "publish_at": "2026-11-14T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 863,
+        "resource_title": "《穿越女频开局送皇后白月光进东厂》",
+        "drama_code": "2609 KR85",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1d62dd8dc9ce8843",
+    "title_zh": "山海计划我把整个修仙界上交了",
+    "channel": "무협역전숏드",
+    "language": "ko",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 713,
+        "resource_title": "《山海计划我把整个修仙界上交了》AI仿真人",
+        "drama_code": "2609 KR27",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "50",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "date_source": "此前编排的7天错峰韩语续排表",
+    "blockers": [
+      "rights_and_color_coded_restrictions_unverified",
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]

@@ -52,7 +52,7 @@ class App:
         self.video_box = ttk.Combobox(form, textvariable=self.video, width=95)
         self.video_box.grid(row=0, column=1, sticky='ew', pady=4)
         ttk.Label(form, text='先扫描频道；按中文剧名匹配，多条/无匹配时选择，或直接输入视频ID').grid(row=1, column=1, sticky='w')
-        ttk.Label(form, text={'ru':'俄语标题','en':'英语标题'}.get(self.config.get('language','en'),'视频标题')).grid(row=2, column=0, sticky='w')
+        ttk.Label(form, text={'ru':'俄语标题','en':'英语标题','ko':'韩语标题'}.get(self.config.get('language','en'),'视频标题')).grid(row=2, column=0, sticky='w')
         self.title_box = ttk.Combobox(form, textvariable=self.title, state='readonly', width=95)
         self.title_box.grid(row=2, column=1, sticky='ew', pady=4)
         ttk.Label(form, text='剧集版本代码').grid(row=3, column=0, sticky='w')

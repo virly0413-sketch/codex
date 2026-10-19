@@ -1,0 +1,14 @@
+{
+  "channel_id": "",
+  "channel_name": "무협역전숏드",
+  "language": "ko",
+  "work": "local_work_ko_20261026",
+  "oauth_client": "client_secret.json",
+  "oauth_token": "token.ko.json",
+  "planning_source": "data/jobs.ko.20261026.json",
+  "assets_path": "assets_ko_20261026",
+  "start_date": "2026-10-26",
+  "proxy_url": "http://127.0.0.1:7897",
+  "http_timeout_seconds": 30,
+  "thumbnail_text_mode": "none"
+}
