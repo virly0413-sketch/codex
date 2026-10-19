@@ -13,9 +13,9 @@ from zoneinfo import ZoneInfo
 import run
 from networking import read_request
 
-LIMITATION = ('普通YouTube API不提供全部Content ID版权声明、版权警告或版权收益归属。'
-              '本入口仅登记API明确返回copyright原因的视频；地区禁播、年龄限制和收益关闭不能据此认定为版权问题。'
-              '空名单不代表没有版权问题。')
+LIMITATION = ('普通YouTube API不提供黄标、完整Content ID版权声明或版权收益归属。'
+              '名单包括API可见的禁播/上传被拒，以及年龄限制等可能影响收益的记录；可能影响收益不等于已确认收益受限。'
+              '空名单不代表没有版权问题或收入限制。')
 FIELDS = ['频道名称', '频道ID', '视频名称', '视频链接', 'Studio链接', '分类', '限制详情',
           '上传状态', '可见性', '检测时间']
 
@@ -113,7 +113,7 @@ def export_excel(path, rows, studio=None, copyright_only=False):
     from openpyxl.styles import Alignment, Font, PatternFill
     book = Workbook()
     sheet = book.active
-    sheet.title = '版权问题' if copyright_only else '需处理视频'
+    sheet.title = '版权问题' if copyright_only else '禁播及收益待核对'
     sheet.append(['视频名称', '视频链接'])
     seen = set()
     for row in rows:
@@ -148,7 +148,7 @@ def export_excel(path, rows, studio=None, copyright_only=False):
     coverage.append(['项目', '结果'])
     coverage.append(['普通API', LIMITATION])
     if not copyright_only: coverage.append(['Studio收益检查', ('已完成，检查'+str(studio['checked'])+'个视频') if studio is not None else '未执行，不能判断是否存在收入限制'])
-    coverage.append(['名单口径', '只登记API明确返回copyright原因的视频，不含所有Content ID声明，未确认原因的禁播也不算版权问题' if copyright_only else '兼容模式：限制及待核对记录'])
+    coverage.append(['名单口径', '只登记API明确返回copyright原因的视频，不含所有Content ID声明，未确认原因的禁播也不算版权问题' if copyright_only else '禁播、上传被拒及有可见依据的收益待核对视频；不因普通处理失败、私密或licensedContent单独登记'])
     if not copyright_only: coverage.append(['收益说明', '收益关闭、审核中、未知状态均登记为待核对；不等同于确认收入受限。Studio页面变化可能导致无法识别。'])
     coverage.column_dimensions['A'].width=25;coverage.column_dimensions['B'].width=130
     path = Path(path)
@@ -174,7 +174,7 @@ def monitor_auth(config, reauthorize=False):
                     scopes=['https://www.googleapis.com/auth/youtube.readonly'])
 
 
-def scan(config, output=None, youtube=None, studio=None, copyright_only=True):
+def scan(config, output=None, youtube=None, studio=None, copyright_only=False):
     if youtube is None:
         youtube = monitor_auth(config)
     channel, ids, videos, fallback = read_channel(youtube, config['channel_id'])
@@ -204,7 +204,8 @@ def scan(config, output=None, youtube=None, studio=None, copyright_only=True):
     blocked = [r for r in rows if r['分类'] in ('禁播', '上传被拒')]
     attention = [r for r in rows if r['分类'] not in ('禁播', '上传被拒', 'API未返回禁播标记')]
     copyright_rows = [r for r in blocked if r['分类']=='上传被拒' and r['限制详情']=='YouTube拒绝上传：copyright']
-    registered = copyright_rows if copyright_only else blocked + attention + revenue
+    registered = copyright_rows if copyright_only else [r for r in blocked + attention + revenue
+        if r['分类'] in ('禁播','上传被拒','年龄限制','收入限制','无法创收','收益分成','收益审核中','收益关闭（需核对）','收益待核对')]
     folder = (Path(output) if output else run.ROOT / 'blocked_reports') / config['channel_id']
     folder.mkdir(parents=True, exist_ok=True)
     previous_path = folder / 'latest.json'

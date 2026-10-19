@@ -17,7 +17,7 @@ class CopyrightTests(unittest.TestCase):
         failed=helper.video('failed00001',upload='failed')
         videos=[copyright,legal,age,region,licensed,failed]
         with contextlib.redirect_stdout(io.StringIO()):
-            report,folder=monitor.scan(helper.config,helper.output,youtube=helper.api(videos))
+            report,folder=monitor.scan(helper.config,helper.output,youtube=helper.api(videos),copyright_only=True)
         self.assertEqual(report['excel_video_count'],1)
         self.assertEqual(len(report['registered']),1)
         self.assertIn('copyright01',report['registered'][0]['视频链接'])
@@ -30,6 +30,6 @@ class CopyrightTests(unittest.TestCase):
     def test_region_block_is_not_proof_of_copyright(self):
         helper=fixtures.MonitorTests();helper.setUp();self.addCleanup(helper.tearDown)
         with contextlib.redirect_stdout(io.StringIO()):
-            report,folder=monitor.scan(helper.config,helper.output,youtube=helper.api([helper.video(region={'allowed':[]})]))
+            report,folder=monitor.scan(helper.config,helper.output,youtube=helper.api([helper.video(region={'allowed':[]})]),copyright_only=True)
         self.assertEqual(report['registered'],[])
         self.assertIn('空名单不代表没有版权问题',report['limitation'])
