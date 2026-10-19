@@ -87,51 +87,100 @@ def select_files(items, language):
             Path(x['name']).suffix.lower() in VIDEOS and file_language(x) == language]
 
 
-def build_tasks(schedule, resources, languages, start=None, end=None):
-    table, catalog = read_csv(schedule), read_csv(resources)
-    if not table or len(catalog) < 2:
-        raise ValueError('排片表或资源表缺少表头。')
-    index = {}
-    for row in catalog[2:]:
-        if len(row) <= 1 or not row[0].strip():
-            continue
-        entry = {'title': row[0], 'code': row[1].strip(),
-                 'share': share_link(row[29]) if len(row) > 29 else None}
-        index.setdefault(normalize(row[0]), []).append(entry)
-    dates, last = [], None
-    for value in table[0][1:]:
-        if value.strip():
-            last = dt.datetime.strptime(value.strip(), '%Y.%m.%d').date()
-            inferred = False
-        elif last:
-            last += dt.timedelta(days=1)
-            inferred = True
+def row_language(label):
+    explicit = [language for language, aliases in ALIASES.items() if any(a in label for a in aliases)]
+    if len(explicit) == 1:
+        return explicit[0]
+    if not explicit:
+        known = [language for language, labels in LANGUAGES.items() if label.strip() in labels]
+        if len(known) == 1:
+            return known[0]
+    return None
+
+
+def schedule_rows(path):
+    table = read_csv(path)
+    if not table or len(table[0]) < 2:
+        raise ValueError('排片表需第一列为频道/语种，第一行为日期。')
+    return [dict(row=i, label=r[0].strip(), language=row_language(r[0]),
+                 populated=sum(bool(c.strip()) for c in r[1:]))
+            for i,r in enumerate(table[1:],2) if r and r[0].strip() and any(c.strip() for c in r[1:])]
+
+
+def date_columns(table, infer_blank=False):
+    dates=[];last=None;seen=set()
+    for column,value in enumerate(table[0][1:],2):
+        value=value.strip();inferred=False
+        if value:
+            match=re.fullmatch(r'(\d{4})[./年-](\d{1,2})[./月-](\d{1,2})(?:日)?(?:\s*(?:周|星期)[一二三四五六日天])?',value)
+            if not match:raise ValueError(f'第{column}列日期无法识别：{value}；请使用完整年月日。')
+            last=dt.date(*map(int,match.groups()))
+            date=last
+        elif infer_blank and last:
+            last+=dt.timedelta(days=1);date=last;inferred=True
         else:
-            inferred = False
-        dates.append((last.isoformat() if last else None, inferred))
-    tasks = []
-    for language in languages:
-        if language not in LANGUAGES:
-            raise ValueError('不支持该语种：' + language)
-        channels = [r for r in table[1:] if r and r[0].strip() in LANGUAGES[language]]
-        if len(channels) != 1:
-            raise ValueError(language + '未找到唯一频道行，请核对排片表行名。')
-        for (date, inferred), cell in zip(dates, channels[0][1:]):
-            if not date or not cell.strip() or (start and date < start) or (end and date > end):
-                continue
-            for slot, title in enumerate(cell.split('/'), 1):
-                title = title.strip()
-                if not title:
-                    continue
-                candidates = index.get(normalize(title), [])
-                key = f'{language}|{date}|{slot}|{title}'
-                selected = candidates[0] if len(candidates) == 1 else None
-                task = dict(id=hashlib.sha256(key.encode()).hexdigest()[:16], language=language,
-                    date=date, title=title, inferred_date=inferred, candidates=candidates,
-                    code=selected['code'] if selected else '', share=selected['share'] if selected else None)
-                task['status'] = ready_status(task)
-                tasks.append(task)
-    return sorted(tasks, key=lambda t: (t['date'], t['language'], t['id']))
+            date=None
+        if date in seen:raise ValueError('日期表头重复：'+date.isoformat()+'，请先核对原表。')
+        if date:seen.add(date)
+        dates.append((date.isoformat() if date else None,inferred,column))
+    return dates
+
+
+def build_tasks(schedule, resources, languages=None, start=None, end=None, *,
+                row_selections=None, days=None, infer_blank=False):
+    table,catalog=read_csv(schedule),read_csv(resources)
+    if not table or len(catalog)<2:raise ValueError('排片表或资源表缺少表头。')
+    if days is not None:
+        if not start:raise ValueError('选择天数时必须指定开始日期。')
+        if isinstance(days,bool) or not isinstance(days,int) or not 1<=days<=366:
+            raise ValueError('天数须为1—366的整数。')
+        end=(dt.date.fromisoformat(start)+dt.timedelta(days=days-1)).isoformat()
+    dates=date_columns(table,infer_blank)
+    if days is not None and start not in {d[0] for d in dates}:
+        raise ValueError('开始日期在表头中不存在；不会从相邻列猜测。请核对日期，或明确开启空白日期顺延。')
+    if row_selections is None:
+        row_selections=[]
+        for language in languages or []:
+            matches=[r for r in schedule_rows(schedule) if r['language']==language]
+            if len(matches)!=1:raise ValueError(language+'对应多行或没有对应行，请明确选择排片行。')
+            row_selections.append(dict(row=matches[0]['row'],language=language))
+    if not row_selections:raise ValueError('请至少明确选择一行排片。')
+    index={}
+    for row in catalog[2:]:
+        if len(row)<=1 or not row[0].strip():continue
+        entry=dict(title=row[0],code=row[1].strip(),share=share_link(row[29]) if len(row)>29 else None)
+        index.setdefault(normalize(row[0]),[]).append(entry)
+    schedule_hash=sha256_file(schedule);resource_hash=sha256_file(resources)
+    tasks=[];seen_rows=set()
+    for selection in row_selections:
+        number=selection['row'];language=selection['language']
+        if number in seen_rows:raise ValueError('同一排片行不能重复选择。')
+        seen_rows.add(number)
+        if not isinstance(number,int) or number<2 or number>len(table):raise ValueError('所选排片行已不存在，请重新读取。')
+        if language not in LANGUAGES:raise ValueError('所选行需要明确设置支持的语种。')
+        row=table[number-1]
+        if not row:raise ValueError('所选排片行为空。')
+        detected=row_language(row[0])
+        if detected and detected!=language:raise ValueError('所选行标注语种与指定语种不一致：'+row[0])
+        if any(c.strip() for c in row[len(table[0]):]):raise ValueError('所选行存在超出日期表头的剧名，请先补齐日期列。')
+        for date,inferred,column in dates:
+            cell=row[column-1] if column<=len(row) else ''
+            if not date or not cell.strip() or (start and date<start) or (end and date>end):continue
+            for slot,title in enumerate(cell.split('/'),1):
+                title=title.strip()
+                if not title:continue
+                matches=index.get(normalize(title),[])
+                selected=matches[0] if len(matches)==1 else None
+                key=f'{language}|{number}|{date}|{slot}|{title}'
+                from openpyxl.utils import get_column_letter
+                task=dict(id=hashlib.sha256(key.encode()).hexdigest()[:16],language=language,date=date,
+                    title=title,inferred_date=inferred,candidates=matches,
+                    code=selected['code'] if selected else '',share=selected['share'] if selected else None,
+                    source_row=number,source_row_label=row[0],source_column=column,
+                    source_cell=get_column_letter(column)+str(number),slot=slot,
+                    schedule_sha256=schedule_hash,resource_sha256=resource_hash)
+                task['status']=ready_status(task);tasks.append(task)
+    return sorted(tasks,key=lambda t:(t['date'],t['source_row'],t['source_column'],t['slot']))
 
 
 def ready_status(task):

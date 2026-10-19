@@ -7,7 +7,7 @@ from baidu_browser import DownloadUnavailable, private_error
 from baidu_download import (atomic_json, destination, ready_status, select_files,
                             sha256_file, share_identity, verified_existing)
 
-HEADERS = ['日期','语种','剧名','剧集代码','网盘文件名','状态','本地文件','说明']
+HEADERS = ['日期','语种','剧名','剧集代码','网盘文件名','状态','本地文件','说明','排片行','原表单元格']
 
 
 def write_report(path, records):
@@ -46,7 +46,7 @@ def run_downloads(tasks, folders, work, browser, scan_only=False, cancelled=lamb
     records=[];cache={}
     def add(task,status,item=None,path='',note=''):
         records.append(dict(zip(HEADERS,[task['date'],task['language'],task['title'],task.get('code',''),
-            item['name'] if item else '',status,str(path),note])))
+            item['name'] if item else '',status,str(path),note,task.get('source_row_label',''),task.get('source_cell','')])))
         write_report(work/'download_report.xlsx',records)
         log(f"{task['language']} · {task['title']} · {status}" + ((' · '+item['name']) if item else ''))
     for task in tasks:

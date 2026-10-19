@@ -74,7 +74,7 @@ class DownloadTests(unittest.TestCase):
         for title,code in [('《甲》','A'),('《乙》','B1'),('《乙》','B2')]:
             row=['']*30;row[0]=title;row[1]=code;row[29]='https://pan.baidu.com/s/demo?pwd=abcd';rows.append(row)
         with resources.open('w',encoding='utf-8-sig',newline='') as f:csv.writer(f).writerows(rows)
-        tasks=build_tasks(schedule,resources,['俄语'],start='2026-10-26')
+        tasks=build_tasks(schedule,resources,['俄语'],start='2026-10-26',infer_blank=True)
         self.assertEqual([x['date'] for x in tasks],['2026-10-26','2026-10-27'])
         self.assertEqual(tasks[0]['status'],'待选择版本代码')
         self.assertIsNone(tasks[0]['share'])
