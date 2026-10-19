@@ -1,72 +1,69 @@
-# YouTube禁播与限制单次扫描、Excel导出
+# YouTube禁播及收益限制：单次扫描、Excel导出
 
-## 下载启动
+Windows双击 **start_monitor_windows.bat**。首次安装依赖，需Python 3.10+及Microsoft Edge。此工具只检测，不会解除禁播或修改广告、收益和视频设置。每次点击扫描一次，无定时任务。
 
-下载整个仓库ZIP并完整解压，安装Python 3.10+。Windows双击 `start_monitor_windows.bat`，首次会安装现有依赖。Mac/Linux在程序目录运行：
+## 使用
 
-```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python monitor_desktop.py
-```
+1. 输入目标UC频道ID，或导入 `profiles/english.json` / `profiles/russian.json`。可以检测其他自己管理的频道，每个频道分别授权和保存报告。
+2. 选择Google桌面OAuth客户端JSON，通常为原程序的 `client_secret.json`。启用YouTube Data API v3；授权设置见[使用说明](使用说明.md)。代理默认沿用 `http://127.0.0.1:7897`，根据本机实际设置。
+3. 保持勾选 **“包含Studio收益检查”**，点击 **“扫描一次并导出Excel”**。
+4. 首次完成Google只读OAuth授权，选择正确品牌频道。随后程序打开独立Edge窗口，请登录该频道，等待Studio内容列表显示（最多3分钟）。不要手动更换频道、筛选、排序或翻页，程序读取收益列并自动翻页，完成后关闭此独立窗口。
+5. 点击“打开Excel”或“Excel另存为…”。要再次扫描时先关闭Excel文件，避免Windows锁定文件导致无法保存。
 
-1. 填入要检测的UC频道ID和名称，或“导入频道配置”选择 `profiles/english.json`、`profiles/russian.json`。也支持输入其他自己管理的频道ID。
-2. 选择Google桌面OAuth客户端JSON文件。可使用原发布程序的 `client_secret.json`；仍须启用YouTube Data API v3并在Google Auth Platform允许当前测试账号。授权设置见[使用说明](使用说明.md)。
-3. 使用VPN时确认代理端口；默认沿用 `http://127.0.0.1:7897`。
-4. 点击“扫描一次并导出Excel”，首次在浏览器登录拥有目标频道权限的账号，并选择正确品牌频道。若选错，点击“切换授权账号/频道”。程序核对频道ID，不会自动改目标。
-5. 完成后点击“打开Excel”，查看 `blocked_videos.xlsx`；也可点击“Excel另存为…”保存到桌面或指定目录。Excel仅有“视频名称”和“视频链接”两列，链接可点击，同一视频只保留一行。导出的是检测到禁播或上传被拒的视频，不混入年龄限制或私密视频。
-6. 每次点击只扫描一次，不定时重复、不在打开窗口时自动扫描。需要更新名单时再次点击。若Excel正在打开，请先关闭工作簿再重新扫描，避免Windows文件占用导致保存失败。
+浏览器登录状态保存在本机独立目录 `local_work_studio_monitor/频道ID/`，不读取你平时浏览器的Cookie，不提交到GitHub。可在Google网页自行退出登录；删除该目录前先关闭该浏览器。
 
-没有检测记录时仍生成只有表头的Excel；这只代表本次API没有返回禁播/被拒标记，不是版权无问题的保证。真实名单在你本机完成授权后生成，不会自动发送到聊天。
+## Excel内容
 
-新程序只申请 `youtube.readonly`，独立保存本机 `token.*.monitor.json`，不覆盖原发布令牌，不修改、上传、删除或公开任何视频。界面可随时输入其他频道ID；每个频道分别授权、分别保存报告。GUI与CLI的令牌命名按各自配置，首次使用不同入口可能需分别授权一次。
+文件保留为 `blocked_reports/频道ID/blocked_videos.xlsx`，包含三个工作表：
 
-## 能检测什么
+- **需处理视频**：视频名称、视频链接两列，同一视频合并一行，链接可点击。包含禁播、上传被拒及其他API异常、Studio检测到的收益问题和收益待核对记录。
+- **限制详情**：视频名称、链接、分类、原始状态文字；同一视频的多个原因分别登记。
+- **检测范围**：说明是否执行Studio收益检查、检查条数及不可检测范围。未勾选收益检查时明确显示“未执行”，不能视为收入正常。
 
-| API返回信息 | 报告分类 |
-| --- | --- |
-| regionRestriction.allowed为空 | 全球禁播 |
-| allowed非空或blocked非空 | 地区禁播，列出地区代码或允许地区 |
-| uploadStatus=rejected | 上传被拒，附copyright、legal等原始原因（如有返回） |
-| uploadStatus=failed | 上传/处理失败，单独列出 |
-| uploadStatus=deleted | 已删除，不能自动推断为版权禁播 |
-| ytAgeRestricted | 年龄限制，单独列出 |
-| 列表存在但视频详情未返回 | 状态待核对，不能自动推断禁播/删除 |
+收益列可识别：收入限制（Limited/受限等）、无法创收、收益分成、检查或审核中、收益关闭。关闭可能是主动关闭，审核中可能只是暂时状态；这些均以各自分类登记，不认定全部是处罚。空白、陌生或不可识别收益文字记为 **收益待核对**。明确识别到“On/开启”等状态时不因收益列单独列为异常，但不保证其他政策和版权状态正常。
 
-**普通YouTube Data API不提供完整Content ID版权声明和Studio“限制”详情。** 本工具可检测API返回的地区限制和拒绝状态，不能承诺检出Studio中的所有版权封锁。没有返回标记的条目标为“API未返回禁播标记”，不能据此认定版权正常。只读取API仍能在频道上传列表中列出的条目，无法找回已经从列表消失的视频。
+## 检测范围
 
-私密、未列出、定时尚未公开、禁止嵌入、`licensedContent=true`均不会单独被当作禁播。地区限制不能据此自动推断版权、法律或上传者策略的具体来源。
+**普通YouTube Data API不提供黄标、广告适宜性评级、完整收益状态或完整Content ID版权限制。** 所以收益检测依赖登录后的Studio网页可见内容，不能只靠OAuth扫描。
 
-## 本机报告
+- API检查上传列表，识别全球/地区禁播、上传被拒、失败、删除、年龄限制及详情缺失。私密、未列出、禁止嵌入、licensedContent不单独作为禁播或收益受限。
+- Studio收益检查目前只翻阅 **内容 → 视频** 普通视频列表，**不覆盖Shorts、直播或其他标签页**。这是男频长篇短剧常用的列表。
+- Studio界面可能变化，收益列缺失或文字无法识别时登记待核对；登录失败、频道不匹配、视频ID无法读取或无法确认翻页完成时，整次扫描报错，不覆盖上一份成功Excel。
+- 收益文字支持部分中英及其他语种标签，不承诺覆盖所有界面语言。建议Studio界面使用中文或英文。未知标签不会被当成正常。
+- 内容列表查不到、被删除或已经不在上传列表中的视频，无法保证覆盖；普通API无禁播标记也不代表Studio不存在版权封锁。程序不会自动处理申诉或广告适宜性自评。
+- 程序中的代理用于Google API；Edge访问Google使用Windows/浏览器自身的网络或VPN配置。若API能连但Studio打不开，请检查本机浏览器网络。
 
-默认目录为 `blocked_reports/频道ID/`：
+## 报告与重试
 
-- **`blocked_videos.xlsx`**：主要交付文件，仅含“视频名称”“视频链接”两列，按视频去重；每次成功扫描更新。请使用“Excel另存为…”另存需要保留的名单。
-- `blocked_videos.csv`：返回禁播/上传被拒标记的视频名称、观看链接、Studio链接、限制详情、可见性和北京时间。
-- `attention.csv`：年龄限制、处理失败、已删除、详情未返回等需关注记录。
-- `newly_detected.csv`：相对上次成功扫描新出现或原因改变的禁播/被拒记录。首次运行将当前检测记录全部列入；不能获取精确发生时间。
-- `all_videos.csv`：本次全部扫描记录；同一视频有多个限制时会有多行。
-- `report.html`：本地浏览器报告，支持点击视频链接和Studio链接。
-- `latest.json`：最近成功扫描及检测范围；`scan_时间戳.json`保留每次成功快照。
+每频道独立保存在 `blocked_reports/频道ID/`：
 
-网络/API读取失败时停止该次扫描，日志明确报错，不以零条限制覆盖上次成功结果。看到旧报告时请核对报告内的检测时间。报告仅保存在本机，不提交到GitHub；令牌也在忽略规则中。
+- `blocked_videos.xlsx`：主交付Excel。
+- `revenue.csv`：本次Studio收益异常及待核对记录。
+- `blocked_videos.csv`：API禁播/被拒记录。
+- `attention.csv`：其他API异常；`all_videos.csv`：全部API记录。
+- `newly_detected.csv`：仅API禁播/被拒相对上次的新增或原因变更，不含收益变更统计。
+- `report.html`：本地报告；`latest.json`及`scan_时间戳.json`保留检测范围与快照。
 
-## 无界面单次运行
+真实Excel须在你的电脑完成授权登录后生成，不会自动发回聊天。失败时请核对检测时间，不要把上次报告当成本次结果。失败可以修复登录/网络后重扫；本工具全程只读，无需担心重扫修改视频。不要同时运行多个实例检查同一频道。
 
-单次扫描（默认俄语配置）：
+OAuth使用独立 `token.*.monitor.json` 和youtube.readonly权限，不覆盖发布程序令牌。Studio独立浏览器仅使用页面读取与翻页，不点击收益开关，不改变视频设置。
 
-```sh
-python blocked_monitor.py
-```
+## 命令行
 
-英语单次检测并导出Excel：
+仅普通API（无法检测收益）：
 
 ```sh
 python blocked_monitor.py --config profiles/english.json
 ```
 
-其他参数：`--output 本机目录` 指定报告根目录；`--reauth` 重新选择授权账号/品牌频道。命令执行一次即退出，没有定时参数。频道视频逐页读取、详情每50条批量读取，不使用高消耗的搜索接口。不要同时启动多个实例检测同一频道。
+包含Studio收益检查（需要安装requirements.download.txt、浏览器及图形桌面）：
 
-## 验证范围
+```sh
+python blocked_monitor.py --config profiles/russian.json --studio
+```
 
-提供离线模拟测试，覆盖分页、地区限制空列表含义、状态区分、增量发现、失败保留、只读授权、CSV/HTML转义、单次执行，以及Excel的两列格式、按视频去重、可点击链接、文字标题不执行公式和空结果表头。未连接用户的真实频道实测；实际API可见信息以用户本机授权后的返回为准。
+可用 `--studio-browser chrome` 选择本机Chrome；默认msedge。`--output 目录` 指定报告根目录，`--reauth` 重新授权。无定时轮询参数。
+
+## 验证
+
+已通过离线与模拟测试，覆盖API分页/只读、分类、失败保留、Excel去重和文字安全，以及收益标签分类、未知状态、合并Excel及未检查标记。**未在用户真实Studio页面验证网页选择器、分页或实际黄标状态**；首次请对照Studio人工检查几条已知受限视频和Excel。网页无法识别时会报错或登记待核对，不能宣称收益全部正常。

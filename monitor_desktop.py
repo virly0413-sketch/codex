@@ -34,8 +34,10 @@ class App:
             button = ttk.Button(top, text=label, command=callback); button.grid(row=row, column=2)
             self.buttons.append(button)
         top.columnconfigure(1, weight=1)
-        ttk.Label(root, text='点击一次扫描一次，完成后生成两列Excel。首次需浏览器只读授权；请选中目标品牌频道。').pack(anchor='w', padx=12)
+        ttk.Label(root, text='点击一次扫描一次，完成后生成视频名单及限制详情Excel。首次需浏览器只读授权；请选中目标品牌频道。').pack(anchor='w', padx=12)
         ttk.Label(root, text=monitor.LIMITATION, wraplength=1070).pack(anchor='w', padx=12, pady=6)
+        self.include_studio=tk.BooleanVar(value=True)
+        ttk.Checkbutton(root,text='包含Studio收益检查（打开Edge，需登录；仅扫描普通视频列表，不包含Shorts/直播）',variable=self.include_studio).pack(anchor='w',padx=12)
         controls = ttk.Frame(root, padding=12); controls.pack(fill='x')
         for label, callback in [('扫描一次并导出Excel', self.start), ('打开Excel', self.open_excel),
                                 ('Excel另存为…', self.save_excel), ('切换授权账号/频道', self.reauth),
@@ -82,6 +84,7 @@ class App:
         try:config=self.settings()
         except Exception as exc:
             messagebox.showerror('请检查设置',str(exc));return
+        include_studio=self.include_studio.get()
         self.busy=True
         for b in self.buttons:b.configure(state='disabled')
         self.status.set('正在扫描，请等待…')
@@ -95,7 +98,11 @@ class App:
             try:
                 with contextlib.redirect_stdout(Stream()):
                     api=monitor.monitor_auth(config,reauthorize=reauthorize)
-                    result=monitor.scan(config,youtube=api)
+                    studio=None
+                    if include_studio:
+                        from studio_revenue import scan_studio
+                        studio=scan_studio(config['channel_id'],run.ROOT/'local_work_studio_monitor'/config['channel_id'])
+                    result=monitor.scan(config,youtube=api,studio=studio)
                 events.put(('result',result))
             except Exception as exc:events.put(('error',str(exc)))
             finally:events.put(('done',None))
@@ -111,9 +118,9 @@ class App:
                 elif event=='result':
                     report,self.folder=value
                     for iid in self.tree.get_children():self.tree.delete(iid)
-                    for row in report['blocked']+report['attention']:
+                    for row in report['blocked']+report['attention']+report.get('revenue',[]):
                         self.tree.insert('', 'end',values=(row['视频名称'],row['分类'],row['限制详情'],row['视频链接']))
-                    self.status.set(f"{report['channel_name']} | {report['checked_at']} | 扫描{report['upload_list_count']}条 | 禁播/被拒{report['blocked_video_count']}个 | 新增/变更{len(report['newly_detected'])}条")
+                    self.status.set(f"{report['channel_name']} | {report['checked_at']} | 扫描{report['upload_list_count']}条 | 禁播/被拒{report['blocked_video_count']}个 | Excel登记{report['excel_video_count']}个 | Studio{'已检查' if report['studio_checked'] is not None else '未检查'}")
                     self.log.insert('end','\nExcel已生成：'+str(self.folder/'blocked_videos.xlsx')+'\n点击“打开Excel”查看，或点击“Excel另存为…”保存到桌面。\n')
                     self.log.see('end')
                 elif event=='error':
@@ -139,7 +146,7 @@ class App:
     def save_excel(self):
         if not self.folder:
             messagebox.showinfo('尚无Excel','先点击“扫描一次并导出Excel”。');return
-        path=filedialog.asksaveasfilename(defaultextension='.xlsx',initialfile='禁播视频名单.xlsx',
+        path=filedialog.asksaveasfilename(defaultextension='.xlsx',initialfile='禁播与收益限制视频名单.xlsx',
             filetypes=[('Excel工作簿','*.xlsx')])
         if path:
             try:
