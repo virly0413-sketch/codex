@@ -38,7 +38,7 @@ def classify(video):
     elif upload == 'deleted':
         findings.append(('已删除', 'API返回deleted；无法据此认定为版权禁播'))
     if details.get('contentRating', {}).get('ytRating') == 'ytAgeRestricted':
-        findings.append(('年龄限制', '仅限符合年龄要求的观众；不等同于全球禁播'))
+        findings.append(('年龄限制', '仅限符合年龄要求的观众；可能影响广告投放，实际收益状态需在Studio核对；不等同于全球禁播'))
     return findings
 
 
