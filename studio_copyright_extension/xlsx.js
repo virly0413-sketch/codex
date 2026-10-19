@@ -50,5 +50,13 @@
     if(blocked)return '禁播（版权原因待核对）';
     return undefined;
   }
-  globalThis.StudioCopyright={workbook,classify};
+  function visibility(text){
+    text=String(text||'').replace(/\s+/g,' ').trim();
+    if(/(scheduled|定时|已安排|预定发布|排定|запланирован|programad|예약)/i.test(text))return 'scheduled';
+    if(/(unlisted|不公开|非公开|не в списке|по ссылке|no listado|일부 공개)/i.test(text))return 'unlisted';
+    if(/(private|私密|私享|私人|ограниченный доступ|privad|비공개)/i.test(text))return 'private';
+    if(/(\bpublic\b|公开|общий доступ|públic|공개)/i.test(text))return 'public';
+    return 'unknown';
+  }
+  globalThis.StudioCopyright={workbook,classify,visibility};
 })();

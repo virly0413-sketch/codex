@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Studio版权名单导出",
-  "version": "1.0.0",
-  "description": "点击读取当前已登录的YouTube Studio列表，导出版权声明及禁播视频Excel。",
+  "version": "1.1.0",
+  "description": "读取已登录Studio中筛选出的未发布视频，导出版权声明及禁播Excel。",
   "permissions": ["activeTab", "scripting", "downloads"],
   "action": {"default_popup": "popup.html"},
   "background": {"service_worker": "background.js"}
