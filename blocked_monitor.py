@@ -249,7 +249,7 @@ def main():
     parser.add_argument('--output', type=Path)
     parser.add_argument('--reauth', action='store_true', help='重新选择账号/品牌频道')
     parser.add_argument('--studio', action='store_true', help='登录Studio读取普通视频收益列')
-    parser.add_argument('--studio-browser', default='msedge', choices=['msedge','chrome','chromium'])
+    parser.add_argument('--studio-browser', default='auto', choices=['auto','msedge','chrome','chromium'])
     args = parser.parse_args()
     config = run.load(args.config)
     if args.reauth: monitor_auth(config, reauthorize=True)

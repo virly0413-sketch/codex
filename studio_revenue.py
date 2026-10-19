@@ -26,12 +26,13 @@ def revenue_status(text):
     return '收益待核对', text
 
 
-def scan_studio(channel_id, profile, browser='msedge', progress=print):
+def scan_studio(channel_id, profile, browser='auto', progress=print, executable=''):
     from playwright.sync_api import sync_playwright
     if not re.fullmatch(r'UC[A-Za-z0-9_-]{22}',channel_id): raise ValueError('Studio频道ID格式错误')
     result=[];seen=set();pages=set()
     with sync_playwright() as p:
-        context=p.chromium.launch_persistent_context(str(Path(profile).resolve()),channel=browser,headless=False)
+        from monitor_browser import launch_studio_browser
+        context=launch_studio_browser(p.chromium,profile,browser,executable,progress)
         try:
             page=context.pages[0] if context.pages else context.new_page()
             page.goto('https://studio.youtube.com/channel/'+channel_id+'/videos/upload',wait_until='domcontentloaded',timeout=60000)

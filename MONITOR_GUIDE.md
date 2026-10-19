@@ -1,13 +1,13 @@
 # YouTube禁播及收益限制：单次扫描、Excel导出
 
-Windows双击 **start_monitor_windows.bat**。首次安装依赖，需Python 3.10+及Microsoft Edge。此工具只检测，不会解除禁播或修改广告、收益和视频设置。每次点击扫描一次，无定时任务。
+Windows双击 **start_monitor_windows.bat**。首次安装依赖，需Python 3.10+及可用的Edge、Chrome或Chromium。此工具只检测，不会解除禁播或修改广告、收益和视频设置。每次点击扫描一次，无定时任务。
 
 ## 使用
 
 1. 输入目标UC频道ID，或导入 `profiles/english.json` / `profiles/russian.json`。可以检测其他自己管理的频道，每个频道分别授权和保存报告。
 2. 选择Google桌面OAuth客户端JSON，通常为原程序的 `client_secret.json`。启用YouTube Data API v3；授权设置见[使用说明](使用说明.md)。代理默认沿用 `http://127.0.0.1:7897`，根据本机实际设置。
 3. 保持勾选 **“包含Studio收益检查”**，点击 **“扫描一次并导出Excel”**。
-4. 首次完成Google只读OAuth授权，选择正确品牌频道。随后程序打开独立Edge窗口，请登录该频道，等待Studio内容列表显示（最多3分钟）。不要手动更换频道、筛选、排序或翻页，程序读取收益列并自动翻页，完成后关闭此独立窗口。
+4. 首次完成Google只读OAuth授权，选择正确品牌频道。随后程序打开独立浏览器窗口，请登录该频道，等待Studio内容列表显示（最多3分钟）。不要手动更换频道、筛选、排序或翻页，程序读取收益列并自动翻页，完成后关闭此独立窗口。
 5. 点击“打开Excel”或“Excel另存为…”。要再次扫描时先关闭Excel文件，避免Windows锁定文件导致无法保存。
 
 浏览器登录状态保存在本机独立目录 `local_work_studio_monitor/频道ID/`，不读取你平时浏览器的Cookie，不提交到GitHub。可在Google网页自行退出登录；删除该目录前先关闭该浏览器。
@@ -62,8 +62,17 @@ python blocked_monitor.py --config profiles/english.json
 python blocked_monitor.py --config profiles/russian.json --studio
 ```
 
-可用 `--studio-browser chrome` 选择本机Chrome；默认msedge。`--output 目录` 指定报告根目录，`--reauth` 重新授权。无定时轮询参数。
+可用 `--studio-browser chrome` 选择本机Chrome；默认auto自动查找。`--output 目录` 指定报告根目录，`--reauth` 重新授权。无定时轮询参数。
 
 ## 验证
 
 已通过离线与模拟测试，覆盖API分页/只读、分类、失败保留、Excel去重和文字安全，以及收益标签分类、未知状态、合并Excel及未检查标记。**未在用户真实Studio页面验证网页选择器、分页或实际黄标状态**；首次请对照Studio人工检查几条已知受限视频和Excel。网页无法识别时会报错或登记待核对，不能宣称收益全部正常。
+
+## 找不到Edge / msedge.exe
+
+新版浏览器默认选auto：查找系统级和用户级Edge/Chrome安装位置，再尝试已安装的专用Chromium，不再只依赖当前用户的Edge路径。
+
+- 电脑已有浏览器：在“选择浏览器EXE”中选择真实的 `msedge.exe` 或 `chrome.exe`，不要选择桌面快捷方式。常见位置为 `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe` 或 `C:\Program Files\Google\Chrome\Application\chrome.exe`。
+- 没有可用浏览器：关闭程序，双击包内 **install_monitor_browser_windows.bat** 安装专用Chromium，再启动 **start_monitor_windows.bat**，浏览器保持auto。安装失败会保留错误提示，可检查网络或改用已安装的浏览器。
+- 切换浏览器后可能需要重新登录Studio。程序使用自己的独立登录目录；请先关闭上次打开的程序浏览器窗口，避免登录目录占用。
+- 浏览器查找、路径选择、缺失提示和启动失败处理已用模拟测试验证；没有在你的Windows机器执行安装或真实浏览器启动。
