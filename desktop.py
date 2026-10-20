@@ -9,6 +9,7 @@ from pathlib import Path
 
 import run
 from networking import proxy_url, timeout_seconds
+from publisher_profiles import available_profiles, validate_profile, remember_profile
 
 
 class App:
@@ -20,8 +21,17 @@ class App:
         self.busy = False
         root.title(self.config['channel_name']+' · 已上传视频匹配与定时发布')
         root.geometry('1160x900')
-        bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
         self.buttons = []
+        self.profile_paths=available_profiles(self.config_path,getattr(root,'_publisher_profile_paths',{}))
+        root._publisher_profile_paths=self.profile_paths
+        preset_bar=ttk.Frame(root);preset_bar.pack(fill='x',padx=10,pady=6)
+        ttk.Label(preset_bar,text='选择目标频道及内置素材').pack(side='left')
+        current=next((name for name,path in self.profile_paths.items() if run.load(path).get('channel_id')==self.config.get('channel_id')),'')
+        self.profile_name=tk.StringVar(value=current)
+        ttk.Combobox(preset_bar,textvariable=self.profile_name,values=list(self.profile_paths),state='readonly',width=48).pack(side='left',padx=6)
+        preset_button=ttk.Button(preset_bar,text='切换频道及素材',command=self.switch_preset)
+        preset_button.pack(side='left');self.buttons.append(preset_button)
+        bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
         for label, callback in [('导入内置素材', self.import_assets), ('YouTube 官方授权', self.authorize),
                                 ('切换授权频道', self.switch_channel),
                                 ('扫描频道已上传视频', self.scan_channel), ('刷新列表', self.refresh)]:
@@ -29,6 +39,7 @@ class App:
             button.pack(side='left', padx=5); self.buttons.append(button)
         ttk.Label(root, text='先选择视频、标题、封面、代码和时间；点击“发布”即授权执行，无需额外审核。所有时间为北京时间。').pack(anchor='w', padx=15)
         ttk.Label(root,text='目标频道：'+self.config['channel_id']).pack(anchor='w',padx=15)
+        ttk.Label(root,text='当前内置素材：'+self.config.get('assets_path','assets')).pack(anchor='w',padx=15)
         network = ttk.Frame(root); network.pack(fill='x', padx=10, pady=4)
         self.proxy = tk.StringVar(value=self.config.get('proxy_url', ''))
         self.timeout = tk.StringVar(value=str(self.config.get('http_timeout_seconds', 30)))
@@ -73,6 +84,27 @@ class App:
         self.log.pack(fill='both', expand=True, padx=10, pady=8)
         self.refresh()
         root.protocol('WM_DELETE_WINDOW', self.close)
+
+    def switch_preset(self):
+        if self.busy:return
+        try:
+            name=self.profile_name.get()
+            if name not in self.profile_paths:raise ValueError('请先选择英语、俄语或韩语频道')
+            path=Path(self.profile_paths[name]);config=validate_profile(path)
+        except Exception as exc:
+            messagebox.showerror('无法切换频道',str(exc));return
+        def operation():
+            run.plan(config)
+            run.import_pack(config,argparse.Namespace(pack=str(run.ROOT/config['assets_path'])))
+        self.task(operation,lambda:self.activate_profile(path))
+
+    def activate_profile(self,path):
+        try:remember_profile(path)
+        except Exception as exc:
+            messagebox.showerror('无法保存频道选择',str(exc));return
+        # The worker has finished before this callback: clear all previous selections/caches.
+        for child in self.root.winfo_children():child.destroy()
+        self.__init__(self.root,path)
 
     def close(self):
         if self.busy:

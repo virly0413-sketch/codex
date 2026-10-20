@@ -21,7 +21,7 @@ class KoreanPublisherTests(unittest.TestCase):
         self.assertNotEqual(first['oauth_token'],second['oauth_token'])
         self.assertNotIn(first['work'],('local_work','local_work_ru_20261020'))
     def test_real_asset_import_and_review_use_korean_title_and_append_only_code(self):
-        config=korean_config('UC'+'a'*22)
+        config=korean_config('UCYIkDEkNEAiaJA2HkBZtNFA')
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);(root/'data').mkdir()
             (root/config['planning_source']).write_bytes((REPO/config['planning_source']).read_bytes())

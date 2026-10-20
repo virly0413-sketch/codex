@@ -16,7 +16,9 @@ def korean_config(channel_id):
     if not re.fullmatch(r'UC[A-Za-z0-9_-]{22}',channel_id):
         raise ValueError('请填写完整24位的UC频道ID，不是@标识名。')
     config=run.load(run.ROOT/'profiles/korean.json')
-    config.update(channel_id=channel_id,work='local_work_ko_20261026/'+channel_id,
+    base=Path(config.get('work','local_work_ko_20261026'))
+    if config.get('channel_id') and base.name==config['channel_id']:base=base.parent
+    config.update(channel_id=channel_id,work=str(base/channel_id),
                   oauth_token='token.ko.'+channel_id+'.json')
     return config
 

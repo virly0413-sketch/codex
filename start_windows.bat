@@ -6,7 +6,7 @@ if not exist .venv\Scripts\python.exe (
 )
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 if errorlevel 1 goto fail
-.venv\Scripts\python.exe desktop.py
+.venv\Scripts\python.exe publisher_start.py
 if errorlevel 1 goto fail
 exit /b 0
 :fail

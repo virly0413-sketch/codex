@@ -4,13 +4,13 @@
 
 ## 下载与准备
 
-1. 完整解压 **韩语发布程序ZIP**，双击 `start_korean_windows.bat`，不要运行英语/俄语启动文件。需Python 3.10+，首次自动安装requirements.txt依赖。
+1. 推荐完整解压 **多频道发布程序ZIP**，双击 `start_windows.bat`，在顶部选择韩语并点击“切换频道及素材”。也保留旧版独立启动入口。需Python 3.10+，首次自动安装requirements.txt依赖。
 2. 把原程序目录的 **client_secret.json** 复制到本包中，与start_korean_windows.bat同一目录。可使用相同Google桌面OAuth客户端，不需要把文件发给任何人。
 3. 已预设用户提供的韩语频道 **UCYIkDEkNEAiaJA2HkBZtNFA**（무협역전숏드），全新解压后无需再次输入ID。仍须完成Google授权，程序会核对授权频道是否一致。若沿用旧文件夹，会保留此前本机保存的频道；如需纠正旧绑定，用 `start_korean_windows.bat --change-channel` 重新填入上述ID。
 
 ## 在原界面中使用
 
-1. 点击 **导入内置素材**，加载21部剧。原始标题/封面文件保留在assets_ko_20261026，无需逐个导入JPG或复制Excel文字。
+1. 点击 **导入内置素材**，加载21部剧。原始标题/封面文件保留在assets_ko_20261026_4k，无需逐个导入JPG或复制Excel文字。
 2. 点击 **YouTube官方授权**，在平时浏览器完成Google授权，选择正确的韩语品牌频道。程序核对UC ID，不匹配就停止。该正常OAuth流程不使用Studio版权扩展，也不新建Playwright浏览器。
 3. 点击 **扫描频道已上传视频**，程序只读取频道上传列表。
 4. 点选左侧剧名，检查匹配到的私密视频、韩语标题、封面、代码。每部3个标题，第一条默认推荐，可下拉选择另外两条。
@@ -26,11 +26,11 @@
 
 ## 账号隔离与限制
 
-- 韩语配置只写入本机local_work_korean_launcher/config.json；任务、已扫描视频和发布记录放在local_work_ko_20261026/频道ID/；令牌为token.ko.频道ID.json。
+- 韩语配置只写入本机local_work_korean_launcher/config.json；任务、已扫描视频和发布记录放在local_work_ko_20261026_4k/频道ID/；令牌为token.ko.频道ID.json。
 - 英语、俄语配置和令牌不被改写。若要重新绑定频道，可从命令行运行 `start_korean_windows.bat --change-channel`，新频道使用独立任务目录。选错授权账号时可点击界面的“切换授权频道”。
 - 保留已有client_secret.json，不把token或本地工作目录提交到GitHub。代理默认127.0.0.1:7897，可在界面保存实际值。
 - 不自动开启广告收益、不填写“无问题”广告自评、不处理版权申诉。先在Studio核实版权问题，不把素材存在当作版权许可。
-- 图片为AI剧情概念图，非剧照；使用原素材包的图片，不重新生成或修改已完成图片。
+- 图片为AI剧情概念图，非剧照；本次按用户要求重做21张韩语封面，19部年轻痞帅成年男主，两部老人题材保留年长男主。3840×2160为放大导出，非原生4K；旧版素材仍保留。
 
 ## 验证
 

@@ -9,5 +9,6 @@
   "proxy_url": "http://127.0.0.1:7897",
   "http_timeout_seconds": 30,
   "channel_handle": "@bikan29-v8f",
-  "assets_path": "assets"
+  "assets_path": "assets",
+  "language": "en"
 }

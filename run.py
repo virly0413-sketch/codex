@@ -217,7 +217,12 @@ def import_pack(config, args):
         for number, source in enumerate(images, 1):
             with Image.open(source) as im:
                 target = directory / f'cover_{number}.jpg'
-                if im.format == 'JPEG' and im.size == (1280, 720) and source.stat().st_size < 2 * 1024 * 1024:
+                preserve_4k=manifest.get('preserve_thumbnail_resolution') is True
+                if preserve_4k:
+                    if im.format!='JPEG' or im.size!=(3840,2160) or source.stat().st_size>=2*1024*1024:
+                        raise ValueError('4K素材必须为3840×2160 JPEG且小于2MB，不会静默缩小。')
+                    shutil.copyfile(source,target)
+                elif im.format == 'JPEG' and im.size == (1280, 720) and source.stat().st_size < 2 * 1024 * 1024:
                     shutil.copyfile(source, target)
                 else:
                     image = ImageOps.pad(im.convert('RGB'), (1280, 720), color='black')
