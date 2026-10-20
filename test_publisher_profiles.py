@@ -34,10 +34,10 @@ class PresetTests(unittest.TestCase):
         app.activate_profile=Mock()
         def immediate(fn,after):fn();after()
         app.task=immediate
-        with patch.object(run,'plan') as plan,patch.object(run,'import_pack') as imp,patch.object(run,'auth') as auth:
+        with patch('desktop.load_materials',return_value=Path(choices[name])) as loader,patch.object(run,'auth') as auth:
             app.switch_preset()
-        self.assertEqual(plan.call_args.args[0]['language'],'ko')
-        self.assertEqual(imp.call_args.args[0]['channel_id'],'UCYIkDEkNEAiaJA2HkBZtNFA')
+        self.assertEqual(loader.call_args.args[0]['language'],'ko')
+        self.assertEqual(loader.call_args.args[0]['channel_id'],'UCYIkDEkNEAiaJA2HkBZtNFA')
         auth.assert_not_called();app.activate_profile.assert_called_once()
     def test_switch_blocked_while_publishing(self):
         app=App.__new__(App);app.busy=True;app.task=Mock()

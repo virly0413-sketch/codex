@@ -4,12 +4,13 @@ import contextlib
 import io
 import threading
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 from pathlib import Path
 
 import run
 from networking import proxy_url, timeout_seconds
 from publisher_profiles import available_profiles, validate_profile, remember_profile
+from material_library import material_folder, set_material_folder, load_materials
 
 
 class App:
@@ -29,10 +30,12 @@ class App:
         current=next((name for name,path in self.profile_paths.items() if run.load(path).get('channel_id')==self.config.get('channel_id')),'')
         self.profile_name=tk.StringVar(value=current)
         ttk.Combobox(preset_bar,textvariable=self.profile_name,values=list(self.profile_paths),state='readonly',width=48).pack(side='left',padx=6)
-        preset_button=ttk.Button(preset_bar,text='切换频道及素材',command=self.switch_preset)
+        preset_button=ttk.Button(preset_bar,text='切换频道并加载素材',command=self.switch_preset)
         preset_button.pack(side='left');self.buttons.append(preset_button)
+        folder_button=ttk.Button(preset_bar,text='设置所选语种素材文件夹',command=self.configure_material_folder)
+        folder_button.pack(side='left',padx=5);self.buttons.append(folder_button)
         bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
-        for label, callback in [('导入内置素材', self.import_assets), ('YouTube 官方授权', self.authorize),
+        for label, callback in [('重新加载当前语种素材', self.import_assets), ('YouTube 官方授权', self.authorize),
                                 ('切换授权频道', self.switch_channel),
                                 ('扫描频道已上传视频', self.scan_channel), ('刷新列表', self.refresh)]:
             button = ttk.Button(bar, text=label, command=callback)
@@ -40,6 +43,9 @@ class App:
         ttk.Label(root, text='先选择视频、标题、封面、代码和时间；点击“发布”即授权执行，无需额外审核。所有时间为北京时间。').pack(anchor='w', padx=15)
         ttk.Label(root,text='目标频道：'+self.config['channel_id']).pack(anchor='w',padx=15)
         ttk.Label(root,text='当前内置素材：'+self.config.get('assets_path','assets')).pack(anchor='w',padx=15)
+        self.material_info=tk.StringVar(value='当前语种素材文件夹：'+str(material_folder(self.config)))
+        ttk.Label(root,textvariable=self.material_info,wraplength=1100).pack(anchor='w',padx=15)
+        ttk.Label(root,text='已加载批次：'+self.config.get('material_batch','旧版内置')[:12]+' · '+str(self.config.get('material_job_count',''))+'部；替换文件后请点击加载。').pack(anchor='w',padx=15)
         network = ttk.Frame(root); network.pack(fill='x', padx=10, pady=4)
         self.proxy = tk.StringVar(value=self.config.get('proxy_url', ''))
         self.timeout = tk.StringVar(value=str(self.config.get('http_timeout_seconds', 30)))
@@ -90,18 +96,34 @@ class App:
         try:
             name=self.profile_name.get()
             if name not in self.profile_paths:raise ValueError('请先选择英语、俄语或韩语频道')
-            path=Path(self.profile_paths[name]);config=validate_profile(path)
+            path=Path(self.profile_paths[name]);config=run.load(path)
         except Exception as exc:
             messagebox.showerror('无法切换频道',str(exc));return
-        def operation():
-            run.plan(config)
-            run.import_pack(config,argparse.Namespace(pack=str(run.ROOT/config['assets_path'])))
-        self.task(operation,lambda:self.activate_profile(path))
+        loaded={}
+        def operation():loaded['path']=load_materials(config)
+        self.task(operation,lambda:self.activate_profile(loaded['path']))
+
+    def configure_material_folder(self):
+        if self.busy:return
+        try:
+            path=self.profile_paths[self.profile_name.get()]
+            config=run.load(path)
+            folder=filedialog.askdirectory(title='选择该语种的固定素材文件夹（仅保存路径，不修改YouTube）',mustexist=True)
+            if not folder:return
+            set_material_folder(config['language'],folder)
+            self.material_info.set('已设置 '+config['language']+' 素材文件夹：'+folder+'；点击“切换频道并加载素材”生效。')
+        except Exception as exc:messagebox.showerror('设置素材文件夹失败',str(exc))
 
     def activate_profile(self,path):
         try:remember_profile(path)
         except Exception as exc:
             messagebox.showerror('无法保存频道选择',str(exc));return
+        target=run.load(path)
+        choices=getattr(self.root,'_publisher_profile_paths',{})
+        for name,previous in list(choices.items()):
+            if run.load(previous).get('channel_id')==target['channel_id']:
+                choices[name]=str(path)
+        self.root._publisher_profile_paths=choices
         # The worker has finished before this callback: clear all previous selections/caches.
         for child in self.root.winfo_children():child.destroy()
         self.__init__(self.root,path)
@@ -166,10 +188,9 @@ class App:
         if self.save_network(): self.task(lambda:run.diagnose(self.config))
 
     def import_assets(self):
-        def operation():
-            run.plan(self.config)
-            run.import_pack(self.config, argparse.Namespace(pack=str(run.ROOT / self.config.get('assets_path','assets'))))
-        self.task(operation, self.refresh)
+        loaded={}
+        def operation():loaded['path']=load_materials(self.config)
+        self.task(operation,lambda:self.activate_profile(loaded['path']))
 
     def authorize(self):
         self.task(lambda: run.auth(self.config))
