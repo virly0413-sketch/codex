@@ -217,10 +217,14 @@ def import_pack(config, args):
         for number, source in enumerate(images, 1):
             with Image.open(source) as im:
                 target = directory / f'cover_{number}.jpg'
-                preserve_4k=manifest.get('preserve_thumbnail_resolution') is True
-                if preserve_4k:
-                    if im.format!='JPEG' or im.size!=(3840,2160) or source.stat().st_size>=2*1024*1024:
-                        raise ValueError('4K素材必须为3840×2160 JPEG且小于2MB，不会静默缩小。')
+                preserve_resolution=manifest.get('preserve_thumbnail_resolution') is True
+                if preserve_resolution:
+                    expected_size=tuple(manifest.get('thumbnail_resolution',[3840,2160]))
+                    if expected_size not in ((3840,2160),(1920,1080)):
+                        raise ValueError('保留尺寸素材仅支持3840×2160或1920×1080。')
+                    label='4K素材' if expected_size==(3840,2160) else '1080p素材'
+                    if im.format!='JPEG' or im.size!=expected_size or source.stat().st_size>=2*1024*1024:
+                        raise ValueError(label+'必须为'+str(expected_size[0])+'×'+str(expected_size[1])+' JPEG且小于2MB，不会静默缩小。')
                     shutil.copyfile(source,target)
                 elif im.format == 'JPEG' and im.size == (1280, 720) and source.stat().st_size < 2 * 1024 * 1024:
                     shutil.copyfile(source, target)
