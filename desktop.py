@@ -13,6 +13,59 @@ from publisher_profiles import available_profiles, validate_profile, remember_pr
 from material_library import material_folder, set_material_folder, load_materials
 
 
+class PublisherScrollFrame(ttk.Frame):
+    """Scroll the whole publisher while leaving list/dropdown wheel behavior intact."""
+    def __init__(self, window):
+        super().__init__(window)
+        self.window = window
+        self.canvas = tk.Canvas(self, highlightthickness=0, borderwidth=0)
+        self.scrollbar = ttk.Scrollbar(self, orient='vertical', command=self.canvas.yview)
+        self.canvas.configure(yscrollcommand=self.scrollbar.set)
+        self.scrollbar.pack(side='right', fill='y')
+        self.canvas.pack(side='left', fill='both', expand=True)
+        self.content = ttk.Frame(self.canvas)
+        self.content_window = self.canvas.create_window(0, 0, window=self.content, anchor='nw')
+        self.content.bind('<Configure>', self.update_region)
+        self.canvas.bind('<Configure>', self.resize_content)
+        self.wheel_bindings = [(event, window.bind(event, self.scroll_wheel, add='+'))
+                               for event in ('<MouseWheel>', '<Button-4>', '<Button-5>')]
+        self.bind('<Destroy>', self.cleanup)
+
+    def update_region(self, event=None):
+        self.canvas.configure(scrollregion=self.canvas.bbox('all'))
+
+    def resize_content(self, event):
+        self.canvas.itemconfigure(self.content_window, width=event.width)
+        self.update_region()
+
+    def scroll_wheel(self, event):
+        # Text, task lists and dropdowns retain their own native scrolling.
+        if event.widget.winfo_class() in ('Text', 'Treeview', 'Listbox', 'TCombobox'):
+            return
+        if self.content.winfo_height() <= self.canvas.winfo_height():
+            return
+        number = getattr(event, 'num', None)
+        delta = getattr(event, 'delta', 0)
+        if number in (4, 5):
+            units = -1 if number == 4 else 1
+        elif delta:
+            units = -int(delta / 120) if abs(delta) >= 120 else (-1 if delta > 0 else 1)
+        else:
+            return
+        self.canvas.yview_scroll(units, 'units')
+        return 'break'
+
+    def cleanup(self, event):
+        if event.widget is not self:
+            return
+        for sequence, binding in self.wheel_bindings:
+            if binding:
+                try:
+                    self.window.unbind(sequence, binding)
+                except tk.TclError:
+                    pass
+
+
 class App:
     def __init__(self, root, config_path=None):
         self.root = root
@@ -21,10 +74,17 @@ class App:
         self.jobs = {}
         self.busy = False
         root.title(self.config['channel_name']+' · 已上传视频匹配与定时发布')
-        root.geometry('1160x900')
+        if not getattr(root, '_publisher_geometry_initialized', False):
+            width = min(1160, max(320, root.winfo_screenwidth() - 80))
+            height = min(900, max(300, root.winfo_screenheight() - 120))
+            root.geometry(f'{width}x{height}')
+            root._publisher_geometry_initialized = True
         self.buttons = []
         self.profile_paths=available_profiles(self.config_path,getattr(root,'_publisher_profile_paths',{}))
         root._publisher_profile_paths=self.profile_paths
+        self.viewport = PublisherScrollFrame(root)
+        self.viewport.pack(fill='both', expand=True)
+        root = self.viewport.content
         preset_bar=ttk.Frame(root);preset_bar.pack(fill='x',padx=10,pady=6)
         ttk.Label(preset_bar,text='选择目标频道及内置素材').pack(side='left')
         current=next((name for name,path in self.profile_paths.items() if run.load(path).get('channel_id')==self.config.get('channel_id')),'')
@@ -89,7 +149,7 @@ class App:
         self.log = tk.Text(root, height=14, wrap='word')
         self.log.pack(fill='both', expand=True, padx=10, pady=8)
         self.refresh()
-        root.protocol('WM_DELETE_WINDOW', self.close)
+        self.root.protocol('WM_DELETE_WINDOW', self.close)
 
     def switch_preset(self):
         if self.busy:return
