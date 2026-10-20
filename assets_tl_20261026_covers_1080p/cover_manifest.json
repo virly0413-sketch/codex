@@ -1,0 +1,420 @@
+{
+  "package_type": "thumbnail_files_only",
+  "version": 1,
+  "language": "tl",
+  "language_label": "菲律宾语",
+  "date_range": [
+    "2026-10-26",
+    "2026-11-15"
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "count": 21,
+  "generation_method": "ChatGPT image generation in conversation; original supplied resource synopsis; new scenes/camera positions, not edits of Russian covers.",
+  "design_brief": "以俄语版本的细节、光影和人物质感为质量参照，但更换同剧构图和剧情场景；无文字、无未成年人，女性衣着得体；特效服务剧情。",
+  "scope": "仅封面与对应清单；未生成或修改标题、频道配置、YouTube视频及排期。cover_manifest.json是封面索引，不是发布程序manifest.json。",
+  "research_status": "未获取实时YouTube热门数据，本次不涉及标题或竞品播放量研究。",
+  "jobs": [
+    {
+      "date": "2026-10-26",
+      "title_zh": "战神归来前妻你哭什么",
+      "drama_code": "2609 KR91",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-10-26_战神归来前妻你哭什么.jpg",
+      "sha256": "557584d96d7aed4ba4a0e89125edad99957d31171615b7c133f5ad4f2d6743c0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 636060,
+      "native_resolution": "1672x941",
+      "scene_revision": "电梯门侧低机位，董事长亲迎、前妻镜面反应表现幕后掌控者身份；避开俄语餐桌和西语项链解封。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-10-27",
+      "title_zh": "旁人笑我木讷不知我有老仙金手指",
+      "drama_code": "2609 KR82",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-10-27_旁人笑我木讷不知我有老仙金手指.jpg",
+      "sha256": "8fa7564e0113f72445f13dd26daa8c44d0c67af05b3665f8644786fd9e948c5f",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1015106,
+      "native_resolution": "1672x941",
+      "scene_revision": "大比一剑断远峰，七彩剑光横切云海，老仙仅在玉佩倒影出现；避开竹林和巨大仙师背景。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-10-28",
+      "title_zh": "婚礼照常新娘换人",
+      "drama_code": "2609 KR84",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-10-28_婚礼照常新娘换人.jpg",
+      "sha256": "50b6c343f95e6455a52604070490c823e3eb38f157db243c3862c2a61aec239c",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 928088,
+      "native_resolution": "1672x941",
+      "scene_revision": "俯斜拍旋转楼梯，新人交花与台阶下前未婚妻对比；避开俄语婚礼走道和西语三人近景。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-10-29",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "drama_code": "2609 KR85",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-10-29_穿越女频开局送皇后白月光进东厂.jpg",
+      "sha256": "46d90d97dea117e6bd4cc089d7a45b0de48bfd3dc5447d12002ff3e99a3c6c55",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 985653,
+      "native_resolution": "1672x941",
+      "scene_revision": "军机桌低角度，手制火铳与立体沙盘前景，帝王布阵、真心伴侣与失势皇后分层；避开金殿持印及铸造工坊。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-10-30",
+      "title_zh": "龙神报恩我一出海鱼获满满",
+      "drama_code": "2609 KR76",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-10-30_龙神报恩我一出海鱼获满满.jpg",
+      "sha256": "5c344a9a78f6491576c2e9631caa2a804b1ffbbb46b4eeaf030131ade1d588df",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1134858,
+      "native_resolution": "1672x941",
+      "scene_revision": "海平面半水下镜头，蛟龙在船底引鱼、男主俯身触海，替换旧版举网满舱与海面巨龙。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-10-31",
+      "title_zh": "我造的机甲被老婆直播曝光了",
+      "drama_code": "2609 KR77",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-10-31_我造的机甲被老婆直播曝光了.jpg",
+      "sha256": "6e50dbb1933955099a942c77a94f1d38f0c76c56f9c575f96490b383a53b3074",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 863024,
+      "native_resolution": "1672x941",
+      "scene_revision": "机甲驾驶舱内男主操控视角，舱外妻子与摄制组发现隐藏发明，避开夫妻站立、机甲位于身后。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-01",
+      "title_zh": "猴王报恩全村傻眼了",
+      "drama_code": "2609 KR73",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-01_猴王报恩全村傻眼了.jpg",
+      "sha256": "541de61900a95ea50fbaeab6d162b9092ede0dd5f74748844447aa5261c9c1b0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 996471,
+      "native_resolution": "1672x941",
+      "scene_revision": "药架低机位仰拍猴王降临诊所屋顶，女医者与成年妹妹举碎玉；避开挖掘机对抗及猴群下山。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-02",
+      "title_zh": "我宗门真的全是老弱病残啊",
+      "drama_code": "2609 KR87",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-02_我宗门真的全是老弱病残啊.jpg",
+      "sha256": "0f3a088499df809ef6c32a589c664f18c409a9d76595e5dcf566f5edab61a1a2",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1110630,
+      "native_resolution": "1672x941",
+      "scene_revision": "宗门灶房内单手拎陨铁桶与三位老者闲饮形成反差，成年姐姐在门口见证；避开挑担山景及擂台裂石。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-03",
+      "title_zh": "我靠医术横扫江都",
+      "drama_code": "2609 KR54",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-03_我靠医术横扫江都.jpg",
+      "sha256": "82459b96b9662a3be18065d06d8c825666e4d77e4a19a27c14c2da0d286110bb",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 846489,
+      "native_resolution": "1672x941",
+      "scene_revision": "圆形花窗内替未婚妻诊脉，门外对手反应与婚约盒暗示家族危机；避开神针救老者和师父群像。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-04",
+      "title_zh": "武魂觉醒我用锤子一人成军",
+      "drama_code": "2609 KR64",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-04_武魂觉醒我用锤子一人成军.jpg",
+      "sha256": "30d6f954984105b3726424fbe9e8d3479d1860412b216d538cd6d1ad7d0d911b",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1251873,
+      "native_resolution": "1672x941",
+      "scene_revision": "森林近景改造石猿，半石半机械表现铁锤能力，前未婚妻远处窥见；避开炎龙合体与大军战场。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-05",
+      "title_zh": "万倍返还弟子越强我越神",
+      "drama_code": "2609 KR44",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-05_万倍返还弟子越强我越神.jpg",
+      "sha256": "fbd992f3c02a773bff31cc23c22baf5d83bb73e8439416ec788119dbe732ca26",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1083183,
+      "native_resolution": "1672x941",
+      "scene_revision": "成年女儿冰凰觉醒占主体，成熟父亲侧坐接收修为返还，猴徒远景见证；避开俄语掌珠三人像。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-06",
+      "title_zh": "满级大师兄制霸都市",
+      "drama_code": "2609 KR48",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-06_满级大师兄制霸都市.jpg",
+      "sha256": "394d3a600dec3777c7e59cec865aad0fcf6677774576120109b653e6a3280a9c",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 739366,
+      "native_resolution": "1672x941",
+      "scene_revision": "领证门前婚约姐妹三角构图，素面红证与玻璃龙影暗示身份，替换旧版治病、枪战和令牌亮相。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-07",
+      "title_zh": "囤千万物资到古代娶女帝",
+      "drama_code": "2609 KR29",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-07_囤千万物资到古代娶女帝.jpg",
+      "sha256": "7ee6fbbf9905469d9527f6232a1df97d2c524d114461d8b8b97028f6b1728222",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 876376,
+      "native_resolution": "1672x941",
+      "scene_revision": "古代灶房俯看空间木箱，现代物资照亮女帝与圣女的反应；避开俄语大门仓库传送。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-08",
+      "title_zh": "跌入古井觉醒神农秘术",
+      "drama_code": "2609 KR41",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-08_跌入古井觉醒神农秘术.jpg",
+      "sha256": "0e95cf2acb3ffd31e450bd43fdd3daaa450acba7a43a82ef30a631d7c147e538",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1096085,
+      "native_resolution": "1672x941",
+      "scene_revision": "井沿侧面取出金色人参，药根能量与成年姐姐扶护，避开井底仰拍及老仙传功。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-09",
+      "title_zh": "我有一座超级渔场",
+      "drama_code": "2609 KR52",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-09_我有一座超级渔场.jpg",
+      "sha256": "b2e146422f16e0d1652b84b6bea4f8524cc8c03015f7bb78c72ed50d50f334be",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1078364,
+      "native_resolution": "1672x941",
+      "scene_revision": "室内金鲤与餐饮合作女主同框，窗外养殖池及嫉妒堂兄点题；避开出海、龙珠及巨鲸。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-10",
+      "title_zh": "厨神帝王录",
+      "drama_code": "2609 KR20",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-10_厨神帝王录.jpg",
+      "sha256": "ccc92a7b7c5a66c8f324ef8c225e137d09c89ed53f1e2d01e0d31d35f92d22a5",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 810033,
+      "native_resolution": "1672x941",
+      "scene_revision": "宫厨回廊端饭藏虎符，屏风后女帝与旧部不同反应，强调厨子与名将双身份。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-11",
+      "title_zh": "SSS级狂龙横扫一切",
+      "drama_code": "2609 KR21",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-11_SSS级狂龙横扫一切.jpg",
+      "sha256": "2c15fbf7df5ff114d66227b43bf876e6e30da2e73f8253a89855bc0a421aa7a5",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 777762,
+      "native_resolution": "1672x941",
+      "scene_revision": "出狱门前五位成年师娘赠礼，低机位突出自由与底牌；避开俄语牢房独坐及婚宴扛棺。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-12",
+      "title_zh": "开局变鹦鹉气疯所有人",
+      "drama_code": "2609 KR09",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-12_开局变鹦鹉气疯所有人.jpg",
+      "sha256": "2a0008cc59c39f65ac051fc836f9cc3e3bec2b9709e2c9809385ec3b43f817f8",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 825435,
+      "native_resolution": "1672x940",
+      "scene_revision": "钢琴台上鹦鹉展翅、凤凰形火焰与主播惊喜，对手在门口识出神态；保留鸟形主角，无文字。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-13",
+      "title_zh": "末日之我的房车无限升级",
+      "drama_code": "2609 KR03",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-13_末日之我的房车无限升级.jpg",
+      "sha256": "2052faa8e15da39246df694e23b6e001fb6e67302160e7dd8f2b1ff2b7689b1f",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 906419,
+      "native_resolution": "1672x941",
+      "scene_revision": "飞行房车驾驶舱内视角，挡风玻璃外机翼与雪城，表现升级为安全空中避难所。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-14",
+      "title_zh": "热浪末世我带全家打造室外桃园",
+      "drama_code": "2609 EN91",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-14_热浪末世我带全家打造室外桃园.jpg",
+      "sha256": "50551a46cee168ffff1746ca46181f1b2e34d0ae0afd1f50b15515028619f509",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 1014459,
+      "native_resolution": "1672x941",
+      "scene_revision": "温室阀门水弧与蔬果近景，父母和成年伴侣共同备灾，玻璃外热城构成安全与危机反差。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    },
+    {
+      "date": "2026-11-15",
+      "title_zh": "真少爷他医术通神",
+      "drama_code": "2609 EN87",
+      "language": "tl",
+      "language_label": "菲律宾语",
+      "audio_availability": "有",
+      "schedule_time_reference": "17:00（北京时间，沿用原排片；仅供核对，本包不修改发布）",
+      "cover": "covers/2026-11-15_真少爷他医术通神.jpg",
+      "sha256": "d5047007d51503db414d201478b70accb8a2868deb910b9695ef2bdfcd14bd8b",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "bytes": 794071,
+      "native_resolution": "1672x941",
+      "scene_revision": "药材研究室取药离开，真少爷拒绝豪门钥匙、女伴追随，避免重复针灸救人构图。",
+      "image_note": "ChatGPT重新生成的无字剧情概念封面，非剧照；人物均采用成年形象，女性衣着得体，按简介安排多人物与特效。"
+    }
+  ]
+}
