@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 import run
 
-PRESETS=(('英语','english.json','en'),('俄语','russian.json','ru'),('韩语','korean.json','ko'))
+PRESETS=(('英语','english.json','en'),('俄语','russian.json','ru'),('韩语','korean.json','ko'),('西语','spanish.json','es'))
 STATE='local_work_publisher_ui/last_profile.json'
 
 

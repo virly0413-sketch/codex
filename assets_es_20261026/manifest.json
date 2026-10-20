@@ -1,0 +1,649 @@
+{
+  "version": 3,
+  "language": "es",
+  "channel": "西语男频",
+  "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+  "date_range": [
+    "2026-10-26",
+    "2026-11-15"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "jobs": [
+    {
+      "job_id": "92aa709e887c7c4e",
+      "date": "2026-10-26",
+      "title_zh": "诡异擂台开局召唤左千户",
+      "drama_code": "2026 WW30",
+      "language": "es",
+      "titles": [
+        "¡Los dioses no respondieron! Él invocó a un humano para salvar a su nación ⚔️",
+        "¡Tres derrotas y ninguna esperanza! Un héroe mortal desafió a los dioses 🔥",
+        "¡Todos esperaban a un dios! Él llamó a guerreros humanos y cambió la batalla ⚔️"
+      ],
+      "covers": [
+        "covers/2026-10-26_诡异擂台开局召唤左千户.jpg"
+      ],
+      "reasoning": "首句直接抛出神明失效的绝境；后半句用‘凡人逆神’制造能力反差。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "神不应召，主角以凡人英杰挽救国运",
+      "scene_revision": "人类道士挡下诡神巨爪，改用黄袍与紫色擂台，避开旧版黑甲剑客构图",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "2a55d7d0f76735c8",
+      "date": "2026-10-27",
+      "title_zh": "请祖宗出面讨公道",
+      "drama_code": "2609 KR62",
+      "language": "es",
+      "titles": [
+        "¡El banco cobró deudas a sus antepasados muertos! Él llegó con un ataúd ⚖️",
+        "¡Le quitaron diez años de ahorros! La deuda de sus ancestros escondía una estafa 🔥",
+        "¡Exigieron que vinieran los muertos! Su respuesta dejó al banco sin salida ⚖️"
+      ],
+      "covers": [
+        "covers/2026-10-27_请祖宗出面讨公道.jpg"
+      ],
+      "reasoning": "亡故先人欠债的荒诞冲突在首句出现；抬棺回应带来强画面与维权悬念。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "银行向亡故先人追债，主角抬棺讨公道",
+      "scene_revision": "村民集体揭穿骗贷，银行负责人被带走，替换旧版抬棺与台阶队伍",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x940",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "e34c9d8f28ecfce0",
+      "date": "2026-10-28",
+      "title_zh": "不当黄牛全族发愁",
+      "drama_code": "2609 KR56",
+      "language": "es",
+      "titles": [
+        "¡Su familia quiso vender a su esposa! Él dejó de obedecer y cambió las reglas 🔥",
+        "¡Lo usaban como una bestia de carga! Al dejar de sacrificarse, la familia tembló 💥",
+        "¡Se acabó el hijo obediente! Volvió para proteger a su esposa y rehacer su vida 🔥"
+      ],
+      "covers": [
+        "covers/2026-10-28_不当黄牛全族发愁.jpg"
+      ],
+      "reasoning": "先点明家族越界与护妻动机；拒绝继续牺牲的反击让爽点立即可见。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "家族要卖妻，主角拒绝愚孝并反击",
+      "scene_revision": "护妻分食猎获后的丰盛饭菜，替换旧版离家和科举凯旋",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "67c494457da3df79",
+      "date": "2026-10-29",
+      "title_zh": "不过一瓶醋",
+      "drama_code": "2609 KR69",
+      "language": "es",
+      "titles": [
+        "¡El capataz era el dueño del grupo! Su primo lo estafó con la comida de los obreros 💥",
+        "¡Creyó que ganaría el gran pedido! Los obreros pasaron de largo frente a su local 🔥",
+        "¡Ayudó a su primo y recibió engaños! Cambiar de cocinero fue su mejor respuesta 🍲"
+      ],
+      "covers": [
+        "covers/2026-10-29_不过一瓶醋.jpg"
+      ],
+      "reasoning": "隐形董事长身份前置，再接亲戚克扣伙食；身份与利益双重反差。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被亲戚克扣伙食的工头其实是集团老板",
+      "scene_revision": "工装董事长在会议室显露身份，替换旧版工人越店与盒饭桌",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x940",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "be6ab54a49912e61",
+      "date": "2026-10-30",
+      "title_zh": "自立门户干火锅，表哥急疯了",
+      "drama_code": "2609 KR58",
+      "language": "es",
+      "titles": [
+        "¡Lo echaron del restaurante! Abrió enfrente y los clientes cambiaron de bando 🔥",
+        "¡Se quedaron con el local, no con su receta! El chef abrió enfrente y empezó su revancha 🍲",
+        "¡Su primo lo traicionó! La receta de hot pot convirtió al chef despedido en su peor rival 🔥"
+      ],
+      "covers": [
+        "covers/2026-10-30_自立门户干火锅，表哥急疯了.jpg"
+      ],
+      "reasoning": "被逐出店的损失先出现，对街开店与客流反转紧随其后，形成直接因果。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "厨师被赶走后对街开店，客人转投新店",
+      "scene_revision": "石臼研磨祖传底料，替换旧版端锅和颠锅画面",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "9f35ba40a626b38d",
+      "date": "2026-10-31",
+      "title_zh": "只想种地扶贫奈何万民归顺",
+      "drama_code": "2609 KR66",
+      "language": "es",
+      "titles": [
+        "¡Solo quería darles de comer! El pueblo eligió al príncipe desterrado como su nuevo líder 🌾",
+        "¡Lo mandaron a una tierra sin comida! Su granja cambió el destino del imperio 🌾",
+        "¡No buscaba el trono! Alimentó al pueblo y terminó ganándose su lealtad 👑"
+      ],
+      "covers": [
+        "covers/2026-10-31_只想种地扶贫奈何万民归顺.jpg"
+      ],
+      "reasoning": "‘只求温饱’对比‘赢得天下民心’，用目标与结果悬殊制造意外感。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "只为百姓吃饱，流放太子却赢得民心",
+      "scene_revision": "扛锄头的废太子面对百姓献冠，替换旧版麦田和开仓赈粮",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "b3a841bf9e52436d",
+      "date": "2026-11-01",
+      "title_zh": "逆天纸扎铺",
+      "drama_code": "2609 KR75",
+      "language": "es",
+      "titles": [
+        "¡Gastaba en fantasmas y recibía cien veces más! Así empezó su fortuna 👻",
+        "¡Su prometida lo abandonó! Ayudar a los espíritus se convirtió en su mayor negocio 👻",
+        "¡Su madre necesitaba una cura! Él buscó ayuda en el inframundo y cambió su destino ✨"
+      ],
+      "covers": [
+        "covers/2026-11-01_逆天纸扎铺.jpg"
+      ],
+      "reasoning": "百倍返还机制第一句就讲清，接财富与救母目标；按虚构剧情表达，不作现实收益承诺。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "给鬼花钱百倍返还，主角开始逆袭",
+      "scene_revision": "阴间现代化熬汤设备交易，替换旧版纸扎模型和医院救母",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "5d4f4d1cccd8df95",
+      "date": "2026-11-02",
+      "title_zh": "我的古井藏着大机缘",
+      "drama_code": "2609 KR70",
+      "language": "es",
+      "titles": [
+        "¡Su familia lo traicionó! Renació cinco años antes y encontró un pozo milagroso 💧",
+        "¡Lo mandaron al campo para apartarlo! Un pozo secreto cambió su fortuna 🌿",
+        "¡No volvió para perdonarlos! Renació, cultivó su futuro y rompió con su familia 🔥"
+      ],
+      "covers": [
+        "covers/2026-11-02_我的古井藏着大机缘.jpg"
+      ],
+      "reasoning": "背叛与重生时间差前置，再给灵泉种田逆袭的具体抓手。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被家人背叛后重生，发现神秘古井",
+      "scene_revision": "井底仰拍灵泉与来汲水的主角，强化圆形空间构图",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1671x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "fefc35a756e4629e",
+      "date": "2026-11-03",
+      "title_zh": "市井枭雄",
+      "drama_code": "2609 KR60",
+      "language": "es",
+      "titles": [
+        "¡De 350 mil a 10 millones de yuanes! El casero no esperaba que vaciara el local 💥",
+        "¡Quisieron echarlo del negocio! Se mudó enfrente y los clientes fueron tras él 🔥",
+        "¡Lo exprimieron con el alquiler! El antiguo inquilino acabó comprando el centro comercial 💥"
+      ],
+      "covers": [
+        "covers/2026-11-03_市井枭雄.jpg"
+      ],
+      "reasoning": "原简介的租金暴涨数字形成首句冲击，后半句留出搬空与业主反转。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "房东暴涨租金，租客却搬空店铺",
+      "scene_revision": "购买商场后剪彩开业，替换旧版超市钥匙和夜间搬店",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "5db53fafe65c494f",
+      "date": "2026-11-04",
+      "title_zh": "你退你的婚我撩我的师尊",
+      "drama_code": "2609 KR74",
+      "language": "es",
+      "titles": [
+        "¡Su prometida lo dejó en público! Ahora recupera su poder junto a una inmortal ⚔️",
+        "¡Le sellaron todo su poder! Acercarse a una inmortal era la clave para recuperarlo 🔥",
+        "¡Lo encerraron entre mil espadas! Un solo dedo del supuesto fracasado cambió todo ⚔️"
+      ],
+      "covers": [
+        "covers/2026-11-04_你退你的婚我撩我的师尊.jpg"
+      ],
+      "reasoning": "当众退婚或封印修为先建立低谷，再接与仙子共历劫难和实力恢复。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "当众遭退婚后，主角与仙子共历劫难恢复修为",
+      "scene_revision": "俯视万剑阵中一指镇阵，强调封印高手的控场",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "d41e938c0ece220d",
+      "date": "2026-11-05",
+      "title_zh": "从蚁王开始吞噬成神",
+      "drama_code": "2609 KR57",
+      "language": "es",
+      "titles": [
+        "¡Lo traicionaron y cayó al abismo! Volvió como rey de un millón de hormigas 🐜",
+        "¡Su esposa lo daba por muerto! Él regresó con un ejército de hormigas para recuperar su vida 🐜",
+        "¡Despertó en el cuerpo de una hormiga! Cada evolución lo acercaba a su revancha 🔥"
+      ],
+      "covers": [
+        "covers/2026-11-05_从蚁王开始吞噬成神.jpg"
+      ],
+      "reasoning": "背叛坠崖＋蚁王重生是独特设定；用数量、体型与权力反差制造好奇。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被害坠崖后，主角成为百万蚁军之王",
+      "scene_revision": "夜雨豪宅门前蚁军归来，替换旧版董事会和森林露珠",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "b2a203d0a5466acb",
+      "date": "2026-11-06",
+      "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+      "drama_code": "2609 KR83",
+      "language": "es",
+      "titles": [
+        "¡Le dejaron una montaña estéril! Se llevó el brazalete y el huerto de su hermano se secó 🌿",
+        "¡Su familia le quitó el mejor terreno! No sabía dónde estaba su verdadera fortuna 💥",
+        "¡Lo echaron con una tierra inútil! El agua de su brazalete convirtió la injusticia en riqueza 💧"
+      ],
+      "covers": [
+        "covers/2026-11-06_分家后我靠聚宝镯走上人生巅峰.jpg"
+      ],
+      "reasoning": "分家不公首句可感，荒山与聚宝镯对照，把被夺走的表面利益与真正底牌区分。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "分到荒山后带走宝镯，弟弟果园却枯萎",
+      "scene_revision": "聚宝镯灵水浇出荒山果园，荒与丰一景对照",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "ac38661fda60fe7d",
+      "date": "2026-11-07",
+      "title_zh": "我相亲捡属性开局怒怼化债女",
+      "drama_code": "2609 KR55",
+      "language": "es",
+      "titles": [
+        "¡Su cita quería que pagara sus deudas! Él convirtió cada encuentro en nuevos poderes 💥",
+        "¡Lo despreciaban por no tener dinero! Un sistema de citas cambió todas las reglas 🔥",
+        "¡No iba a ser la billetera de nadie! Su sistema de citas premiaba talento, dinero y poder ✨"
+      ],
+      "covers": [
+        "covers/2026-11-07_我相亲捡属性开局怒怼化债女.jpg"
+      ],
+      "reasoning": "拒当相亲接盘钱包开场，随后给出相亲系统奖励机制，强调主角主动反击。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "相亲不当还债钱包，主角获得系统属性",
+      "scene_revision": "相亲桌上推回债务信封，抽象光球隐喻属性奖励",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "e57a3583cb1378dd",
+      "date": "2026-11-08",
+      "title_zh": "大爷俺踢球养活饥荒年全家",
+      "drama_code": "2609 KR65",
+      "language": "es",
+      "titles": [
+        "¡Un anciano llegó del pasado al fútbol moderno! Sus patadas darán de comer a su aldea ⚽",
+        "¡Se rieron del viejo jugador! No sabían que dominaba las artes marciales ⚽",
+        "¡Vino a buscar comida y terminó en la selección! El anciano que sorprendió al fútbol 🔥"
+      ],
+      "covers": [
+        "covers/2026-11-08_大爷俺踢球养活饥荒年全家.jpg"
+      ],
+      "reasoning": "年长身份与现代竞技反差前置，武功足球和养活故乡是本剧独有卖点。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "古代老捕快踢现代足球，养活故乡",
+      "scene_revision": "年长队长率队从球员通道入场，替换旧版踢球和送粮",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "年长男主"
+    },
+    {
+      "job_id": "84a90147a8f3168a",
+      "date": "2026-11-09",
+      "title_zh": "战神归来前妻你哭什么",
+      "drama_code": "2609 KR91",
+      "language": "es",
+      "titles": [
+        "¡Ella mintió sobre su alergia al alcohol! Su marido ocultaba un imperio y un poder brutal 🔥",
+        "¡Lo cambió por su asistente! Su exmarido era el hombre que controlaba todo 💥",
+        "¡Despreció el collar que él le regaló! En la subasta descubrió qué poder escondía 🔥"
+      ],
+      "covers": [
+        "covers/2026-11-09_战神归来前妻你哭什么.jpg"
+      ],
+      "reasoning": "酒精过敏谎言是具体背叛证据，比泛泛‘离婚后逆袭’更快建立冲突；再接幕后身份。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "妻子过敏谎言被揭穿，却不知丈夫掌控商业与强大力量",
+      "scene_revision": "投资酒宴揭穿酒精过敏谎言，贝壳项链与婚戒呼应",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "1d723db242445334",
+      "date": "2026-11-10",
+      "title_zh": "空车超载还我三个亿的货",
+      "drama_code": "2609 KR59",
+      "language": "es",
+      "titles": [
+        "¡Un camión vacío con sobrepeso! Su abogado exigió una carga de 300 millones de yuanes ⚖️",
+        "¡Multaron el camión vacío de su padre! El hijo abogado puso en jaque al peaje corrupto ⚖️",
+        "¡Veinte años pagando multas injustas! Un camión sin carga destapó la gran estafa 🔥"
+      ],
+      "covers": [
+        "covers/2026-11-10_空车超载还我三个亿的货.jpg"
+      ],
+      "reasoning": "空车超载的矛盾第一句完成吸睛；三亿货物指3亿人民币，不改成美元或30亿。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "空车超载罚款，律师反向追讨价值3亿人民币货物",
+      "scene_revision": "百名司机集体实名维权，替换旧版空车展示和法庭",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x940",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "9a87181fd9df3c9a",
+      "date": "2026-11-11",
+      "title_zh": "武魂觉醒我用锤子一人成军",
+      "drama_code": "2609 KR64",
+      "language": "es",
+      "titles": [
+        "¡Se burlaron de su martillo inútil! Lo convirtió en la llave de un ejército mecánico ⚒️",
+        "¡Su prometida lo humilló por su poder! Su martillo acabó despertando bestias mecánicas 🔥",
+        "¡Solo tenía un martillo roto! Volvió con un dragón mecánico y su propia legión ⚒️"
+      ],
+      "covers": [
+        "covers/2026-11-11_武魂觉醒我用锤子一人成军.jpg"
+      ],
+      "reasoning": "废武魂先抛低估，再给机械军团与机械龙的视觉化反转。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被嘲废锤，却能驱动机械军团",
+      "scene_revision": "鹰、猿、龙机械军团与铁锤少年——主角明确成年",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "11fdda968781bfb3",
+      "date": "2026-11-12",
+      "title_zh": "我靠医术横扫江都",
+      "drama_code": "2609 KR54",
+      "language": "es",
+      "titles": [
+        "¡Su prometida estaba en peligro! El heredero de cinco maestros llegó para cambiarlo todo 🩺",
+        "¡No era un médico cualquiera! Su medicina y sus contactos sacudieron la ciudad 🩺",
+        "¡Llegó por un matrimonio pactado! Sus enemigos no estaban listos para su verdadero poder 🔥"
+      ],
+      "covers": [
+        "covers/2026-11-12_我靠医术横扫江都.jpg"
+      ],
+      "reasoning": "围绕履行婚约、神医能力与人脉解决阴谋，不虚构具体病症或不存在的诊疗结果。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "未婚妻陷危机，五位老师的传承人前来破局",
+      "scene_revision": "五位老师与神医继承人入城，强调婚约与医术传承",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x940",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "4edf20f24ba96b8c",
+      "date": "2026-11-13",
+      "title_zh": "九龙归位震八方",
+      "drama_code": "2609 KR81",
+      "language": "es",
+      "titles": [
+        "¡Su marido de mentira ocultaba un poder brutal! La boda reveló quién mandaba de verdad 🐉",
+        "¡Lo humillaron sin conocerlo! Los poderosos llegaron a rendirle honores en su boda 🔥",
+        "¡Aceptó una boda falsa para ayudarla! Su verdadera identidad dejó a todos sin palabras 🐉"
+      ],
+      "covers": [
+        "covers/2026-11-13_九龙归位震八方.jpg"
+      ],
+      "reasoning": "假结婚与隐藏强者身份相连；婚宴权贵到场作为反转，不堆人名和机构名。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "假丈夫隐藏强者身份，婚宴揭晓地位",
+      "scene_revision": "寒毒与灵芝的高楼夜景，替换旧版婚宴和拍卖",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "d766154facc62354",
+      "date": "2026-11-14",
+      "title_zh": "婚礼照常新娘换人",
+      "drama_code": "2609 KR84",
+      "language": "es",
+      "titles": [
+        "¡La boda siguió, pero cambió la novia! El yerno humillado era heredero de un imperio 💍",
+        "¡Lo cambiaron por el primer amor de ella! Volvió con otra novia y reveló su identidad 🔥",
+        "¡Tres años despreciando al yerno equivocado! El día de la boda conocieron su fortuna 💍"
+      ],
+      "covers": [
+        "covers/2026-11-14_婚礼照常新娘换人.jpg"
+      ],
+      "reasoning": "‘婚礼继续但新娘换人’在首句构成完整反转，再补隐藏继承人的身份冲击。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "婚礼照常但换了新娘，被轻视的赘婿是继承人",
+      "scene_revision": "婚礼换新娘，低机位婚戒与长婚礼走道制造纵深",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "明确成年约28岁的年轻痞帅男主"
+    },
+    {
+      "job_id": "ca75a0e00c569172",
+      "date": "2026-11-15",
+      "title_zh": "猴王报恩全村傻眼了",
+      "drama_code": "2609 KR73",
+      "language": "es",
+      "titles": [
+        "¡Iban a destruir su clínica! El rey mono llegó para devolverle el favor 🐒",
+        "¡Curó gratis y se negaron a pagarle! Nadie esperaba que el rey mono saldara esa cuenta 🔥",
+        "¡Creyeron que estaba sola! Un jade roto llamó al rey mono para proteger a su salvadora 🐒"
+      ],
+      "covers": [
+        "covers/2026-11-15_猴王报恩全村傻眼了.jpg"
+      ],
+      "reasoning": "拆诊所的迫切危机先出现，猴王报恩完成超常援军反转；保留女性医者主角。",
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "诊所将被拆，猴王来报救命之恩",
+      "scene_revision": "女性医者与成年妹妹获猴王守护，拒绝改成虚构男性主角",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        3840,
+        2160
+      ],
+      "native_resolution": "1672x941",
+      "resolution_method": "Lanczos放大导出，非原生4K",
+      "thumbnail_note": "ChatGPT全新生成的剧情概念封面，非剧照；全员成年、无文字、女性服装得体。",
+      "hero_style": "保留简介中的女性医者主角，两姐妹均成年"
+    }
+  ],
+  "sha256": {
+    "covers/2026-10-26_诡异擂台开局召唤左千户.jpg": "da4c315d96c37ed2f0a50882a4468933e716350d4d2c7553a6f61e7c351cbc6b",
+    "covers/2026-10-27_请祖宗出面讨公道.jpg": "dd053da67f9543c9f36ccf3ca4c63ca869e0fb7d94f12a9525b17e61dc0bea8f",
+    "covers/2026-10-28_不当黄牛全族发愁.jpg": "df6a0a81acaf74279276f2904dff1187fd93ec6cc9749e37811fa93dd376f4e6",
+    "covers/2026-10-29_不过一瓶醋.jpg": "760930ec9b3498a1fa39079bf308c8130cb742bacf4106214afabca4c05573da",
+    "covers/2026-10-30_自立门户干火锅，表哥急疯了.jpg": "a71857ccc43588c6cef34931a3caa00a24943180f8770bac8e1874b64a14955f",
+    "covers/2026-10-31_只想种地扶贫奈何万民归顺.jpg": "73235ee84b2972e54c70b2e31e1c2c86a5c4fd3574ca1463d51756ef05f730e5",
+    "covers/2026-11-01_逆天纸扎铺.jpg": "b3df74d54d674a1189488be7e6734955f3198e97883b513e20d4da795ad73911",
+    "covers/2026-11-02_我的古井藏着大机缘.jpg": "6b29a348bc705180dbf64ede6d33ad3aff1cb3f6473e6f5eba8ec871315fe575",
+    "covers/2026-11-03_市井枭雄.jpg": "3b722fcc1fc13e3b12ca80a3545cb2efc3148a81dd9f71c336a72dcf10eb6499",
+    "covers/2026-11-04_你退你的婚我撩我的师尊.jpg": "6696c6ac22dc9573e146b4dff0498aa0eb3467338d10df51727f18b275604622",
+    "covers/2026-11-05_从蚁王开始吞噬成神.jpg": "d03239087a5c65592cf5e0e43965a295e6f5d51d19bf357cc5adf045f0fbd665",
+    "covers/2026-11-06_分家后我靠聚宝镯走上人生巅峰.jpg": "48a031073176bed61fc5655735eb9852da0fe98b4a6675f984256bb33fa2e65e",
+    "covers/2026-11-07_我相亲捡属性开局怒怼化债女.jpg": "aa418a760f18cdf99fb84cf9f7a0e57e2458c51b1d427f70a4b264f73a09f632",
+    "covers/2026-11-08_大爷俺踢球养活饥荒年全家.jpg": "d91c384ac38c78e8c97ae544069adc30b2c9c692bb0b5f323fc92172859f79f1",
+    "covers/2026-11-09_战神归来前妻你哭什么.jpg": "578233bb9e17b34c1ad2510f32c0daf55bef112117c075229fc0edf4444687f3",
+    "covers/2026-11-10_空车超载还我三个亿的货.jpg": "a2e48df9a8140f6283bb1b016c30bfbfd85de5cba47a1e1ee60d8c10b2575213",
+    "covers/2026-11-11_武魂觉醒我用锤子一人成军.jpg": "9f9a243b5b6d01ce5e30c71df19b1208e24cbd84ce173b236a4980af18a3f126",
+    "covers/2026-11-12_我靠医术横扫江都.jpg": "3795d332d45d7e1a46ee28215d5c91f996f90e3855f8b460a450f9196344ec73",
+    "covers/2026-11-13_九龙归位震八方.jpg": "9a96258970c5e896b0955b63f335031aed11c6a75d01529539440a641d034b07",
+    "covers/2026-11-14_婚礼照常新娘换人.jpg": "2eb2bbdb40fb4c592523935c1885b05f6c675615bb87ac4602f619bde9912a61",
+    "covers/2026-11-15_猴王报恩全村傻眼了.jpg": "4c7cd7a5160ec227a6e96c89773b3b1933ee83c5b6546639739b543075300ff3"
+  },
+  "title_strategy": "首句给冲突、身份反差或独特设定；每条适量一个相关表情；每剧3条，首条推荐；依据简介创作。",
+  "research_status": "公开YouTube及搜索引擎请求均被网络代理403阻断；未获取实时热门视频或播放量，不能称作已验证的竞品爆款分析。",
+  "resolution_note": "3840×2160 JPEG，每张小于2MB；从约1672×940/941原生生成文件放大，非原生4K。",
+  "source_schedule": "已确认的2026-10-26_to_2026-11-15_7day西语排片"
+}
