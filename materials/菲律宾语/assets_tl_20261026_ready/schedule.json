@@ -1,0 +1,632 @@
+[
+  {
+    "job_id": "99ed9941101dbba9",
+    "title_zh": "战神归来前妻你哭什么",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-10-26",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-26T17:00:00+08:00",
+    "publish_at": "2026-10-26T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 887,
+        "resource_title": "战神归来前妻你哭什么",
+        "drama_code": "2609 KR91",
+        "category": "男频",
+        "minutes": "83",
+        "episodes": "45",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c5bffc1c530317bf",
+    "title_zh": "旁人笑我木讷不知我有老仙金手指",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-10-27",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-27T17:00:00+08:00",
+    "publish_at": "2026-10-27T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 848,
+        "resource_title": "旁人笑我木讷不知我有老仙金手指",
+        "drama_code": "2609 KR82",
+        "category": "男频",
+        "minutes": "88",
+        "episodes": "59",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c483db437712cf93",
+    "title_zh": "婚礼照常新娘换人",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-10-28",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-28T17:00:00+08:00",
+    "publish_at": "2026-10-28T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 861,
+        "resource_title": "婚礼照常新娘换人",
+        "drama_code": "2609 KR84",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "52",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7636c1d94910c99d",
+    "title_zh": "穿越女频开局送皇后白月光进东厂",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-10-29",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-29T17:00:00+08:00",
+    "publish_at": "2026-10-29T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 863,
+        "resource_title": "穿越女频开局送皇后白月光进东厂",
+        "drama_code": "2609 KR85",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "25705b8778f6944e",
+    "title_zh": "龙神报恩我一出海鱼获满满",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-10-30",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-30T17:00:00+08:00",
+    "publish_at": "2026-10-30T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 824,
+        "resource_title": "龙神报恩我一出海鱼获满满",
+        "drama_code": "2609 KR76",
+        "category": "男频",
+        "minutes": "73",
+        "episodes": "60",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "24fba2b7b9c506b2",
+    "title_zh": "我造的机甲被老婆直播曝光了",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-10-31",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-31T17:00:00+08:00",
+    "publish_at": "2026-10-31T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 826,
+        "resource_title": "我造的机甲被老婆直播曝光了",
+        "drama_code": "2609 KR77",
+        "category": "男频",
+        "minutes": "72",
+        "episodes": "59",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "0a58360371e31323",
+    "title_zh": "猴王报恩全村傻眼了",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-01",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-01T17:00:00+08:00",
+    "publish_at": "2026-11-01T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 819,
+        "resource_title": "猴王报恩全村傻眼了",
+        "drama_code": "2609 KR73",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "60",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c973bcdea35f0295",
+    "title_zh": "我宗门真的全是老弱病残啊",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-02",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-02T17:00:00+08:00",
+    "publish_at": "2026-11-02T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 873,
+        "resource_title": "我宗门真的全是老弱病残啊",
+        "drama_code": "2609 KR87",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "预计50集",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7098abcbe0ee3d6e",
+    "title_zh": "我靠医术横扫江都",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-03",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-03T17:00:00+08:00",
+    "publish_at": "2026-11-03T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 781,
+        "resource_title": "我靠医术横扫江都",
+        "drama_code": "2609 KR54",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "50",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "0fa242d5da43c180",
+    "title_zh": "武魂觉醒我用锤子一人成军",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-04",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-04T17:00:00+08:00",
+    "publish_at": "2026-11-04T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 801,
+        "resource_title": "武魂觉醒我用锤子一人成军",
+        "drama_code": "2609 KR64",
+        "category": "男频",
+        "minutes": "90",
+        "episodes": "60",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7fb5a1c7af154bf9",
+    "title_zh": "万倍返还弟子越强我越神",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-05",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T17:00:00+08:00",
+    "publish_at": "2026-11-05T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 760,
+        "resource_title": "万倍返还弟子越强我越神",
+        "drama_code": "2609 KR44",
+        "category": "男频",
+        "minutes": "97",
+        "episodes": "61",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1db471cc3c963197",
+    "title_zh": "满级大师兄制霸都市",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T17:00:00+08:00",
+    "publish_at": "2026-11-06T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 769,
+        "resource_title": "满级大师兄制霸都市",
+        "drama_code": "2609 KR48",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "2e77076337d3aff4",
+    "title_zh": "囤千万物资到古代娶女帝",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T17:00:00+08:00",
+    "publish_at": "2026-11-07T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 719,
+        "resource_title": "囤千万物资到古代娶女帝",
+        "drama_code": "2609 KR29",
+        "category": "男频",
+        "minutes": "72",
+        "episodes": "预计50",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d31e056eb2d9256d",
+    "title_zh": "跌入古井觉醒神农秘术",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T17:00:00+08:00",
+    "publish_at": "2026-11-08T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 745,
+        "resource_title": "跌入古井觉醒神农秘术",
+        "drama_code": "2609 KR41",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "52",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d3cd60fd6dc6fa35",
+    "title_zh": "我有一座超级渔场",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T17:00:00+08:00",
+    "publish_at": "2026-11-09T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 778,
+        "resource_title": "我有一座超级渔场",
+        "drama_code": "2609 KR52",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e02c6a3fbf4cb31d",
+    "title_zh": "厨神帝王录",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 685,
+        "resource_title": "厨神帝王录",
+        "drama_code": "2609 KR20",
+        "category": "男频",
+        "minutes": "70",
+        "episodes": "50",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "eaaad5715b36f1d6",
+    "title_zh": "SSS级狂龙横扫一切",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T17:00:00+08:00",
+    "publish_at": "2026-11-11T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 688,
+        "resource_title": "SSS级狂龙横扫一切",
+        "drama_code": "2609 KR21",
+        "category": "男频",
+        "minutes": "",
+        "episodes": "45",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "61e9f44ad3376d56",
+    "title_zh": "开局变鹦鹉气疯所有人",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T17:00:00+08:00",
+    "publish_at": "2026-11-12T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 664,
+        "resource_title": "开局变鹦鹉气疯所有人",
+        "drama_code": "2609 KR09",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "66",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "71441ad9cf87d888",
+    "title_zh": "末日之我的房车无限升级",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T17:00:00+08:00",
+    "publish_at": "2026-11-13T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 646,
+        "resource_title": "末日之我的房车无限升级",
+        "drama_code": "2609 KR03",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "40",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a6093968fa1322b5",
+    "title_zh": "热浪末世我带全家打造室外桃园",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T17:00:00+08:00",
+    "publish_at": "2026-11-14T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 624,
+        "resource_title": "热浪末世我带全家打造室外桃园",
+        "drama_code": "2609 EN91",
+        "category": "男频",
+        "minutes": "61",
+        "episodes": "30",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "16ed6041e3af4631",
+    "title_zh": "真少爷他医术通神",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_csv_line": 604,
+        "resource_title": "真少爷他医术通神",
+        "drama_code": "2609 EN87",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]

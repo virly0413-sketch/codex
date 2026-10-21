@@ -1,0 +1,608 @@
+{
+  "version": 3,
+  "language": "tl",
+  "channel": "菲律宾语男频",
+  "channel_binding": "local_on_first_start",
+  "date_range": [
+    "2026-10-26",
+    "2026-11-15"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "jobs": [
+    {
+      "job_id": "99ed9941101dbba9",
+      "date": "2026-10-26",
+      "publish_local": "2026-10-26T17:00:00+08:00",
+      "title_zh": "战神归来前妻你哭什么",
+      "drama_code": "2609 KR91",
+      "language": "tl",
+      "titles": [
+        "Niloko Siya ng Asawa! Ang Hamak na Mister Pala ang Lihim na Diyos ng Digmaan",
+        "Iniwan Niya ang Asawa! Sa Subasta, Saka Nito Nalaman Kung Sino Talaga Siya",
+        "Minamaliit Siya ng Ex! Hindi Nito Alam, Siya ang Tunay na May-ari ng Kumpanya"
+      ],
+      "covers": [
+        "covers/2026-10-26_战神归来前妻你哭什么.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被妻子欺骗的平凡丈夫，竟是隐藏身份的战神",
+      "reasoning": "背叛冲突开场，接丈夫身份反差，与拍卖项链封面对上。",
+      "scene_revision": "拍卖展台关闭贝壳项链盒，前妻伸手阻拦、男主转身轻挡，侧向中远景表现关系破裂与身份反转。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "c5bffc1c530317bf",
+      "date": "2026-10-27",
+      "publish_local": "2026-10-27T17:00:00+08:00",
+      "title_zh": "旁人笑我木讷不知我有老仙金手指",
+      "drama_code": "2609 KR82",
+      "language": "tl",
+      "titles": [
+        "Pinagtawanan Siyang Hangal! May Sinaunang Imortal Palang Nakatago sa Kanyang Palawit",
+        "Ginawang Utusan ang Henyo! Isang Imortal ang Lihim na Nagturo sa Kanya",
+        "Akala Nila Wala Siyang Silbi! Isang Hampas ng Espada, Nabiyak ang Bundok"
+      ],
+      "covers": [
+        "covers/2026-10-27_旁人笑我木讷不知我有老仙金手指.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被嘲笑痴傻的他，玉佩里竟藏着上古仙人",
+      "reasoning": "先抛低估冲突，再揭玉佩外挂；用具体道具制造好奇。",
+      "scene_revision": "庭院台阶扶起成年圣女并递灵碗，女主抓袖借力，杂役的医治底牌让同门停下动作。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "c483db437712cf93",
+      "date": "2026-10-28",
+      "publish_local": "2026-10-28T17:00:00+08:00",
+      "title_zh": "婚礼照常新娘换人",
+      "drama_code": "2609 KR84",
+      "language": "tl",
+      "titles": [
+        "Pinalayas Siya para sa Ex ng Nobya! Sa Kasal, Ibang Babae ang Pinakasalan Niya",
+        "Hinamak Nila ang Manugang! Sa Araw ng Kasal, Lumantad ang Bilyonaryong Tagapagmana",
+        "Tuluy-tuloy ang Kasal, Pero Iba ang Nobya! Saka Nila Nalaman Kung Sino ang Iniwan"
+      ],
+      "covers": [
+        "covers/2026-10-28_婚礼照常新娘换人.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "未婚妻家为了前任赶走他，他却在婚礼当天另娶新娘",
+      "reasoning": "赶走新郎与当场换新娘形成即时反转。",
+      "scene_revision": "宴桌侧面拍新郎把戒指交给新娘，旧人伸手被同伴拦住，三方动作围绕小戒盒展开。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "7636c1d94910c99d",
+      "date": "2026-10-29",
+      "publish_local": "2026-10-29T17:00:00+08:00",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "drama_code": "2609 KR85",
+      "language": "tl",
+      "titles": [
+        "Inapi Siya ng Emperatris! Nang Magising ang Bagong Emperador, Siya Naman ang Nanginginig",
+        "Napunta Siya sa Katawan ng Mahinang Emperador! Sarili Niyang Baril ang Nagligtas sa Kaharian",
+        "Ginawang Sunud-sunuran ang Emperador! Pati Kalaguyo ng Emperatris, Mananagot Na"
+      ],
+      "covers": [
+        "covers/2026-10-29_穿越女频开局送皇后白月光进东厂.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被皇后欺压的皇帝换了灵魂，局势立刻逆转",
+      "reasoning": "强弱地位翻转前置，突出穿越皇帝夺回主动权。",
+      "scene_revision": "雪院拉开红布、两人合力开火铳箱，军官探身查看、失势皇后落扇，科技亮相成为画面事件。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "25705b8778f6944e",
+      "date": "2026-10-30",
+      "publish_local": "2026-10-30T17:00:00+08:00",
+      "title_zh": "龙神报恩我一出海鱼获满满",
+      "drama_code": "2609 KR76",
+      "language": "tl",
+      "titles": [
+        "Sinunog Nila ang Bangka Niya! Biglang Dumating ang Dragon na Minsan Niyang Iniligtas",
+        "Isang Dragon ang Iniligtas Niya! Ngayon, Bawat Palaot ay Punong-puno ng Isda",
+        "Hinamak ang Dukhang Mangingisda! Hindi Nila Alam na May Dragon Siyang Kakampi"
+      ],
+      "covers": [
+        "covers/2026-10-30_龙神报恩我一出海鱼获满满.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "恶人烧毁渔船时，他曾救下的蛟龙突然前来报恩",
+      "reasoning": "纵火危机第一句吸睛，龙神报恩直接回应封面高潮。",
+      "scene_revision": "男主泼水救船、报恩蛟龙以水弧灭绳火，恶亲戚后退落筐；用合力救船动作替代举鱼合影。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "24fba2b7b9c506b2",
+      "date": "2026-10-31",
+      "publish_local": "2026-10-31T17:00:00+08:00",
+      "title_zh": "我造的机甲被老婆直播曝光了",
+      "drama_code": "2609 KR77",
+      "language": "tl",
+      "titles": [
+        "Akala Nila Palamunin Siya! Sa Live ng Asawa, Nabunyag ang Higanteng Robot na Ginawa Niya",
+        "Naghahanap Lang ang Asawa ng Itagong Pera! Higanteng Robot ang Nabunyag sa Live",
+        "Hinamak Nila ang Mister ng Sikat na Aktres! Isa Pala Siyang Lihim na Siyentista"
+      ],
+      "covers": [
+        "covers/2026-10-31_我造的机甲被老婆直播曝光了.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被嘲吃软饭的丈夫，竟在妻子直播中曝光自己制造的巨型机甲",
+      "reasoning": "软饭误解加直播曝光，反差和巨型道具同时吸睛。",
+      "scene_revision": "客厅工作台上巨机甲手掌启动，丈夫拧工具、妻子递零件、摄制员跟拍，人物共同参与科技曝光。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "0a58360371e31323",
+      "date": "2026-11-01",
+      "publish_local": "2026-11-01T17:00:00+08:00",
+      "title_zh": "猴王报恩全村傻眼了",
+      "drama_code": "2609 KR73",
+      "language": "tl",
+      "titles": [
+        "Ginigiba Na ang Klinika Niya! Dumating ang Haring Unggoy para Gumanti ng Utang na Loob",
+        "Inapi ang Babaeng Gumamot Nang Libre! Isang Pulang Bato ang Tumawag sa Haring Unggoy",
+        "Ayaw Bayaran ang Manggagamot! Hindi Nila Alam na Haring Unggoy ang Kanyang Kakampi"
+      ],
+      "covers": [
+        "covers/2026-11-01_猴王报恩全村傻眼了.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "诊所即将被推倒，猴王突然前来报答救命之恩",
+      "reasoning": "危急拆诊所与强援到来形成清晰因果。",
+      "scene_revision": "诊所内药架倾斜被猴王金杖托住，成年姐妹接药盘、扶柜，门外恶人惊退，动作集中在护诊所。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "c973bcdea35f0295",
+      "date": "2026-11-02",
+      "publish_local": "2026-11-02T17:00:00+08:00",
+      "title_zh": "我宗门真的全是老弱病残啊",
+      "drama_code": "2609 KR87",
+      "language": "tl",
+      "titles": [
+        "Akala Niya Mahihina ang mga Guro Niya! Sa Pagbaba ng Bundok, Wala Palang Makatalo sa Kanya",
+        "Puro Sugatan at Matatanda ang Guro Niya! Hindi Niya Alam, Isa Na Siyang Halos Imortal",
+        "Pinagtawanan ang Kanyang Talento! Isang Laban Lang, Gumuho ang Yabang ng Pekeng Henyo"
+      ],
+      "covers": [
+        "covers/2026-11-02_我宗门真的全是老弱病残啊.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "以为师父们很弱的他，下山后才发现自己几乎无人能敌",
+      "reasoning": "师门弱者外表与徒弟顶级实力构成双重反差。",
+      "scene_revision": "山院徒手劈铁木，成年姐姐接柴、老者递斧动作停住，木料与反应让隐藏实力可见。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "7098abcbe0ee3d6e",
+      "date": "2026-11-03",
+      "publish_local": "2026-11-03T17:00:00+08:00",
+      "title_zh": "我靠医术横扫江都",
+      "drama_code": "2609 KR54",
+      "language": "tl",
+      "titles": [
+        "Bumaba Siya ng Bundok para Magpakasal! Pambihirang Medisina ang Panlaban sa mga Kaaway",
+        "Hinamak ang Nobyo! Hindi Nila Alam na Limang Dakilang Guro ang Nagturo sa Kanya",
+        "Akala Nila Karaniwang Manggagamot! Siya Pala ang Susi sa Pagligtas sa Pamilya ng Nobya"
+      ],
+      "covers": [
+        "covers/2026-11-03_我靠医术横扫江都.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "下山成亲的他，以通天医术应对未婚妻家族的危机",
+      "reasoning": "娶亲动机接神医能力，保持简介范围，不捏造系统。",
+      "scene_revision": "秦家门阶两人合开医箱、女主撑伞，医箱金光与止步亲族联动，借环境和工具讲神医破局。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "0fa242d5da43c180",
+      "date": "2026-11-04",
+      "publish_local": "2026-11-04T17:00:00+08:00",
+      "title_zh": "武魂觉醒我用锤子一人成军",
+      "drama_code": "2609 KR64",
+      "language": "tl",
+      "titles": [
+        "Itinapon Siya ng Nobya Dahil Martilyo Lang ang Kapangyarihan! Gumawa Siya ng Hukbong Makina",
+        "Tinawag na Walang Silbi ang Martilyo Niya! Kaya Pala Nitong Gumawa ng Hukbong Halimaw",
+        "Pumili ng Ibang Lalaki ang Nobya! Sa Kasal Nila, Dumating Siya Kasama ang Hukbong Makina"
+      ],
+      "covers": [
+        "covers/2026-11-04_武魂觉醒我用锤子一人成军.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "因铁锤武魂被未婚妻抛弃，他却用铁锤造出机械大军",
+      "reasoning": "废物武魂到机械军团的强反差，呼应破门封面。",
+      "scene_revision": "锤落铜门锁、机械鹰拉开断链，婚门后旧人后退接住婚卷；以破门事件表现一人成军。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "7fb5a1c7af154bf9",
+      "date": "2026-11-05",
+      "publish_local": "2026-11-05T17:00:00+08:00",
+      "title_zh": "万倍返还弟子越强我越神",
+      "drama_code": "2609 KR44",
+      "language": "tl",
+      "titles": [
+        "Pinagtaksilan Siya ng Kaibigan! Bawat Regalo sa Alagad, 10,000 Beses ang Balik na Lakas",
+        "Hinamak ang Anak Niya! Ginising Niya ang Ice Phoenix sa Katawan Nito",
+        "Mas Malakas ang Alagad, Mas Makapangyarihan Siya! Pati Munting Unggoy, Ginawa Niyang Henyo"
+      ],
+      "covers": [
+        "covers/2026-11-05_万倍返还弟子越强我越神.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被挚友背叛后，他获得投资徒弟就能返还力量的系统",
+      "reasoning": "背叛引出系统规则，父女授艺封面展示具体能力。",
+      "scene_revision": "父亲交灵药、成年女儿起身冰凰觉醒、猴徒接住风中果盘，返还金光连接父女。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "1db471cc3c963197",
+      "date": "2026-11-06",
+      "publish_local": "2026-11-06T17:00:00+08:00",
+      "title_zh": "满级大师兄制霸都市",
+      "drama_code": "2609 KR48",
+      "language": "tl",
+      "titles": [
+        "Tinanggihan Siya ng Nobya! Ang Kapatid Nito ang Kusang Nagpakasal sa Kanya",
+        "Hinamak Siya ng Nakatatandang Kapatid! Ang Nakababatang Kapatid ang Kumilala sa Tunay Niyang Lakas",
+        "Bumaba Siya ng Bundok para Magpakasal! Isang Sibat, Nasangga Niya ang Ulan ng Bala"
+      ],
+      "covers": [
+        "covers/2026-11-06_满级大师兄制霸都市.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被未婚妻拒婚后，她的妹妹却主动提出代嫁",
+      "reasoning": "拒婚与妹妹代嫁直接制造关系反转，不渲染露骨情节。",
+      "scene_revision": "雨巷横扫雪龙枪护住车门，成年二小姐开门拉袖，两人共同撤离。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "2e77076337d3aff4",
+      "date": "2026-11-07",
+      "publish_local": "2026-11-07T17:00:00+08:00",
+      "title_zh": "囤千万物资到古代娶女帝",
+      "drama_code": "2609 KR29",
+      "language": "tl",
+      "titles": [
+        "Isang Linggo Bago Mapunta sa Sinaunang Panahon! Nag-imbak Siya ng Napakaraming Suplay",
+        "Dukha Siya Pagdating sa Sinaunang Panahon! Pero May Buong Bodega Siya ng Makabagong Suplay",
+        "Napunta Siya sa Sinaunang Panahon! Mga Suplay sa Bodega ang Daan para Mapangasawa ang Emperatris"
+      ],
+      "covers": [
+        "covers/2026-11-07_囤千万物资到古代娶女帝.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "提前一周得知将穿越，他囤下价值千万的物资",
+      "reasoning": "倒计时加囤物资，直接交代穿越生存优势。",
+      "scene_revision": "庭院手推车跨空间门，男主推车、女帝接药、圣女递米，物资流转形成多人共同事件。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "d31e056eb2d9256d",
+      "date": "2026-11-08",
+      "publish_local": "2026-11-08T17:00:00+08:00",
+      "title_zh": "跌入古井觉醒神农秘术",
+      "drama_code": "2609 KR41",
+      "language": "tl",
+      "titles": [
+        "Inihulog Siya sa Balon! Nagising Siyang May Lihim na Medisina ni Shennong",
+        "Hinamak Siyang Hangal! Pag-ahon sa Balon, Isa Na Siyang Pambihirang Manggagamot",
+        "Akala ng Pinuno ng Nayon Tapos Na Siya! Isang Sinaunang Espiritu ang Nagligtas sa Kanya"
+      ],
+      "covers": [
+        "covers/2026-11-08_跌入古井觉醒神农秘术.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被抛进枯井后，他觉醒了神农医术传承",
+      "reasoning": "遇害危机立刻接古井机缘，与井边救援画面对上。",
+      "scene_revision": "井沿绳索救援，成年姐姐拉绳、男主借力跨出井口，神农药光随衣袖上升。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "d3cd60fd6dc6fa35",
+      "date": "2026-11-09",
+      "publish_local": "2026-11-09T17:00:00+08:00",
+      "title_zh": "我有一座超级渔场",
+      "drama_code": "2609 KR52",
+      "language": "tl",
+      "titles": [
+        "Iniwan Siya Dahil Dukha! Isang Sistema sa Palaisdaan ang Nagbago sa Buhay Niya",
+        "Nilason ng Pinsan ang Palaisdaan Niya! Hindi Nito Alam, Kaya Niyang Kontrolin ang Enerhiya",
+        "Minamaliit ang Tagapag-alaga ng Isda! Isang Gintong Koi ang Naglapit sa Kanya sa Tunay na Pamilya"
+      ],
+      "covers": [
+        "covers/2026-11-09_我有一座超级渔场.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被女友嫌贫抛弃的养鱼青年，靠超级渔场系统改变人生",
+      "reasoning": "低谷身份与具体渔场外挂相连，强调财富逆袭。",
+      "scene_revision": "鱼塘边男主掌波、女合伙人开闸，鱼跃水弧与堂兄失手落空瓶点明危机反转。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "e02c6a3fbf4cb31d",
+      "date": "2026-11-10",
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "title_zh": "厨神帝王录",
+      "drama_code": "2609 KR20",
+      "language": "tl",
+      "titles": [
+        "Ipinapatay ang Kanyang Pamilya! Muling Nabuhay ang Heneral Bilang Kusinero para Maghiganti",
+        "Akala Nila Karaniwang Kusinero! Siya Pala ang Heneral na Bumalik para Singilin ang Emperatris",
+        "Mula Kusinero Hanggang Emperador! Gamit ang Walang Hanggang Pagkain, Binawi Niya ang Lahat"
+      ],
+      "covers": [
+        "covers/2026-11-10_厨神帝王录.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "满门被害的将军重生为厨子，开始向仇敌清算",
+      "reasoning": "满门冤案开场，厨子与将军的双身份对应披战袍场景。",
+      "scene_revision": "男主继续颠锅、旧部为他披战袍、女帝掀帘撞见，厨艺与将军身份在同一动作中对撞。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "eaaad5715b36f1d6",
+      "date": "2026-11-11",
+      "publish_local": "2026-11-11T17:00:00+08:00",
+      "title_zh": "SSS级狂龙横扫一切",
+      "drama_code": "2609 KR21",
+      "language": "tl",
+      "titles": [
+        "Pinilit Magpakasal ang Nobya Niya! Kalalabas Lang Niya sa Bilangguan, Ginulo Na Niya ang Kasal",
+        "Akala Nila Karaniwang Bilanggo! Hindi Nila Alam ang Lakas na Ibinigay ng Lima Niyang Guro",
+        "Tatlong Libong Bantay sa Kasal! Mag-isa Siyang Dumating para Bawiin ang Nobya"
+      ],
+      "covers": [
+        "covers/2026-11-11_SSS级狂龙横扫一切.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "未婚妻被迫另嫁，他刚出狱就赶赴婚宴救人",
+      "reasoning": "强迫婚姻与出狱救人形成紧迫行动线。",
+      "scene_revision": "婚宴推桌护未婚妻，女主抓臂同步退避，强迫婚事的父子后退，展示护人时的力量。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "61e9f44ad3376d56",
+      "date": "2026-11-12",
+      "publish_local": "2026-11-12T17:00:00+08:00",
+      "title_zh": "开局变鹦鹉气疯所有人",
+      "drama_code": "2609 KR09",
+      "language": "tl",
+      "titles": [
+        "Itinulak Siya ng Nobya sa Bangin! Bumalik Siyang Loro na Kayang Bumuga ng Apoy",
+        "Akala Nila Karaniwang Loro! Siya Pala ang Lalaking Pinagtaksilan Nila",
+        "Tinangka Nilang Patayin Siya! Ang Loro sa Live ang Magbubunyag ng Lihim Nila"
+      ],
+      "covers": [
+        "covers/2026-11-12_开局变鹦鹉气疯所有人.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被女友推下悬崖的他，变成了能喷火的鹦鹉归来",
+      "reasoning": "背叛死局接意外动物主角，喷火能力与封面一致。",
+      "scene_revision": "鹦鹉掠门前画火弧、成年主播持折叠支架后退伸手、仇人抓门退避，突出守护动作。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "71441ad9cf87d888",
+      "date": "2026-11-13",
+      "publish_local": "2026-11-13T17:00:00+08:00",
+      "title_zh": "末日之我的房车无限升级",
+      "drama_code": "2609 KR03",
+      "language": "tl",
+      "titles": [
+        "Paparating ang Zombie Apocalypse! Bawat Metal na Lamunin ng Van Niya, Mas Lumalakas Ito",
+        "Pinagtaksilan Siya ng Pamilya! Sa Ikalawang Buhay, Ginawa Niyang Kuta ang Lumang Van",
+        "Mula Lumang Van Hanggang Lumulutang na Lungsod! Walang Hanggan ang Upgrade ng Sistema Niya"
+      ],
+      "covers": [
+        "covers/2026-11-13_末日之我的房车无限升级.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "丧尸末日即将爆发，他的房车吞噬金属就能升级",
+      "reasoning": "倒计时生存压力和可视化升级规则紧密相接。",
+      "scene_revision": "雪城中扶成年幸存者上伸展舷梯，金属零件流入车身完成升级，接人与护甲变化共同发生。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "a6093968fa1322b5",
+      "date": "2026-11-14",
+      "publish_local": "2026-11-14T17:00:00+08:00",
+      "title_zh": "热浪末世我带全家打造室外桃园",
+      "drama_code": "2609 EN91",
+      "language": "tl",
+      "titles": [
+        "Pitong Araw Bago ang Nakamamatay na Init! Buong Pamilya Niya ang Muling Nabuhay",
+        "Lahat Nagdurusa sa Matinding Init! Ang Pamilya Niya, May Lihim na Luntiang Kanlungan",
+        "Alam Nila ang Darating na Katapusan! Tahimik Silang Nag-imbak Habang Nililinlang ang mga Kaaway"
+      ],
+      "covers": [
+        "covers/2026-11-14_热浪末世我带全家打造室外桃园.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "致命热浪来临前七天，他与父母一同重生，提前准备避难所",
+      "reasoning": "七天倒计时、全家重生与热浪绿洲反差呼应。",
+      "scene_revision": "父子抬水桶、母亲与成年女伴合铺遮阳布，开放庭院与热浪城市形成安全反差。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    },
+    {
+      "job_id": "16ed6041e3af4631",
+      "date": "2026-11-15",
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "title_zh": "真少爷他医术通神",
+      "drama_code": "2609 EN87",
+      "language": "tl",
+      "titles": [
+        "Ibinalik Siya ng Mayamang Pamilya para Isakripisyo! Isa Pala Siyang Henyo sa Medisina",
+        "Ginawa Lang Siyang Pamalit ng Pekeng Tagapagmana! Hindi Nila Alam ang Tunay Niyang Lakas",
+        "Inalok Siya ng Buong Kayamanan! Tumalikod ang Tunay na Tagapagmana para Iligtas ang Guro Niya"
+      ],
+      "covers": [
+        "covers/2026-11-15_真少爷他医术通神.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "豪门接回真少爷是要让他替死，却不知他是顶级神医",
+      "reasoning": "家族阴谋第一句抓人，以隐藏医术完成身份反转。",
+      "scene_revision": "走廊扶已康复成年患者起立、女伴合医箱同行，父亲递外套被婉拒，诊疗与拒豪门两个动作同场。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941"
+    }
+  ],
+  "sha256": {
+    "covers/2026-10-26_战神归来前妻你哭什么.jpg": "cce320caab34923ca82f2ed5c31b479c52eb3a8e8213745db52948ad48dbbdb0",
+    "covers/2026-10-27_旁人笑我木讷不知我有老仙金手指.jpg": "c48ae984dbb37f33c6bbd5a5f4277e95fc40d6bd84dfeb372da94e7efdbe4c55",
+    "covers/2026-10-28_婚礼照常新娘换人.jpg": "aa0e3bee83b3ef8aec427782fc96851106588bd4b0dd1e1504e56867fcb0ef9d",
+    "covers/2026-10-29_穿越女频开局送皇后白月光进东厂.jpg": "e509e78e4a50b079be9b98ce9e98d43605c2fc81d7252c16de1b412e2183f737",
+    "covers/2026-10-30_龙神报恩我一出海鱼获满满.jpg": "69c31d590e8c8c0e7eb17dd497f1af74cdc3f89419be29e4e9227e04671fa6e1",
+    "covers/2026-10-31_我造的机甲被老婆直播曝光了.jpg": "70e59f0a8d0ceefe478ad37d758dc8294bb30d1014d99845f7bfe3615bf7be9a",
+    "covers/2026-11-01_猴王报恩全村傻眼了.jpg": "25d9fa99302c02ba3080741b2c1adc8fb4c94265603e783a64e6b692a7b300d0",
+    "covers/2026-11-02_我宗门真的全是老弱病残啊.jpg": "81df3e8d3c4d4055d9e69bb056a09c1d9bc47a861994e2f8806a469b6aabc149",
+    "covers/2026-11-03_我靠医术横扫江都.jpg": "bf41a7cecda2b7f3ff1844e6e8857141f8ee084e5c5b1817fa3c3a1b59050848",
+    "covers/2026-11-04_武魂觉醒我用锤子一人成军.jpg": "b7b46d9f1ff3519488a3dec6b950850a4661ccb530c7f68c29e98fe024a63aa0",
+    "covers/2026-11-05_万倍返还弟子越强我越神.jpg": "9e6d5f39be759441627795525c5cf07eef431d7c1cd10e2ba90a1bcf87f1fa27",
+    "covers/2026-11-06_满级大师兄制霸都市.jpg": "626d2759071725aac8f3fe71c1d11c6ac8e0a65e0c28f18649de4467e2c2a7b6",
+    "covers/2026-11-07_囤千万物资到古代娶女帝.jpg": "7e05b60c780eaccc46764a097054c8369732a5712a389d511ecac04c798953eb",
+    "covers/2026-11-08_跌入古井觉醒神农秘术.jpg": "329e3efd4710e727eb5967cc8944158d12c5d3acc4c868122db2d946812e9b24",
+    "covers/2026-11-09_我有一座超级渔场.jpg": "9a372c76b32eec5bcd425edf2a09a06124c24d82672e34c2d9cb53052c4e1c03",
+    "covers/2026-11-10_厨神帝王录.jpg": "e66b46a166417d4166f739047a8de955160ee8d74c1297955ad6c72e6d6eb5a4",
+    "covers/2026-11-11_SSS级狂龙横扫一切.jpg": "25e0b33acaeec6d8cf6b1f39f6731231decfe8e7139af8b266680a47536fe4e5",
+    "covers/2026-11-12_开局变鹦鹉气疯所有人.jpg": "0f7609688ad82fb6bc0f133f4514c30aa5d081a32fed0d033e98fca6af403d18",
+    "covers/2026-11-13_末日之我的房车无限升级.jpg": "7d6c659f8ff870f1a5c4cc279f8adcba98379469795dfed05e558122cbde765c",
+    "covers/2026-11-14_热浪末世我带全家打造室外桃园.jpg": "75f324382ba0f7a90871fb878ad802b2f53b1caa48b48ec160f3e19ef93aafc0",
+    "covers/2026-11-15_真少爷他医术通神.jpg": "f5be0a96604e6a21e7cb2c1dff25dd9d7930802fbef4528a5e7c95c825150320"
+  },
+  "research_status": "根据提供的简介与用户示例创作，未获取实时热门频道数据，未做线上点击率测试。"
+}
