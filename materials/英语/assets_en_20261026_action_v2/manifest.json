@@ -1,0 +1,1286 @@
+{
+  "version": 4,
+  "art_revision": "action_v2",
+  "language": "en",
+  "channel": "Supreme Hero Flicks",
+  "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+  "date_range": [
+    "2026-10-26",
+    "2026-11-15"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "jobs": [
+    {
+      "job_id": "4ca37dffd486beb4",
+      "date": "2026-10-26",
+      "publish_local": "2026-10-26T17:00:00+08:00",
+      "title_zh": "我的古井藏着大机缘",
+      "drama_code": "2609 KR70",
+      "language": "en",
+      "titles": [
+        "They Cast Out the Real Heir! His Village Well Turned Their Rejection Into a Fortune",
+        "Reborn Before His Family Betrayed Him, He Found a Spring That Could Grow Miracles",
+        "His Family Wanted Him Gone! Now They Want the Farmer With the Magical Well Back"
+      ],
+      "covers": [
+        "covers/2026-10-26_1700_我的古井藏着大机缘.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "真少爷被家族抛弃后，乡下古井却让他逆袭致富",
+      "reasoning": "被逐的身份冲突开场，以古井变现的具体机缘接反转。",
+      "scene_revision": "灵泉水注入灌溉槽，男女协作引水、果园焕发生机，家人来访撞见反转。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "171b0eddc19145d0",
+      "date": "2026-10-26",
+      "publish_local": "2026-10-26T21:00:00+08:00",
+      "title_zh": "我有一座超级渔场",
+      "drama_code": "2609 KR52",
+      "language": "en",
+      "titles": [
+        "His Girlfriend Left Him for Being Poor! Then His Fish Pond Awakened a Fortune-Making System",
+        "His Cousin Poisoned the Pond! He Never Knew the Fish Farmer Could Sense Every Move",
+        "They Called Him a Nobody! One Golden Koi Changed His Fortune and Exposed His Real Family"
+      ],
+      "covers": [
+        "covers/2026-10-26_2100_我有一座超级渔场.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被女友嫌贫抛弃后，他觉醒了能让渔场创造财富的系统",
+      "reasoning": "感情背叛引出渔场能力，金鲤与封面收网动作呼应。",
+      "scene_revision": "男女共同抬起金鲤鱼网，水滴与金光突出系统渔获，堂兄后退形成反应。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "db385cffa4dc0228",
+      "date": "2026-10-27",
+      "publish_local": "2026-10-27T17:00:00+08:00",
+      "title_zh": "元始我申公豹请你上榜封神",
+      "drama_code": "2609 KR78",
+      "language": "en",
+      "titles": [
+        "His Master Erased His Mind! Reborn, He Stole the Scroll That Decides the Gods' Fate",
+        "He Did Heaven's Dirty Work and Was Discarded! This Time, His Master Goes on the List",
+        "They Used Him as a Pawn! Now His Chaos Bell Makes Even the Immortals Tremble"
+      ],
+      "covers": [
+        "covers/2026-10-27_1700_元始我申公豹请你上榜封神.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被师尊抹去神智后重来，他夺走了决定众神命运的封神榜",
+      "reasoning": "具体背叛代价第一句抓人，抢卷轴与改命能力形成反击。",
+      "scene_revision": "师徒争夺无字封神卷轴，混沌钟光环拉开空间，动作体现叛教夺命运。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "4b6854cff9609389",
+      "date": "2026-10-27",
+      "publish_local": "2026-10-27T21:00:00+08:00",
+      "title_zh": "市井枭雄",
+      "drama_code": "2609 KR60",
+      "language": "en",
+      "titles": [
+        "His Landlord Raised the Rent to 10 Million! He Emptied the Supermarket Overnight",
+        "They Thought He Had Nowhere to Go! His Entire Store Reopened Across the Street",
+        "She Tried to Squeeze Him Dry! He Walked Away, Then Bought the Mall She Owned"
+      ],
+      "covers": [
+        "covers/2026-10-27_2100_市井枭雄.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "房东把年租涨到千万，他连夜搬空超市另起炉灶",
+      "reasoning": "千万租金与搬空整店的强行动对照，直接对应搬货封面。",
+      "scene_revision": "连夜搬空旧店推货过街，女经理接应新店、房东母子追出，空满对比讲清反转。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "1edeeaafe82dd3b6",
+      "date": "2026-10-28",
+      "publish_local": "2026-10-28T17:00:00+08:00",
+      "title_zh": "我的破烂牛棚堪比豪宅",
+      "drama_code": "2609 KR68",
+      "language": "en",
+      "titles": [
+        "His Siblings Took the House and Cash! The Ruined Cowshed He Got Was Made of Gold",
+        "They Laughed at His Inheritance! One Broken Panel Revealed a Fortune in Solid Gold",
+        "He Kept a Promise to Guard an Old Cowshed! Then Its Beams Changed the Whole Village"
+      ],
+      "covers": [
+        "covers/2026-10-28_1700_我的破烂牛棚堪比豪宅.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "兄姐分走房钱，他只得破牛棚，却发现棚体是纯金",
+      "reasoning": "偏心分家后立刻展示最差家产的隐藏价值。",
+      "scene_revision": "夫妻拆开破牛棚柱面，整根金梁曝光，父亲举灯、偏心兄姐撞见。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "507cab02d9e346e2",
+      "date": "2026-10-28",
+      "publish_local": "2026-10-28T21:00:00+08:00",
+      "title_zh": "我家浴缸通海底",
+      "drama_code": "2609 KR51",
+      "language": "en",
+      "titles": [
+        "He Left His Ungrateful Family! His Cheap Rental Came With a Bathtub Leading to the Ocean",
+        "A Broken-Down Apartment Was All He Could Afford! Its Bathtub Hid an Undersea World",
+        "They Never Valued His Sacrifices! Then He Found Ocean Treasures Inside His Bathtub"
+      ],
+      "covers": [
+        "covers/2026-10-28_2100_我家浴缸通海底.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "离开不知感恩的家人后，他在廉价出租屋发现直通海底的浴缸",
+      "reasoning": "租房低谷接浴缸深海入口，具体奇物比泛泛暴富更直观。",
+      "scene_revision": "夫妻从浴缸海底通道合力拉出珍珠海货，浴室与深海形成具体奇观。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "cd307dfa5be1eda4",
+      "date": "2026-10-29",
+      "publish_local": "2026-10-29T17:00:00+08:00",
+      "title_zh": "一纸断千谋",
+      "drama_code": "2609 KR63",
+      "language": "en",
+      "titles": [
+        "The Bank Seized His Deposit for a Dead Man's Debt! This Lawyer Traced Every Lie",
+        "They Forged His Ancestors' Debts! He Turned the Whole Village Against the Bank Scam",
+        "A Fake Loan Swallowed His Savings! He Found the Banker and Village Chief Behind It"
+      ],
+      "covers": [
+        "covers/2026-10-29_1700_一纸断千谋.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "银行以亡者债务扣走首付，律师追查整场贷款骗局",
+      "reasoning": "荒唐扣款第一句制造愤怒，再以律师查证提供反击预期。",
+      "scene_revision": "律师递交证据，调查人员拦住抢文件的行长，村民见证，明确诈骗揭露动作。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "5c4290b5792252e6",
+      "date": "2026-10-29",
+      "publish_local": "2026-10-29T21:00:00+08:00",
+      "title_zh": "渔夫从神奇龙珠开始起飞",
+      "drama_code": "2609 KR30",
+      "language": "en",
+      "titles": [
+        "His Brother Left Millions in Debt! A Dragon Pearl Let Him Call Whales to His Defense",
+        "Loan Sharks Surrounded His Boat! They Didn't Know He Could Command the Ocean",
+        "They Bullied a Broke Fisherman! One Dragon Pearl Turned His Catch Into a Fortune"
+      ],
+      "covers": [
+        "covers/2026-10-29_2100_渔夫从神奇龙珠开始起飞.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "亡兄留下巨债，神奇龙珠却让他能号令鲸鱼保护自己",
+      "reasoning": "债务困境接龙珠控海能力，巨鲸回应围船危机。",
+      "scene_revision": "龙珠唤鲸阻退摩托艇，男主护住成年嫂子，黄犬甲板示警。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "80049027d740e56f",
+      "date": "2026-10-30",
+      "publish_local": "2026-10-30T17:00:00+08:00",
+      "title_zh": "我可不是普通芦花鸡",
+      "drama_code": "2609 KR43",
+      "language": "en",
+      "titles": [
+        "A Keeper Betrayed Him and He Became a Rooster! Every Fan Brought Him Closer to a Phoenix",
+        "They Tried to Sell His Zoo! The Rooster Fighting Back Was Its Former Director",
+        "He Woke Up as a Chicken! Outsmarting a Tiger Was Just the Start of His Evolution"
+      ],
+      "covers": [
+        "covers/2026-10-30_1700_我可不是普通芦花鸡.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被饲养员害成公鸡的老园长，靠人气逐步进化成凤凰",
+      "reasoning": "离奇动物身份与凤凰终点构成高反差成长线。",
+      "scene_revision": "芦花鸡腾跃显凤凰光影，饲养员扶桶、老园丁护门、反派掉文件，动物主角有动作。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "f25cdecd19c8adae",
+      "date": "2026-10-30",
+      "publish_local": "2026-10-30T21:00:00+08:00",
+      "title_zh": "太监从后宫签到成圣",
+      "drama_code": "2609 KR45",
+      "language": "en",
+      "titles": [
+        "He Woke Up as a Palace Eunuch! Secret Cultivation Turned Him Into the Future Regent",
+        "The Emperor Kept Setting Death Traps! This Lowly Eunuch Had a Hidden Power System",
+        "They Thought He Was Helpless! He Protected the Princess and Toppled the Emperor"
+      ],
+      "covers": [
+        "covers/2026-10-30_2100_太监从后宫签到成圣.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "穿成底层太监后，他靠修仙系统逐步成为摄政王",
+      "reasoning": "最低身份开场，修仙与辅政权势提供清晰上升路径。",
+      "scene_revision": "太监修士以护罩挡敌，成年公主递印、太后开门接应，权力与保护动作同场。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "f587076c2689639a",
+      "date": "2026-10-31",
+      "publish_local": "2026-10-31T17:00:00+08:00",
+      "title_zh": "东北足疗工的底牌规矩2",
+      "drama_code": "2609 KR46",
+      "language": "en",
+      "titles": [
+        "He Seemed Like a Massage-Shop Owner! One Rigged Game Drew a Hidden Master Back In",
+        "His Family Was Caught in a Gambling Web! The Quiet Shopkeeper Started Hunting Its Boss",
+        "A Familiar Rival Walked Into His Shop! Her Clue Led Him Into a Nationwide Gambling Ring"
+      ],
+      "covers": [
+        "covers/2026-10-31_1700_东北足疗工的底牌规矩2.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "普通足疗店主遇到一场暗局，隐藏高手重新入场追查黑手",
+      "reasoning": "日常职业与暗局高手反差，作弊手腕和暗摄像头让悬疑具体。",
+      "scene_revision": "男主按住作弊手腕掀骰盅，女线人拉帘揭摄像头，追查暗局落到具体证据。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "42315a0cd6b29cc4",
+      "date": "2026-10-31",
+      "publish_local": "2026-10-31T21:00:00+08:00",
+      "title_zh": "跌入古井觉醒神农秘术",
+      "drama_code": "2609 KR41",
+      "language": "en",
+      "titles": [
+        "They Dumped Him in a Dry Well! He Came Back With the Power to Heal What Doctors Couldn't",
+        "They Called Him a Fool! A Spirit Beneath the Well Made Him a Master Healer",
+        "A Village Chief Tried to Silence Him! The Man He Feared Returned With Shennong's Secrets"
+      ],
+      "covers": [
+        "covers/2026-10-31_2100_跌入古井觉醒神农秘术.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被扔进枯井后，他带着神农传承归来，成为神医",
+      "reasoning": "遇害危机紧接独门医术，以治疗动作承接剧情。",
+      "scene_revision": "神农药光照铜盆，姐姐递药臼、成年患者伸臂求治、村长窥见能力。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "28f5796a366c52c6",
+      "date": "2026-11-01",
+      "publish_local": "2026-11-01T17:00:00+08:00",
+      "title_zh": "房间里的人偶",
+      "drama_code": "2609 KR26",
+      "language": "en",
+      "titles": [
+        "His Wife Wouldn't Leave Her Doll Alone! He Found His Best Friend Behind the Secret",
+        "He Suspected a Man Inside the Doll! The Truth Put His Company and His Life at Risk",
+        "His Wife and Best Friend Had a Plan! He Let Them Think the Doll Had Fooled Him"
+      ],
+      "covers": [
+        "covers/2026-11-01_1700_房间里的人偶.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "妻子沉迷人偶的异常背后，竟藏着她与丈夫挚友的阴谋",
+      "reasoning": "人偶异常先制造疑问，再引出熟人背叛和公司危机。",
+      "scene_revision": "丈夫拉帘揭开人偶后的藏身人，妻子试图合电脑，调查人员进门，悬疑靠互动。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "21249378e7f86f91",
+      "date": "2026-11-01",
+      "publish_local": "2026-11-01T21:00:00+08:00",
+      "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+      "drama_code": "2609 KR36",
+      "language": "en",
+      "titles": [
+        "He Drowned and Woke Up as an Octopus! Every World Cup Prediction Came True",
+        "A Broke Man Trusted an Octopus! Its Perfect Predictions Exposed a World Cup Conspiracy",
+        "The Octopus Never Picked Wrong! Then a Reporter Uncovered the Danger Behind the Final"
+      ],
+      "covers": [
+        "covers/2026-11-01_2100_穿越成章鱼我预测世界杯全中变球王.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "溺水后穿成章鱼的他，竟能准确预测世界杯比赛",
+      "reasoning": "动物身份加预测全中的明确能力，一眼可懂且与预测箱封面对应。",
+      "scene_revision": "章鱼卷起足球选择预测箱，成年人隔缸互动、女记者收麦追问，预测能力直接可见。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "fc9c857248c6b080",
+      "date": "2026-11-02",
+      "publish_local": "2026-11-02T17:00:00+08:00",
+      "title_zh": "燃香之后",
+      "drama_code": "2609 KR39",
+      "language": "en",
+      "titles": [
+        "His Family Got Rich Overnight! The Incense in Their Locked House Was Hiding a Crime",
+        "He Smashed the Wall Looking for a Secret Woman! A Hidden Projector Changed Everything",
+        "They Used Ghost Stories to Hide the Truth! He and an Old Taoist Turned the Trick Against Them"
+      ],
+      "covers": [
+        "covers/2026-11-02_1700_燃香之后.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "家中突然暴富，封锁老宅里的香料却藏着犯罪真相",
+      "reasoning": "暴富谜团开场，以香炉、墙板和投影设备落实揭密。",
+      "scene_revision": "男主移开香炉、老道拆墙露投影设备，假鬼影消散、嫌疑人失措。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "74abf81638778fe5",
+      "date": "2026-11-02",
+      "publish_local": "2026-11-02T21:00:00+08:00",
+      "title_zh": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+      "drama_code": "2609 KR32",
+      "language": "en",
+      "titles": [
+        "His Lovers Betrayed Him! Reborn as a Tadpole, He Evolved Into the Emperor They Would Fear",
+        "They Left Him at the Bottom of a Lake! His Next Return Was as the Frog Emperor",
+        "From a Tiny Tadpole to a Sect's Worst Nightmare! Every Meal Made Him Stronger"
+      ],
+      "covers": [
+        "covers/2026-11-02_2100_说好是只小蝌蚪你怎么靠吞噬成天帝了.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被道侣背叛后重生成蝌蚪，他一步步进化成蛙帝归来",
+      "reasoning": "弱小起点与强大复仇终点形成鲜明系统升级爽点。",
+      "scene_revision": "蛙帝跃荷叶撑护盾，旧日成年仇敌与道侣踉跄互扶，展现进化归来的力量。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "585c069e9baf821e",
+      "date": "2026-11-03",
+      "publish_local": "2026-11-03T17:00:00+08:00",
+      "title_zh": "厨神帝王录",
+      "drama_code": "2609 KR20",
+      "language": "en",
+      "titles": [
+        "The Empress Framed Her Best General! He Returned as a Cook to Take Her Throne",
+        "They Destroyed His Family! A Cook With Endless Food Began Taking Back the Empire",
+        "An Old Officer Recognized the Cook's Token! The General They Buried Had Returned"
+      ],
+      "covers": [
+        "covers/2026-11-03_1700_厨神帝王录.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "遭女帝陷害的名将重生为厨子，开始夺回权力清算冤案",
+      "reasoning": "冤案情绪前置，厨子与名将身份反差呼应虎符曝光画面。",
+      "scene_revision": "颠锅递餐时虎符滑落，旧部伸手认身份、宫廷女官扶碗，厨神与名将双身份相撞。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "14652999d8905db3",
+      "date": "2026-11-03",
+      "publish_local": "2026-11-03T21:00:00+08:00",
+      "title_zh": "山海计划我把整个修仙界上交了",
+      "drama_code": "2609 KR27",
+      "language": "en",
+      "titles": [
+        "His Wardrobe Led to a World That Enslaved Him! He Returned Wearing Modern Battle Armor",
+        "Cultivators Made Him a Mine Slave! He Brought Science Back Through His Wardrobe",
+        "He Found a World Behind His Closet! Sharing Its Secret Turned Magic Into Modern Power"
+      ],
+      "covers": [
+        "covers/2026-11-03_2100_山海计划我把整个修仙界上交了.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "衣柜通向的修仙界曾把他当矿奴，他带现代战甲重返异界",
+      "reasoning": "跨界奇物连接奴役低谷与科技反击，明确升级路径。",
+      "scene_revision": "外骨骼男主拉灵药车穿衣柜门，女科学家接车验样、工程师稳无人机，两界资源交接。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "9b8b865517b544a5",
+      "date": "2026-11-04",
+      "publish_local": "2026-11-04T17:00:00+08:00",
+      "title_zh": "我靠刷题重振宗门",
+      "drama_code": "2609 KR33",
+      "language": "en",
+      "titles": [
+        "His Sect Was Falling Behind! He Made the Disciples Study Science Instead of Just Meditating",
+        "They Laughed at His Sect's Homework! Then Science Started Beating Their Cultivation",
+        "Reborn as a Sect Ancestor, He Turned Studying Into the Fastest Way to Reach the Top"
+      ],
+      "covers": [
+        "covers/2026-11-04_1700_我靠刷题重振宗门.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "宗门落后，他改用科学与学习改革修炼方式",
+      "reasoning": "刷题与修仙的类型碰撞，以合作实验代替静态课堂。",
+      "scene_revision": "老祖与成年弟子拉索转齿轮校准浑天仪，科学修仙以合作实验和护宗光幕呈现。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "2012898f955f2962",
+      "date": "2026-11-04",
+      "publish_local": "2026-11-04T21:00:00+08:00",
+      "title_zh": "恩与债",
+      "drama_code": "2609 KR50",
+      "language": "en",
+      "titles": [
+        "He Funded Their Education! When He Fell Ill, They Only Wanted More of His Money",
+        "They Mistook His Kindness for a Debt! He Finally Took His Generosity Back",
+        "The Benefactor They Used Was Done Giving! Now Their Own Greed Would Cost Them"
+      ],
+      "covers": [
+        "covers/2026-11-04_2100_恩与债.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "他资助他们求学，重病时却发现一些人只想索取更多钱",
+      "reasoning": "善意遭背叛引发共情，收回信封提供明确止损动作。",
+      "scene_revision": "病后恩人收回资助信封，贪婪受助者不肯松手、真心者扶臂送花，恩债分明。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "a42a7e11a602b0f8",
+      "date": "2026-11-05",
+      "publish_local": "2026-11-05T17:00:00+08:00",
+      "title_zh": "开局变鹦鹉气疯所有人",
+      "drama_code": "2609 KR09",
+      "language": "en",
+      "titles": [
+        "His Girlfriend and Brother Pushed Him Off a Cliff! He Returned as a Fire-Breathing Parrot",
+        "The Parrot on Her Livestream Knew Their Secret! They Had Tried to Kill Him",
+        "They Came to Take the Bird Away! One Burst of Fire Exposed Their Biggest Mistake"
+      ],
+      "covers": [
+        "covers/2026-11-05_1700_开局变鹦鹉气疯所有人.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被女友与养弟推下悬崖后，他变成能喷火的鹦鹉归来",
+      "reasoning": "背叛危机接意想不到的动物复仇能力，喷火与护主播动作一致。",
+      "scene_revision": "鹦鹉振翅挡住抢支架的仇人，主播拉回设备，桌面火旋与仇人后退形成动作链。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "9c10eca0edb8f2e4",
+      "date": "2026-11-05",
+      "publish_local": "2026-11-05T21:00:00+08:00",
+      "title_zh": "不给彩礼后她全家悔哭了",
+      "drama_code": "2609 KR23",
+      "language": "en",
+      "titles": [
+        "Her Family Tried to Sell His Bride to Another Man! They Never Knew the Groom Was a Tycoon",
+        "They Demanded 300,000 to Let Her Marry! He Rescued His Bride and Stopped Playing Nice",
+        "They Humiliated the Wrong Groom! The Man Taking His Bride Away Had Hidden His Fortune"
+      ],
+      "covers": [
+        "covers/2026-11-05_2100_不给彩礼后她全家悔哭了.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "新娘家逼她改嫁，竟不知道赶来救人的新郎是隐藏富豪",
+      "reasoning": "逼婚冲突和隐富身份前置，救人上车比站姿更有行动感。",
+      "scene_revision": "富豪新郎为成年新娘打开车门，司机撑伞、索彩礼的哥嫂追出，离场动作表达救人与决裂。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "b7410d4c350e9fbf",
+      "date": "2026-11-06",
+      "publish_local": "2026-11-06T17:00:00+08:00",
+      "title_zh": "婚礼照常新娘换人",
+      "drama_code": "2609 KR84",
+      "language": "en",
+      "titles": [
+        "She Chose Her First Love Over Him! He Kept the Wedding and Replaced the Bride",
+        "They Forced the Son-in-Law Out! At the Wedding, His Billionaire Identity Finally Came Out",
+        "His Ex Expected Him to Walk Away Alone! He Married an Heiress and Took His Business Back"
+      ],
+      "covers": [
+        "covers/2026-11-06_1700_婚礼照常新娘换人.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "她为初恋赶走他，他却保留婚礼，换了新娘",
+      "reasoning": "拒婚与当场换人的反向行动形成强钩子。",
+      "scene_revision": "新郎为新娘戴戒后被牵向走道，前任抓空戒枕、父亲拉回，婚礼换人用动作讲清。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "548af0813a6539fc",
+      "date": "2026-11-06",
+      "publish_local": "2026-11-06T21:00:00+08:00",
+      "title_zh": "别惹那个匠师他火力全开",
+      "drama_code": "2609 KR17",
+      "language": "en",
+      "titles": [
+        "They Came With Flying Swords! He Showed Up With Power Tools and a Hardware-Store System",
+        "A Broke Craftsman Unlocked a Hardware Store! Cultivators Couldn't Handle His Inventions",
+        "They Practiced Swordsmanship for Years! His Chainsaw Made Them Question Everything"
+      ],
+      "covers": [
+        "covers/2026-11-06_2100_别惹那个匠师他火力全开.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "修士用飞剑而来，他却靠五金系统拿出现代工具破局",
+      "reasoning": "传统法术与现代工具的类型反差，具体道具带来视觉记忆点。",
+      "scene_revision": "匠师骑自制摩托挥高压水枪破飞剑阵，女助手稳水管，对手狼狈躲水。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "d67d4f687ff66d70",
+      "date": "2026-11-07",
+      "publish_local": "2026-11-07T17:00:00+08:00",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "drama_code": "2609 KR85",
+      "language": "en",
+      "titles": [
+        "His Empress Made Him Kneel in the Snow! The Man Who Woke Up Would Never Kneel Again",
+        "She Thought the Emperor Was Her Puppet! His New Soul Turned the Palace Against Her",
+        "Reborn as a Humiliated Emperor, He Built His Own Guns and Took His Kingdom Back"
+      ],
+      "covers": [
+        "covers/2026-11-07_1700_穿越女频开局送皇后白月光进东厂.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "皇后逼皇帝跪雪地，穿越后的他再也不会任她摆布",
+      "reasoning": "受辱场景足够具体，披风挣脱和推门表现夺回主动权。",
+      "scene_revision": "皇帝抽回被拽住的披风转身，真心女伴推门迎新局，废后失去控制的动作反转。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "915f7a71337e9f44",
+      "date": "2026-11-07",
+      "publish_local": "2026-11-07T21:00:00+08:00",
+      "title_zh": "灵山不送客",
+      "drama_code": "2609 KR16",
+      "language": "en",
+      "titles": [
+        "They Paid Him to Hunt on a Forbidden Mountain! He Was Really Bait for Their Hidden Tomb",
+        "They Feared a Mountain Spirit! The Hunters Who Hired Him Had Set the Real Trap",
+        "He Broke the Mountain's Rules to Save His Mother! Someone Had Planned Every Trap"
+      ],
+      "covers": [
+        "covers/2026-11-07_2100_灵山不送客.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "盗墓贼以高价收猎诱他上禁山，他其实只是引出古墓的活饵",
+      "reasoning": "挣钱救母的动机与被利用的反转连接，山中救援传达危险。",
+      "scene_revision": "守山老人拽猎人脱离墓口陷阱，盗墓夫妇抢箱、山魈影与绳索暗示人为谜底。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "1346b5cfdfb6d902",
+      "date": "2026-11-08",
+      "publish_local": "2026-11-08T17:00:00+08:00",
+      "title_zh": "别碰那个瑜伽球",
+      "drama_code": "2609 KR10",
+      "language": "en",
+      "titles": [
+        "His Wife Hid Her Trainer Inside a Yoga Ball! He Opened It and Exposed the Whole Lie",
+        "He Worked to Support Her Family! The Man Inside Her Yoga Ball Revealed the Betrayal",
+        "She Thought the Yoga Ball Hid Her Secret! Her Husband Was Already Setting the Trap"
+      ],
+      "covers": [
+        "covers/2026-11-08_1700_别碰那个瑜伽球.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "妻子把教练藏在瑜伽球里，丈夫设局揭穿骗局",
+      "reasoning": "反常藏身道具第一句制造猎奇感，以揭局悬疑吸引点击。",
+      "scene_revision": "丈夫调出安防录像，妻子试图拔线，教练扶住滚动瑜伽球，借证据和反应揭穿骗局。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "02ea4e18b0adfba0",
+      "date": "2026-11-08",
+      "publish_local": "2026-11-08T21:00:00+08:00",
+      "title_zh": "奈何桥上不许刹车",
+      "drama_code": "2609 KR72",
+      "language": "en",
+      "titles": [
+        "His Delivery Van Entered the Afterlife! The Only Way Home Was Straight Through the Bridge",
+        "They Sabotaged His Route to the Dead! He Drove His Client Toward the Only Exit",
+        "A Rival Tried to Trap His Hearse in the Spirit World! He Turned the Escape Into a Payday"
+      ],
+      "covers": [
+        "covers/2026-11-08_2100_奈何桥上不许刹车.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "运送暗镖的灵车闯进阴阳诡道，他必须驾车冲出奈何桥",
+      "reasoning": "日常运输与阴间路线碰撞，桥上的方向与逃离目标一眼可懂。",
+      "scene_revision": "灵车冲破空石拱驶向光明路，女雇主举寒蝉玉、司机转向，诡道逃生有清晰方向。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "b061dc6179421b4b",
+      "date": "2026-11-09",
+      "publish_local": "2026-11-09T17:00:00+08:00",
+      "title_zh": "诡异擂台开局召唤左千户",
+      "drama_code": "2026 WW30",
+      "language": "en",
+      "titles": [
+        "His Nation's Gods Were Sealed Away! He Summoned Human Legends to Fight in Their Place",
+        "Three Defeats, a Nation on the Brink! A Mortal Swordsman Answered His Call Against the Gods",
+        "The Enemy Brought Gods to the Arena! He Opened a Bridge to Heroes From Countless Worlds"
+      ],
+      "covers": [
+        "covers/2026-11-09_1700_诡异擂台开局召唤左千户.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "本国神明无法降临，他召唤人族英杰对抗诸神",
+      "reasoning": "神明缺席造成绝境，以凡人英雄迎神提供尺度反差。",
+      "scene_revision": "召唤者按台升金桥，成年刀客踏桥护场、两位女侍稳铜鼎，凡人迎神的尺度反差。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "94223055948b0053",
+      "date": "2026-11-09",
+      "publish_local": "2026-11-09T21:00:00+08:00",
+      "title_zh": "开局上交系统我直升满级大佬",
+      "drama_code": "2609 KR13",
+      "language": "en",
+      "titles": [
+        "His Family Cast Him Out! He Shared His New System and Built a Team of Cultivators",
+        "They Thought He Was Finished! Handing Over His System Was the Fastest Way to Become Powerful",
+        "He Didn't Hide His Level-Up System! With Support, He Raised a Shield Against Another World"
+      ],
+      "covers": [
+        "covers/2026-11-09_2100_开局上交系统我直升满级大佬.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被家族逐出的他选择上交系统，获得支持组建修仙队",
+      "reasoning": "系统主角主动共享能力的不同选择，使资源合作成为爽点。",
+      "scene_revision": "男主交出系统光核，女协调者双手接收、工程师装护腕，人皇护罩庇护成年修仙队。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "455c694d8f59c55a",
+      "date": "2026-11-10",
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "title_zh": "请祖宗出面讨公道",
+      "drama_code": "2609 KR62",
+      "language": "en",
+      "titles": [
+        "The Bank Said His Dead Ancestors Owed Millions! So He Brought the Family History to Its Door",
+        "They Stole His Savings With Five Generations of Fake Debt! This Lawyer Demanded Answers",
+        "The Bank Wanted the Dead to Appear in Person! He Made Their Lie Impossible to Ignore"
+      ],
+      "covers": [
+        "covers/2026-11-10_1700_请祖宗出面讨公道.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "银行声称五代亡故先人欠债，他把这荒唐要求当面揭穿",
+      "reasoning": "五代亡者债务与本人到场的逻辑荒谬本身就是吸引点。",
+      "scene_revision": "律师推五代先人旧箱到银行门口、村民锁车轮，行长掉索款单，荒唐要求被具体反击。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "0f1c195b63af1049",
+      "date": "2026-11-10",
+      "publish_local": "2026-11-10T21:00:00+08:00",
+      "title_zh": "龙神报恩我一出海鱼获满满",
+      "drama_code": "2609 KR76",
+      "language": "en",
+      "titles": [
+        "He Saved a Dragon and Bought an Old Boat! Now Every Trip Brought a Catch Worth a Fortune",
+        "His Relatives Tried to Steal His Catch! They Didn't Expect the Dragon to Take His Side",
+        "They Set His Fishing Boat on Fire! The Dragon He Once Rescued Finally Appeared"
+      ],
+      "covers": [
+        "covers/2026-11-10_2100_龙神报恩我一出海鱼获满满.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "救下龙神后，他买旧船出海，每次都能获得丰厚渔获",
+      "reasoning": "救龙善因与龙神送鱼的具体回报相连，封面展示共赢收获。",
+      "scene_revision": "龙神引水送鱼入网，男主收网、成年码头女工稳缆，贪婪舅舅伸手又缩回。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "1052bae27407674e",
+      "date": "2026-11-11",
+      "publish_local": "2026-11-11T17:00:00+08:00",
+      "title_zh": "不当黄牛全族发愁",
+      "drama_code": "2609 KR56",
+      "language": "en",
+      "titles": [
+        "His Family Worked Him Like an Ox! A New System Let Him Walk Away With His Wife",
+        "They Tried to Sell His Wife for Money! He Broke Free and Built a Life They Couldn't Touch",
+        "Reborn Into a Family That Used Him, He Took His Wife's Side and Rose to Top Scholar"
+      ],
+      "covers": [
+        "covers/2026-11-11_1700_不当黄牛全族发愁.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "被家人当牛使唤的他，觉醒系统后带妻子摆脱压榨",
+      "reasoning": "压榨关系开场，断轭带家人离开的强动作表达逆袭。",
+      "scene_revision": "男主放下断轭带成年妻妹搬粮离家，父亲抓空、赌徒弟弟掉骰，摆脱压榨有明确动作。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "b386efd001c01f28",
+      "date": "2026-11-11",
+      "publish_local": "2026-11-11T21:00:00+08:00",
+      "title_zh": "绑定系统我成地表最强媒人",
+      "drama_code": "2609 KR22",
+      "language": "en",
+      "titles": [
+        "His Son Couldn't Win Her Heart! Dad Unlocked a System That Made Him the Ultimate Matchmaker",
+        "They Mocked His Son at the Engagement! Dad Finally Revealed He Was the Chairman",
+        "He Became Her Mother's Driver to Help His Son! The Matchmaking System Changed Both Their Lives"
+      ],
+      "covers": [
+        "covers/2026-11-11_2100_绑定系统我成地表最强媒人.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "儿子因自卑不敢追爱，父亲觉醒最强媒人系统出手助攻",
+      "reasoning": "父亲帮助成年儿子追爱的家庭动机接系统规则，身份反转留作第二钩子。",
+      "scene_revision": "成熟父亲为成年儿子整领牵线，女方母亲递车钥匙，订婚现场身份曝光与两代姻缘同场。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "中年父亲与成年儿子"
+    },
+    {
+      "job_id": "ebb1d3b0dfecfd86",
+      "date": "2026-11-12",
+      "publish_local": "2026-11-12T17:00:00+08:00",
+      "title_zh": "八零怀旧怪谈这就是找茬儿",
+      "drama_code": "2026 WW62",
+      "language": "en",
+      "titles": [
+        "One Wrong Lightbulb Could Doom His Nation! He Knew the Hidden Rules of This 1980s Village",
+        "The Village Looked Harmless! Every Ordinary Chore Hid a Deadly Rule",
+        "Others Feared the Haunted Village! His Knowledge of the 1980s Turned Every Trap Around"
+      ],
+      "covers": [
+        "covers/2026-11-12_1700_八零怀旧怪谈这就是找茬儿.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "一只选错的灯泡就可能连累国运，他却懂得八零乡村的隐藏规则",
+      "reasoning": "普通物品承载高风险，选择灯泡把规则怪谈变成可见悬念。",
+      "scene_revision": "八零屋内换灯泡破规则，成年女搭档递正确灯泡、电视异常图案制造倒计时悬疑。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "596f3f8f4266f4e0",
+      "date": "2026-11-12",
+      "publish_local": "2026-11-12T21:00:00+08:00",
+      "title_zh": "剑道巅峰从一把锈剑开始",
+      "drama_code": "2026 WW59",
+      "language": "en",
+      "titles": [
+        "He Became a Rusty Sword No One Wanted! A Fallen Heiress Turned Him Into a Divine Weapon",
+        "They Nearly Melted Him Down! The Woman Who Chose This Rusty Sword Had Enemies to Settle",
+        "Her Family Was Destroyed! The Rusty Sword She Picked Up Could Evolve With Every Battle"
+      ],
+      "covers": [
+        "covers/2026-11-12_2100_剑道巅峰从一把锈剑开始.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "穿成无人要的锈剑后，他被落魄千金选中，逐渐进化为神兵",
+      "reasoning": "弱兵器身份与神兵成长终点构成清晰反差，剑面灵影说明主角身份。",
+      "scene_revision": "成年女剑修拔出锈剑、同伴稳住锻造夹具，金蓝光将锈铁化为神兵、剑面显成年男灵影，反派退避。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "efed3bb6f2442572",
+      "date": "2026-11-13",
+      "publish_local": "2026-11-13T17:00:00+08:00",
+      "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+      "drama_code": "2609 KR83",
+      "language": "en",
+      "titles": [
+        "His Brother Took the Orchard! He Took the Bracelet That Kept It Alive",
+        "They Gave Him a Barren Mountain! His Treasure Bracelet Made It Bloom Into a Fortune",
+        "His Family Wanted His Magic Water Back! He Built a New Orchard With Someone Who Believed in Him"
+      ],
+      "covers": [
+        "covers/2026-11-13_1700_分家后我靠聚宝镯走上人生巅峰.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "弟弟夺走果园，他却带走了维系果园生机的聚宝镯",
+      "reasoning": "被抢走产业与带走真正能力的因果反转，枯荣两边对比直观。",
+      "scene_revision": "聚宝镯引灵水接灌溉管，女合伙人稳接口、弟弟果园枯枝折断，分家两边命运对照。",
+      "audio_availability": "有/新",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "68032dddc025a364",
+      "date": "2026-11-13",
+      "publish_local": "2026-11-13T21:00:00+08:00",
+      "title_zh": "自立门户干火锅，表哥急疯了",
+      "drama_code": "2609 KR58",
+      "language": "en",
+      "titles": [
+        "His Cousin Took the Restaurant and Kicked Him Out! He Kept the Recipe and Opened Opposite",
+        "They Stole His Hot-Pot Business! The Chef Across the Street Won the Customers Back",
+        "The Secret Broth Was His All Along! His Cousin's Empty Restaurant Learned the Hard Way"
+      ],
+      "covers": [
+        "covers/2026-11-13_2100_自立门户干火锅，表哥急疯了.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "表哥夺店赶人，他保留祖传配方，在对面开店夺回顾客",
+      "reasoning": "踢出合伙人接对街开店的反击，滚汤与顾客人流共同证明手艺。",
+      "scene_revision": "男女合力开铜锅、秘制红汤沸腾引客，街对面表哥端空盘追出，开店反转靠人流。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "fdabdcf8917d00d9",
+      "date": "2026-11-14",
+      "publish_local": "2026-11-14T17:00:00+08:00",
+      "title_zh": "不过一瓶醋",
+      "drama_code": "2609 KR69",
+      "language": "en",
+      "titles": [
+        "He Cut Corners on Workers' Meals! The Foreman He Cheated Was Secretly the Chairman",
+        "His Cousin Expected a Huge Catering Order! The Workers Walked Straight Past His Door",
+        "He Thought Family Meant Endless Favors! One Honest Cook Took the Business He Wasted"
+      ],
+      "covers": [
+        "covers/2026-11-14_1700_不过一瓶醋.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "表哥克扣工人盒饭，却不知道被他欺骗的包工头就是集团董事长",
+      "reasoning": "食品敷衍引发共情，隐藏董事长与换供应商给出止损反转。",
+      "scene_revision": "董事长退还醋瓶转身与良心厨师抬餐盘，女主管开餐窗、工人随行，表哥生意落空。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "e7410d5adfcbb57c",
+      "date": "2026-11-14",
+      "publish_local": "2026-11-14T21:00:00+08:00",
+      "title_zh": "万古第一仙在都市",
+      "drama_code": "2026 WW58",
+      "language": "en",
+      "titles": [
+        "The Strongest Immortal Just Wanted to Relax! His Mother Sent Him to Protect a CEO",
+        "The CEO Hired an Ordinary Employee! His Entire Family Had Powers She Couldn't Imagine",
+        "He Hid His Divine Strength at Work! One Crisis Exposed More Than Just His Identity"
+      ],
+      "covers": [
+        "covers/2026-11-14_2100_万古第一仙在都市.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "最强仙人只想躺平，却被母亲派去保护女总裁",
+      "reasoning": "顶级实力与普通上班任务反差，都市救险让隐藏身份曝光。",
+      "scene_revision": "普通员工单掌托住倾倒玻璃门、女总裁拉人避险，父母知情微笑，都市藏仙身份被撞破。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "f3c1045d6b8a7553",
+      "date": "2026-11-15",
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "title_zh": "归来后我踩碎所有偏见",
+      "drama_code": "2026 WW32",
+      "language": "en",
+      "titles": [
+        "He Went to Prison for the Fake Heir! Then He Found His Songs and Plans Had Been Stolen",
+        "His Family Chose the Impostor Again! This Time, He Took His Talent and Walked Away",
+        "They Made His Brother Famous With His Songs! One Original Recording Exposed Everything"
+      ],
+      "covers": [
+        "covers/2026-11-15_1700_归来后我踩碎所有偏见.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "他替养子顶罪入狱，出狱才发现自己的歌曲与策划全被窃取",
+      "reasoning": "顶罪与盗才双重背叛先行，递出录音盘提供夺回名声的动作。",
+      "scene_revision": "男主夺回原稿递录音盘，制作人接盘播放、歌手姐姐惊转身，原创才华被夺回的动作。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "按简介使用成年人物或动物/兵器主角"
+    },
+    {
+      "job_id": "f9d67054750d908f",
+      "date": "2026-11-15",
+      "publish_local": "2026-11-15T21:00:00+08:00",
+      "title_zh": "大爷俺踢球养活饥荒年全家",
+      "drama_code": "2609 KR65",
+      "language": "en",
+      "titles": [
+        "An Old Constable Fell Into Modern Football! Every Goal Helped Feed His Ancient Village",
+        "They Laughed at the Old Man on the Pitch! His Martial Arts Turned Him Into a Football Star",
+        "He Could Travel Between Two Eras! Football and Modern Supplies Saved His Village From Hunger"
+      ],
+      "covers": [
+        "covers/2026-11-15_2100_大爷俺踢球养活饥荒年全家.jpg"
+      ],
+      "recommended_title": 1,
+      "recommended_title_meaning_zh": "年长捕快穿越现代足球场，靠踢球与搬运物资养活古代村庄",
+      "reasoning": "老人强体能、古今足球与养家动机结合，保留原题材年龄。",
+      "scene_revision": "年长男主凌空踢球、成年女教练跑动指引，古村成年队友接应、物资入村体现跨时空养家。",
+      "audio_availability": "有",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "native_resolution": "1672x941",
+      "thumbnail_note": "ChatGPT全新生成的动作互动剧情概念封面，非演员剧照；人物均成年，女性衣着得体；1920×1080统一导出。",
+      "hero_style": "年长男主"
+    }
+  ],
+  "sha256": {
+    "covers/2026-10-26_1700_我的古井藏着大机缘.jpg": "74d1d514ec07f74d9c797fa96635b9cf31f5cd65dbc929d1285282f98dabd4de",
+    "covers/2026-10-26_2100_我有一座超级渔场.jpg": "b85fae8670b2a85cfad20f83058776baceae8f9ca54e1e45cd9eed547d4e0a92",
+    "covers/2026-10-27_1700_元始我申公豹请你上榜封神.jpg": "7afa044903e637bae826ae4e3cbfbcad0dec0523b838e74aef62c9669c1e15ee",
+    "covers/2026-10-27_2100_市井枭雄.jpg": "a5f6b26f35bc76cd8e32e355a4baafc46febeb02caadbc094ba992ba0ae1a6dc",
+    "covers/2026-10-28_1700_我的破烂牛棚堪比豪宅.jpg": "875b1597f1adb6c2c2f57bdf6a27f302e56a77fc8d8e7693a6a6d505387f11b3",
+    "covers/2026-10-28_2100_我家浴缸通海底.jpg": "f0065ac890cdb18d5da4add19585f43267500403dd8eef40d906fa743289a59b",
+    "covers/2026-10-29_1700_一纸断千谋.jpg": "4d533e2bf20a18c6b2f25aef2671548715923c3852418e0e371d3d251edde9d8",
+    "covers/2026-10-29_2100_渔夫从神奇龙珠开始起飞.jpg": "8c3872671017fa0092a43e0bfb6d167f49d686c56155fb909fd75f78f57634a3",
+    "covers/2026-10-30_1700_我可不是普通芦花鸡.jpg": "f19608bfbdc451a63ec35e6bbabc2646710932dc5a96119bcaf61ae57e662f2d",
+    "covers/2026-10-30_2100_太监从后宫签到成圣.jpg": "f42fbf6f28a08ed4ef08fea013dc89e38ad070d04abd49de5c53eca8e7da9f8b",
+    "covers/2026-10-31_1700_东北足疗工的底牌规矩2.jpg": "8c158027b54684823ba7335f3182c879fae610f0aeb2740c486620c92072a193",
+    "covers/2026-10-31_2100_跌入古井觉醒神农秘术.jpg": "4b1062443176ea8807d9cf1d09f48b270e01753b15ccfc6af927759e43d59ec5",
+    "covers/2026-11-01_1700_房间里的人偶.jpg": "7917bf91931222eb21e33772ffe67794f571c6c3d4ad958a617e4247cb71b2ff",
+    "covers/2026-11-01_2100_穿越成章鱼我预测世界杯全中变球王.jpg": "7310397325bec845a5ff11b8c416fe149b7eaa756245be581f5affdce0e42de3",
+    "covers/2026-11-02_1700_燃香之后.jpg": "6744a779aa732b3a160904e5dba02ef662704a94d71d0a7ea2c26bd4a8c7477c",
+    "covers/2026-11-02_2100_说好是只小蝌蚪你怎么靠吞噬成天帝了.jpg": "d1f0c6c709d905b55ec33b0e7dd4c2a40cfb391746809b5610d8e9cbbfe88665",
+    "covers/2026-11-03_1700_厨神帝王录.jpg": "316d163dce51e73857941c8e3c02609349726d53bc388d0116ebe174b34918a0",
+    "covers/2026-11-03_2100_山海计划我把整个修仙界上交了.jpg": "987aeb7174b3e914a0c7b507e8612c7e6fda16b7cdad4bb7e489dfcf3d556031",
+    "covers/2026-11-04_1700_我靠刷题重振宗门.jpg": "0e63adbb8a445d4b3a475f73d652163f870ed2e46d315313f9f6066f07a30bde",
+    "covers/2026-11-04_2100_恩与债.jpg": "6abd8af5a1f126a10aee881a74b07e7a0d030a2f23ba286d944178230cb18e5e",
+    "covers/2026-11-05_1700_开局变鹦鹉气疯所有人.jpg": "b06c20f30aa90734c5364bc76b77820ff3a2ca34e149d1d8bbd854f06a572919",
+    "covers/2026-11-05_2100_不给彩礼后她全家悔哭了.jpg": "e6a10914af9e5fc61f3396968dcb7b1dbc517b914c75c9fdae288b8eede8ebab",
+    "covers/2026-11-06_1700_婚礼照常新娘换人.jpg": "45ab87736c96af42d46f2aca9de8bf5b769702ce1d217eda01ccbb40f0eb94c9",
+    "covers/2026-11-06_2100_别惹那个匠师他火力全开.jpg": "3235bf46b52a6998933369e416ed24f61d0b4ed8ebc5bf17c00fb068878e78ae",
+    "covers/2026-11-07_1700_穿越女频开局送皇后白月光进东厂.jpg": "160ea604f026bc736e739194615850470f8649f0bb5c386d88925697cf897bcc",
+    "covers/2026-11-07_2100_灵山不送客.jpg": "a4e009eea64fc9e22c2ad26370a6102aea59684bf25a1d54df1dbb4a75db56ce",
+    "covers/2026-11-08_1700_别碰那个瑜伽球.jpg": "df2eae7d8a0d4a0cfd9cef4e37f0cb6a7b772387f8fca254d2af48935d3a94e6",
+    "covers/2026-11-08_2100_奈何桥上不许刹车.jpg": "5d3142c7f673427c9362a837cb26ce9dccb39316a84311722d28b30dec799ebf",
+    "covers/2026-11-09_1700_诡异擂台开局召唤左千户.jpg": "1f57eae0cc0b9fce2be7ee75171c3301aecaf2f83ee6d5777dc0c7c483e8992b",
+    "covers/2026-11-09_2100_开局上交系统我直升满级大佬.jpg": "cc73a6e3a7602eb88541e34f887c889c11e99c563484ed2d7ca1bacd4a81fbe7",
+    "covers/2026-11-10_1700_请祖宗出面讨公道.jpg": "9070825ae80af69ac8cadcabcaf7260f5ee3917bc47436201ad6bb005893329d",
+    "covers/2026-11-10_2100_龙神报恩我一出海鱼获满满.jpg": "53aec8a46722b73e93f965f2bb8fe4ff2a8f89dfedb97cb15a8027dd1654e9da",
+    "covers/2026-11-11_1700_不当黄牛全族发愁.jpg": "2a7d1ba01ed04b8dec9934a05fcdd5ca7fa647e8714b883426e4caadc633b49f",
+    "covers/2026-11-11_2100_绑定系统我成地表最强媒人.jpg": "798b2e75571c8eefa91a09e5213a5bcc5f30630e048f2036db5c289c0a308712",
+    "covers/2026-11-12_1700_八零怀旧怪谈这就是找茬儿.jpg": "7e8715a0eb249aa0614535a400592a8bd9e24cd55aadcf874195b2dad2ba7a70",
+    "covers/2026-11-12_2100_剑道巅峰从一把锈剑开始.jpg": "9dc1e8e553c76832c7d4bbd2e5a85439de70f454b288a80c8ad7b195a3f8ecfc",
+    "covers/2026-11-13_1700_分家后我靠聚宝镯走上人生巅峰.jpg": "e40e39038bf685a76a08127b9837aec98b4bdcebeedd698a76942d7133f6cfdf",
+    "covers/2026-11-13_2100_自立门户干火锅，表哥急疯了.jpg": "d54cf526a7851b60481f6ecdf978c02d5d47206cd030ba13830a444d9a481b98",
+    "covers/2026-11-14_1700_不过一瓶醋.jpg": "a9af93faba0486d78253697111b281d4bfe81c494992d5bee94113b869f22d22",
+    "covers/2026-11-14_2100_万古第一仙在都市.jpg": "234853b45324a54361024dab0b6f325fc3606dca299114204be2dd86d5988957",
+    "covers/2026-11-15_1700_归来后我踩碎所有偏见.jpg": "a24dfd63789f2ff0aed3e841bc06e0e0ea55292524adfc7f987f631e92f8344b",
+    "covers/2026-11-15_2100_大爷俺踢球养活饥荒年全家.jpg": "21beae1becf6bd596ffac819bc10b177f233c82684e7a72585def037c659cf35"
+  },
+  "title_strategy": "每剧3条英文标题，第一条首推；首句具体冲突或独特能力，后句反转与悬念；标题均不超过100 UTF-16单元，依据简介，不虚构币种、关系及能力。",
+  "research_status": "参考用户提供的高播放截图分析画面叙事和题文配合；未获取实时YouTube热门排名、曝光、点击率或留存数据，不能证明播放量由封面单独造成。",
+  "resolution_note": "1920×1080 JPEG，每张小于2MB；从本次生成原图适配导出，原始尺寸见清单，不标称原生4K。",
+  "source_schedule": "schedules/english_20261026_20261115/english_schedule_details.csv",
+  "source_policy": "使用已确认英语42部续排，按英语历史去重并排除资源表文字禁播及代运营；英语音轨栏标有/有新，未下载核验实际音轨；保留17:00及21:00北京时间。",
+  "import_support": "完整程序已含1080p兼容支持，解压后运行start_english_windows.bat；升级合并步骤见ENGLISH_LATEST_GUIDE.md。"
+}
