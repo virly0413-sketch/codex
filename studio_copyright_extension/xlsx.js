@@ -48,6 +48,7 @@
     const blocked=/(blocked|禁播|屏蔽|заблокир|bloquead)/i.test(text);
     if(copyright)return blocked?'版权问题及禁播标识':'版权声明/版权问题';
     if(blocked)return '禁播（版权原因待核对）';
+    if(/(不符合(?:创收|創收|营利|營利|获利|獲利)(?:条件|條件|资格|資格)|\b(?:not eligible|ineligible)\s+(?:for\s+)?moneti[sz]ation\b|\b(?:cannot|can't)\s+be\s+moneti[sz]ed\b|\bmoneti[sz]ation\s*[:：–-]?\s*ineligible\b)/i.test(text))return '不符合创收条件（原因待核对）';
     if(/(可能存在收入限|可能.*(?:收益|收入).*限制|potential.*(?:revenue|monetization|ad suitability)|possible.*(?:revenue|monetization|ad restriction)|ad suitability issues)/i.test(text))return '可能存在收入限制（通知，原因待核对）';
     return undefined;
   }

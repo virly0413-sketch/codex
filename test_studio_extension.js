@@ -11,6 +11,13 @@ test('classify copyright and blocked labels without mistaking age or revenue sta
   assert.equal(core.StudioCopyright.classify('None'),null);
   for(const label of ['Age restriction','年龄限制','Limited','No copyright issues',''])assert.equal(core.StudioCopyright.classify(label),undefined);
 });
+test('recognizes explicit monetization ineligibility without treating disabled monetization as a problem',()=>{
+  for(const label of ['此视频不符合创收条件','不符合创收条件','此影片不符合營利資格','This video is not eligible for monetization','Ineligible for monetization','This video cannot be monetized','Monetization: Ineligible']){
+    assert.equal(core.StudioCopyright.classify(label),'不符合创收条件（原因待核对）');
+  }
+  for(const label of ['符合创收条件','Eligible for monetization','Monetization off','Not monetized','Limited'])assert.equal(core.StudioCopyright.classify(label),undefined);
+  assert.equal(core.StudioCopyright.classify('此视频不符合创收条件：已声明版权的内容'),'版权声明/版权问题');
+});
 function fixture(pages,{missingCell=false,failNext=false,start=0,rowMarkup=null,extraRow='',bridgeFailure=false}={}){
   const channel='UC_o03Jz0Ek8xYGE_oy3zapg';
   const dom=new JSDOM('<html><body><div id="rows"></div><button id="navigate-before">prev</button><button id="navigate-after">next</button></body></html>',{url:'https://studio.youtube.com/channel/'+channel+'/videos/upload',runScripts:'outside-only'});
@@ -120,4 +127,17 @@ test('background bridge rejects non-Studio senders',()=>{
   vm.createContext(sandbox);sandbox.importScripts=name=>vm.runInContext(source(name),sandbox);vm.runInContext(source('background.js'),sandbox);
   listener({type:'studioRows',token:'sc_0000000000000000'},{url:'https://example.com',tab:{id:1}},r=>response=r);
   assert.equal(calls,0);assert.match(response.error,/无效/);
+});
+
+test('ineligible monetization notification is exported with name link and original status',async()=>{
+  const f=fixture([[['income00001','Unpublished income issue','此视频不符合创收条件','Private']]]);
+  try{assert.match(await f.done(),/列表读取结束：1/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/Unpublished income issue/);assert.match(main,/watch\?v=income00001/);const details=zipEntry(f.messages[0],'xl/worksheets/sheet2.xml');assert.match(details,/不符合创收条件（原因待核对）/);assert.match(details,/此视频不符合创收条件/);}finally{f.dom.window.close();}
+});
+test('monetization icon tooltip is read even with no restrictions, while normal settings and title-only matches are ignored',async()=>{
+  const f=fixture([[['income00001','Income issue','此视频不符合创收条件','Private'],['normal00001','此视频不符合创收条件 in title only','Eligible for monetization','Unlisted'],['normal00002','Disabled by owner','Monetization off','Scheduled']]],{rowMarkup:r=>`<ytcp-video-row><a href="/video/${r[0]}/edit">${r[1]}</a><div id="restrictions">None</div><div id="monetization"><span aria-label="${r[2]}"></span></div><div id="visibility">${r[3]}</div></ytcp-video-row>`});
+  try{assert.match(await f.done(),/列表读取结束：3/);const main=zipEntry(f.messages[0],'xl/worksheets/sheet1.xml');assert.match(main,/income00001/);assert.doesNotMatch(main,/normal00001|normal00002|title only|Disabled by owner/);assert.doesNotMatch(zipEntry(f.messages[0],'xl/worksheets/sheet3.xml'),/normal00001|normal00002/);}finally{f.dom.window.close();}
+});
+test('monetization column can be located by header when its cell has no stable id',async()=>{
+  const f=fixture([[['income00001','Header fallback','This video is not eligible for monetization','Private']]],{rowMarkup:r=>`<ytcp-video-row><div role="cell"><a href="/video/${r[0]}/edit">${r[1]}</a></div><div role="cell"><span title="${r[2]}"></span></div><div role="cell" id="visibility">${r[3]}</div></ytcp-video-row>`,extraRow:'<ytcp-video-section><div role="columnheader">视频</div><div role="columnheader">创收</div><div role="columnheader">公开范围</div></ytcp-video-section>'});
+  try{assert.match(await f.done(),/列表读取结束：1/);assert.match(zipEntry(f.messages[0],'xl/worksheets/sheet1.xml'),/Header fallback/);}finally{f.dom.window.close();}
 });

@@ -125,6 +125,13 @@
     for(const pattern of [/^(限制|Restrictions|Ограничения|Restricciones|제한사항)$/i,/^(通知|Notifications|Уведомления|Notificaciones|알림)$/i]){
       const field=columnCell(row,pattern);if(field&&!fields.includes(field))fields.push(field);
     }
+    const monetization=Array.from(row.querySelectorAll('#monetization, #monetization-cell, #monetization-status, #monetization-icon, #monetization-icon-container, #video-monetization, ytcp-video-monetization, ytcp-video-list-cell-monetization, [column-id="monetization"], [data-column-id="monetization"]'));
+    const column=columnCell(row,/^(创收|創收|营利|營利|获利|獲利|Monetization|Monetisation|Monetización|Монетизация|수익 창출)$/i);
+    if(column&&!monetization.includes(column))monetization.push(column);
+    for(const field of monetization){
+      // Include explicit problems, not ordinary On/Off/Eligible monetization settings.
+      if(!fields.includes(field)&&StudioCopyright.classify(cellText(field)))fields.push(field);
+    }
     return fields;
   }
   function validateUnpublished(current){
@@ -179,7 +186,7 @@
         {name:'其他或未识别限制',rows:[['视频名称','视频链接','Studio限制原文'],...unknown.map(r=>[r.title,r.url,r.restriction||'空白/未加载，必须人工核对'])]},
         {name:'名称待核对',rows:[['视频名称','视频链接','公开范围'],...missingNames.map(r=>[r.title,r.url,r.visibility])]},
         {name:'链接待核对',rows:[['视频名称','视频链接','公开范围','限制或通知原文','说明'],...missingLinks.map(r=>[r.title,'',r.visibility,r.restriction,'草稿未显示可确认的视频ID；未伪造视频链接，请在Studio编辑草稿中核对'])]},
-        {name:'检测范围',rows:[['项目','结果'],['来源','当前已登录的Studio可见列表；未读取Cookie或发送到外部服务器'],['频道ID',channel],['页面地址',location.href],['筛选条件',originalFilters||'未识别到筛选标签（以页面实际条件为准）'],['未发布口径',includeUnlisted?'草稿、私享、定时发布、不公开列出':'草稿、私享、定时发布（不含不公开列出）'],['名称待核对',String(missingNames.length)],['链接待核对',String(missingLinks.length)],['页面行读取',modelError?'部分读取失败；未确认的链接保留为空，需人工核对':'已尝试读取当前行绑定的视频ID（只读，不打开草稿）'],['检查数量',String(checked)],['检查页数',String(pages)],['导出时间',now.toISOString()],['范围','仅当前列表标签和筛选结果；需要检查Shorts/直播时分别打开对应列表扫描。'],['版权与收益','版权声明不一定影响收益。仅记录列表版权/禁播文字；是否分成、具体权利人和地区以版权详情为准。'],['识别边界','页面结构或语言变化可能无法识别。请核对其他或未识别限制表；零版权记录不保证没有版权问题。']]}
+        {name:'检测范围',rows:[['项目','结果'],['来源','当前已登录的Studio可见列表；未读取Cookie或发送到外部服务器'],['频道ID',channel],['页面地址',location.href],['筛选条件',originalFilters||'未识别到筛选标签（以页面实际条件为准）'],['未发布口径',includeUnlisted?'草稿、私享、定时发布、不公开列出':'草稿、私享、定时发布（不含不公开列出）'],['名称待核对',String(missingNames.length)],['链接待核对',String(missingLinks.length)],['页面行读取',modelError?'部分读取失败；未确认的链接保留为空，需人工核对':'已尝试读取当前行绑定的视频ID（只读，不打开草稿）'],['检查数量',String(checked)],['检查页数',String(pages)],['导出时间',now.toISOString()],['范围','仅当前列表标签和筛选结果；需要检查Shorts/直播时分别打开对应列表扫描。'],['版权与收益','版权声明不一定影响收益。记录列表版权/禁播、收入限制及不符合创收条件的明确提示；具体原因、分成和地区以Studio详情为准。'],['识别边界','页面结构或语言变化可能无法识别。请核对其他或未识别限制表；零版权记录不保证没有版权问题。']]}
       ];
       const bytes=StudioCopyright.workbook(sheets);
       const response=await chrome.runtime.sendMessage({type:'copyrightExcel',filename:'Studio_copyright_'+channel+'_'+stamp+'.xlsx',url:'data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,'+toBase64(bytes)});
