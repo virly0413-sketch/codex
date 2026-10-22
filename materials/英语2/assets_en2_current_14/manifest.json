@@ -1,0 +1,327 @@
+{
+  "version": 5,
+  "language": "en",
+  "channel": "英语2",
+  "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+  "titles_per_job": 1,
+  "allow_manual_schedule": false,
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "jobs": [
+    {
+      "job_id": "645acf711117e907",
+      "title_zh": "神临我自执剑迎",
+      "date": "2026-10-24",
+      "drama_code": "2026 WW64",
+      "language": "en",
+      "titles": [
+        "He Borrowed the Power of Every God! Invading Deities Never Expected a Mortal to Fight Back"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/01_神临我自执剑迎.jpg"
+      ],
+      "publish_local": "2026-10-24T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "df46f6f7a6841979",
+      "title_zh": "分家开出海神的鱼钩",
+      "date": "2026-10-25",
+      "drama_code": "2026 WW67",
+      "language": "en",
+      "titles": [
+        "He Found the Sea God's Fishhook! His Family Never Expected This Catch From a Rotten Boat"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/02_分家开出海神的鱼钩.jpg"
+      ],
+      "publish_local": "2026-10-25T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "dd1a0cf96dbb9678",
+      "title_zh": "满级大师兄制霸都市",
+      "date": "2026-10-26",
+      "drama_code": "2609 KR48",
+      "language": "en",
+      "titles": [
+        "He Can Stop Bullets With a Spear! Rejected by One Sister, He Marries the Other"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/03_满级大师兄制霸都市.jpg"
+      ],
+      "publish_local": "2026-10-26T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "7a96c1717e78e059",
+      "title_zh": "满朝文武都是我兄弟",
+      "date": "2026-10-27",
+      "drama_code": "2609 EN95",
+      "language": "en",
+      "titles": [
+        "He Unlocked a Life-Editing System! The Court His Brother Used Against Him Became His Allies"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/04_满朝文武都是我兄弟.jpg"
+      ],
+      "publish_local": "2026-10-27T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "f538eda4528b9681",
+      "title_zh": "开局流放我用系统搬空皇帝库房",
+      "date": "2026-10-28",
+      "drama_code": "2609 EN97",
+      "language": "en",
+      "titles": [
+        "He Emptied the Emperor's Treasury With a System! Exile With Five Widows Became His Fresh Start"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/05_开局流放我用系统搬空皇帝库房.jpg"
+      ],
+      "publish_local": "2026-10-28T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "705b53c8cd7ffa89",
+      "title_zh": "是谁坑惨了朕",
+      "date": "2026-10-29",
+      "drama_code": "2609 KR71",
+      "language": "en",
+      "titles": [
+        "They Ordered the General to Die! He Returned With an Army, and the Empress Had to Face Him"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/06_是谁坑惨了朕.jpg"
+      ],
+      "publish_local": "2026-10-29T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "e7cc18ea7340cb53",
+      "title_zh": "我真是昏君你们快造反吧",
+      "date": "2026-10-30",
+      "drama_code": "2609 KR37",
+      "language": "en",
+      "titles": [
+        "He Unlocked a Bad-Emperor System! Wasting the Treasury Was His Shot at Immortality"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/07_我真是昏君你们快造反吧.jpg"
+      ],
+      "publish_local": "2026-10-30T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "b83b3c9d7b7f42b6",
+      "title_zh": "我用科技征服人皇",
+      "date": "2026-10-31",
+      "drama_code": "2609 KR61",
+      "language": "en",
+      "titles": [
+        "He Brought Modern Tech to an Ancient Empire! The Emperor Found His Lost Son Running the Project"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/08_我用科技征服人皇.jpg"
+      ],
+      "publish_local": "2026-10-31T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "3979445a7ac90048",
+      "title_zh": "全球淹没我打造出了一座城池",
+      "date": "2026-11-01",
+      "drama_code": "2609 EN92",
+      "language": "en",
+      "titles": [
+        "He Stockpiled a City's Supplies! Reborn Before the Flood, He Built a New Life on a Luxury Yacht"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/09_全球淹没我打造出了一座城池.jpg"
+      ],
+      "publish_local": "2026-11-01T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "4cace4e809d28d80",
+      "title_zh": "囤千万物资到古代娶女帝",
+      "date": "2026-11-02",
+      "drama_code": "2609 KR29",
+      "language": "en",
+      "titles": [
+        "He Stockpiled a Warehouse Before Time Travel! Then He Married an Empress and a Saint"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/10_囤千万物资到古代娶女帝.jpg"
+      ],
+      "publish_local": "2026-11-02T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "df0062b4d2195094",
+      "title_zh": "龙皇归来：不想当战神只要宠女儿",
+      "date": "2026-11-03",
+      "drama_code": "2609 KR19",
+      "language": "en",
+      "titles": [
+        "The Dragon Emperor Came Home! The Men Who Hurt His Family Had Provoked the Wrong Father"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/11_龙皇归来：不想当战神只要宠女儿.jpg"
+      ],
+      "publish_local": "2026-11-03T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "f17d6a26ebac2f9d",
+      "title_zh": "流放开局，我卷走皇帝的小金库2",
+      "date": "2026-11-04",
+      "drama_code": "2609 KR40",
+      "language": "en",
+      "titles": [
+        "He Turned Exile Into a Rebellion! The Emperor's Hunters Couldn't Stop His March South"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/12_流放开局，我卷走皇帝的小金库2.jpg"
+      ],
+      "publish_local": "2026-11-04T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "3cc69ef9f609e91b",
+      "title_zh": "开局成破剑竟被她进化成神兵",
+      "date": "2026-11-05",
+      "drama_code": "2609 KR47",
+      "language": "en",
+      "titles": [
+        "He Awoke as a Rusty Sword! The Woman Who Chose Him Watched Him Evolve Into a Divine Weapon"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/13_开局成破剑竟被她进化成神兵.jpg"
+      ],
+      "publish_local": "2026-11-05T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    },
+    {
+      "job_id": "35d570f99129d373",
+      "title_zh": "代号枪神",
+      "date": "2026-11-06",
+      "drama_code": "2609 KR31",
+      "language": "en",
+      "titles": [
+        "He Returned as the World's Top Gunman! One Silver Coin Turned the Ambush Against His Enemies"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/14_代号枪神.jpg"
+      ],
+      "publish_local": "2026-11-06T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "thumbnail_note": "沿用已交付英语2最新版封面；全部人物成年，无文字，女性衣着得体。"
+    }
+  ],
+  "sha256": {
+    "covers/01_神临我自执剑迎.jpg": "f7b660696cc7a621843e0f1371f94a58aa9d1dd7e2ad844e60481f26ea42ebb1",
+    "covers/02_分家开出海神的鱼钩.jpg": "4985f63b26cece699ff8cf4abb1d6d7283dd441124383b3d8c918288e59f4cbd",
+    "covers/03_满级大师兄制霸都市.jpg": "1fb0d3470740a4e78d2d515074dffd5a3fea644a1fb04cb96027895afe32968d",
+    "covers/04_满朝文武都是我兄弟.jpg": "79622c0fe642d9f3ce4e7c216d93b4e915211273555ef0dc7a212b0b66c574ac",
+    "covers/05_开局流放我用系统搬空皇帝库房.jpg": "0a8ffc58107bec3150dc55a49680bc63bbf93bc5d6765852dbe356d1065de6d1",
+    "covers/06_是谁坑惨了朕.jpg": "3f731b1d0931e62eec696e8b8a8bf5031b8e65872af092ca16315b9b3c0b8ee9",
+    "covers/07_我真是昏君你们快造反吧.jpg": "e94743d9dc13483d9441cd5bcae218e775331c9433e1285401dc0c46d7da5eb6",
+    "covers/08_我用科技征服人皇.jpg": "edc0134c6b196bca75af254c70c4187d06678121899d1d2631a6abba24c42583",
+    "covers/09_全球淹没我打造出了一座城池.jpg": "2d31c4803188a654255204216a2c64e1ae45c36c8741e81e492f09ebd2285e4e",
+    "covers/10_囤千万物资到古代娶女帝.jpg": "bee3a2a7d5f21aa554cbc76dd1e14e3ba48caa2038b196eb52ae359179b9039a",
+    "covers/11_龙皇归来：不想当战神只要宠女儿.jpg": "780830d82628351e10d38c9891edb683a481cd6f754d4df48dd691b67343d8f5",
+    "covers/12_流放开局，我卷走皇帝的小金库2.jpg": "80a063187ea02f52ed7bb8a17c5f9c326668f9b0f3deda2db4f879be0eb714b7",
+    "covers/13_开局成破剑竟被她进化成神兵.jpg": "801a7649469fe1a426011e3f0b2a74252bd6ff29a218704126d9c05fd8d3af41",
+    "covers/14_代号枪神.jpg": "a1bfbf00fdda19faed305b07b65faec538c45418aa8002dc9628fc3ad300ecd3"
+  },
+  "scope": "绑定英语2；每剧1标题1封面，保留原视频说明末行追加剧集代码。",
+  "schedule_note": "已按用户指定时间排期"
+}

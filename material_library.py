@@ -8,15 +8,20 @@ from pathlib import Path
 import run
 
 SETTINGS='local_work_publisher_ui/material_folders.json'
-LABELS={'en':'英语','ru':'俄语','ko':'韩语','es':'西语','tl':'菲律宾语'}
+LABELS={'en':'英语','en2':'英语2','ru':'俄语','ko':'韩语','es':'西语','tl':'菲律宾语'}
+
+
+def material_key(config):
+    """Separate same-language channels without changing existing language folder settings."""
+    return config.get('material_key') or config['language']
 
 
 def material_folder(config):
     settings=run.ROOT/SETTINGS
     folders=run.load(settings) if settings.exists() else {}
-    language=config['language']
-    if folders.get(language):return Path(folders[language])
-    default=run.ROOT/'materials'/LABELS.get(language,language)
+    key=material_key(config)
+    if folders.get(key):return Path(folders[key])
+    default=run.ROOT/'materials'/LABELS.get(key,key)
     return default if default.is_dir() else Path(run.ROOT/config['assets_path'])
 
 
@@ -63,7 +68,19 @@ def _schedule(config,pack,manifest):
         codes=[c['drama_code'] for c in job['candidates']]
         if entry.get('drama_code') and entry['drama_code'] not in codes:raise ValueError('剧集代码与排片不一致')
         if any(c.get('audio_language',config['language'])!=config['language'] for c in job['candidates']):raise ValueError('配音语种与目标频道不一致')
+        if job.get('channel_id') and job['channel_id']!=config['channel_id']:raise ValueError('排片属于其他频道')
         if job.get('timezone','Asia/Shanghai')!='Asia/Shanghai':raise ValueError('排片时区必须是北京时间Asia/Shanghai')
+        if job.get('schedule_mode')=='manual':
+            if manifest.get('allow_manual_schedule') is not True or entry.get('schedule_mode')!='manual':
+                raise ValueError('手动排期必须由完整素材包明确声明')
+            if job.get('publish_local') is not None or job.get('publish_at') is not None:
+                raise ValueError('手动排期不得夹带未确认的发布时间')
+            if job.get('date') is not None:
+                try:
+                    if dt.date.fromisoformat(job['date']).isoformat()!=job['date']:raise ValueError()
+                except (TypeError,ValueError):raise ValueError('排片日期格式错误')
+            job.setdefault('blockers',[])
+            continue
         local=dt.datetime.fromisoformat(job['publish_local'])
         utc=dt.datetime.fromisoformat(job['publish_at'].replace('Z','+00:00'))
         if local.utcoffset()!=dt.timedelta(hours=8) or local.date().isoformat()!=job['date'] or utc.utcoffset()!=dt.timedelta(0) or local!=utc:
@@ -120,5 +137,5 @@ def load_materials(config):
     for key in ('oauth_client','oauth_token','proxy_url','http_timeout_seconds'):
         if key in config:prepared[key]=config[key]
     run.save(target/'config.json',prepared)
-    print('已加载',LABELS.get(language,language),'素材：',len(jobs),'部；批次',batch[:12],'。未修改YouTube。')
+    print('已加载',LABELS.get(material_key(config),language),'素材：',len(jobs),'部；批次',batch[:12],'。未修改YouTube。')
     return target/'config.json'

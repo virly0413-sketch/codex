@@ -73,3 +73,35 @@ class MaterialLibraryTests(unittest.TestCase):
         self.manifest['jobs'][0]['titles']=['only one'];self.save_pack()
         with self.assertRaisesRegex(ValueError,'three titles'):self.load()
         self.assertFalse(list((self.root/'local_work_materials').rglob('config.json')))
+    def test_same_language_channels_have_independent_folders(self):
+        first=self.root/'english';second=self.root/'english2'
+        first.mkdir();second.mkdir()
+        set_material_folder('en',first)
+        config=dict(self.config,language='en',material_key='en2',assets_path='fallback')
+        self.assertNotEqual(material_folder(config),first)
+        set_material_folder('en2',second)
+        self.assertEqual(material_folder(config),second)
+        self.assertEqual(material_folder(dict(self.config,language='en')),first)
+    def test_declared_single_title_manual_schedule_and_missing_time_guard(self):
+        import argparse
+        self.manifest['titles_per_job']=1;self.manifest['allow_manual_schedule']=True
+        self.manifest['jobs'][0].update(titles=['one title'],schedule_mode='manual')
+        self.jobs[0].update(schedule_mode='manual',publish_local=None,publish_at=None)
+        self.save_pack();path=self.load();config=run.load(path)
+        self.assertEqual(self.load(),path)
+        args=argparse.Namespace(job='one',publish_local=None)
+        with patch.object(run,'auth') as auth:
+            for operation in (run.review,run.publish):
+                with self.assertRaisesRegex(ValueError,'尚未设置发布时间'):operation(config,args)
+            auth.assert_not_called()
+        self.assertFalse((self.root/config['work']/'one/review.json').exists())
+        self.manifest.pop('allow_manual_schedule');self.save_pack()
+        with self.assertRaisesRegex(ValueError,'明确声明'):self.load()
+    def test_manual_schedule_rejects_unconfirmed_time_or_invalid_date(self):
+        self.manifest['allow_manual_schedule']=True
+        self.manifest['jobs'][0]['schedule_mode']='manual'
+        self.jobs[0]['schedule_mode']='manual';self.save_pack()
+        with self.assertRaisesRegex(ValueError,'未确认'):self.load()
+        self.jobs[0].update(publish_local=None,publish_at=None,date='invalid')
+        self.manifest['jobs'][0]['date']='invalid';self.save_pack()
+        with self.assertRaisesRegex(ValueError,'日期格式'):self.load()

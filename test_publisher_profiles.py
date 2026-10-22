@@ -22,11 +22,11 @@ class PresetTests(unittest.TestCase):
             self.assertEqual(Path(selected),REPO/'profiles/korean.json')
     def test_known_channel_and_asset_pairs_validate_including_legacy_english(self):
         choices=available_profiles()
-        self.assertEqual(len(choices),4)
+        self.assertEqual(len(choices),5)
         configs=[validate_profile(p) for p in choices.values()]
         self.assertEqual({c['language'] for c in configs},{'en','ru','ko','es'})
-        self.assertEqual(len({c['work'] for c in configs}),4)
-        self.assertEqual(len({c['oauth_token'] for c in configs}),4)
+        self.assertEqual(len({c['work'] for c in configs}),5)
+        self.assertEqual(len({c['oauth_token'] for c in configs}),5)
     def test_switch_uses_target_config_offline_and_does_not_authorize(self):
         app=App.__new__(App);app.busy=False
         choices=available_profiles();name=next(n for n in choices if n.startswith('韩语'))

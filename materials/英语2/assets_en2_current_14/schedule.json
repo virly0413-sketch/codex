@@ -1,0 +1,492 @@
+[
+  {
+    "job_id": "645acf711117e907",
+    "title_zh": "神临我自执剑迎",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-24",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.24",
+    "schedule_cell": "AN7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-24T13:00:00+08:00",
+    "publish_at": "2026-10-24T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1067,
+        "resource_title": "神临我自执剑迎",
+        "drama_code": "2026 WW64",
+        "category": "男频",
+        "minutes": "103",
+        "episodes": "65",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "df46f6f7a6841979",
+    "title_zh": "分家开出海神的鱼钩",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-25",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.25",
+    "schedule_cell": "AO7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-25T13:00:00+08:00",
+    "publish_at": "2026-10-25T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1080,
+        "resource_title": "分家开出海神的鱼钩",
+        "drama_code": "2026 WW67",
+        "category": "男频",
+        "minutes": "",
+        "episodes": "60",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "dd1a0cf96dbb9678",
+    "title_zh": "满级大师兄制霸都市",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-26",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.26",
+    "schedule_cell": "AP7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-26T13:00:00+08:00",
+    "publish_at": "2026-10-26T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 769,
+        "resource_title": "满级大师兄制霸都市",
+        "drama_code": "2609 KR48",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7a96c1717e78e059",
+    "title_zh": "满朝文武都是我兄弟",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-27",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.27",
+    "schedule_cell": "AQ7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-27T13:00:00+08:00",
+    "publish_at": "2026-10-27T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 631,
+        "resource_title": "满朝文武都是我兄弟",
+        "drama_code": "2609 EN95",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "en",
+        "audio_availability": null
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f538eda4528b9681",
+    "title_zh": "开局流放我用系统搬空皇帝库房",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-28",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.28",
+    "schedule_cell": "AR7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-28T13:00:00+08:00",
+    "publish_at": "2026-10-28T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 634,
+        "resource_title": "开局流放我用系统搬空皇帝库房",
+        "drama_code": "2609 EN97",
+        "category": "男频",
+        "minutes": "61",
+        "episodes": "45",
+        "audio_language": "en",
+        "audio_availability": null
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "705b53c8cd7ffa89",
+    "title_zh": "是谁坑惨了朕",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-29",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.29",
+    "schedule_cell": "AS7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-29T13:00:00+08:00",
+    "publish_at": "2026-10-29T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 812,
+        "resource_title": "是谁坑惨了朕",
+        "drama_code": "2609 KR71",
+        "category": "男频",
+        "minutes": "92",
+        "episodes": "60",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e7cc18ea7340cb53",
+    "title_zh": "我真是昏君你们快造反吧",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-30",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.30",
+    "schedule_cell": "AT7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-30T13:00:00+08:00",
+    "publish_at": "2026-10-30T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 736,
+        "resource_title": "我真是昏君你们快造反吧",
+        "drama_code": "2609 KR37",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "40",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b83b3c9d7b7f42b6",
+    "title_zh": "我用科技征服人皇",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-10-31",
+    "date_source": "原排片表日期",
+    "original_date_header": "2026.10.31",
+    "schedule_cell": "AU7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-10-31T13:00:00+08:00",
+    "publish_at": "2026-10-31T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 795,
+        "resource_title": "我用科技征服人皇",
+        "drama_code": "2609 KR61",
+        "category": "男频",
+        "minutes": "86",
+        "episodes": "45",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3979445a7ac90048",
+    "title_zh": "全球淹没我打造出了一座城池",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-01",
+    "date_source": "用户确认按原顺序续排",
+    "original_date_header": null,
+    "schedule_cell": "AV7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-01T13:00:00+08:00",
+    "publish_at": "2026-11-01T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 626,
+        "resource_title": "全球淹没我打造出了一座城池",
+        "drama_code": "2609 EN92",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "30",
+        "audio_language": "en",
+        "audio_availability": null
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4cace4e809d28d80",
+    "title_zh": "囤千万物资到古代娶女帝",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-02",
+    "date_source": "用户确认按原顺序续排",
+    "original_date_header": null,
+    "schedule_cell": "AW7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-02T13:00:00+08:00",
+    "publish_at": "2026-11-02T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 719,
+        "resource_title": "囤千万物资到古代娶女帝",
+        "drama_code": "2609 KR29",
+        "category": "男频",
+        "minutes": "72",
+        "episodes": "预计50",
+        "audio_language": "en",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "df0062b4d2195094",
+    "title_zh": "龙皇归来：不想当战神只要宠女儿",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-03",
+    "date_source": "用户确认按原顺序续排",
+    "original_date_header": null,
+    "schedule_cell": "AX7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-03T13:00:00+08:00",
+    "publish_at": "2026-11-03T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 677,
+        "resource_title": "龙皇归来：不想当战神只要宠女儿",
+        "drama_code": "2609 KR19",
+        "category": "男频",
+        "minutes": "",
+        "episodes": "",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f17d6a26ebac2f9d",
+    "title_zh": "流放开局，我卷走皇帝的小金库2",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-04",
+    "date_source": "用户确认按原顺序续排",
+    "original_date_header": null,
+    "schedule_cell": "AY7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-04T13:00:00+08:00",
+    "publish_at": "2026-11-04T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 742,
+        "resource_title": "流放开局，我卷走皇帝的小金库2",
+        "drama_code": "2609 KR40",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "50",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3cc69ef9f609e91b",
+    "title_zh": "开局成破剑竟被她进化成神兵",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-05",
+    "date_source": "用户确认按原顺序续排",
+    "original_date_header": null,
+    "schedule_cell": "AZ7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T13:00:00+08:00",
+    "publish_at": "2026-11-05T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 766,
+        "resource_title": "开局成破剑竟被她进化成神兵",
+        "drama_code": "2609 KR47",
+        "category": "男频",
+        "minutes": "82",
+        "episodes": "59",
+        "audio_language": "en",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "35d570f99129d373",
+    "title_zh": "代号枪神",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-06",
+    "date_source": "用户确认按原顺序续排",
+    "original_date_header": null,
+    "schedule_cell": "BA7",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T13:00:00+08:00",
+    "publish_at": "2026-11-06T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 723,
+        "resource_title": "代号枪神",
+        "drama_code": "2609 KR31",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]

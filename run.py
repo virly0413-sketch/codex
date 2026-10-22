@@ -183,13 +183,16 @@ def import_pack(config, args):
     if manifest.get('language') and config.get('language') and manifest['language'] != config['language']:
         raise ValueError('素材包语种与当前频道配置不符，禁止导入。')
     jobs = {j['job_id']: j for j in load(ROOT / config['work'] / 'queue.json')}
+    title_count=manifest.get('titles_per_job',3)
+    if type(title_count) is not int or title_count not in (1,3):
+        raise ValueError('素材包标题数量声明仅支持1或3。')
     count = 0
     for entry in manifest['jobs']:
         job_id = entry['job_id']
         if job_id not in jobs:
             raise ValueError('Asset job absent from schedule: ' + job_id)
-        if len(entry['titles']) != 3 or any(not isinstance(t, str) or not t.strip() or len(t) > 100 for t in entry['titles']):
-            raise ValueError('Expected three titles, each <=100 characters.')
+        if not isinstance(entry.get('titles'),list) or len(entry['titles']) != title_count or any(not isinstance(t, str) or not t.strip() or len(t.encode('utf-16-le'))//2 > 100 for t in entry['titles']):
+            raise ValueError('Expected '+('one title' if title_count==1 else 'three titles')+', each <=100 characters.')
         if entry['title_zh'] != jobs[job_id]['title_zh']:
             raise ValueError('Asset and schedule titles do not match.')
         if entry.get('drama_code') and entry['drama_code'] not in [c['drama_code'] for c in jobs[job_id]['candidates']]:
@@ -359,6 +362,8 @@ def match_videos(title_zh, videos):
 
 def review(config, args):
     j = job(config, args.job)
+    if not args.publish_local and not j.get('publish_local'):
+        raise ValueError('该任务尚未设置发布时间，请填写完整北京时间（YYYY-MM-DDTHH:MM:SS）后再发布。')
     directory = ROOT / config['work'] / args.job
     creative = load(directory / 'creative.json')
     if not (1 <= args.title <= len(creative['titles']) and 1 <= args.cover <= creative['cover_count']):
@@ -475,6 +480,8 @@ def publish(config, args):
     directory=ROOT/config['work']/args.job
     creative=load(directory/'creative.json')
     j=job(config,args.job)
+    if not args.publish_local and not j.get('publish_local'):
+        raise ValueError('该任务尚未设置发布时间，请填写完整北京时间（YYYY-MM-DDTHH:MM:SS）后再发布。')
     video_id=args.video_id
     if not video_id:
         cache=ROOT/config['work']/'channel_videos.json'

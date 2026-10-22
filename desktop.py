@@ -10,7 +10,7 @@ from pathlib import Path
 import run
 from networking import proxy_url, timeout_seconds
 from publisher_profiles import available_profiles, validate_profile, remember_profile
-from material_library import material_folder, set_material_folder, load_materials
+from material_library import material_folder, material_key, set_material_folder, load_materials
 
 
 class PublisherScrollFrame(ttk.Frame):
@@ -92,7 +92,7 @@ class App:
         ttk.Combobox(preset_bar,textvariable=self.profile_name,values=list(self.profile_paths),state='readonly',width=48).pack(side='left',padx=6)
         preset_button=ttk.Button(preset_bar,text='切换频道并加载素材',command=self.switch_preset)
         preset_button.pack(side='left');self.buttons.append(preset_button)
-        folder_button=ttk.Button(preset_bar,text='设置所选语种素材文件夹',command=self.configure_material_folder)
+        folder_button=ttk.Button(preset_bar,text='设置所选频道素材文件夹',command=self.configure_material_folder)
         folder_button.pack(side='left',padx=5);self.buttons.append(folder_button)
         bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
         for label, callback in [('重新加载当前语种素材', self.import_assets), ('YouTube 官方授权', self.authorize),
@@ -103,7 +103,7 @@ class App:
         ttk.Label(root, text='先选择视频、标题、封面、代码和时间；点击“发布”即授权执行，无需额外审核。所有时间为北京时间。').pack(anchor='w', padx=15)
         ttk.Label(root,text='目标频道：'+self.config['channel_id']).pack(anchor='w',padx=15)
         ttk.Label(root,text='当前内置素材：'+self.config.get('assets_path','assets')).pack(anchor='w',padx=15)
-        self.material_info=tk.StringVar(value='当前语种素材文件夹：'+str(material_folder(self.config)))
+        self.material_info=tk.StringVar(value='当前频道素材文件夹：'+str(material_folder(self.config)))
         ttk.Label(root,textvariable=self.material_info,wraplength=1100).pack(anchor='w',padx=15)
         ttk.Label(root,text='已加载批次：'+self.config.get('material_batch','旧版内置')[:12]+' · '+str(self.config.get('material_job_count',''))+'部；替换文件后请点击加载。').pack(anchor='w',padx=15)
         network = ttk.Frame(root); network.pack(fill='x', padx=10, pady=4)
@@ -170,8 +170,8 @@ class App:
             config=run.load(path)
             folder=filedialog.askdirectory(title='选择该语种的固定素材文件夹（仅保存路径，不修改YouTube）',mustexist=True)
             if not folder:return
-            set_material_folder(config['language'],folder)
-            self.material_info.set('已设置 '+config['language']+' 素材文件夹：'+folder+'；点击“切换频道并加载素材”生效。')
+            set_material_folder(material_key(config),folder)
+            self.material_info.set('已设置 '+config['channel_name']+' 素材文件夹：'+folder+'；点击“切换频道并加载素材”生效。')
         except Exception as exc:messagebox.showerror('设置素材文件夹失败',str(exc))
 
     def activate_profile(self,path):
@@ -266,7 +266,8 @@ class App:
         self.jobs = {j['job_id']: j for j in run.load(queue)}
         for iid, j in self.jobs.items():
             if not (run.ROOT / self.config['work'] / iid / 'creative.json').exists(): continue
-            self.tree.insert('', 'end', iid=iid, values=(j['publish_local'], j['title_zh'],
+            when=j['publish_local'] or ((j.get('date')+' · 时间待填') if j.get('date') else ('日期待填 · '+j['preferred_publish_time'] if j.get('preferred_publish_time') else '日期和时间待填'))
+            self.tree.insert('', 'end', iid=iid, values=(when, j['title_zh'],
                 ' | '.join(c['drama_code'] for c in j['candidates'])))
 
     def select(self, event=None):

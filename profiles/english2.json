@@ -1,0 +1,14 @@
+{
+  "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+  "channel_name": "英语2",
+  "language": "en",
+  "material_key": "en2",
+  "work": "local_work_en2/UCXdinQ6fQ8RyenilKIymAFA",
+  "oauth_client": "client_secret.json",
+  "oauth_token": "token.en2.UCXdinQ6fQ8RyenilKIymAFA.json",
+  "planning_source": "data/jobs.en2.current.json",
+  "assets_path": "materials/英语2/assets_en2_current_14",
+  "proxy_url": "http://127.0.0.1:7897",
+  "http_timeout_seconds": 30,
+  "thumbnail_text_mode": "none"
+}

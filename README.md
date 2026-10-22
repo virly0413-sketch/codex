@@ -1,3 +1,5 @@
+英语2频道更新：[下载含14张封面和14个标题的升级包](releases/english2_channel_update_with_materials_1080p.zip)，[合并升级与使用步骤](ENGLISH2_GUIDE.md)。绑定UCXdinQ6fQ8RyenilKIymAFA，使用独立素材目录和令牌；更新已上传视频。2026年10月24日—11月6日每天北京时间13:00。
+
 英语最新版完整程序：[下载42部动作互动封面与标题整合包](releases/english_publisher_complete_action_v2_20261026_20261115_1080p.zip)，[安装与原程序升级步骤](ENGLISH_LATEST_GUIDE.md)，[预览新素材](materials/英语/assets_en_20261026_action_v2/index.html)。42张全新1920×1080无字封面、126个新英文标题，10月26日—11月15日每天北京时间17:00、21:00。绑定英语频道UC0koaDPTujsoVj-Tw27J0Qg；双击start_english_windows.bat自动加载，首次启用本版切到新素材目录，之后支持自选固定文件夹及只换素材。
 
 菲律宾语完整发布程序：[下载已带标题与新封面的完整包](releases/filipino_publisher_complete_20261026_20261115_1080p.zip)，[使用与升级说明](FILIPINO_GUIDE.md)，[素材预览](materials/菲律宾语/assets_tl_20261026_ready/index.html)。21部、63个菲律宾语标题、21张1920×1080动作互动新封面，2026年10月26日—11月15日每天北京时间17:00。首次启动填写菲律宾语频道UC ID，官方授权校验；原程序支持新增菲律宾语切换、专属素材文件夹及单击发布。
