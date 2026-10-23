@@ -440,7 +440,9 @@ def apply_changes(config, args):
     if remote_state(current) != package['remote_before']:
         raise ValueError('Video metadata changed since review. Fetch and approve a fresh review.')
     if state.get('stage') == 'thumbnail_started':
-        raise ValueError('Prior thumbnail operation outcome uncertain. Inspect Studio and generate a fresh review.')
+        if not getattr(args,'resume_thumbnail',False):
+            raise ValueError('上次封面上传结果未确认。请在界面保持同一视频、标题、封面、代码和时间，再点击“发布”恢复；不要删除操作记录。')
+        print('正在恢复上次封面步骤：视频信息已核对一致，将重新提交同一张已授权封面；不会重传视频。')
     if not state and current.get('etag') != package['remote_etag']:
         raise ValueError('Video changed since review (including thumbnail). Review again.')
     when = dt.datetime.fromisoformat(package['publish_at'].replace('Z', '+00:00'))
@@ -504,7 +506,7 @@ def publish(config, args):
             old=load(directory/'review.json')
             if any(old.get(k)!=v for k,v in intent.items()):
                 raise ValueError('该任务已有另一组发布结果或未完成操作。请先核对线上结果，不能覆盖不确定状态。')
-            apply_changes(config,argparse.Namespace(job=args.job))
+            apply_changes(config,argparse.Namespace(job=args.job,resume_thumbnail=True))
             return
         review(config,args)
         package=load(directory/'review.json')

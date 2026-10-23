@@ -177,6 +177,45 @@ class WorkflowTests(unittest.TestCase):
         with patch.object(run,'auth') as authentication,self.assertRaises(ValueError):run.apply_changes(self.config,self.args)
         authentication.assert_not_called()
 
+    def test_explicit_resume_reapplies_same_thumbnail_then_finishes(self):
+        package=self.review_and_approve()
+        thumb=copy.deepcopy(self.video);thumb['etag']='thumbnail-version'
+        resumed=copy.deepcopy(self.video);resumed['etag']='possibly-already-updated'
+        final=self.after_video(package)
+        remote=self.remote([self.video,resumed,thumb,final])
+        remote.thumbnails.return_value.set.return_value.execute.side_effect=[TimeoutError('response lost'),{}]
+        with patch.object(run,'auth',return_value=remote),patch('googleapiclient.http.MediaFileUpload'),contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaises(TimeoutError):run.apply_changes(self.config,self.args)
+            run.apply_changes(self.config,argparse.Namespace(job=self.args.job,resume_thumbnail=True))
+        self.assertEqual(remote.thumbnails.return_value.set.call_count,2)
+        self.assertEqual(remote.videos.return_value.update.call_count,1)
+        self.assertEqual(run.load(self.directory/'apply_state.json')['stage'],'done')
+
+    def test_explicit_thumbnail_resume_stops_if_metadata_changed(self):
+        self.review_and_approve()
+        changed=copy.deepcopy(self.video);changed['snippet']['description']='Changed in Studio'
+        remote=self.remote([self.video,changed])
+        remote.thumbnails.return_value.set.return_value.execute.side_effect=TimeoutError('response lost')
+        with patch.object(run,'auth',return_value=remote),patch('googleapiclient.http.MediaFileUpload'):
+            with self.assertRaises(TimeoutError):run.apply_changes(self.config,self.args)
+            with self.assertRaisesRegex(ValueError,'metadata changed'):
+                run.apply_changes(self.config,argparse.Namespace(job=self.args.job,resume_thumbnail=True))
+        self.assertEqual(remote.thumbnails.return_value.set.call_count,1)
+        remote.videos.return_value.update.assert_not_called()
+
+    def test_publish_click_resumes_timeout_but_rejects_changed_selection(self):
+        thumb=copy.deepcopy(self.video);thumb['etag']='thumbnail-version'
+        remote=self.remote([self.video,self.video,self.video,thumb])
+        remote.thumbnails.return_value.set.return_value.execute.side_effect=[TimeoutError('response lost'),{}]
+        with patch.object(run,'auth',return_value=remote),patch('googleapiclient.http.MediaFileUpload'),patch.object(run,'verify_result'),contextlib.redirect_stdout(io.StringIO()):
+            with self.assertRaises(TimeoutError):run.publish(self.config,self.args)
+            changed=copy.copy(self.args);changed.title=2
+            with self.assertRaisesRegex(ValueError,'另一组发布结果'):run.publish(self.config,changed)
+            run.publish(self.config,self.args)
+        self.assertEqual(remote.thumbnails.return_value.set.call_count,2)
+        self.assertEqual(remote.videos.return_value.update.call_count,1)
+        self.assertEqual(run.load(self.directory/'apply_state.json')['stage'],'done')
+
     def test_metadata_timeout_reconciles_success_without_second_write(self):
         package=self.review_and_approve()
         thumb=copy.deepcopy(self.video);thumb['etag']='version1'
