@@ -2,12 +2,12 @@
   "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
   "channel_name": "西语男频",
   "language": "es",
-  "work": "local_work_es_20261026/UCaQI24vmsim_8jDI0NuwbEg",
+  "work": "local_work_es_20261106/UCaQI24vmsim_8jDI0NuwbEg",
   "oauth_client": "client_secret.json",
   "oauth_token": "token.es.UCaQI24vmsim_8jDI0NuwbEg.json",
-  "planning_source": "data/jobs.es.20261026.json",
-  "assets_path": "assets_es_20261026",
+  "planning_source": "data/jobs.es.20261106.json",
+  "assets_path": "materials/西语/assets_es_20261106_two_daily",
   "proxy_url": "http://127.0.0.1:7897",
-  "http_timeout_seconds": 30,
+  "http_timeout_seconds": 120,
   "thumbnail_text_mode": "none"
 }

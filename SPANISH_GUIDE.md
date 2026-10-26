@@ -1,3 +1,5 @@
+最新版本：[11月6日起每天两部整合包](releases/spanish_publisher_complete_20261106_20261115_1080p.zip)，[新版使用步骤](SPANISH_NOVEMBER_GUIDE.md)。以下为之前21部排期的历史说明。
+
 # 西语频道加入原程序
 
 已有程序需要本次新封面时，只下载[西语第二版替换素材包](releases/spanish_materials_v2_multicast_midnight.zip)，不必再次覆盖程序。20张重新生成的无字封面，60条旧标题沿用；11月5日禁播剧已移除，当天留空。移走西语素材目录中的旧包，解压新包并重新加载，目录内只能保留一个manifest.json。已发布/定时的视频不要重复提交；换包不会自动修改线上视频。

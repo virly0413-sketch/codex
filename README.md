@@ -1,3 +1,5 @@
+西语最新整合程序：[下载20部新封面、单标题及发布程序](releases/spanish_publisher_complete_20261106_20261115_1080p.zip)，[安装与合并升级步骤](SPANISH_NOVEMBER_GUIDE.md)，[预览20部素材](materials/西语/assets_es_20261106_two_daily/index.html)。2026年11月6—15日每天北京时间00:00、05:00；绑定UCaQI24vmsim_8jDI0NuwbEg。已整合封面超时恢复补丁，双击start_spanish_windows.bat加载新批次。
+
 西语新增排片：[下载11月6—15日每天两部Excel](schedules/spanish_20261106_20261115_two_daily/spanish_schedule_20261106_20261115.xlsx)，[整套文件](releases/spanish_schedule_20261106_20261115_two_daily.zip)。每天北京时间00:00、05:00，共20部；西语历史去重、文字禁播及代运营排除，已知跨频道同剧至少间隔168小时。仅排片，不替换发布程序素材。
 
 封面上传超时恢复：[下载轻量补丁](releases/publisher_thumbnail_timeout_recovery.zip)，[恢复步骤](THUMBNAIL_RECOVERY_GUIDE.md)。保留原任务记录，在选择未变、远端信息一致时，再次点击发布可恢复同一封面上传。

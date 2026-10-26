@@ -25,7 +25,7 @@ class SpanishPublisherTests(unittest.TestCase):
             app.switch_preset()
         self.assertEqual(loader.call_args.args[0]['language'],'es');auth.assert_not_called();app.activate_profile.assert_called_once()
     def test_real_21_job_pack_loads_4k_and_emoji_titles_preserve_description(self):
-        config=run.load(REPO/'profiles/spanish.json');pack=REPO/config['assets_path'];manifest=run.load(pack/'manifest.json')
+        config=dict(run.load(REPO/'profiles/spanish.json'),assets_path='assets_es_20261026',planning_source='data/jobs.es.20261026.json');pack=REPO/config['assets_path'];manifest=run.load(pack/'manifest.json')
         jobs=run.load(pack/'schedule.json')
         self.assertEqual(len(jobs),21);self.assertEqual(jobs[0]['date'],'2026-10-26');self.assertEqual(jobs[-1]['date'],'2026-11-15')
         self.assertEqual({j['language'] for j in jobs},{'es'})
