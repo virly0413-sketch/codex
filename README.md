@@ -1,3 +1,5 @@
+西语新增排片：[下载11月6—15日每天两部Excel](schedules/spanish_20261106_20261115_two_daily/spanish_schedule_20261106_20261115.xlsx)，[整套文件](releases/spanish_schedule_20261106_20261115_two_daily.zip)。每天北京时间00:00、05:00，共20部；西语历史去重、文字禁播及代运营排除，已知跨频道同剧至少间隔168小时。仅排片，不替换发布程序素材。
+
 封面上传超时恢复：[下载轻量补丁](releases/publisher_thumbnail_timeout_recovery.zip)，[恢复步骤](THUMBNAIL_RECOVERY_GUIDE.md)。保留原任务记录，在选择未变、远端信息一致时，再次点击发布可恢复同一封面上传。
 
 英语2频道更新：[下载含14张封面和14个标题的升级包](releases/english2_channel_update_with_materials_1080p.zip)，[合并升级与使用步骤](ENGLISH2_GUIDE.md)。绑定UCXdinQ6fQ8RyenilKIymAFA，使用独立素材目录和令牌；更新已上传视频。2026年10月24日—11月6日每天北京时间13:00。
