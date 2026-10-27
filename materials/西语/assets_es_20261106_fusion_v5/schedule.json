@@ -1,0 +1,642 @@
+[
+  {
+    "job_id": "3e360e95cfd439ce",
+    "title_zh": "一纸断千谋",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T00:00:00+08:00",
+    "publish_at": "2026-11-05T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 799,
+        "resource_title": "一纸断千谋",
+        "drama_code": "2609 KR63",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "63",
+        "episodes": "45"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "cdd368428fcb2f21",
+    "title_zh": "诡异降临我召唤三千祖师反向入侵",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-06",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T05:00:00+08:00",
+    "publish_at": "2026-11-05T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 779,
+        "resource_title": "诡异降临我召唤三千祖师反向入侵",
+        "drama_code": "2609 KR53",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "68",
+        "episodes": "50"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d47f68b5a8104b99",
+    "title_zh": "一针定乾坤",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T00:00:00+08:00",
+    "publish_at": "2026-11-06T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 773,
+        "resource_title": "一针定乾坤",
+        "drama_code": "2609 KR49",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "73",
+        "episodes": "43"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "bf2f5048476d96c8",
+    "title_zh": "太监从后宫签到成圣",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-07",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T05:00:00+08:00",
+    "publish_at": "2026-11-06T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 762,
+        "resource_title": "太监从后宫签到成圣",
+        "drama_code": "2609 KR45",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "97",
+        "episodes": "70"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "90cc59424cf242fd",
+    "title_zh": "东北足疗工的底牌规矩2",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T00:00:00+08:00",
+    "publish_at": "2026-11-07T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 763,
+        "resource_title": "东北足疗工的底牌规矩2",
+        "drama_code": "2609 KR46",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "73",
+        "episodes": "53"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "bad9c669dc49bbaa",
+    "title_zh": "我可不是普通芦花鸡",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-08",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T05:00:00+08:00",
+    "publish_at": "2026-11-07T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 755,
+        "resource_title": "我可不是普通芦花鸡",
+        "drama_code": "2609 KR43",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "51",
+        "episodes": "37"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3df8bc729b6b2e3e",
+    "title_zh": "糟老头竟是剑仙",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T00:00:00+08:00",
+    "publish_at": "2026-11-08T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 747,
+        "resource_title": "糟老头竟是剑仙",
+        "drama_code": "2609 KR42",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "57"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "396c4fac8af84dca",
+    "title_zh": "瞎眼五百年我的学生全是三界大能",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-09",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T05:00:00+08:00",
+    "publish_at": "2026-11-08T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 738,
+        "resource_title": "瞎眼五百年我的学生全是三界大能",
+        "drama_code": "2609 KR38",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "74",
+        "episodes": "50"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "82aab38f2e38df2f",
+    "title_zh": "燃香之后",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T00:00:00+08:00",
+    "publish_at": "2026-11-09T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 739,
+        "resource_title": "燃香之后",
+        "drama_code": "2609 KR39",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "45"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "0c9294e28cf53b9d",
+    "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-10",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T05:00:00+08:00",
+    "publish_at": "2026-11-09T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 735,
+        "resource_title": "穿越成章鱼我预测世界杯全中变球王",
+        "drama_code": "2609 KR36",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "49"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c0c567168d189c40",
+    "title_zh": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T00:00:00+08:00",
+    "publish_at": "2026-11-10T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 724,
+        "resource_title": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+        "drama_code": "2609 KR32",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a48e152442e6efdb",
+    "title_zh": "高墙困恶邻",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-11",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T05:00:00+08:00",
+    "publish_at": "2026-11-10T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 717,
+        "resource_title": "高墙困恶邻",
+        "drama_code": "2609 KR28",
+        "audio_language": "es",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "70",
+        "episodes": "50"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "2990e38d85b3f71c",
+    "title_zh": "恩与债",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T00:00:00+08:00",
+    "publish_at": "2026-11-11T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 774,
+        "resource_title": "恩与债",
+        "drama_code": "2609 KR50",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "90",
+        "episodes": "45"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4c9d8cb8bb7facd5",
+    "title_zh": "我靠刷题重振宗门",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-12",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T05:00:00+08:00",
+    "publish_at": "2026-11-11T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 726,
+        "resource_title": "我靠刷题重振宗门",
+        "drama_code": "2609 KR33",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "96",
+        "episodes": "58"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "8c84522690ebd860",
+    "title_zh": "房间里的人偶",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T00:00:00+08:00",
+    "publish_at": "2026-11-12T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 712,
+        "resource_title": "房间里的人偶",
+        "drama_code": "2609 KR26",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "47"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "fe7227be49263a48",
+    "title_zh": "恐怖擂台我惊悚全世界",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-13",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T05:00:00+08:00",
+    "publish_at": "2026-11-12T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 707,
+        "resource_title": "恐怖擂台我惊悚全世界",
+        "drama_code": "2609 KR25",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "51"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3b5f085a24db7c4a",
+    "title_zh": "不给彩礼后她全家悔哭了",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T00:00:00+08:00",
+    "publish_at": "2026-11-13T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 693,
+        "resource_title": "不给彩礼后她全家悔哭了",
+        "drama_code": "2609 KR23",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4eeb45d8b34e2e62",
+    "title_zh": "别惹那个匠师他火力全开",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-14",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T05:00:00+08:00",
+    "publish_at": "2026-11-13T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 673,
+        "resource_title": "别惹那个匠师他火力全开",
+        "drama_code": "2609 KR17",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "69",
+        "episodes": "50"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b10faf213c277b17",
+    "title_zh": "灵山不送客",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T00:00:00+08:00",
+    "publish_at": "2026-11-14T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 671,
+        "resource_title": "灵山不送客",
+        "drama_code": "2609 KR16",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "40"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "99f75c88dbb3db3d",
+    "title_zh": "大师兄竟是御兽宗宗主",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-15",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T05:00:00+08:00",
+    "publish_at": "2026-11-14T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 670,
+        "resource_title": "大师兄竟是御兽宗宗主",
+        "drama_code": "2609 KR15",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
