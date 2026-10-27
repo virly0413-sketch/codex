@@ -27,7 +27,7 @@ class EnglishCompleteTests(unittest.TestCase):
             active=root/'active.json';run.save(active,config)
             with patch('english_start.initial_profile',return_value=previous),patch('english_start.load_materials',return_value=active) as loader,patch.object(run,'auth') as auth:
                 self.assertEqual(prepare_english(),active)
-                self.assertEqual(material_folder(config),bundled.parent)
+                self.assertEqual(material_folder(config),bundled)
                 self.assertEqual(loader.call_args.args[0]['oauth_token'],'keep-token-path')
                 self.assertEqual(loader.call_args.args[0]['proxy_url'],'')
                 self.assertEqual(loader.call_args.args[0]['http_timeout_seconds'],60)

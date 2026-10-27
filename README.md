@@ -1,3 +1,5 @@
+英语1最新整合程序：[下载11月1—15日30张全新封面与表情标题整合包](releases/english_publisher_complete_20261101_20261115_1080p.zip)，[安装升级步骤](ENGLISH_LATEST_GUIDE.md)，[预览30部新素材](materials/英语/assets_en_20261101_action_v3/index.html)。每天北京时间17:00、21:00；每部1个首尾配表情的新标题及1张1920×1080无字新封面。绑定UC0koaDPTujsoVj-Tw27J0Qg，英语2不变，已包含封面超时恢复。双击start_english_windows.bat加载新版。
+
 西语最新整合程序（10月27日新版标题）：[下载20部新封面、单标题及发布程序](releases/spanish_publisher_complete_20261106_20261115_1080p.zip)，[安装与合并升级步骤](SPANISH_NOVEMBER_GUIDE.md)，[预览20部素材](materials/西语/assets_es_20261106_two_daily/index.html)。2026年11月6—15日每天北京时间00:00、05:00；绑定UCaQI24vmsim_8jDI0NuwbEg。已整合封面超时恢复补丁，双击start_spanish_windows.bat加载新批次。
 
 西语新增排片：[下载11月6—15日每天两部Excel](schedules/spanish_20261106_20261115_two_daily/spanish_schedule_20261106_20261115.xlsx)，[整套文件](releases/spanish_schedule_20261106_20261115_two_daily.zip)。每天北京时间00:00、05:00，共20部；西语历史去重、文字禁播及代运营排除，已知跨频道同剧至少间隔168小时。仅排片，不替换发布程序素材。

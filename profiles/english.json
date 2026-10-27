@@ -1,13 +1,13 @@
 {
   "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
   "channel_name": "Supreme Hero Flicks",
-  "work": "local_work_en_20261026/UC0koaDPTujsoVj-Tw27J0Qg",
+  "work": "local_work_en_20261101/UC0koaDPTujsoVj-Tw27J0Qg",
   "oauth_client": "client_secret.json",
   "oauth_token": "token.en.UC0koaDPTujsoVj-Tw27J0Qg.json",
-  "planning_source": "data/jobs.en.20261026.json",
+  "planning_source": "data/jobs.en.20261101.json",
   "proxy_url": "http://127.0.0.1:7897",
-  "http_timeout_seconds": 30,
+  "http_timeout_seconds": 120,
   "channel_handle": "@bikan29-v8f",
-  "assets_path": "materials/英语/assets_en_20261026_action_v2",
+  "assets_path": "materials/英语/assets_en_20261101_action_v3",
   "language": "en"
 }

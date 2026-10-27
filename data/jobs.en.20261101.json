@@ -1,0 +1,962 @@
+[
+  {
+    "job_id": "28f5796a366c52c6",
+    "title_zh": "房间里的人偶",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-01",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-01T17:00:00+08:00",
+    "publish_at": "2026-11-01T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 712,
+        "resource_title": "房间里的人偶",
+        "drama_code": "2609 KR26",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "47"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "21249378e7f86f91",
+    "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-01",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-01T21:00:00+08:00",
+    "publish_at": "2026-11-01T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 735,
+        "resource_title": "穿越成章鱼我预测世界杯全中变球王",
+        "drama_code": "2609 KR36",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "49"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "fc9c857248c6b080",
+    "title_zh": "燃香之后",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-02",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-02T17:00:00+08:00",
+    "publish_at": "2026-11-02T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 739,
+        "resource_title": "燃香之后",
+        "drama_code": "2609 KR39",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "45"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "74abf81638778fe5",
+    "title_zh": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-02",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-02T21:00:00+08:00",
+    "publish_at": "2026-11-02T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 724,
+        "resource_title": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+        "drama_code": "2609 KR32",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "585c069e9baf821e",
+    "title_zh": "厨神帝王录",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-03",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-03T17:00:00+08:00",
+    "publish_at": "2026-11-03T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 685,
+        "resource_title": "厨神帝王录",
+        "drama_code": "2609 KR20",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "70",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "14652999d8905db3",
+    "title_zh": "山海计划我把整个修仙界上交了",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-03",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-03T21:00:00+08:00",
+    "publish_at": "2026-11-03T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 713,
+        "resource_title": "山海计划我把整个修仙界上交了",
+        "drama_code": "2609 KR27",
+        "audio_language": "en",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "9b8b865517b544a5",
+    "title_zh": "我靠刷题重振宗门",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-04",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-04T17:00:00+08:00",
+    "publish_at": "2026-11-04T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 726,
+        "resource_title": "我靠刷题重振宗门",
+        "drama_code": "2609 KR33",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "96",
+        "episodes": "58"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "2012898f955f2962",
+    "title_zh": "恩与债",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-04",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-04T21:00:00+08:00",
+    "publish_at": "2026-11-04T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 774,
+        "resource_title": "恩与债",
+        "drama_code": "2609 KR50",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "90",
+        "episodes": "45"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a42a7e11a602b0f8",
+    "title_zh": "开局变鹦鹉气疯所有人",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-05",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T17:00:00+08:00",
+    "publish_at": "2026-11-05T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 664,
+        "resource_title": "开局变鹦鹉气疯所有人",
+        "drama_code": "2609 KR09",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "66"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "9c10eca0edb8f2e4",
+    "title_zh": "不给彩礼后她全家悔哭了",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-05",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T21:00:00+08:00",
+    "publish_at": "2026-11-05T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 693,
+        "resource_title": "不给彩礼后她全家悔哭了",
+        "drama_code": "2609 KR23",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b7410d4c350e9fbf",
+    "title_zh": "婚礼照常新娘换人",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T17:00:00+08:00",
+    "publish_at": "2026-11-06T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 861,
+        "resource_title": "婚礼照常新娘换人",
+        "drama_code": "2609 KR84",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "78",
+        "episodes": "52"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "548af0813a6539fc",
+    "title_zh": "别惹那个匠师他火力全开",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-06",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T21:00:00+08:00",
+    "publish_at": "2026-11-06T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 673,
+        "resource_title": "别惹那个匠师他火力全开",
+        "drama_code": "2609 KR17",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "69",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d67d4f687ff66d70",
+    "title_zh": "穿越女频开局送皇后白月光进东厂",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T17:00:00+08:00",
+    "publish_at": "2026-11-07T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 863,
+        "resource_title": "穿越女频开局送皇后白月光进东厂",
+        "drama_code": "2609 KR85",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "915f7a71337e9f44",
+    "title_zh": "灵山不送客",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-07",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T21:00:00+08:00",
+    "publish_at": "2026-11-07T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 671,
+        "resource_title": "灵山不送客",
+        "drama_code": "2609 KR16",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "60",
+        "episodes": "40"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1346b5cfdfb6d902",
+    "title_zh": "别碰那个瑜伽球",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T17:00:00+08:00",
+    "publish_at": "2026-11-08T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 665,
+        "resource_title": "别碰那个瑜伽球",
+        "drama_code": "2609 KR10",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "02ea4e18b0adfba0",
+    "title_zh": "奈何桥上不许刹车",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-08",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T21:00:00+08:00",
+    "publish_at": "2026-11-08T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 813,
+        "resource_title": "奈何桥上不许刹车",
+        "drama_code": "2609 KR72",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "85",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b061dc6179421b4b",
+    "title_zh": "诡异擂台开局召唤左千户",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T17:00:00+08:00",
+    "publish_at": "2026-11-09T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 897,
+        "resource_title": "诡异擂台开局召唤左千户",
+        "drama_code": "2026 WW30",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "69",
+        "episodes": "51"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "94223055948b0053",
+    "title_zh": "开局上交系统我直升满级大佬",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-09",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T21:00:00+08:00",
+    "publish_at": "2026-11-09T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 668,
+        "resource_title": "开局上交系统我直升满级大佬",
+        "drama_code": "2609 KR13",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "455c694d8f59c55a",
+    "title_zh": "请祖宗出面讨公道",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 797,
+        "resource_title": "请祖宗出面讨公道",
+        "drama_code": "2609 KR62",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "83",
+        "episodes": "55"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "0f1c195b63af1049",
+    "title_zh": "龙神报恩我一出海鱼获满满",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-10",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T21:00:00+08:00",
+    "publish_at": "2026-11-10T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 824,
+        "resource_title": "龙神报恩我一出海鱼获满满",
+        "drama_code": "2609 KR76",
+        "audio_language": "en",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "73",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1052bae27407674e",
+    "title_zh": "不当黄牛全族发愁",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T17:00:00+08:00",
+    "publish_at": "2026-11-11T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 786,
+        "resource_title": "不当黄牛全族发愁",
+        "drama_code": "2609 KR56",
+        "audio_language": "en",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b386efd001c01f28",
+    "title_zh": "绑定系统我成地表最强媒人",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-11",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T21:00:00+08:00",
+    "publish_at": "2026-11-11T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 690,
+        "resource_title": "绑定系统我成地表最强媒人",
+        "drama_code": "2609 KR22",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ebb1d3b0dfecfd86",
+    "title_zh": "八零怀旧怪谈这就是找茬儿",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T17:00:00+08:00",
+    "publish_at": "2026-11-12T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1047,
+        "resource_title": "八零怀旧怪谈这就是找茬儿",
+        "drama_code": "2026 WW62",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "84.8",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "596f3f8f4266f4e0",
+    "title_zh": "剑道巅峰从一把锈剑开始",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-12",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T21:00:00+08:00",
+    "publish_at": "2026-11-12T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1042,
+        "resource_title": "剑道巅峰从一把锈剑开始",
+        "drama_code": "2026 WW59",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "111.3",
+        "episodes": "77"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "efed3bb6f2442572",
+    "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T17:00:00+08:00",
+    "publish_at": "2026-11-13T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 856,
+        "resource_title": "分家后我靠聚宝镯走上人生巅峰",
+        "drama_code": "2609 KR83",
+        "audio_language": "en",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "68032dddc025a364",
+    "title_zh": "自立门户干火锅，表哥急疯了",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-13",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T21:00:00+08:00",
+    "publish_at": "2026-11-13T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 791,
+        "resource_title": "自立门户干火锅，表哥急疯了",
+        "drama_code": "2609 KR58",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "40"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "fdabdcf8917d00d9",
+    "title_zh": "不过一瓶醋",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T17:00:00+08:00",
+    "publish_at": "2026-11-14T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 808,
+        "resource_title": "不过一瓶醋",
+        "drama_code": "2609 KR69",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "79",
+        "episodes": "47"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e7410d5adfcbb57c",
+    "title_zh": "万古第一仙在都市",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-14",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T21:00:00+08:00",
+    "publish_at": "2026-11-14T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1041,
+        "resource_title": "万古第一仙在都市",
+        "drama_code": "2026 WW58",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "106.6",
+        "episodes": "63"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f3c1045d6b8a7553",
+    "title_zh": "归来后我踩碎所有偏见",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 904,
+        "resource_title": "归来后我踩碎所有偏见",
+        "drama_code": "2026 WW32",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "92",
+        "episodes": "47"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f9d67054750d908f",
+    "title_zh": "大爷俺踢球养活饥荒年全家",
+    "channel": "Supreme Hero Flicks",
+    "language": "en",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "date": "2026-11-15",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T21:00:00+08:00",
+    "publish_at": "2026-11-15T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 802,
+        "resource_title": "大爷俺踢球养活饥荒年全家",
+        "drama_code": "2609 KR65",
+        "audio_language": "en",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "84",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]

@@ -8,7 +8,7 @@ from publisher_profiles import initial_profile, remember_profile
 
 CHANNEL='UC0koaDPTujsoVj-Tw27J0Qg'
 RELEASE_STATE='local_work_publisher_ui/english_release.json'
-RELEASE_ID='english_action_v2_20261026_20261115'
+RELEASE_ID='english_action_v3_20261101_20261115'
 
 
 def prepare_english():
@@ -30,7 +30,7 @@ def prepare_english():
         manifest=run.load(pack/'manifest.json')
         if manifest.get('language')!='en' or manifest.get('channel_id')!=CHANNEL:
             raise ValueError('英语素材与频道不一致。')
-        set_material_folder('en',pack.parent)
+        set_material_folder('en',pack)
     path=load_materials(config)
     remember_profile(path)
     run.save(marker,{'release':RELEASE_ID})

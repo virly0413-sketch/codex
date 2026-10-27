@@ -1,0 +1,707 @@
+{
+  "version": 5,
+  "language": "en",
+  "channel": "Supreme Hero Flicks",
+  "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+  "titles_per_job": 1,
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "jobs": [
+    {
+      "job_id": "28f5796a366c52c6",
+      "title_zh": "房间里的人偶",
+      "date": "2026-11-01",
+      "language": "en",
+      "drama_code": "2609 KR26",
+      "titles": [
+        "🤯 His Wife Locked Herself In With a Doll! A Hidden Camera Exposed His Best Friend 💔"
+      ],
+      "title_zh_gloss": "妻子和人偶独处一室，监控竟揭出好友背叛",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-01_1700_房间里的人偶.jpg"
+      ],
+      "publish_local": "2026-11-01T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "21249378e7f86f91",
+      "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+      "date": "2026-11-01",
+      "language": "en",
+      "drama_code": "2609 KR36",
+      "titles": [
+        "🐙 He Woke Up as an Octopus! His Prediction System Made a Broke Man Rich ⚽"
+      ],
+      "title_zh_gloss": "重生成章鱼，预言系统让负债青年暴富",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-01_2100_穿越成章鱼我预测世界杯全中变球王.jpg"
+      ],
+      "publish_local": "2026-11-01T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "fc9c857248c6b080",
+      "title_zh": "燃香之后",
+      "date": "2026-11-02",
+      "language": "en",
+      "drama_code": "2609 KR39",
+      "titles": [
+        "👻 A Woman Laughed Inside an Empty House! The Incense Hid a Trap Linked to His Missing Girlfriend 😱"
+      ],
+      "title_zh_gloss": "空屋女人笑声与香料陷阱，牵出失踪女友",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-02_1700_燃香之后.jpg"
+      ],
+      "publish_local": "2026-11-02T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "74abf81638778fe5",
+      "title_zh": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+      "date": "2026-11-02",
+      "language": "en",
+      "drama_code": "2609 KR32",
+      "titles": [
+        "🐸 Killed by His Lovers, Reborn as a Tadpole! He Devoured His Way Back as the Frog Emperor 🔥"
+      ],
+      "title_zh_gloss": "被道侣害死后重生蝌蚪，吞噬进化蛙帝归来",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-02_2100_说好是只小蝌蚪你怎么靠吞噬成天帝了.jpg"
+      ],
+      "publish_local": "2026-11-02T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "585c069e9baf821e",
+      "title_zh": "厨神帝王录",
+      "date": "2026-11-03",
+      "language": "en",
+      "drama_code": "2609 KR20",
+      "titles": [
+        "🔥 The Empress Had Him Executed! Reborn as a Cook, He Took Her Throne With a Food System 👑"
+      ],
+      "title_zh_gloss": "冤死将军重生厨子，靠食物空间重返皇城",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-03_1700_厨神帝王录.jpg"
+      ],
+      "publish_local": "2026-11-03T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "14652999d8905db3",
+      "title_zh": "山海计划我把整个修仙界上交了",
+      "date": "2026-11-03",
+      "language": "en",
+      "drama_code": "2609 KR27",
+      "titles": [
+        "🚪 His Wardrobe Opened Into a Cultivation World! He Returned to His Captors in Powered Armor ⚡"
+      ],
+      "title_zh_gloss": "衣柜连通修仙界，被抓矿奴后穿现代战甲重返",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-03_2100_山海计划我把整个修仙界上交了.jpg"
+      ],
+      "publish_local": "2026-11-03T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "9b8b865517b544a5",
+      "title_zh": "我靠刷题重振宗门",
+      "date": "2026-11-04",
+      "language": "en",
+      "drama_code": "2609 KR33",
+      "titles": [
+        "🤯 He Made Cultivators Take Exams! His System Turned Their Weak Sect Into the Strongest 📚"
+      ],
+      "title_zh_gloss": "修仙弟子改做试卷，弱宗门靠科学修炼崛起",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-04_1700_我靠刷题重振宗门.jpg"
+      ],
+      "publish_local": "2026-11-04T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "2012898f955f2962",
+      "title_zh": "恩与债",
+      "date": "2026-11-04",
+      "language": "en",
+      "drama_code": "2609 KR50",
+      "titles": [
+        "💔 He Paid for Their Education! When He Fell Ill, They Tried to Use Him Again. He Chose the Law ⚖️"
+      ],
+      "title_zh_gloss": "资助学生却病中被利用，他用法律反击",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-04_2100_恩与债.jpg"
+      ],
+      "publish_local": "2026-11-04T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "a42a7e11a602b0f8",
+      "title_zh": "开局变鹦鹉气疯所有人",
+      "date": "2026-11-05",
+      "language": "en",
+      "drama_code": "2609 KR09",
+      "titles": [
+        "🦜 Betrayed and Turned Into a Parrot! His Shock-Point System Let Him Breathe Fire at His Enemies 🔥"
+      ],
+      "title_zh_gloss": "遭背叛变鹦鹉，震惊值系统解锁喷火护主",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-05_1700_开局变鹦鹉气疯所有人.jpg"
+      ],
+      "publish_local": "2026-11-05T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "9c10eca0edb8f2e4",
+      "title_zh": "不给彩礼后她全家悔哭了",
+      "date": "2026-11-05",
+      "language": "en",
+      "drama_code": "2609 KR23",
+      "titles": [
+        "💰 They Demanded 300,000 Yuan for His Bride! He Rescued Her Without Revealing His Fortune 🔥"
+      ],
+      "title_zh_gloss": "索要三十万彩礼，隐藏富豪救走未婚妻",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-05_2100_不给彩礼后她全家悔哭了.jpg"
+      ],
+      "publish_local": "2026-11-05T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "b7410d4c350e9fbf",
+      "title_zh": "婚礼照常新娘换人",
+      "date": "2026-11-06",
+      "language": "en",
+      "drama_code": "2609 KR84",
+      "titles": [
+        "💍 They Chose Her First Love Over Him! He Kept the Wedding Date and Married Another Heiress 👑"
+      ],
+      "title_zh_gloss": "他们选择初恋逼他退出，他婚期不变另娶千金",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_1700_婚礼照常新娘换人.jpg"
+      ],
+      "publish_local": "2026-11-06T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "548af0813a6539fc",
+      "title_zh": "别惹那个匠师他火力全开",
+      "date": "2026-11-06",
+      "language": "en",
+      "drama_code": "2609 KR17",
+      "titles": [
+        "🛠️ He Got a Hardware Store System in a Magic World! His Chainsaw Faced Their Flying Swords ⚡"
+      ],
+      "title_zh_gloss": "五金系统落入修仙世界，电锯对抗飞剑",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_2100_别惹那个匠师他火力全开.jpg"
+      ],
+      "publish_local": "2026-11-06T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "d67d4f687ff66d70",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "date": "2026-11-07",
+      "language": "en",
+      "drama_code": "2609 KR85",
+      "titles": [
+        "👑 He Woke Up as the Empress's Doormat! He Deposed Her and Built Guns to Stop 200,000 Invaders 🔥"
+      ],
+      "title_zh_gloss": "穿成窝囊皇帝后废后反击，以新武器挡大军",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_1700_穿越女频开局送皇后白月光进东厂.jpg"
+      ],
+      "publish_local": "2026-11-07T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "915f7a71337e9f44",
+      "title_zh": "灵山不送客",
+      "date": "2026-11-07",
+      "language": "en",
+      "drama_code": "2609 KR16",
+      "titles": [
+        "🌕 He Hunted to Pay for His Mother's Medicine! Tomb Robbers Used Him as Bait Under a Blood Moon 😱"
+      ],
+      "title_zh_gloss": "为救母血月进山，却成盗墓贼的活饵",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_2100_灵山不送客.jpg"
+      ],
+      "publish_local": "2026-11-07T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "1346b5cfdfb6d902",
+      "title_zh": "别碰那个瑜伽球",
+      "date": "2026-11-08",
+      "language": "en",
+      "drama_code": "2609 KR10",
+      "titles": [
+        "🤯 His Wife Hid Her Trainer in a Yoga Ball! He Set a Trap to Expose Their Lies 💔"
+      ],
+      "title_zh_gloss": "妻子把教练藏进瑜伽球，他布局揭穿谎言",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_1700_别碰那个瑜伽球.jpg"
+      ],
+      "publish_local": "2026-11-08T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "02ea4e18b0adfba0",
+      "title_zh": "奈何桥上不许刹车",
+      "date": "2026-11-08",
+      "language": "en",
+      "drama_code": "2609 KR72",
+      "titles": [
+        "👻 His Hearse Took a Road Into the Underworld! He Smashed Through a Bone Mountain to Get Her Out ⚡"
+      ],
+      "title_zh_gloss": "灵车闯阴阳路，撞破骷髅山带她归来",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_2100_奈何桥上不许刹车.jpg"
+      ],
+      "publish_local": "2026-11-08T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "b061dc6179421b4b",
+      "title_zh": "诡异擂台开局召唤左千户",
+      "date": "2026-11-09",
+      "language": "en",
+      "drama_code": "2026 WW30",
+      "titles": [
+        "⚔️ Three Defeats and No Gods Left to Summon! He Sent a Mortal Warrior Against an Immortal 🔥"
+      ],
+      "title_zh_gloss": "连败三场神明被禁，他召凡人战不死强敌",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_1700_诡异擂台开局召唤左千户.jpg"
+      ],
+      "publish_local": "2026-11-09T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "94223055948b0053",
+      "title_zh": "开局上交系统我直升满级大佬",
+      "date": "2026-11-09",
+      "language": "en",
+      "drama_code": "2609 KR13",
+      "titles": [
+        "⚡ His Family Cast Him Out! He Handed His Level-Up System to the State and Built a Cultivator Army 🔥"
+      ],
+      "title_zh_gloss": "被家族驱逐后上交升级系统，培养修仙大队",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_2100_开局上交系统我直升满级大佬.jpg"
+      ],
+      "publish_local": "2026-11-09T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "455c694d8f59c55a",
+      "title_zh": "请祖宗出面讨公道",
+      "date": "2026-11-10",
+      "language": "en",
+      "drama_code": "2609 KR62",
+      "titles": [
+        "⚰️ The Bank Said His Dead Ancestors Owed Millions! It Wanted Them Present, So He Brought a Coffin 🔥"
+      ],
+      "title_zh_gloss": "银行要求亡故祖先本人到场，他抬棺讨公道",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1700_请祖宗出面讨公道.jpg"
+      ],
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "0f1c195b63af1049",
+      "title_zh": "龙神报恩我一出海鱼获满满",
+      "date": "2026-11-10",
+      "language": "en",
+      "drama_code": "2609 KR76",
+      "titles": [
+        "🐉 He Saved a Dragon and Bought a Rotten Boat! Now He Senses Fish and Hauls In a Fortune 💰"
+      ],
+      "title_zh_gloss": "救蛟龙获感知鱼群能力，旧船出海满载而归",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_2100_龙神报恩我一出海鱼获满满.jpg"
+      ],
+      "publish_local": "2026-11-10T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "1052bae27407674e",
+      "title_zh": "不当黄牛全族发愁",
+      "date": "2026-11-11",
+      "language": "en",
+      "drama_code": "2609 KR56",
+      "titles": [
+        "✨ His Family Used Him as Free Labor! An Emotion System Let Him Feed His Wife and Her Sisters 🔥"
+      ],
+      "title_zh_gloss": "全家当苦力，他靠情绪系统带妻与小姨子翻身",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1700_不当黄牛全族发愁.jpg"
+      ],
+      "publish_local": "2026-11-11T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "b386efd001c01f28",
+      "title_zh": "绑定系统我成地表最强媒人",
+      "date": "2026-11-11",
+      "language": "en",
+      "drama_code": "2609 KR22",
+      "titles": [
+        "💘 A Driver Got a Matchmaker System to Help His Son! Then He Fell for the Girl's Mother 💍"
+      ],
+      "title_zh_gloss": "父亲觉醒媒人系统助儿子恋爱，却与女方母亲相恋",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_2100_绑定系统我成地表最强媒人.jpg"
+      ],
+      "publish_local": "2026-11-11T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "ebb1d3b0dfecfd86",
+      "title_zh": "八零怀旧怪谈这就是找茬儿",
+      "date": "2026-11-12",
+      "language": "en",
+      "drama_code": "2026 WW62",
+      "titles": [
+        "👻 Fix a TV, Buy an Ice Pop, Survive! His 1980s Village Knowledge Beat a Deadly Rules Game 🤯"
+      ],
+      "title_zh_gloss": "八零乡村怪谈，修电视买冰棍竟藏生死规则",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1700_八零怀旧怪谈这就是找茬儿.jpg"
+      ],
+      "publish_local": "2026-11-12T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "596f3f8f4266f4e0",
+      "title_zh": "剑道巅峰从一把锈剑开始",
+      "date": "2026-11-12",
+      "language": "en",
+      "drama_code": "2026 WW59",
+      "titles": [
+        "⚔️ He Woke Up as a Rusty Sword! The Heiress Who Chose Him Turned Him Into a Divine Weapon 🔥"
+      ],
+      "title_zh_gloss": "重生成锈剑，被落魄千金选中后进化神兵",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_2100_剑道巅峰从一把锈剑开始.jpg"
+      ],
+      "publish_local": "2026-11-12T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "efed3bb6f2442572",
+      "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+      "date": "2026-11-13",
+      "language": "en",
+      "drama_code": "2609 KR83",
+      "titles": [
+        "🍎 His Family Gave Him Barren Hills! His Treasure Bracelet Grew an Orchard While Theirs Withered 💰"
+      ],
+      "title_zh_gloss": "偏心分家只得荒山，聚宝镯灵水种出丰收果园",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1700_分家后我靠聚宝镯走上人生巅峰.jpg"
+      ],
+      "publish_local": "2026-11-13T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "68032dddc025a364",
+      "title_zh": "自立门户干火锅，表哥急疯了",
+      "date": "2026-11-13",
+      "language": "en",
+      "drama_code": "2609 KR58",
+      "titles": [
+        "🔥 His Cousin Kicked Out the Real Hot Pot Master! He Took His Secret Recipe Across the Street 🍲"
+      ],
+      "title_zh_gloss": "表哥赶走真大厨，他带秘方在对街开店",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_2100_自立门户干火锅，表哥急疯了.jpg"
+      ],
+      "publish_local": "2026-11-13T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "fdabdcf8917d00d9",
+      "title_zh": "不过一瓶醋",
+      "date": "2026-11-14",
+      "language": "en",
+      "drama_code": "2609 KR69",
+      "titles": [
+        "🍱 He Gave His Cousin a Catering Deal! When the Food Got Worse, He Led the Workers Elsewhere 🔥"
+      ],
+      "title_zh_gloss": "扶持表哥做盒饭却被糊弄，他带工人转投良心厨师",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1700_不过一瓶醋.jpg"
+      ],
+      "publish_local": "2026-11-14T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "e7410d5adfcbb57c",
+      "title_zh": "万古第一仙在都市",
+      "date": "2026-11-14",
+      "language": "en",
+      "drama_code": "2026 WW58",
+      "titles": [
+        "🤯 The CEO Thought He Was Just an Employee! Her Bodyguard Was the Strongest Cultivator Alive ⚡"
+      ],
+      "title_zh_gloss": "女总裁只当他是员工，贴身保镖却是修仙界至强者",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_2100_万古第一仙在都市.jpg"
+      ],
+      "publish_local": "2026-11-14T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "f3c1045d6b8a7553",
+      "title_zh": "归来后我踩碎所有偏见",
+      "date": "2026-11-15",
+      "language": "en",
+      "drama_code": "2026 WW32",
+      "titles": [
+        "🎤 He Served Three Years for Their Adopted Son! He Returned to Reclaim His Songs and Cut Them Off 🔥"
+      ],
+      "title_zh_gloss": "替养子入狱三年，归来夺回歌曲与人生并断亲",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1700_归来后我踩碎所有偏见.jpg"
+      ],
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    },
+    {
+      "job_id": "f9d67054750d908f",
+      "title_zh": "大爷俺踢球养活饥荒年全家",
+      "date": "2026-11-15",
+      "language": "en",
+      "drama_code": "2609 KR65",
+      "titles": [
+        "⚽ An Old Constable Landed on a Modern Soccer Field! He Won the World Cup to Feed His Family 🏆"
+      ],
+      "title_zh_gloss": "老捕快穿越现代球场，为养活全家一路踢到世界杯",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_2100_大爷俺踢球养活饥荒年全家.jpg"
+      ],
+      "publish_local": "2026-11-15T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "全新剧情动作画面；全员成年，无文字，女性衣着修身但完整覆盖。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-01_1700_房间里的人偶.jpg": "c42b2c0e01ca1ffaa5c6b097b6daccdb8ad662737b204cb11a6b7f008a0a0299",
+    "covers/2026-11-01_2100_穿越成章鱼我预测世界杯全中变球王.jpg": "ad0fa4adf2f4e610b0450255975c427efd20cef54bbf996ad0632e1e78b9ec8a",
+    "covers/2026-11-02_1700_燃香之后.jpg": "7eda81c18197bd2740af454bcf54caac3c7752a513321c556187ffb3ca88a33e",
+    "covers/2026-11-02_2100_说好是只小蝌蚪你怎么靠吞噬成天帝了.jpg": "26c6d4cf172a1d6d1a1717b22ac1d2249d0340df39812b8ae87aaefe0f5f64df",
+    "covers/2026-11-03_1700_厨神帝王录.jpg": "dd20815d118a956e6702187df5793167fe9fa5ae16ee5ff2de9e6e3fd2d5e93d",
+    "covers/2026-11-03_2100_山海计划我把整个修仙界上交了.jpg": "d08c52d545fa0daf531da0c2aaa2f62723ede04cd6a622f8da973e86aa6ab7b7",
+    "covers/2026-11-04_1700_我靠刷题重振宗门.jpg": "83620442fdb1df6bc4dfb1154c3ed9c991e3c9b3839c08683400451928875e48",
+    "covers/2026-11-04_2100_恩与债.jpg": "543e9e6eb9f0e86b6957afc8c05b6535bfd967d0287d4927cc8e707824c46b4e",
+    "covers/2026-11-05_1700_开局变鹦鹉气疯所有人.jpg": "103cfd186500b90e9f4ba80f4c2b950ef9d97c5f55fa0ad6b32b5e1ac0662fb9",
+    "covers/2026-11-05_2100_不给彩礼后她全家悔哭了.jpg": "5f90a9b069b3916374bf9445113a993bdf9c383eb50ae5e1a07b8013fe5641d9",
+    "covers/2026-11-06_1700_婚礼照常新娘换人.jpg": "56665af1456f68c8674e194941cc5a3a282d939443339165a2eb7291f42da7e1",
+    "covers/2026-11-06_2100_别惹那个匠师他火力全开.jpg": "7464a8c556ffbc3e989479fba59adaea47b062df46e63313d00fbd0efde5ad8b",
+    "covers/2026-11-07_1700_穿越女频开局送皇后白月光进东厂.jpg": "557aa35288c5cc0ec9fa700a9331e3df9a7b83e71fd4a387fda1c0becd8a3be4",
+    "covers/2026-11-07_2100_灵山不送客.jpg": "0392857461836f15681b9f53cfa21f2a438502037d5fb818f2e141625c49c41b",
+    "covers/2026-11-08_1700_别碰那个瑜伽球.jpg": "4922731931ddfb1cd34603ee6b9fe69d2019ace8a3b4d7059bacdca954f720c9",
+    "covers/2026-11-08_2100_奈何桥上不许刹车.jpg": "b8167e38b3f47b7837cdc0d1ab4e51fae308969fb7cad72ebcad8c636a6b4db8",
+    "covers/2026-11-09_1700_诡异擂台开局召唤左千户.jpg": "174c03bf431655f2421bd349d13881505930b9d357234a2fcb4f7433f9841e92",
+    "covers/2026-11-09_2100_开局上交系统我直升满级大佬.jpg": "e385ad6134a137590adbac0fd35ff455beee446dd53573520d0b819ab01f8699",
+    "covers/2026-11-10_1700_请祖宗出面讨公道.jpg": "cb45ee42c8d40e6adc2accb5b988ea6dbf215d76aa3b2f96854970437ca65952",
+    "covers/2026-11-10_2100_龙神报恩我一出海鱼获满满.jpg": "b6dab57bd7b038aa616aba0419837459b896266b9db34f56fdcb145977ec9d35",
+    "covers/2026-11-11_1700_不当黄牛全族发愁.jpg": "e25738a32aea5a8817dd7431343ee0303115196b6e24da61d113a245b4113d60",
+    "covers/2026-11-11_2100_绑定系统我成地表最强媒人.jpg": "08815ac0646d640f63b36a51606e5f8306c314a5df8ec6f00a04edae1c93a186",
+    "covers/2026-11-12_1700_八零怀旧怪谈这就是找茬儿.jpg": "b9b0d38f2c08cd51aea29827a0efe725fabb5fbb66e256fd9936513c5ae61484",
+    "covers/2026-11-12_2100_剑道巅峰从一把锈剑开始.jpg": "874c5f238beeb25e644e084da1f64f8151cf80de43e2b9445757e8118474113d",
+    "covers/2026-11-13_1700_分家后我靠聚宝镯走上人生巅峰.jpg": "4754cdcd97051685a7d2526cfb852a9fc303423c629a2b65053ee813becd9ce8",
+    "covers/2026-11-13_2100_自立门户干火锅，表哥急疯了.jpg": "83f29ceaf30bc6decdc100cc20d011d21e4daacde2228aaa5ff78e8ed8789074",
+    "covers/2026-11-14_1700_不过一瓶醋.jpg": "c7589a9291388c292280c0d2d980e1a35689a30157910571be03dff452d2ee92",
+    "covers/2026-11-14_2100_万古第一仙在都市.jpg": "b3a41ac11451fb8cd0c7169fba9955d46fc909709f889fbc96e2bbd6bca74e8c",
+    "covers/2026-11-15_1700_归来后我踩碎所有偏见.jpg": "c7693e5cc9996c866663c9e46484d97bef8e4f5000e61682629d50596de86331",
+    "covers/2026-11-15_2100_大爷俺踢球养活饥荒年全家.jpg": "e162bbef0069b44347afed64e139306f454a0c02a21a415f65b95bc950d891ab"
+  },
+  "scope": "英语1原排期：2026年11月1—15日，每天北京时间17:00、21:00；每部1个首尾带表情标题及1张新封面。"
+}
