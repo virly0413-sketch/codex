@@ -1,3 +1,5 @@
+西语写实新版封面：[下载20张亚洲成年人物封面素材包](releases/spanish_photoreal_covers_20_20261106_20261115_1080p.zip)，[预览新版](materials/西语/assets_es_20261106_photoreal_v4/index.html)。2026年11月6—15日20部，1920×1080；年轻漂亮女主、修身完整覆盖衣着，写实影视摄影质感，避免动漫动画风格。沿用当前20个西语标题、代码和00:00/05:00排期，包内附完整素材导入文件，无需重装程序。
+
 英语1最新整合程序：[下载11月1—15日30张全新封面与表情标题整合包](releases/english_publisher_complete_20261101_20261115_1080p.zip)，[安装升级步骤](ENGLISH_LATEST_GUIDE.md)，[预览30部新素材](materials/英语/assets_en_20261101_action_v3/index.html)。每天北京时间17:00、21:00；每部1个首尾配表情的新标题及1张1920×1080无字新封面。绑定UC0koaDPTujsoVj-Tw27J0Qg，英语2不变，已包含封面超时恢复。双击start_english_windows.bat加载新版。
 
 西语最新整合程序（10月27日新版标题）：[下载20部新封面、单标题及发布程序](releases/spanish_publisher_complete_20261106_20261115_1080p.zip)，[安装与合并升级步骤](SPANISH_NOVEMBER_GUIDE.md)，[预览20部素材](materials/西语/assets_es_20261106_two_daily/index.html)。2026年11月6—15日每天北京时间00:00、05:00；绑定UCaQI24vmsim_8jDI0NuwbEg。已整合封面超时恢复补丁，双击start_spanish_windows.bat加载新批次。

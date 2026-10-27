@@ -1,0 +1,479 @@
+{
+  "version": 5,
+  "language": "es",
+  "channel": "西语男频",
+  "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+  "titles_per_job": 1,
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "jobs": [
+    {
+      "job_id": "3e360e95cfd439ce",
+      "title_zh": "一纸断千谋",
+      "date": "2026-11-06",
+      "language": "es",
+      "drama_code": "2609 KR63",
+      "titles": [
+        "¡El banco cobró deudas de sus abuelos muertos! Él destapó una estafa que atrapó a todo el pueblo"
+      ],
+      "title_zh_gloss": "银行竟追讨已故祖辈的欠款！他一路查下去，揭开了坑害全村的骗局！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_0000_一纸断千谋.jpg"
+      ],
+      "publish_local": "2026-11-06T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "cdd368428fcb2f21",
+      "title_zh": "诡异降临我召唤三千祖师反向入侵",
+      "date": "2026-11-06",
+      "language": "es",
+      "drama_code": "2609 KR53",
+      "titles": [
+        "¡Los espectros invadieron su país! Activó su sistema e invocó a 3000 maestros para contraatacar"
+      ],
+      "title_zh_gloss": "诡异竟入侵他的国家！他激活系统，召唤三千祖师直接反攻！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_0500_诡异降临我召唤三千祖师反向入侵.jpg"
+      ],
+      "publish_local": "2026-11-06T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "d47f68b5a8104b99",
+      "title_zh": "一针定乾坤",
+      "date": "2026-11-07",
+      "language": "es",
+      "drama_code": "2609 KR49",
+      "titles": [
+        "¡El muerto levantó la mano y señaló al asesino! Un artesano de mil años lo logró con sus agujas"
+      ],
+      "title_zh_gloss": "死人竟抬手指出凶手！这个活了千年的缝尸匠，用几根针做到了！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_0000_一针定乾坤.jpg"
+      ],
+      "publish_local": "2026-11-07T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "bf2f5048476d96c8",
+      "title_zh": "太监从后宫签到成圣",
+      "date": "2026-11-07",
+      "language": "es",
+      "drama_code": "2609 KR45",
+      "titles": [
+        "¡Despertó como eunuco con un sistema! El emperador quiso matarlo y él terminó como regente"
+      ],
+      "title_zh_gloss": "一觉醒来成了太监，竟还自带系统！皇帝想杀他，他却一路当上摄政王！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_0500_太监从后宫签到成圣.jpg"
+      ],
+      "publish_local": "2026-11-07T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "90cc59424cf242fd",
+      "title_zh": "东北足疗工的底牌规矩2",
+      "date": "2026-11-08",
+      "language": "es",
+      "drama_code": "2609 KR46",
+      "titles": [
+        "¡Un masajista contra toda una red de apuestas! Su familia podía estar en manos de los culpables"
+      ],
+      "title_zh_gloss": "一个足疗工，要对抗整张地下赌网！他的家人可能也落在了幕后黑手手里！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_0000_东北足疗工的底牌规矩2.jpg"
+      ],
+      "publish_local": "2026-11-08T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "bad9c669dc49bbaa",
+      "title_zh": "我可不是普通芦花鸡",
+      "date": "2026-11-08",
+      "language": "es",
+      "drama_code": "2609 KR43",
+      "titles": [
+        "¡Lo traicionaron y acabó convertido en gallo! Su sistema de fama lo hizo evolucionar en fénix"
+      ],
+      "title_zh_gloss": "遭人背叛后，他竟变成一只鸡！靠声望系统一路进化，最终化身凤凰！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_0500_我可不是普通芦花鸡.jpg"
+      ],
+      "publish_local": "2026-11-08T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "3df8bc729b6b2e3e",
+      "title_zh": "糟老头竟是剑仙",
+      "date": "2026-11-09",
+      "language": "es",
+      "drama_code": "2609 KR42",
+      "titles": [
+        "¡Humillaron a un anciano y golpearon a su nieto! Era un inmortal sellado durante 50 años"
+      ],
+      "title_zh_gloss": "他们羞辱老人，还打伤他的孙子！却不知眼前之人，是自封修为五十年的仙人！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_0000_糟老头竟是剑仙.jpg"
+      ],
+      "publish_local": "2026-11-09T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "396c4fac8af84dca",
+      "title_zh": "瞎眼五百年我的学生全是三界大能",
+      "date": "2026-11-09",
+      "language": "es",
+      "drama_code": "2609 KR38",
+      "titles": [
+        "¡Enseñó 500 años sin poder ver! Sus alumnos enfrentaron a los dioses y él por fin abrió los ojos"
+      ],
+      "title_zh_gloss": "他双目失明，却传道整整五百年！弟子们逆战诸神，他终于睁开双眼！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_0500_瞎眼五百年我的学生全是三界大能.jpg"
+      ],
+      "publish_local": "2026-11-09T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "82aab38f2e38df2f",
+      "title_zh": "燃香之后",
+      "date": "2026-11-10",
+      "language": "es",
+      "drama_code": "2609 KR39",
+      "titles": [
+        "¡Oyó risas de mujer en una casa vacía! Buscaba a su novia y el incienso lo llevó a una trampa"
+      ],
+      "title_zh_gloss": "空屋里竟传来女人的声音！他追查失踪女友，却发现香火背后藏着陷阱！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_0000_燃香之后.jpg"
+      ],
+      "publish_local": "2026-11-10T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "0c9294e28cf53b9d",
+      "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+      "date": "2026-11-10",
+      "language": "es",
+      "drama_code": "2609 KR36",
+      "titles": [
+        "¡Despertó como pulpo con un sistema de predicción! Acertó los partidos y volvió rico a un endeudado"
+      ],
+      "title_zh_gloss": "一觉醒来变成章鱼，竟绑定预言系统！精准预测球赛，让负债青年一夜暴富！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_0500_穿越成章鱼我预测世界杯全中变球王.jpg"
+      ],
+      "publish_local": "2026-11-10T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "c0c567168d189c40",
+      "title_zh": "说好是只小蝌蚪你怎么靠吞噬成天帝了",
+      "date": "2026-11-11",
+      "language": "es",
+      "drama_code": "2609 KR32",
+      "titles": [
+        "¡Lo mataron y renació como renacuajo! Devoró, evolucionó y volvió como Emperador Rana para vengarse"
+      ],
+      "title_zh_gloss": "他被害后竟重生成蝌蚪！靠吞噬不断进化，再归来时已是复仇的蛙帝！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_0000_说好是只小蝌蚪你怎么靠吞噬成天帝了.jpg"
+      ],
+      "publish_local": "2026-11-11T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "a48e152442e6efdb",
+      "title_zh": "高墙困恶邻",
+      "date": "2026-11-11",
+      "language": "es",
+      "drama_code": "2609 KR28",
+      "titles": [
+        "¡Su vecino desvió el agua y arruinó su casa! Él construyó un muro y la lluvia hizo el resto"
+      ],
+      "title_zh_gloss": "恶邻改动排水，害他家被淹！他建起一道墙，下一场大雨让局势彻底逆转！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_0500_高墙困恶邻.jpg"
+      ],
+      "publish_local": "2026-11-11T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "2990e38d85b3f71c",
+      "title_zh": "恩与债",
+      "date": "2026-11-12",
+      "language": "es",
+      "drama_code": "2609 KR50",
+      "titles": [
+        "¡Les pagó los estudios y aun enfermo quisieron aprovecharse de él! Esta vez respondió con la ley"
+      ],
+      "title_zh_gloss": "他资助他们读书，自己病重时却仍遭算计！这一次，他选择用法律讨回公道！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_0000_恩与债.jpg"
+      ],
+      "publish_local": "2026-11-12T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "4c9d8cb8bb7facd5",
+      "title_zh": "我靠刷题重振宗门",
+      "date": "2026-11-12",
+      "language": "es",
+      "drama_code": "2609 KR33",
+      "titles": [
+        "¡En vez de practicar con espadas, los puso a hacer exámenes! Su secta acabó venciendo a las demás"
+      ],
+      "title_zh_gloss": "别人练剑，他却让弟子做试卷！这个宗门最后竟打败了其他所有宗门！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_0500_我靠刷题重振宗门.jpg"
+      ],
+      "publish_local": "2026-11-12T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "8c84522690ebd860",
+      "title_zh": "房间里的人偶",
+      "date": "2026-11-13",
+      "language": "es",
+      "drama_code": "2609 KR26",
+      "titles": [
+        "¡Su esposa se encerraba con un muñeco! Instaló una cámara y descubrió la traición de su mejor amigo"
+      ],
+      "title_zh_gloss": "妻子竟总和人偶独处一室！他装上监控暗查，却发现最好的兄弟也卷入了背叛！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_0000_房间里的人偶.jpg"
+      ],
+      "publish_local": "2026-11-13T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "fe7227be49263a48",
+      "title_zh": "恐怖擂台我惊悚全世界",
+      "date": "2026-11-13",
+      "language": "es",
+      "drama_code": "2609 KR25",
+      "titles": [
+        "¡Tras ocho derrotas, convocó a un general mortal! Su forma real era la última esperanza del país"
+      ],
+      "title_zh_gloss": "连败八场后，他竟召唤一个凡人将领！而将领的真正形态，成了国家最后的希望！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_0500_恐怖擂台我惊悚全世界.jpg"
+      ],
+      "publish_local": "2026-11-13T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "3b5f085a24db7c4a",
+      "title_zh": "不给彩礼后她全家悔哭了",
+      "date": "2026-11-14",
+      "language": "es",
+      "drama_code": "2609 KR23",
+      "titles": [
+        "¡Exigieron 300 mil yuanes por su novia! Él la rescató: habían humillado a un millonario"
+      ],
+      "title_zh_gloss": "他们开口就要三十万彩礼！他救走新娘，对方却不知自己羞辱的竟是个富豪！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_0000_不给彩礼后她全家悔哭了.jpg"
+      ],
+      "publish_local": "2026-11-14T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "4eeb45d8b34e2e62",
+      "title_zh": "别惹那个匠师他火力全开",
+      "date": "2026-11-14",
+      "language": "es",
+      "drama_code": "2609 KR17",
+      "titles": [
+        "¡Activó un sistema de ferretería entre inmortales! Usó un cañón de agua contra sus espadas"
+      ],
+      "title_zh_gloss": "穿越修仙世界，他竟激活五金店系统！别人御剑，他直接搬出高压水炮！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_0500_别惹那个匠师他火力全开.jpg"
+      ],
+      "publish_local": "2026-11-14T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "b10faf213c277b17",
+      "title_zh": "灵山不送客",
+      "date": "2026-11-15",
+      "language": "es",
+      "drama_code": "2609 KR16",
+      "titles": [
+        "¡Entró a cazar bajo la luna roja por su madre! Lo estaban usando de cebo para encontrar una tumba"
+      ],
+      "title_zh_gloss": "为救母亲，他冒险在血月之夜进山打猎！却被人当成寻找古墓的活饵！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_0000_灵山不送客.jpg"
+      ],
+      "publish_local": "2026-11-15T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    },
+    {
+      "job_id": "99f75c88dbb3db3d",
+      "title_zh": "大师兄竟是御兽宗宗主",
+      "date": "2026-11-15",
+      "language": "es",
+      "drama_code": "2609 KR15",
+      "titles": [
+        "¡Cuatro hermanas de secta lo traicionaron! Él ascendió con sus bestias y ellas quedaron mortales"
+      ],
+      "title_zh_gloss": "四位师姐联手背叛了他！他靠御兽之道飞升，她们却沦为凡人！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_0500_大师兄竟是御兽宗宗主.jpg"
+      ],
+      "publish_local": "2026-11-15T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "剧情动作互动；全员成年，无文字；女性衣着完整得体。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-06_0000_一纸断千谋.jpg": "80e961f28829593f5f90302ab2ed96905810b9eb0805e26c90085905efda7d79",
+    "covers/2026-11-06_0500_诡异降临我召唤三千祖师反向入侵.jpg": "b7dc1c48450492dd70c3378535f7fbed4cf70116a26dbb3985dd21d0b10f1132",
+    "covers/2026-11-07_0000_一针定乾坤.jpg": "f1710b50b30e4a42007ec2eca6da3ec6071568465f117b66a3445b90eac49aef",
+    "covers/2026-11-07_0500_太监从后宫签到成圣.jpg": "ca2cb4339c0723b846e74b51a177aa0b4f12a4efabde6897b889f8487978a914",
+    "covers/2026-11-08_0000_东北足疗工的底牌规矩2.jpg": "4c244cbc20072984b46e7064af51500dbde82d6d2d8fb998e7e670c6b3b737b5",
+    "covers/2026-11-08_0500_我可不是普通芦花鸡.jpg": "ba4e6455a1c626d68eda7e34faa649ece6c4491b37c8b983aa137a36cd7f2285",
+    "covers/2026-11-09_0000_糟老头竟是剑仙.jpg": "8d3940cfc8dd07473d31223bafce2e1b35891f5b9cca23209e2eeb4c818abbb6",
+    "covers/2026-11-09_0500_瞎眼五百年我的学生全是三界大能.jpg": "cc75a25dab5c03e860b39595922e45fe6ba783d726b6f90083e9ec352f099772",
+    "covers/2026-11-10_0000_燃香之后.jpg": "c1569eba7a04937d0de012219f3eec1842e73846c9ad19980655c2443ad91e94",
+    "covers/2026-11-10_0500_穿越成章鱼我预测世界杯全中变球王.jpg": "f12f2b95eb0e1d5992202204c59bfd3a65d229a4cf660350209d9b8b9267d624",
+    "covers/2026-11-11_0000_说好是只小蝌蚪你怎么靠吞噬成天帝了.jpg": "7b8fe1e6c172c6d4cddca78b88e4a7f02858da418ae26a3ede2ea212b6828f4f",
+    "covers/2026-11-11_0500_高墙困恶邻.jpg": "b84e6aebb757d88df7c543a152c9e1760775a443191cd4d81894520db036ff2d",
+    "covers/2026-11-12_0000_恩与债.jpg": "61195520699a4821943e4e54639442aacc1cc8e3d51790153ff18ad9208f301a",
+    "covers/2026-11-12_0500_我靠刷题重振宗门.jpg": "8c5e273b41035d0c35b3c964b5dd8562fb0bcc9597fa7abf7ec89ccd81a5fc14",
+    "covers/2026-11-13_0000_房间里的人偶.jpg": "baeebf164e31c58a527ebf32f42bae3b2fcaa835c64d7d5d2eed5c29cf9edc88",
+    "covers/2026-11-13_0500_恐怖擂台我惊悚全世界.jpg": "48ffe3adaa1dd9fc94100df685e8e408eae77078433bc5d10065cdbae113909c",
+    "covers/2026-11-14_0000_不给彩礼后她全家悔哭了.jpg": "c4a1a85818cdf3449754acbcd2e106909216cbab45380bf0137c9255d4adb199",
+    "covers/2026-11-14_0500_别惹那个匠师他火力全开.jpg": "eb73e5e5d3212b550f043cb5aaa712e8f60b1135804be917febb1ccf3ef9434e",
+    "covers/2026-11-15_0000_灵山不送客.jpg": "10bb2f7abcc66ce90c4ee533e1bc3b6ca2c37fcd9bf0be4680c8ebe912d024cf",
+    "covers/2026-11-15_0500_大师兄竟是御兽宗宗主.jpg": "0a72e758b1a11375313779ff2cebdbf04bfec2af2da6cf8fc21e9c46fc71a04f"
+  },
+  "scope": "2026年11月6—15日，每天北京时间00:00、05:00；每部1个标题及1张新封面。",
+  "cover_revision": "spanish_photoreal_asian_adults_v4_20261027",
+  "cover_style": "写实影视摄影质感；亚洲成年人物，女主25—29岁，修身完整覆盖衣着；非动漫动画风格。"
+}
