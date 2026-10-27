@@ -8,7 +8,7 @@ from publisher_profiles import initial_profile, remember_profile
 
 CHANNEL='UCaQI24vmsim_8jDI0NuwbEg'
 RELEASE_STATE='local_work_publisher_ui/spanish_release.json'
-RELEASE_ID='spanish_two_daily_20261106_20261115'
+RELEASE_ID='spanish_two_daily_titles_v2_20261027'
 
 
 def prepare_spanish():

@@ -7,7 +7,7 @@ PACK=ROOT/'materials/西语/assets_es_20261106_two_daily'
 FILES=['desktop.py','publisher_profiles.py','publisher_start.py','material_library.py','filipino_setup.py',
        'spanish_start.py','run.py','prepare.py','networking.py','requirements.txt','start_spanish_windows.bat',
        'SPANISH_NOVEMBER_GUIDE.md','profiles/spanish.json','data/jobs.es.20261106.json']
-GUIDE='''西语最新整合程序：20张新封面、20个西语标题
+GUIDE='''西语最新整合程序：20张封面、20个新版西语标题（2026年10月27日修订）
 
 频道UCaQI24vmsim_8jDI0NuwbEg。
 2026年11月6—15日，每天北京时间00:00、05:00，共20部。
