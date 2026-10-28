@@ -5,8 +5,8 @@
   "work": "local_work_es_20261106/UCaQI24vmsim_8jDI0NuwbEg",
   "oauth_client": "client_secret.json",
   "oauth_token": "token.es.UCaQI24vmsim_8jDI0NuwbEg.json",
-  "planning_source": "data/jobs.es.20261106.json",
-  "assets_path": "materials/西语/assets_es_20261106_two_daily",
+  "planning_source": "data/jobs.es.20261106.latest.json",
+  "assets_path": "materials/西语/assets_es_20261106_fusion_titles_v6",
   "proxy_url": "http://127.0.0.1:7897",
   "http_timeout_seconds": 120,
   "thumbnail_text_mode": "none"

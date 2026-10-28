@@ -2,15 +2,18 @@
 from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED
 ROOT=Path(__file__).resolve().parents[1]
-OUTPUT=ROOT/'releases/spanish_publisher_complete_20261106_20261115_1080p.zip'
-PACK=ROOT/'materials/西语/assets_es_20261106_two_daily'
+OUTPUT=ROOT/'releases/spanish_publisher_latest_fusion_20261028.zip'
+PACK=ROOT/'materials/西语/assets_es_20261106_fusion_titles_v6'
 FILES=['desktop.py','publisher_profiles.py','publisher_start.py','material_library.py','filipino_setup.py',
        'spanish_start.py','run.py','prepare.py','networking.py','requirements.txt','start_spanish_windows.bat',
-       'SPANISH_NOVEMBER_GUIDE.md','profiles/spanish.json','data/jobs.es.20261106.json']
-GUIDE='''西语最新整合程序：20张封面、20个新版西语标题（2026年10月27日修订）
+       'SPANISH_NOVEMBER_GUIDE.md','profiles/spanish.json','data/jobs.es.20261106.latest.json']
+GUIDE='''西语最新整合程序：融合版写实封面、首尾表情新版标题（2026年10月28日修订）
 
 频道UCaQI24vmsim_8jDI0NuwbEg。
-2026年11月6—15日，每天北京时间00:00、05:00，共20部。
+2026年11月6—15日，每天北京时间00:00、05:00。
+重要：最新资源表新增“2609 KR32 禁播”，已排除《说好是只小蝌蚪你怎么靠吞噬成天帝了》。
+11月11日00:00暂留空档，实际19部，不自动用其他剧顶替。
+若该剧已在Studio定时，本包不会撤销线上旧设置，请自行取消该剧定时。
 
 原程序升级：关闭并备份原程序，将youtube_publisher_spanish里面的文件合并到原程序目录，同名程序文件替换。保留自己的密钥、令牌、素材和local_work记录，不要删除旧目录。
 双击start_spanish_windows.bat，第一次启用本版自动加载新西语素材，之后尊重你的自选素材目录。

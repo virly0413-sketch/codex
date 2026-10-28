@@ -1,3 +1,5 @@
+西语最新整合程序（2026年10月28日）：[下载融合封面、表情标题及发布程序](releases/spanish_publisher_latest_fusion_20261028.zip)，[安装步骤](SPANISH_NOVEMBER_GUIDE.md)，[预览](materials/西语/assets_es_20261106_fusion_titles_v6/index.html)。11月6—15日，北京时间00:00/05:00两档；新资源表KR32禁播已排除，11月11日00:00留空，实际19部。绑定UCaQI24vmsim_8jDI0NuwbEg，原目录合并升级后双击start_spanish_windows.bat。
+
 英语1新版封面：[下载30张写实亚洲人物、得体曲线穿搭与剧情特效素材包](releases/english_fusion_covers_30_20261101_20261115_1080p.zip)，[预览30张新图](materials/英语/assets_en_20261101_fusion_v4/index.html)。1920×1080，女主以合身剪裁和腰线展现自然曲线，胸前及腿部适度覆盖。沿用11月1—15日原表情标题、代码及17:00/21:00排期；附完整素材导入文件，英语1原程序选择新文件夹加载即可，英语2与其他语种不变。
 
 西语融合版封面：[下载20张“第二版写实人物＋第一版剧情特效与动作”素材包](releases/spanish_fusion_covers_20_20261106_20261115_1080p.zip)，[预览融合版](materials/西语/assets_es_20261106_fusion_v5/index.html)。1920×1080，沿用11月6—15日20部原标题、代码和00:00/05:00排期；以第二版亚洲成年人物为基础，强化第一版构图、互动和电影特效。附完整素材导入文件，原程序选择新文件夹加载即可。
