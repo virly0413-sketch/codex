@@ -1,3 +1,5 @@
+菲律宾语新增排片（2026年10月29日）：[下载11月5—15日每日两部Excel](schedules/filipino_20261105_20261115_two_daily/filipino_schedule_20261105_20261115.xlsx)，[整套文件含更新横向CSV](releases/filipino_schedule_20261105_20261115_two_daily.zip)。北京时间12:00/17:00，保留最新表已有5部，新增17部，共22部；新增片单去重及跨频道至少7天核验通过。仅排片，不更改程序素材。
+
 西语最新整合程序（2026年10月28日）：[下载融合封面、表情标题及发布程序](releases/spanish_publisher_latest_fusion_20261028.zip)，[安装步骤](SPANISH_NOVEMBER_GUIDE.md)，[预览](materials/西语/assets_es_20261106_fusion_titles_v6/index.html)。11月6—15日，北京时间00:00/05:00两档；新资源表KR32禁播已排除，11月11日00:00留空，实际19部。绑定UCaQI24vmsim_8jDI0NuwbEg，原目录合并升级后双击start_spanish_windows.bat。
 
 英语1新版封面：[下载30张写实亚洲人物、得体曲线穿搭与剧情特效素材包](releases/english_fusion_covers_30_20261101_20261115_1080p.zip)，[预览30张新图](materials/英语/assets_en_20261101_fusion_v4/index.html)。1920×1080，女主以合身剪裁和腰线展现自然曲线，胸前及腿部适度覆盖。沿用11月1—15日原表情标题、代码及17:00/21:00排期；附完整素材导入文件，英语1原程序选择新文件夹加载即可，英语2与其他语种不变。
