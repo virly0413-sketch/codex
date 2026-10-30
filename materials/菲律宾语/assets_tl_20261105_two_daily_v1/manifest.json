@@ -1,0 +1,528 @@
+{
+  "version": 5,
+  "language": "tl",
+  "channel": "菲律宾语男频",
+  "channel_binding": "local_on_first_start",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-05",
+    "2026-11-15"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "filipino_photographic_action_20261030",
+  "scope": "按2026-10-30用户调整排片，22部每天北京时间12:00/17:00；10处错位代码已依资源表校正。",
+  "jobs": [
+    {
+      "job_id": "19e785ee67a1db28",
+      "title_zh": "大明憨王爹我真想就藩",
+      "date": "2026-11-05",
+      "language": "tl",
+      "drama_code": "2026 WW73",
+      "titles": [
+        "👑 Gusto Lang Niyang Lumayo sa Palasyo! Siya Pa ang Inutusan ng Emperador na Sagipin ang Bayan 🔥"
+      ],
+      "title_zh_gloss": "他只想离开皇宫去就藩！皇帝为何偏让他赈灾救民？",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-05_1200_大明憨王爹我真想就藩.jpg"
+      ],
+      "publish_local": "2026-11-05T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "45d2366b3f93752d",
+      "title_zh": "我在豪门装穷的日子",
+      "date": "2026-11-05",
+      "language": "tl",
+      "drama_code": "2026 WW80",
+      "titles": [
+        "💰 Sa Kaarawan ng Ama, Hinamak ang Pamilya! Ang Anak na Akala Nila'y Dukha ang Gumanti 🔥"
+      ],
+      "title_zh_gloss": "父亲寿宴上，全家遭羞辱！那个被当成穷人的儿子出手反击！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-05_1700_我在豪门装穷的日子.jpg"
+      ],
+      "publish_local": "2026-11-05T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "eb4d2852090b9a65",
+      "title_zh": "七旬大爷每天买五斤鲜肉",
+      "date": "2026-11-06",
+      "language": "tl",
+      "drama_code": "2026 WW71",
+      "titles": [
+        "😱 30 Taong Vegetarian, Pero Gabi-gabing Bumibili ng Hilaw na Karne! Sino ang Pinapakain Niya? 👻"
+      ],
+      "title_zh_gloss": "吃素三十年的老人，每晚却买生肉！他到底在喂谁？",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_1200_七旬大爷每天买五斤鲜肉.jpg"
+      ],
+      "publish_local": "2026-11-06T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "eb0a48e012bce1f1",
+      "title_zh": "九世仙帝：王者归来",
+      "date": "2026-11-06",
+      "language": "tl",
+      "drama_code": "2026 WW81",
+      "titles": [
+        "🐉 Tinakot Nila ang Kanyang Asawa! Bumalik ang Alaala ng Siyam na Buhay ng Isang Emperador 🔥"
+      ],
+      "title_zh_gloss": "他们欺压他的妻子！他却觉醒九世仙帝记忆！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_1700_九世仙帝：王者归来.jpg"
+      ],
+      "publish_local": "2026-11-06T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "c6c0652837865fed",
+      "title_zh": "龙鳞一响四海相护",
+      "date": "2026-11-07",
+      "language": "tl",
+      "drama_code": "2026 WW69",
+      "titles": [
+        "🌊 Inihagis Nila sa Dagat ang Mangingisda! Ang Dragon na Iniligtas Niya ang Sumagip sa Kanya 🐉"
+      ],
+      "title_zh_gloss": "村民将渔夫推入大海！他救过的龙族竟来相救！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_1200_龙鳞一响四海相护.jpg"
+      ],
+      "publish_local": "2026-11-07T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "c88b80c3f74d82c7",
+      "title_zh": "我仙途陨落，唯宠一人",
+      "date": "2026-11-07",
+      "language": "tl",
+      "drama_code": "2026 WW76",
+      "titles": [
+        "⚔️ Itinakwil ang Guro Niyang Nawalan ng Lakas! Sa Pag-aalaga sa Kanya, Lumakas ang Alagad 💍"
+      ],
+      "title_zh_gloss": "修为尽失的师尊被宗门抛弃！他留下照顾她，自己也一路变强！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_1700_我仙途陨落，唯宠一人.jpg"
+      ],
+      "publish_local": "2026-11-07T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "176a94b0000520af",
+      "title_zh": "分家开出海神的鱼钩",
+      "date": "2026-11-08",
+      "language": "tl",
+      "drama_code": "2026 WW67",
+      "titles": [
+        "🎣 Bulok na Bangka ang Ipinamana sa Kanya! Isang Kawit ang Nagpuno ng Isda sa Tigang na Baybayin 💰"
+      ],
+      "title_zh_gloss": "分家只得到破船！一枚神钩却让荒滩鱼虾成群！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_1200_分家开出海神的鱼钩.jpg"
+      ],
+      "publish_local": "2026-11-08T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "218adfa4fe0f6600",
+      "title_zh": "战神隐世：我的傲娇总裁表妹",
+      "date": "2026-11-08",
+      "language": "tl",
+      "drama_code": "2026 WW75",
+      "titles": [
+        "🛡️ Inakala Nilang Nakikitira Lang Siya! Isang Eksperto sa Seguridad ang Lihim na Tumulong sa CEO ⚡"
+      ],
+      "title_zh_gloss": "众人以为他只是借住的亲戚！他竟是暗中帮助女总裁的安保专家！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_1700_战神隐世：我的傲娇总裁表妹.jpg"
+      ],
+      "publish_local": "2026-11-08T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "ec032798b288e514",
+      "title_zh": "全人类变小收录万灵的我无敌了",
+      "date": "2026-11-09",
+      "language": "tl",
+      "drama_code": "2026 WW65",
+      "titles": [
+        "🕷️ Lumiit ang Lahat ng Tao! Bawat Halimaw na Matalo, Kakayahan Nito ang Gantimpala ⚡"
+      ],
+      "title_zh_gloss": "人类变小，危险变大！他每击败一种怪物，就能夺取它的能力！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_1200_全人类变小收录万灵的我无敌了.jpg"
+      ],
+      "publish_local": "2026-11-09T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "4bd53b2c743eceb0",
+      "title_zh": "娱乐圈凶神：我演反派就续命！",
+      "date": "2026-11-09",
+      "language": "tl",
+      "drama_code": "2026 WW86",
+      "titles": [
+        "🎬 Mapanganib na Kasanayan Mula sa Sistema! Sa Pagganap Bilang Kontrabida, Nahanap ang Butas 🤯"
+      ],
+      "title_zh_gloss": "系统要求他掌握危险技能！他却靠演反派，找到了规则漏洞！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_1700_娱乐圈凶神：我演反派就续命！.jpg"
+      ],
+      "publish_local": "2026-11-09T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "45695cf0f181b81f",
+      "title_zh": "末日无限迷宫：开局设计精绝古城",
+      "date": "2026-11-10",
+      "language": "tl",
+      "drama_code": "2026 WW77",
+      "titles": [
+        "🏛️ Natatalo ang Bansa sa Labanan ng mga Labirinto! Isang Sinaunang Libingan ang Dinisenyo Niya 😱"
+      ],
+      "title_zh_gloss": "国家在迷宫竞赛中连连落败！他设计的古墓，要让世界见识恐怖！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1200_末日无限迷宫：开局设计精绝古城.jpg"
+      ],
+      "publish_local": "2026-11-10T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "b3b22c1d320b63f9",
+      "title_zh": "仙为仆，帝为奴，满宗弟子皆离谱",
+      "date": "2026-11-10",
+      "language": "tl",
+      "drama_code": "2026 WW85",
+      "titles": [
+        "⚡ Sampung Taong Walang Asenso! Nang Dumating ang Ex para Hamakin Siya, Saka Nagising ang Sistema 🔥"
+      ],
+      "title_zh_gloss": "苦修十年毫无进展！前未婚妻上门羞辱时，迟到的系统终于觉醒！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1700_仙为仆，帝为奴，满宗弟子皆离谱.jpg"
+      ],
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "b89d9ad57344592e",
+      "title_zh": "白月光被鱼钓走妻子悔断肠",
+      "date": "2026-11-11",
+      "language": "tl",
+      "drama_code": "2026 WW72",
+      "titles": [
+        "🎣 Sa Bagong Buhay, Hindi Na Niya Pinigilan ang Kaibigan! Kasakiman Pala ang Pain ng Isda 😱"
+      ],
+      "title_zh_gloss": "重来一世，他不再阻拦好友钓鱼！原来邪鱼钓的是人的贪欲！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1200_白月光被鱼钓走妻子悔断肠.jpg"
+      ],
+      "publish_local": "2026-11-11T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "22899b3db3901985",
+      "title_zh": "叛出宗门后，我成了神级机甲师",
+      "date": "2026-11-11",
+      "language": "tl",
+      "drama_code": "2026 WW83",
+      "titles": [
+        "🤖 Itinakwil Dahil Maliit ang Mecha Niya! Nang Dumating ang mga Halimaw, Lumabas ang Lakas Niya 🔥"
+      ],
+      "title_zh_gloss": "机甲太小被家族抛弃！兽潮来袭时，他终于展露真正实力！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1700_叛出宗门后，我成了神级机甲师.jpg"
+      ],
+      "publish_local": "2026-11-11T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "2ee716e33656e0e7",
+      "title_zh": "开局当牛照样养全家",
+      "date": "2026-11-12",
+      "language": "tl",
+      "drama_code": "2026 WW70",
+      "titles": [
+        "🐂 Nagising Siya Bilang Sariling Baka! Para Maging Tao Muli, Kailangan Niyang Busugin ang Pamilya 🌾"
+      ],
+      "title_zh_gloss": "醒来竟成了自家黄牛！想恢复人形，先让被欺负的家人吃饱！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1200_开局当牛照样养全家.jpg"
+      ],
+      "publish_local": "2026-11-12T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "288bb8e28f9846d5",
+      "title_zh": "车神归来：气运狂飙",
+      "date": "2026-11-12",
+      "language": "tl",
+      "drama_code": "2026 WW82",
+      "titles": [
+        "🏁 Siyam na Talong Sunod-sunod! Isang Lumang Van ang Itinapat Niya sa mga Supercar ng Mundo 🔥"
+      ],
+      "title_zh_gloss": "国家赛事已经九连败！他却开着旧面包车，对上世界顶级超跑！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1700_车神归来：气运狂飙.jpg"
+      ],
+      "publish_local": "2026-11-12T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "16931d3083de29c1",
+      "title_zh": "天王之巨星归来",
+      "date": "2026-11-13",
+      "language": "tl",
+      "drama_code": "2026 WW68",
+      "titles": [
+        "🎤 99 Araw Siyang Lumuhod para sa Pag-ibig! Sa Bagong Buhay, Entablado ang Pinili Niya 🔥"
+      ],
+      "title_zh_gloss": "为爱下跪九十九天！重来一次，他选择站上舞台！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1200_天王之巨星归来.jpg"
+      ],
+      "publish_local": "2026-11-13T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "ccc7a0ea63bca87c",
+      "title_zh": "闭关九年，魔女带娃找上门",
+      "date": "2026-11-13",
+      "language": "tl",
+      "drama_code": "2026 WW79",
+      "titles": [
+        "🚪 Siyam na Taong Pagsasanay sa Pag-iisa! Isang Mangkukulam ang Dumating Kasama ang Anak Niya 🤯"
+      ],
+      "title_zh_gloss": "闭关修炼九年！一位魔女带着孩子找上门！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1700_闭关九年，魔女带娃找上门.jpg"
+      ],
+      "publish_local": "2026-11-13T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "仅依据剧名；原简介误填题材分类说明，未使用其中指令或编造额外剧情。"
+    },
+    {
+      "job_id": "1ba0acc4e474de26",
+      "title_zh": "末日降临我的长工是丧尸",
+      "date": "2026-11-14",
+      "language": "tl",
+      "drama_code": "2026 WW66",
+      "titles": [
+        "🧟 Pinalayas ang Nagpapakain sa Kanila! Nagtayo Siya ng Bukid na mga Zombie ang Manggagawa 🌾"
+      ],
+      "title_zh_gloss": "他们赶走了养活基地的人！他转身建立丧尸耕作的农场！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1200_末日降临我的长工是丧尸.jpg"
+      ],
+      "publish_local": "2026-11-14T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "b423b21127cb93d0",
+      "title_zh": "家庭煮夫竟是隐世总裁",
+      "date": "2026-11-14",
+      "language": "tl",
+      "drama_code": "2026 WW78",
+      "titles": [
+        "💔 Sampung Taon Nilang Minamaliit ang Asawang Tagaluto! Siya Pala ang May Hawak ng Kumpanya 💰"
+      ],
+      "title_zh_gloss": "当了十年被轻视的家庭煮夫！原来公司真正掌权的人就是他！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1700_家庭煮夫竟是隐世总裁.jpg"
+      ],
+      "publish_local": "2026-11-14T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "71b1b8e0c84b1dc7",
+      "title_zh": "神临我自执剑迎",
+      "date": "2026-11-15",
+      "language": "tl",
+      "drama_code": "2026 WW64",
+      "titles": [
+        "⚔️ Katawan ng Tao, Lakas ng mga Diyos! Hinarap Niya ang mga Mananakop para Iligtas ang Bansa 🔥"
+      ],
+      "title_zh_gloss": "凡人之躯承载诸神力量！面对入侵，他持剑守护国家！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1200_神临我自执剑迎.jpg"
+      ],
+      "publish_local": "2026-11-15T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    },
+    {
+      "job_id": "099a35d2960785a5",
+      "title_zh": "重回八零我靠山林奇珍系统养家",
+      "date": "2026-11-15",
+      "language": "tl",
+      "drama_code": "2026 WW63",
+      "titles": [
+        "🌲 Bumalik Siya sa 1983! Natutunton ng Sistema Niya ang Yamang-Gubat para Iligtas ang Pamilya 💰"
+      ],
+      "title_zh_gloss": "重回1983年！他靠探寻山林珍宝的系统，改写家人的悲惨命运！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1700_重回八零我靠山林奇珍系统养家.jpg"
+      ],
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作，未添加额外剧情。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-05_1200_大明憨王爹我真想就藩.jpg": "337220bc28ffd463a6954880996a0a5be65e5ee92547b7621aa0264400781162",
+    "covers/2026-11-05_1700_我在豪门装穷的日子.jpg": "6a8df1c7ffbdbdce68357dbb9ceb9cb070c14edc480deea55a17872d313e91a5",
+    "covers/2026-11-06_1200_七旬大爷每天买五斤鲜肉.jpg": "acc5955bdd43bbfc28d55be59cf2eb1be08d3f7678e1a5d543e15f153d63a2dc",
+    "covers/2026-11-06_1700_九世仙帝：王者归来.jpg": "13820336f08aafa886da21c77b792e058a7847628f8908ac94d893926f9cf24c",
+    "covers/2026-11-07_1200_龙鳞一响四海相护.jpg": "fcf7c77e7d1a9562938565e0a4aeea7f55d2340f73ab4626800e4db5a5ccd5db",
+    "covers/2026-11-07_1700_我仙途陨落，唯宠一人.jpg": "4bac991c50b6a9ac0b744eb91ff8ef06f24643fd61d61eda51d5db483f463e1a",
+    "covers/2026-11-08_1200_分家开出海神的鱼钩.jpg": "60881016b98c9016ec4117523d09fd12f737c50a483ff396fb3f17ccd3cd96dc",
+    "covers/2026-11-08_1700_战神隐世：我的傲娇总裁表妹.jpg": "423c4349853f987b66869e4cd295cfd3d2d8f6540e4c14b162707182679394a7",
+    "covers/2026-11-09_1200_全人类变小收录万灵的我无敌了.jpg": "e926a12c5c18c7e2b72871afdf8303a213c4ab8b51eef4bd5ccfec07df7ab596",
+    "covers/2026-11-09_1700_娱乐圈凶神：我演反派就续命！.jpg": "951076298d19f0718b29911279a733c746b074ecfea0d0bfda2ae384b856f405",
+    "covers/2026-11-10_1200_末日无限迷宫：开局设计精绝古城.jpg": "e89abfd7f8dee25cc1a5fe0a97406ca56413350e26252026eea4abb5e982c305",
+    "covers/2026-11-10_1700_仙为仆，帝为奴，满宗弟子皆离谱.jpg": "4570cc6564961f6794bd6cc4a93ea1b24ae52968bba514495472b228c2cbd888",
+    "covers/2026-11-11_1200_白月光被鱼钓走妻子悔断肠.jpg": "957c3a46ac446b71e387e067c5a9de156c2948867f27277941cc871057b9b02c",
+    "covers/2026-11-11_1700_叛出宗门后，我成了神级机甲师.jpg": "a40766ec860feaf092b6206b4ce95c0b7f11bf7cbdd4050137d541e258133f2f",
+    "covers/2026-11-12_1200_开局当牛照样养全家.jpg": "e0dd5bcf637c84201a7a62e6e772d73d48f89cab48e3272c16c95c55f598c53a",
+    "covers/2026-11-12_1700_车神归来：气运狂飙.jpg": "626bfd8a56334cf50717f5fc766fae949d5e816e38d0b3e21f3479ea72bceedb",
+    "covers/2026-11-13_1200_天王之巨星归来.jpg": "000752f20a299866388e46c9a877f2d26a3b4e07bb02823e5e440239a677537d",
+    "covers/2026-11-13_1700_闭关九年，魔女带娃找上门.jpg": "9a99a2837ffa996c93dbd35d5d53d7999e85c205a59e2aec5aad061f46d6ec23",
+    "covers/2026-11-14_1200_末日降临我的长工是丧尸.jpg": "c540c534548da0cec57cfbff73f4ee23d3bf9ad4dd8fb00a629ca95640177b8c",
+    "covers/2026-11-14_1700_家庭煮夫竟是隐世总裁.jpg": "eeded8da0fc45c93ae92d7d75cbb1ec781234b60e46aa2f2e4d65c70a675eec5",
+    "covers/2026-11-15_1200_神临我自执剑迎.jpg": "049125e5ff0f3cf20e30dffae973b93406ac00f475ff66dbfd5c78dc8253e700",
+    "covers/2026-11-15_1700_重回八零我靠山林奇珍系统养家.jpg": "4ba9a275b86b843fbbcd628d0405f986dcc962cd1711edbedc398a3eaf3c3b8d"
+  }
+}

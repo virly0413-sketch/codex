@@ -1,0 +1,640 @@
+[
+  {
+    "job_id": "19e785ee67a1db28",
+    "title_zh": "大明憨王爹我真想就藩",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-05",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T12:00:00+08:00",
+    "publish_at": "2026-11-05T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1110,
+        "resource_title": "大明憨王爹我真想就藩",
+        "drama_code": "2026 WW73",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "45d2366b3f93752d",
+    "title_zh": "我在豪门装穷的日子",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-05",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T17:00:00+08:00",
+    "publish_at": "2026-11-05T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1126,
+        "resource_title": "我在豪门装穷的日子",
+        "drama_code": "2026 WW80",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "eb4d2852090b9a65",
+    "title_zh": "七旬大爷每天买五斤鲜肉",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T12:00:00+08:00",
+    "publish_at": "2026-11-06T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1101,
+        "resource_title": "七旬大爷每天买五斤鲜肉",
+        "drama_code": "2026 WW71",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "eb0a48e012bce1f1",
+    "title_zh": "九世仙帝：王者归来",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-06",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T17:00:00+08:00",
+    "publish_at": "2026-11-06T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1127,
+        "resource_title": "九世仙帝：王者归来",
+        "drama_code": "2026 WW81",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c6c0652837865fed",
+    "title_zh": "龙鳞一响四海相护",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T12:00:00+08:00",
+    "publish_at": "2026-11-07T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1086,
+        "resource_title": "龙鳞一响四海相护",
+        "drama_code": "2026 WW69",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c88b80c3f74d82c7",
+    "title_zh": "我仙途陨落，唯宠一人",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-07",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T17:00:00+08:00",
+    "publish_at": "2026-11-07T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1122,
+        "resource_title": "我仙途陨落，唯宠一人",
+        "drama_code": "2026 WW76",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "176a94b0000520af",
+    "title_zh": "分家开出海神的鱼钩",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T12:00:00+08:00",
+    "publish_at": "2026-11-08T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1080,
+        "resource_title": "分家开出海神的鱼钩",
+        "drama_code": "2026 WW67",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "218adfa4fe0f6600",
+    "title_zh": "战神隐世：我的傲娇总裁表妹",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-08",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T17:00:00+08:00",
+    "publish_at": "2026-11-08T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1121,
+        "resource_title": "战神隐世：我的傲娇总裁表妹",
+        "drama_code": "2026 WW75",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ec032798b288e514",
+    "title_zh": "全人类变小收录万灵的我无敌了",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T12:00:00+08:00",
+    "publish_at": "2026-11-09T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1069,
+        "resource_title": "全人类变小收录万灵的我无敌了",
+        "drama_code": "2026 WW65",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4bd53b2c743eceb0",
+    "title_zh": "娱乐圈凶神：我演反派就续命！",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-09",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T17:00:00+08:00",
+    "publish_at": "2026-11-09T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1137,
+        "resource_title": "娱乐圈凶神：我演反派就续命！",
+        "drama_code": "2026 WW86",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "45695cf0f181b81f",
+    "title_zh": "末日无限迷宫：开局设计精绝古城",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T12:00:00+08:00",
+    "publish_at": "2026-11-10T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1123,
+        "resource_title": "末日无限迷宫：开局设计精绝古城",
+        "drama_code": "2026 WW77",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b3b22c1d320b63f9",
+    "title_zh": "仙为仆，帝为奴，满宗弟子皆离谱",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-10",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1132,
+        "resource_title": "仙为仆，帝为奴，满宗弟子皆离谱",
+        "drama_code": "2026 WW85",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b89d9ad57344592e",
+    "title_zh": "白月光被鱼钓走妻子悔断肠",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T12:00:00+08:00",
+    "publish_at": "2026-11-11T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1105,
+        "resource_title": "白月光被鱼钓走妻子悔断肠",
+        "drama_code": "2026 WW72",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "22899b3db3901985",
+    "title_zh": "叛出宗门后，我成了神级机甲师",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-11",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T17:00:00+08:00",
+    "publish_at": "2026-11-11T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1130,
+        "resource_title": "叛出宗门后，我成了神级机甲师",
+        "drama_code": "2026 WW83",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "2ee716e33656e0e7",
+    "title_zh": "开局当牛照样养全家",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T12:00:00+08:00",
+    "publish_at": "2026-11-12T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1099,
+        "resource_title": "开局当牛照样养全家",
+        "drama_code": "2026 WW70",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "288bb8e28f9846d5",
+    "title_zh": "车神归来：气运狂飙",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-12",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T17:00:00+08:00",
+    "publish_at": "2026-11-12T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1128,
+        "resource_title": "车神归来：气运狂飙",
+        "drama_code": "2026 WW82",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "16931d3083de29c1",
+    "title_zh": "天王之巨星归来",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T12:00:00+08:00",
+    "publish_at": "2026-11-13T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1084,
+        "resource_title": "天王之巨星归来",
+        "drama_code": "2026 WW68",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ccc7a0ea63bca87c",
+    "title_zh": "闭关九年，魔女带娃找上门",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-13",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T17:00:00+08:00",
+    "publish_at": "2026-11-13T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1125,
+        "resource_title": "闭关九年，魔女带娃找上门",
+        "drama_code": "2026 WW79",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1ba0acc4e474de26",
+    "title_zh": "末日降临我的长工是丧尸",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T12:00:00+08:00",
+    "publish_at": "2026-11-14T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1079,
+        "resource_title": "末日降临我的长工是丧尸",
+        "drama_code": "2026 WW66",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b423b21127cb93d0",
+    "title_zh": "家庭煮夫竟是隐世总裁",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-14",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T17:00:00+08:00",
+    "publish_at": "2026-11-14T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1124,
+        "resource_title": "家庭煮夫竟是隐世总裁",
+        "drama_code": "2026 WW78",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "71b1b8e0c84b1dc7",
+    "title_zh": "神临我自执剑迎",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T12:00:00+08:00",
+    "publish_at": "2026-11-15T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1067,
+        "resource_title": "神临我自执剑迎",
+        "drama_code": "2026 WW64",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "099a35d2960785a5",
+    "title_zh": "重回八零我靠山林奇珍系统养家",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-15",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1062,
+        "resource_title": "重回八零我靠山林奇珍系统养家",
+        "drama_code": "2026 WW63",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
