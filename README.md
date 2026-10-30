@@ -1,3 +1,5 @@
+菲律宾语排片修订（2026年10月30日）：[下载按用户新顺序调整的22部Excel](schedules/filipino_20261105_20261115_two_daily/filipino_schedule_20261105_20261115.xlsx)，[整套文件](releases/filipino_schedule_20261105_20261115_two_daily.zip)。11月5—15日北京时间12:00/17:00；剧名与日期按用户新表，10处代码按资源表校正，原有5部不动，新增剧跨频道至少7天核验通过。
+
 菲律宾语新增排片（2026年10月29日）：[下载11月5—15日每日两部Excel](schedules/filipino_20261105_20261115_two_daily/filipino_schedule_20261105_20261115.xlsx)，[整套文件含更新横向CSV](releases/filipino_schedule_20261105_20261115_two_daily.zip)。北京时间12:00/17:00，保留最新表已有5部，新增17部，共22部；新增片单去重及跨频道至少7天核验通过。仅排片，不更改程序素材。
 
 西语最新整合程序（2026年10月28日）：[下载融合封面、表情标题及发布程序](releases/spanish_publisher_latest_fusion_20261028.zip)，[安装步骤](SPANISH_NOVEMBER_GUIDE.md)，[预览](materials/西语/assets_es_20261106_fusion_titles_v6/index.html)。11月6—15日，北京时间00:00/05:00两档；新资源表KR32禁播已排除，11月11日00:00留空，实际19部。绑定UCaQI24vmsim_8jDI0NuwbEg，原目录合并升级后双击start_spanish_windows.bat。
