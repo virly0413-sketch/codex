@@ -1,0 +1,347 @@
+{
+  "version": 5,
+  "language": "en",
+  "material_key": "en2",
+  "channel": "英语2",
+  "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-02",
+    "2026-11-15"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "english2_modern14_nov2_1800_20261031",
+  "title_revision": "english2_modern14_distinct_titles_20261031",
+  "scope": "2026年11月2—15日英语2现代题材，每天北京时间18:00一部，共14部，排除外采、代运营、禁播。",
+  "cover_style": "明亮现代写实，成年亚洲人物，年轻漂亮女主得体修身穿搭，男主主动参与剧情冲突，无字。",
+  "jobs": [
+    {
+      "job_id": "217f8d550399bc25",
+      "title_zh": "天王之巨星归来",
+      "date": "2026-11-02",
+      "language": "en",
+      "drama_code": "2026 WW68",
+      "titles": [
+        "🎤 He Begged Her for 99 Days. Reborn, He Took the Stage—and Turned His Songs Into an Empire! 🔥"
+      ],
+      "title_zh_gloss": "苦求她99天，重生后他转身登台，以歌声逆袭建立商业帝国。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-02_1800_天王之巨星归来.jpg"
+      ],
+      "publish_local": "2026-11-02T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "672aa438e7f7748a",
+      "title_zh": "万古第一仙在都市",
+      "date": "2026-11-03",
+      "language": "en",
+      "drama_code": "2026 WW58",
+      "titles": [
+        "🤯 She Hired an Ordinary Bodyguard. Her Lazy Employee Was an Immortal Hiding a Gun God’s Skills! ⚡"
+      ],
+      "title_zh_gloss": "女总裁雇来的普通保镖，竟是隐藏枪神身份的最强仙人。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-03_1800_万古第一仙在都市.jpg"
+      ],
+      "publish_local": "2026-11-03T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "99ca0433ca515e0b",
+      "title_zh": "水库无限加速钓鱼佬排队爆杆",
+      "date": "2026-11-04",
+      "language": "en",
+      "drama_code": "2026 WW53",
+      "titles": [
+        "🎣 They Mocked His Reservoir—Then His Fishing System Turned It Into a Monster Paradise! 🐉"
+      ],
+      "title_zh_gloss": "被嘲笑的荒废水库，靠超级垂钓系统变成异变巨物的天堂！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-04_1800_水库无限加速钓鱼佬排队爆杆.jpg"
+      ],
+      "publish_local": "2026-11-04T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "efb98d8c8fdd6f9b",
+      "title_zh": "我绑定亲情系统宠全家",
+      "date": "2026-11-05",
+      "language": "en",
+      "drama_code": "2609 KR04",
+      "titles": [
+        "🔥 His In-Laws Called Him a Burden. A Family Rewards System Made Every Gift Pay Him Back! 💸"
+      ],
+      "title_zh_gloss": "被岳家轻视的残疾男人，绑定亲情返利系统：每次宠家人都能收获回报！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-05_1800_我绑定亲情系统宠全家.jpg"
+      ],
+      "publish_local": "2026-11-05T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "bf6c3f1b61410a3b",
+      "title_zh": "我缩小后妻子悔疯了",
+      "date": "2026-11-06",
+      "language": "en",
+      "drama_code": "2026 WW55",
+      "titles": [
+        "🤯 His Wife Sent Him Into a Tiny World to Steal Everything. This Time, He Never Entered! 💸"
+      ],
+      "title_zh_gloss": "妻子骗他缩小私吞财产，这一世他根本没有进入微世界。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_1800_我缩小后妻子悔疯了.jpg"
+      ],
+      "publish_local": "2026-11-06T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "a7022b2c9c1c3df6",
+      "title_zh": "全民荒原求生",
+      "date": "2026-11-07",
+      "language": "en",
+      "drama_code": "2026 WW57",
+      "titles": [
+        "🔥 Betrayed in the Wasteland, He Came Back With a System—and Built a Fortress in the Sky! ⚡"
+      ],
+      "title_zh_gloss": "荒原遭背叛后重生，他靠系统将庇护所升级为空中堡垒。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_1800_全民荒原求生.jpg"
+      ],
+      "publish_local": "2026-11-07T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "94ae87a7204a973d",
+      "title_zh": "别惹真少爷他邪得发正",
+      "date": "2026-11-08",
+      "language": "en",
+      "drama_code": "2026 WW37",
+      "titles": [
+        "⚡ The Fake Heir Fooled His Whole Family. The Real Son Found Demons Behind Their Marriages! 🔥"
+      ],
+      "title_zh_gloss": "全家被假少爷蒙骗，真少爷却发现姐姐婚约背后的妖邪。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_1800_别惹真少爷他邪得发正.jpg"
+      ],
+      "publish_local": "2026-11-08T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "183b5758459fdd49",
+      "title_zh": "这个裁缝你惹不起",
+      "date": "2026-11-09",
+      "language": "en",
+      "drama_code": "2026 WW21",
+      "titles": [
+        "✂️ They Picked on a Quiet Tailor. Every Threat to Her Vanished Before She Saw Him Strike! 🔥"
+      ],
+      "title_zh_gloss": "不起眼的裁缝暗中出手，在她察觉之前清除威胁。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_1800_这个裁缝你惹不起.jpg"
+      ],
+      "publish_local": "2026-11-09T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "5689328a8903f1e0",
+      "title_zh": "归来假少爷挡不住我的医道锋芒",
+      "date": "2026-11-10",
+      "language": "en",
+      "drama_code": "2026 WW35",
+      "titles": [
+        "💉 They Brought Him Home to Take the Blame. Their “Disposable” Son Was a Miracle Doctor! 🤯"
+      ],
+      "title_zh_gloss": "被接回家当替死鬼的真少爷，竟是能逆转绝症的神医。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1800_归来假少爷挡不住我的医道锋芒.jpg"
+      ],
+      "publish_local": "2026-11-10T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "d0bee6a2740d362f",
+      "title_zh": "三年替补一朝封神",
+      "date": "2026-11-11",
+      "language": "en",
+      "drama_code": "2026 WW24",
+      "titles": [
+        "⚽ His Twin Stole Every Save and Every Trophy. Now the Forgotten Goalkeeper Wants His Name Back! 🔥"
+      ],
+      "title_zh_gloss": "双胞胎弟弟夺走他的扑救功劳与奖杯，替补门将终于为自己而战。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1800_三年替补一朝封神.jpg"
+      ],
+      "publish_local": "2026-11-11T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "33b6ae0e1d2ca8ff",
+      "title_zh": "我造的机甲被老婆直播曝光了",
+      "date": "2026-11-12",
+      "language": "en",
+      "drama_code": "2609 KR77",
+      "titles": [
+        "🤖 His Star Wife Exposed His “Secret Savings”—and Found a Giant Mech in Their House! 🤯"
+      ],
+      "title_zh_gloss": "明星妻子直播找私房钱，竟意外曝光丈夫藏在家中的巨型机甲。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1800_我造的机甲被老婆直播曝光了.jpg"
+      ],
+      "publish_local": "2026-11-12T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "b39900897dbfc9bb",
+      "title_zh": "婚礼照常新娘换人",
+      "date": "2026-11-13",
+      "language": "en",
+      "drama_code": "2609 KR84",
+      "titles": [
+        "💍 The Wedding Went Ahead. He Just Changed the Bride—and Exposed the Fortune He’d Hidden! 🔥"
+      ],
+      "title_zh_gloss": "婚礼照常举行，他却换了新娘，并公开一直隐藏的豪门身份。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1800_婚礼照常新娘换人.jpg"
+      ],
+      "publish_local": "2026-11-13T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "19947b128618d064",
+      "title_zh": "龙鳞一响四海相护",
+      "date": "2026-11-14",
+      "language": "en",
+      "drama_code": "2026 WW69",
+      "titles": [
+        "🐉 They Tried to Sacrifice Their Fisherman. One Broken Dragon Scale Brought the Sea to His Side! ⚡"
+      ],
+      "title_zh_gloss": "村民要将渔夫祭海，龙鳞破碎却惊动龙族为他撑腰。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1800_龙鳞一响四海相护.jpg"
+      ],
+      "publish_local": "2026-11-14T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "80c902f7fc2a06ca",
+      "title_zh": "我相亲捡属性开局怒怼化债女",
+      "date": "2026-11-15",
+      "language": "en",
+      "drama_code": "2609 KR55",
+      "titles": [
+        "💸 A Blind Date Wanted His Money. His System Let Him Take the Rewards—and Expose Her Game! 🤯"
+      ],
+      "title_zh_gloss": "相亲对象想算计他的钱，他靠系统领取属性奖励，再揭穿她的算计。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1800_我相亲捡属性开局怒怼化债女.jpg"
+      ],
+      "publish_local": "2026-11-15T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-02_1800_天王之巨星归来.jpg": "8d6defefe2bdb7607ad16e83b11d81ee28506d3dc14dbf16b8eb26e17c718f38",
+    "covers/2026-11-03_1800_万古第一仙在都市.jpg": "d378db9a8362d36e980e607c05191dc682f2f2b4d4d1e30a0681489693865d63",
+    "covers/2026-11-04_1800_水库无限加速钓鱼佬排队爆杆.jpg": "88677cd62fd5f6f99be188a9fd674320037710cf1a0f11b51b5d82511f1e3c90",
+    "covers/2026-11-05_1800_我绑定亲情系统宠全家.jpg": "7f7680fc205c35be915129b12c45d05002af2845e59f2f0ce0f9e739985fbb61",
+    "covers/2026-11-06_1800_我缩小后妻子悔疯了.jpg": "03f9784fc3dcb96a33fc445e010e1bf0a931f2aa96ecdf014bbe6a208fc32dc0",
+    "covers/2026-11-07_1800_全民荒原求生.jpg": "28984d6878edfcbddf75a8ec26b35bc0b751629a0cb72adebd9a8ad932e95aff",
+    "covers/2026-11-08_1800_别惹真少爷他邪得发正.jpg": "4ff92b1ecb598dfa7de6a00cf2dbfdfdbd0607533035ee60603f39d60bd8d194",
+    "covers/2026-11-09_1800_这个裁缝你惹不起.jpg": "dda441700790c1f59960bc282e228f2149e8eafa1213fd4d33b09c34815a79d1",
+    "covers/2026-11-10_1800_归来假少爷挡不住我的医道锋芒.jpg": "3f409b86646c69563442c45bfbbc36c0b41991099a0ea06b51355fe0c4d6e41a",
+    "covers/2026-11-11_1800_三年替补一朝封神.jpg": "d94ad6d407c23f5b0a38dd48e5971e5c43576e087817605351166d9ddd4c3dad",
+    "covers/2026-11-12_1800_我造的机甲被老婆直播曝光了.jpg": "9f3c688894a4e399a706ea52acc2ab2eea4c884076210f9e40ab8fe45158d296",
+    "covers/2026-11-13_1800_婚礼照常新娘换人.jpg": "85484c2fe07a147ceb7aa26e98eeee1fa17c13be2016fa9e6777b0a4feb0406a",
+    "covers/2026-11-14_1800_龙鳞一响四海相护.jpg": "f765977312f9538006e63831e00f41ad8f00d34972cf27bbe56e180ac77e2181",
+    "covers/2026-11-15_1800_我相亲捡属性开局怒怼化债女.jpg": "02ee12201210d5abc0cea7b19672d3d331ebc39757ff396180cf9ea79f1e463b"
+  }
+}
