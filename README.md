@@ -112,3 +112,5 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 - 提供工作流与禁播检测离线/模拟测试，涵盖素材导入、版本选择和发布按钮回调。真实俄语频道读取及修改尚未实测；没有在本次聊天中修改 YouTube。
 
 仅发布选定排片、代码和生成素材，不包含原始资源表、网盘链接、提取码、视频或授权令牌。不要提交本机 token*.json 和 local_work*/。
+
+菲律宾语最新22部完整程序（2026年11月5—15日，每天12:00、17:00，含最新版封面与对应标题）：[下载ZIP](releases/filipino_publisher_complete_22_latest_20261105_20261115_1080p.zip)。解压或合并到原程序后启动 `start_filipino_latest_windows.bat`，详见 [安装使用说明](FILIPINO_LATEST_GUIDE.md)。
