@@ -1,0 +1,278 @@
+{
+  "version": 5,
+  "language": "en",
+  "material_key": "en2",
+  "channel": "英语2",
+  "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-05",
+    "2026-11-15"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "english2_new_action_v2_20261031",
+  "title_revision": "english2_new_varied_titles_v2_20261031",
+  "scope": "2026年11月5—15日英语2古装优先重排，每天北京时间13:00一部，共11部。",
+  "cover_style": "明亮写实古装，成年亚洲人物、年轻漂亮女主得体修身穿搭、剧情冲突与动作，老卒回春按最新要求用年轻男主，百岁剑仙与毛驴保留各自身份，无字。",
+  "jobs": [
+    {
+      "job_id": "7a6efac6219b559c",
+      "title_zh": "边疆老卒御赐老婆后我越活越勇",
+      "date": "2026-11-05",
+      "language": "en",
+      "drama_code": "2026 WW27",
+      "titles": [
+        "🔥 Three Brides Restored His Youth! A Forgotten Soldier Became the Frontier’s Worst Nightmare ⚔️"
+      ],
+      "title_zh_gloss": "三位御赐妻子让他回春！被遗忘的老卒逆袭成为边疆强者。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-05_1300_边疆老卒御赐老婆后我越活越勇.jpg"
+      ],
+      "publish_local": "2026-11-05T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "fb915c2890ed67f5",
+      "title_zh": "驴神归来时速八百",
+      "date": "2026-11-06",
+      "language": "en",
+      "drama_code": "2026 WW56",
+      "titles": [
+        "🫏 His Family Had 7 Days to Live. Their Only Hope Was a War God Reborn as a Donkey! ⚡"
+      ],
+      "title_zh_gloss": "家人只剩七天活路，唯一希望竟是重生成毛驴的战神！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-06_1300_驴神归来时速八百.jpg"
+      ],
+      "publish_local": "2026-11-06T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "5cd9cf29348048c3",
+      "title_zh": "百岁剑仙被千金倒追了",
+      "date": "2026-11-07",
+      "language": "en",
+      "drama_code": "2026 WW38",
+      "titles": [
+        "🤯 She Fell for a Sword Immortal by Letter... Then a 100-Year-Old Man Came to Meet Her! ⚔️"
+      ],
+      "title_zh_gloss": "她与剑仙通信倾心，见面来的却是百岁老者！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_1300_百岁剑仙被千金倒追了.jpg"
+      ],
+      "publish_local": "2026-11-07T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "b560828b05ea0333",
+      "title_zh": "我剑即天威",
+      "date": "2026-11-08",
+      "language": "en",
+      "drama_code": "2026 WW60",
+      "titles": [
+        "⚔️ Ten Years of Mockery Ended With One Strike—His Sword Skill Just Got a 10,000× Boost! 🔥"
+      ],
+      "title_zh_gloss": "受辱十年，一剑翻盘：剑法获得万倍增幅！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_1300_我剑即天威.jpg"
+      ],
+      "publish_local": "2026-11-08T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "651bd9c947c0bd38",
+      "title_zh": "被换灵骨后我成了大帝",
+      "date": "2026-11-09",
+      "language": "en",
+      "drama_code": "2026 WW48",
+      "titles": [
+        "💔 They Stole His Spirit Bone. The Girl Who Stayed Awakened an Emperor They Couldn’t Stop ⚡"
+      ],
+      "title_zh_gloss": "家人夺灵骨，始终相伴的药女让他觉醒大帝之力。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_1300_被换灵骨后我成了大帝.jpg"
+      ],
+      "publish_local": "2026-11-09T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "082724a371bf8148",
+      "title_zh": "我一邪修养反派为徒很正常吧",
+      "date": "2026-11-10",
+      "language": "en",
+      "drama_code": "2026 WW26",
+      "titles": [
+        "👻 Killing Him Was Their Biggest Mistake: This Ghost’s Disciples Return Every Reward 100×! 🔥"
+      ],
+      "title_zh_gloss": "杀死他反成大错：鬼魂收徒，所有奖励百倍返还！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1300_我一邪修养反派为徒很正常吧.jpg"
+      ],
+      "publish_local": "2026-11-10T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "454fd3874c008a11",
+      "title_zh": "厨神帝王录",
+      "date": "2026-11-11",
+      "language": "en",
+      "drama_code": "2609 KR20",
+      "titles": [
+        "🍲 She Executed His Entire Family. Now Her Kitchen Is Feeding the Man Who’ll Take Her Throne 👑"
+      ],
+      "title_zh_gloss": "她处死他满门，如今御膳厨房里的厨子将夺走她的帝位。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1300_厨神帝王录.jpg"
+      ],
+      "publish_local": "2026-11-11T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "4088a8808345028c",
+      "title_zh": "大明憨王爹我真想就藩",
+      "date": "2026-11-12",
+      "language": "en",
+      "drama_code": "2026 WW73",
+      "titles": [
+        "👑 All This Ming Prince Wanted Was to Leave! Why Does Every Escape Expose Another Traitor? 🤯"
+      ],
+      "title_zh_gloss": "明朝王爷只想就藩，为何每次想走都揭出新的叛徒？",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1300_大明憨王爹我真想就藩.jpg"
+      ],
+      "publish_local": "2026-11-12T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "1535c0988d41ec67",
+      "title_zh": "元始我申公豹请你上榜封神",
+      "date": "2026-11-13",
+      "language": "en",
+      "drama_code": "2609 KR78",
+      "titles": [
+        "⚡ His Master Erased His Mind. Reborn, He Seized the Divine Scroll—and Came for His Master! 🔥"
+      ],
+      "title_zh_gloss": "师父抹去他的神智，他重生夺走封神榜，归来找师父清算！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1300_元始我申公豹请你上榜封神.jpg"
+      ],
+      "publish_local": "2026-11-13T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "d6398e8f474a9ffb",
+      "title_zh": "太监从后宫签到成圣",
+      "date": "2026-11-14",
+      "language": "en",
+      "drama_code": "2609 KR45",
+      "titles": [
+        "🔥 The Eunuch Was Meant to Die in the Palace. Daily Check-Ins Made Him Its Regent 👑"
+      ],
+      "title_zh_gloss": "本应死于宫廷的底层太监，靠每日签到逆袭摄政王。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1300_太监从后宫签到成圣.jpg"
+      ],
+      "publish_local": "2026-11-14T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "0bbc8949e0f7696f",
+      "title_zh": "你退你的婚我撩我的师尊",
+      "date": "2026-11-15",
+      "language": "en",
+      "drama_code": "2609 KR74",
+      "titles": [
+        "💍 She Broke Their Engagement in Public. Now Two Immortal Beauties Won’t Let Him Go! ⚡"
+      ],
+      "title_zh_gloss": "她当众退婚，如今两位仙家美人都不肯放他走！",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1300_你退你的婚我撩我的师尊.jpg"
+      ],
+      "publish_local": "2026-11-15T13:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-05_1300_边疆老卒御赐老婆后我越活越勇.jpg": "619e98b6f28fb4beb99b06907afa468dc15d442f2e4511ed6a28652a584c9c40",
+    "covers/2026-11-06_1300_驴神归来时速八百.jpg": "9ec85b1dfda4a72b550f39a4aa1e3c637324e3e2dbbedc6cf73c828b091b2ca2",
+    "covers/2026-11-07_1300_百岁剑仙被千金倒追了.jpg": "47c53112ddfbc0eb57fa95661b24da985d459ad70e230b6298809154d71525f2",
+    "covers/2026-11-08_1300_我剑即天威.jpg": "aed9b0f50a3fb29c88db9eeef0c5d6fb7ba02132dee8fd7419fdf42ae69e8f1a",
+    "covers/2026-11-09_1300_被换灵骨后我成了大帝.jpg": "4d1fca536212ad4a4a673fc4709bd1221799d02f58a81c4443aa80054234ea10",
+    "covers/2026-11-10_1300_我一邪修养反派为徒很正常吧.jpg": "52a878b4cc8ee900cbfe9286b63987fba67e5e66b1e516b2975fafaa1eed9be0",
+    "covers/2026-11-11_1300_厨神帝王录.jpg": "b0badfe0b1b801780f74c5f6ea405d44e9b0eb52f4883c3f8f81af9530737ecf",
+    "covers/2026-11-12_1300_大明憨王爹我真想就藩.jpg": "984b6d3617964d4f482961582768faf6958f950fd62b8b79e88be1bdb7d2eded",
+    "covers/2026-11-13_1300_元始我申公豹请你上榜封神.jpg": "18572ab99d76ca7c021c46455b803daff7d23eaf14034d576c7e409b96693dd8",
+    "covers/2026-11-14_1300_太监从后宫签到成圣.jpg": "85aeec4d3a5d2f80b14b236b79ab40f38c372cbc288527c584a265159842389a",
+    "covers/2026-11-15_1300_你退你的婚我撩我的师尊.jpg": "b2b4bdf68b5ebe6b32dc104405ef4ed26e9905c0cf62c93b9ed5ef44be96af79"
+  }
+}

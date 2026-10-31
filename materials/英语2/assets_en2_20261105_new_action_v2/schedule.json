@@ -1,0 +1,332 @@
+[
+  {
+    "job_id": "7a6efac6219b559c",
+    "title_zh": "边疆老卒御赐老婆后我越活越勇",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-05",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-05T13:00:00+08:00",
+    "publish_at": "2026-11-05T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 964,
+        "resource_title": "边疆老卒御赐老婆后我越活越勇",
+        "drama_code": "2026 WW27",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "fb915c2890ed67f5",
+    "title_zh": "驴神归来时速八百",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-06",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-06T13:00:00+08:00",
+    "publish_at": "2026-11-06T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1038,
+        "resource_title": "驴神归来时速八百",
+        "drama_code": "2026 WW56",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "5cd9cf29348048c3",
+    "title_zh": "百岁剑仙被千金倒追了",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T13:00:00+08:00",
+    "publish_at": "2026-11-07T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 976,
+        "resource_title": "百岁剑仙被千金倒追了",
+        "drama_code": "2026 WW38",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b560828b05ea0333",
+    "title_zh": "我剑即天威",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T13:00:00+08:00",
+    "publish_at": "2026-11-08T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1043,
+        "resource_title": "我剑即天威",
+        "drama_code": "2026 WW60",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "651bd9c947c0bd38",
+    "title_zh": "被换灵骨后我成了大帝",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T13:00:00+08:00",
+    "publish_at": "2026-11-09T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1009,
+        "resource_title": "被换灵骨后我成了大帝",
+        "drama_code": "2026 WW48",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "082724a371bf8148",
+    "title_zh": "我一邪修养反派为徒很正常吧",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T13:00:00+08:00",
+    "publish_at": "2026-11-10T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 957,
+        "resource_title": "我一邪修养反派为徒很正常吧",
+        "drama_code": "2026 WW26",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "454fd3874c008a11",
+    "title_zh": "厨神帝王录",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T13:00:00+08:00",
+    "publish_at": "2026-11-11T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 685,
+        "resource_title": "厨神帝王录",
+        "drama_code": "2609 KR20",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4088a8808345028c",
+    "title_zh": "大明憨王爹我真想就藩",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T13:00:00+08:00",
+    "publish_at": "2026-11-12T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1110,
+        "resource_title": "大明憨王爹我真想就藩",
+        "drama_code": "2026 WW73",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1535c0988d41ec67",
+    "title_zh": "元始我申公豹请你上榜封神",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T13:00:00+08:00",
+    "publish_at": "2026-11-13T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 836,
+        "resource_title": "元始我申公豹请你上榜封神",
+        "drama_code": "2609 KR78",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d6398e8f474a9ffb",
+    "title_zh": "太监从后宫签到成圣",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T13:00:00+08:00",
+    "publish_at": "2026-11-14T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 762,
+        "resource_title": "太监从后宫签到成圣",
+        "drama_code": "2609 KR45",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "0bbc8949e0f7696f",
+    "title_zh": "你退你的婚我撩我的师尊",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T13:00:00+08:00",
+    "publish_at": "2026-11-15T05:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 820,
+        "resource_title": "你退你的婚我撩我的师尊",
+        "drama_code": "2609 KR74",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
