@@ -114,3 +114,5 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 仅发布选定排片、代码和生成素材，不包含原始资源表、网盘链接、提取码、视频或授权令牌。不要提交本机 token*.json 和 local_work*/。
 
 菲律宾语最新22部完整程序（2026年11月5—15日，每天12:00、17:00，含最新版封面与对应标题）：[下载ZIP](releases/filipino_publisher_complete_22_latest_20261105_20261115_1080p.zip)。解压或合并到原程序后启动 `start_filipino_latest_windows.bat`，详见 [安装使用说明](FILIPINO_LATEST_GUIDE.md)。
+
+菲律宾语单标题加载修复：[小修复包](releases/filipino_single_title_fix.zip)；[含22部素材的修复版完整包](releases/filipino_publisher_complete_22_fixed_single_title_1080p.zip)。关闭程序，将小修复包内全部文件覆盖至原run.py所在目录，使用新版菲律宾语启动文件进入；保留原素材、授权及发布记录。

@@ -13,6 +13,8 @@ RELEASE = 'filipino22_conflict_v5_20261105_20261115'
 
 
 def prepare_latest(parent=None):
+    if 1 not in getattr(run, 'SUPPORTED_TITLE_COUNTS', ()):
+        raise ValueError('检测到旧版run.py，尚不支持每剧一个标题。请关闭程序，将修复包全部文件覆盖到与本启动文件相同的目录，再重新启动。')
     profile = ensure_profile(parent)
     if profile is None:
         return None

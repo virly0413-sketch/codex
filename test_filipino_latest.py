@@ -18,7 +18,7 @@ CHANNEL = 'UC' + 't' * 22  # Offline fixture only.
 
 class LatestFilipinoTests(unittest.TestCase):
     def test_complete_zip_upgrade_reload_and_custom_folder(self):
-        archive = REPO / 'releases/filipino_publisher_complete_22_latest_20261105_20261115_1080p.zip'
+        archive = REPO / 'releases/filipino_publisher_complete_22_fixed_single_title_1080p.zip'
         with tempfile.TemporaryDirectory() as tmp:
             with ZipFile(archive) as z:
                 self.assertIsNone(z.testzip())
@@ -37,6 +37,12 @@ class LatestFilipinoTests(unittest.TestCase):
                 path = latest.prepare_latest()
                 config = run.load(path)
                 self.assertEqual(config['material_job_count'], 22)
+                manifest = run.load(root / config['assets_path'] / 'manifest.json')
+                self.assertEqual(manifest['titles_per_job'], 1)
+                for entry in manifest['jobs']:
+                    self.assertEqual(len(entry['titles']), 1)
+                    creative = run.load(root / config['work'] / entry['job_id'] / 'creative.json')
+                    self.assertEqual(creative['titles'], entry['titles'])
                 self.assertEqual(config['oauth_token'], 'my-local-token.json')
                 self.assertEqual(config['proxy_url'], '')
                 jobs = run.load(root / config['planning_source'])
@@ -54,6 +60,12 @@ class LatestFilipinoTests(unittest.TestCase):
                 self.assertEqual(run.load(root / SETTINGS)['tl'], str(custom.resolve()))
                 self.assertEqual(run.load(root / SETTINGS)['es'], 'untouched-spanish-folder')
                 self.assertEqual(run.load(receipt), {'keep': True})
+
+    def test_old_runtime_is_detected_before_loading(self):
+        with patch.object(run, 'SUPPORTED_TITLE_COUNTS', (3,)), patch.object(latest, 'ensure_profile') as setup:
+            with self.assertRaisesRegex(ValueError, '旧版run.py'):
+                latest.prepare_latest()
+            setup.assert_not_called()
 
 
 if __name__ == '__main__':

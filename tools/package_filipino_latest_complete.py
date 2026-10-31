@@ -3,7 +3,7 @@ from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / 'releases/filipino_publisher_complete_22_latest_20261105_20261115_1080p.zip'
+OUTPUT = ROOT / 'releases/filipino_publisher_complete_22_fixed_single_title_1080p.zip'
 PACK = ROOT / 'materials/菲律宾语/assets_tl_20261105_character_conflict_v5'
 FILES = ['desktop.py', 'publisher_profiles.py', 'material_library.py',
          'filipino_setup.py', 'filipino_latest_start.py', 'run.py', 'prepare.py',
@@ -21,6 +21,11 @@ def build():
             if path.is_file():
                 archive.write(path, base / path.relative_to(ROOT))
     print(OUTPUT.name, OUTPUT.stat().st_size, 'bytes')
+    patch = ROOT / 'releases/filipino_single_title_fix.zip'
+    with ZipFile(patch, 'w', ZIP_DEFLATED) as archive:
+        for name in FILES:
+            archive.write(ROOT / name, name)
+    print(patch.name, patch.stat().st_size, 'bytes')
 
 
 if __name__ == '__main__':

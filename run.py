@@ -174,6 +174,9 @@ def approve(config, args):
 
 
 
+SUPPORTED_TITLE_COUNTS = (1, 3)
+
+
 def import_pack(config, args):
     from PIL import Image, ImageOps
     pack = Path(args.pack).resolve()
@@ -184,7 +187,7 @@ def import_pack(config, args):
         raise ValueError('素材包语种与当前频道配置不符，禁止导入。')
     jobs = {j['job_id']: j for j in load(ROOT / config['work'] / 'queue.json')}
     title_count=manifest.get('titles_per_job',3)
-    if type(title_count) is not int or title_count not in (1,3):
+    if type(title_count) is not int or title_count not in SUPPORTED_TITLE_COUNTS:
         raise ValueError('素材包标题数量声明仅支持1或3。')
     count = 0
     for entry in manifest['jobs']:
