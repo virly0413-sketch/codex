@@ -120,3 +120,5 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 英语2最新11部完整程序（2026年11月5—15日，每天北京时间13:00）：[下载新封面和新标题整合包](releases/english2_publisher_complete_11_new_covers_titles_1080p.zip)。绑定UCXdinQ6fQ8RyenilKIymAFA；使用 `start_english2_latest_windows.bat` 启动，详见 [安装使用说明](ENGLISH2_LATEST_GUIDE.md)。第一部采用系统回春后的年轻男主，百岁剑仙保留年长形象；每部一个新标题、一张1920×1080无字封面。
 
 英语2最新18:00版：2026年11月2—15日每天一部，共14部现代题材，替换此前古装13:00方案。[下载完整程序与新素材](releases/english2_publisher_modern14_20261102_20261115_1800_1080p.zip)，使用 `start_english2_1800_windows.bat`，详见 [使用说明](ENGLISH2_1800_GUIDE.md)。按资源表文字排除外采、代运营、禁播；英语2历史及已知同剧情异名去重，其他频道同剧至少168小时。加载新包不自动撤销YouTube上的旧定时。
+
+俄语2026年11月7—20日每日17:00、22:00排片：[Excel](schedules/russian_20261107_20261120_two_daily/russian_schedule_20261107_20261120.xlsx) / [排片打包下载](releases/russian_schedule_20261107_20261120_two_daily.zip)。共28部，保留最新表11月7—10日17:00已有4部，新增24部；明确有俄语配音、男频，排除资源表文字标注外采/代运营/禁播，俄语历史及已识别同剧情异名去重，其他频道已知同剧最小间隔169小时。仅输出排片，未修改YouTube。
