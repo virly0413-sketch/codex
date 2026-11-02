@@ -1,0 +1,672 @@
+{
+  "version": 5,
+  "language": "ru",
+  "channel": "俄语男频",
+  "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-07",
+    "2026-11-20"
+  ],
+  "publish_times": [
+    "17:00",
+    "22:00"
+  ],
+  "timezone": "Asia/Shanghai",
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "ru28_action_photoreal_20261102",
+  "title_revision": "ru28_distinct_hooks_20261102",
+  "scope": "已确认俄语28部排片，2026年11月7—20日，每天北京时间17:00、22:00，每部一个俄语标题和一张新封面。",
+  "jobs": [
+    {
+      "job_id": "74358dee41b2c60f",
+      "title_zh": "万倍返还弟子越强我越神",
+      "date": "2026-11-07",
+      "language": "ru",
+      "drama_code": "2609 KR44",
+      "titles": [
+        "🤯 Помог ученику — получил в 10 000 раз больше силы! Теперь предатель сам дрожит от страха ⚡"
+      ],
+      "title_zh_gloss": "投资弟子万倍返还，昔日暗算他的挚友终于面对更强的他。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_1700_万倍返还弟子越强我越神.jpg"
+      ],
+      "publish_local": "2026-11-07T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "d6f1856fec55319c",
+      "title_zh": "重回八零我靠山林奇珍系统养家",
+      "date": "2026-11-07",
+      "language": "ru",
+      "drama_code": "2026 WW63",
+      "titles": [
+        "🌿 Вернулся в 1983-й! Система видит сокровища в горах — теперь его семья не будет голодать 🔥"
+      ],
+      "title_zh_gloss": "重回1983年，靠山林奇珍系统找药材、养家翻身。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-07_2200_重回八零我靠山林奇珍系统养家.jpg"
+      ],
+      "publish_local": "2026-11-07T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "e234bbae239b13f2",
+      "title_zh": "满级大师兄制霸都市",
+      "date": "2026-11-08",
+      "language": "ru",
+      "drama_code": "2609 KR48",
+      "titles": [
+        "💍 Невеста отказалась от него. Её сестра вышла за мастера, который отбивает пули копьём! ⚡"
+      ],
+      "title_zh_gloss": "姐姐拒婚，妹妹代嫁；新郎却能用长枪挡下子弹。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_1700_满级大师兄制霸都市.jpg"
+      ],
+      "publish_local": "2026-11-08T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "56ad541ac16abde0",
+      "title_zh": "我剑即天威",
+      "date": "2026-11-08",
+      "language": "ru",
+      "drama_code": "2026 WW60",
+      "titles": [
+        "⚔️ Десять лет унижений — и удар стал сильнее в 10 000 раз! Теперь мечи склоняются перед ним 🔥"
+      ],
+      "title_zh_gloss": "受辱十年后觉醒万倍增幅，一剑引来万剑朝拜。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-08_2200_我剑即天威.jpg"
+      ],
+      "publish_local": "2026-11-08T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "ddc384b827b875cd",
+      "title_zh": "囤千万物资到古代娶女帝",
+      "date": "2026-11-09",
+      "language": "ru",
+      "drama_code": "2609 KR29",
+      "titles": [
+        "👑 Через неделю — в древность! Он запасся всем и женился на императрице и святой 🤯"
+      ],
+      "title_zh_gloss": "预知一周后穿越，带满仓物资到古代迎娶女帝和圣女。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_1700_囤千万物资到古代娶女帝.jpg"
+      ],
+      "publish_local": "2026-11-09T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "5a2ae1faf5e28fc5",
+      "title_zh": "满级枪神回都市开局领证",
+      "date": "2026-11-09",
+      "language": "ru",
+      "drama_code": "2026 WW54",
+      "titles": [
+        "🪙 Он вернулся жениться. Никто не знал, что этот жених умеет останавливать пули монетой! 🔥"
+      ],
+      "title_zh_gloss": "回城成婚的新郎，竟能以银币挡下子弹。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-09_2200_满级枪神回都市开局领证.jpg"
+      ],
+      "publish_local": "2026-11-09T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "35072f10201bb5b1",
+      "title_zh": "跌入古井觉醒神农秘术",
+      "date": "2026-11-10",
+      "language": "ru",
+      "drama_code": "2609 KR41",
+      "titles": [
+        "🌿 Его сбросили в колодец. Вернулся целитель, которому больше не страшен глава деревни ⚡"
+      ],
+      "title_zh_gloss": "被扔进枯井后获得神农传承，归来医人、惩恶。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1700_跌入古井觉醒神农秘术.jpg"
+      ],
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "36539608943445f7",
+      "title_zh": "被换灵骨后我成了大帝",
+      "date": "2026-11-10",
+      "language": "ru",
+      "drama_code": "2026 WW48",
+      "titles": [
+        "💔 Родные украли его дар. Ради девушки, спасшей его, он пошёл против самого неба ⚔️"
+      ],
+      "title_zh_gloss": "遭亲人夺去灵骨，为唯一守护他的药女逆天而行。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_2200_被换灵骨后我成了大帝.jpg"
+      ],
+      "publish_local": "2026-11-10T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "a8fd465e5a9c3df8",
+      "title_zh": "师娘送我出狱我横扫天下",
+      "date": "2026-11-11",
+      "language": "ru",
+      "drama_code": "2026 WW17",
+      "titles": [
+        "🔥 Пять наставниц выпустили его из тюрьмы. Он ворвался на свадьбу, чтобы забрать невесту! ⚡"
+      ],
+      "title_zh_gloss": "五位师娘送他出狱，他闯婚宴救出被逼婚的未婚妻。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1700_师娘送我出狱我横扫天下.jpg"
+      ],
+      "publish_local": "2026-11-11T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "fe09e93d9aab5311",
+      "title_zh": "水库无限加速钓鱼佬排队爆杆",
+      "date": "2026-11-11",
+      "language": "ru",
+      "drama_code": "2026 WW53",
+      "titles": [
+        "🎣 Над его водохранилищем смеялись. Система ускорила время — и рыбы стали чудовищами! 🐉"
+      ],
+      "title_zh_gloss": "荒废水库靠系统加速进化，巨鱼甚至史前巨龙接连出现。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_2200_水库无限加速钓鱼佬排队爆杆.jpg"
+      ],
+      "publish_local": "2026-11-11T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "e8621e9de245e42f",
+      "title_zh": "民宿惊现恐龙蛋",
+      "date": "2026-11-12",
+      "language": "ru",
+      "drama_code": "2026 WW12",
+      "titles": [
+        "🦖 Семья бросила его динозавру ради приёмного сына. Во второй жизни он больше их не спасёт! 🔥"
+      ],
+      "title_zh_gloss": "家人为养子把他丢给恐龙，重生后他只为自己活下去。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1700_民宿惊现恐龙蛋.jpg"
+      ],
+      "publish_local": "2026-11-12T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "2c719b776248070c",
+      "title_zh": "我一邪修养反派为徒很正常吧",
+      "date": "2026-11-12",
+      "language": "ru",
+      "drama_code": "2026 WW26",
+      "titles": [
+        "👻 Они убили его — и создали себе врага! У призрака дар ученицам возвращается стократно ⚡"
+      ],
+      "title_zh_gloss": "被害后化为鬼魂，收徒返还系统让奖励百倍增强。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_2200_我一邪修养反派为徒很正常吧.jpg"
+      ],
+      "publish_local": "2026-11-12T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "65aee2b8b052c96c",
+      "title_zh": "重生千禧年我靠赶海带大哥致富",
+      "date": "2026-11-13",
+      "language": "ru",
+      "drama_code": "2026 WW09",
+      "titles": [
+        "🌊 В 2000-м он был нищим. Теперь система показывает, где море прячет богатство! 💰"
+      ],
+      "title_zh_gloss": "重回千禧年，系统定位海货，让昔日穷小子赶海致富。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1700_重生千禧年我靠赶海带大哥致富.jpg"
+      ],
+      "publish_local": "2026-11-13T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "31558f1bcfb78c8c",
+      "title_zh": "我缩小后妻子悔疯了",
+      "date": "2026-11-13",
+      "language": "ru",
+      "drama_code": "2026 WW55",
+      "titles": [
+        "💸 Банк пришёл за её имуществом! Муж, которого она обманула ради микромира, уже разбогател 🤯"
+      ],
+      "title_zh_gloss": "银行来追她的债！被她用微世界设局的丈夫，早已靠股票暴富。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_2200_我缩小后妻子悔疯了.jpg"
+      ],
+      "publish_local": "2026-11-13T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "01f66e6432624e43",
+      "title_zh": "龙神医圣",
+      "date": "2026-11-14",
+      "language": "ru",
+      "drama_code": "2026 WW07",
+      "titles": [
+        "🐉 Его сбросили со скалы. Дух морского дракона дал ему силу спасать жизни и карать злодеев ⚡"
+      ],
+      "title_zh_gloss": "坠崖得龙神残魂传承，以医术救人并反击渔村恶势力。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1700_龙神医圣.jpg"
+      ],
+      "publish_local": "2026-11-14T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "415ec64fc858ae43",
+      "title_zh": "全民荒原求生",
+      "date": "2026-11-14",
+      "language": "ru",
+      "drama_code": "2026 WW57",
+      "titles": [
+        "⚡ Крепость взлетела, а предатели остались внизу! В этой пустоши он больше никому не должен 🔥"
+      ],
+      "title_zh_gloss": "空中堡垒升起，昔日背叛者被留在地面；这一次他不再受道德绑架。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_2200_全民荒原求生.jpg"
+      ],
+      "publish_local": "2026-11-14T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "96760c9eb3d22c61",
+      "title_zh": "分家开出海神的鱼钩",
+      "date": "2026-11-15",
+      "language": "ru",
+      "drama_code": "2026 WW67",
+      "titles": [
+        "🎣 Ему досталась гнилая лодка. Отцовский крючок превратил пустой берег в сокровищницу 💰"
+      ],
+      "title_zh_gloss": "分家只得破船，父亲留下的海神鱼钩把荒滩变成聚宝盆。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1700_分家开出海神的鱼钩.jpg"
+      ],
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "a87e1e12b2dff10a",
+      "title_zh": "神级垂钓我钓尽世间天物",
+      "date": "2026-11-15",
+      "language": "ru",
+      "drama_code": "2026 WW22",
+      "titles": [
+        "🎣 Он выловил печать императора. Миллиардер решил отдать ему дочь — бывшая опоздала! 💍"
+      ],
+      "title_zh_gloss": "他钓起玉玺，首富主动提出将女儿许配给他；前妻的算计落空。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_2200_神级垂钓我钓尽世间天物.jpg"
+      ],
+      "publish_local": "2026-11-15T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "86965aaf887f2519",
+      "title_zh": "别惹真少爷他邪得发正",
+      "date": "2026-11-16",
+      "language": "ru",
+      "drama_code": "2026 WW37",
+      "titles": [
+        "⚡ Под масками идеальных женихов — демоны! Настоящий наследник пришёл вернуть семье удачу 🔥"
+      ],
+      "title_zh_gloss": "完美未婚夫的背后竟是妖邪！真少爷归来为家族夺回气运。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_1700_别惹真少爷他邪得发正.jpg"
+      ],
+      "publish_local": "2026-11-16T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "258754a407d9eaa4",
+      "title_zh": "这个裁缝你惹不起",
+      "date": "2026-11-16",
+      "language": "ru",
+      "drama_code": "2026 WW21",
+      "titles": [
+        "✂️ Пять лет он скрывался в ателье. Угроза девушке заставила тихого портного снова ударить 🔥"
+      ],
+      "title_zh_gloss": "他在裁缝铺隐居五年，为保护女孩再次暗中出手。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_2200_这个裁缝你惹不起.jpg"
+      ],
+      "publish_local": "2026-11-16T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "828a162a0f0fb39e",
+      "title_zh": "破车开局造黎明之城",
+      "date": "2026-11-17",
+      "language": "ru",
+      "drama_code": "2026 WW04",
+      "titles": [
+        "🚐 Старая развалюха стала городом в небе! Он менял овощи на металл и пережил конец света ⚡"
+      ],
+      "title_zh_gloss": "旧面包车升级为空中城市，他用蔬菜换稀有金属，在末世逆袭。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_1700_破车开局造黎明之城.jpg"
+      ],
+      "publish_local": "2026-11-17T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "80a3f8841dfaceb7",
+      "title_zh": "霸王龙当保安谁敢抢我动物园",
+      "date": "2026-11-17",
+      "language": "ru",
+      "drama_code": "2026 WW36",
+      "titles": [
+        "🦖 Ему отдали убыточный зоопарк. Когда семья пришла отобрать бизнес, их встретил тираннозавр! 🔥"
+      ],
+      "title_zh_gloss": "被赶出家门只得破动物园，家人夺产业时却被霸王龙拦下。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_2200_霸王龙当保安谁敢抢我动物园.jpg"
+      ],
+      "publish_local": "2026-11-17T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "68f3b2a0a453568d",
+      "title_zh": "白月光被鱼钓走妻子悔断肠",
+      "date": "2026-11-18",
+      "language": "ru",
+      "drama_code": "2026 WW72",
+      "titles": [
+        "🎣 Жена выбрала его друга и лёгкие деньги. Он знал: эта рыба ловит не рыбу, а жадных людей! ⚡"
+      ],
+      "title_zh_gloss": "妻子与好友贪图邪鱼财富，他清楚被钓走的是人的贪欲。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_1700_白月光被鱼钓走妻子悔断肠.jpg"
+      ],
+      "publish_local": "2026-11-18T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "97269a8fc7b690df",
+      "title_zh": "三年替补一朝封神",
+      "date": "2026-11-18",
+      "language": "ru",
+      "drama_code": "2026 WW24",
+      "titles": [
+        "⚽ Все аплодировали не тому брату! Запасной вратарь ушёл — и стал кошмаром для своей семьи 🔥"
+      ],
+      "title_zh_gloss": "掌声一直给错了双胞胎！替补门将离家自立，在赛场上反击家人的算计。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_2200_三年替补一朝封神.jpg"
+      ],
+      "publish_local": "2026-11-18T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "3cb74671680f8e86",
+      "title_zh": "开局变成三蹦子我吞噬星空",
+      "date": "2026-11-19",
+      "language": "ru",
+      "drama_code": "2026 WW33",
+      "titles": [
+        "🛺 После смерти он стал моторикшей! Поглощая металл, дорос до космического истребителя ⚡"
+      ],
+      "title_zh_gloss": "被害后魂融三蹦子，靠吞噬金属进化成航天战机。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_1700_开局变成三蹦子我吞噬星空.jpg"
+      ],
+      "publish_local": "2026-11-19T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "e8f503e34c0b7f52",
+      "title_zh": "剑道巅峰从一把锈剑开始",
+      "date": "2026-11-19",
+      "language": "ru",
+      "drama_code": "2026 WW59",
+      "titles": [
+        "⚔️ Он очнулся ржавым мечом перед переплавкой. Наследница выбрала его — и всё изменилось 🔥"
+      ],
+      "title_zh_gloss": "穿越成待回炉的锈剑，被落魄千金带走后共同进化逆袭。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_2200_剑道巅峰从一把锈剑开始.jpg"
+      ],
+      "publish_local": "2026-11-19T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "9820e42497f9f22d",
+      "title_zh": "天王之巨星归来",
+      "date": "2026-11-20",
+      "language": "ru",
+      "drama_code": "2026 WW68",
+      "titles": [
+        "🎤 Контракт на 20 миллионов? Он отказался — и начал превращать песни в собственную империю! 🔥"
+      ],
+      "title_zh_gloss": "拒绝两千万签约！他不再受人掌控，转身靠金曲打造自己的商业帝国。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_1700_天王之巨星归来.jpg"
+      ],
+      "publish_local": "2026-11-20T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "c3de120217105a74",
+      "title_zh": "开局变鹦鹉气疯所有人",
+      "date": "2026-11-20",
+      "language": "ru",
+      "drama_code": "2609 KR09",
+      "titles": [
+        "🦜 Они думали, что убили его. Но попугай в прямом эфире уже готовил им огненный сюрприз! 🔥"
+      ],
+      "title_zh_gloss": "仇人以为他已死，变成鹦鹉的他却在直播中进化、准备反击。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_2200_开局变鹦鹉气疯所有人.jpg"
+      ],
+      "publish_local": "2026-11-20T22:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-07_1700_万倍返还弟子越强我越神.jpg": "dd25b1194d94110c4e6746ce31688ae1295c0735ab659d5fd5716707047aaf26",
+    "covers/2026-11-07_2200_重回八零我靠山林奇珍系统养家.jpg": "b22ddb87942d566f6c41ac8c7ac1780b3b66785c7e9f749e441e2e9b14735d10",
+    "covers/2026-11-08_1700_满级大师兄制霸都市.jpg": "313ed6ceb0950732e5ac4fcdc45c04da05b7e4cbfddafe21071967523cc296be",
+    "covers/2026-11-08_2200_我剑即天威.jpg": "a4eb6615398ce3a07b6c35ae5f8a0241697584657c9ffef719b120ba2a0adb25",
+    "covers/2026-11-09_1700_囤千万物资到古代娶女帝.jpg": "bc37c5bfa0e4700dd2cad3d300662063258a0ec715862c655e1fa7f15da57059",
+    "covers/2026-11-09_2200_满级枪神回都市开局领证.jpg": "2846269a66019cd80c57a26249eabbf3e8d3a7f254b70057b354e216f0d94c73",
+    "covers/2026-11-10_1700_跌入古井觉醒神农秘术.jpg": "683233300459a53fa4c4eb00fd4032dd8351d57e6b3ef58fc099f954cd4bff47",
+    "covers/2026-11-10_2200_被换灵骨后我成了大帝.jpg": "02b280423c4c13e2a3ef57f6e55cc637a50ff73cf79d420dbb0faed93e351cc7",
+    "covers/2026-11-11_1700_师娘送我出狱我横扫天下.jpg": "bdf4fadfe6a5f6e32bf5ef492078171482b5a7fb73adcfe73f97c84c426af9d0",
+    "covers/2026-11-11_2200_水库无限加速钓鱼佬排队爆杆.jpg": "ff229b4d62fc9ce4bb717369b274cb804af043fe44fe3a5ad96a535a205b0efc",
+    "covers/2026-11-12_1700_民宿惊现恐龙蛋.jpg": "98b653ca764827631d32808151650a948adc5b31ae076d1a1fafc10af986cc21",
+    "covers/2026-11-12_2200_我一邪修养反派为徒很正常吧.jpg": "a471af7923494fa9c68da0636df7426b9df331300977df28cde1b91b4ad26d4e",
+    "covers/2026-11-13_1700_重生千禧年我靠赶海带大哥致富.jpg": "dd13207b08f573e87b4be622eb42c856ea4b943784173dbae6e62584504fab88",
+    "covers/2026-11-13_2200_我缩小后妻子悔疯了.jpg": "fd1a82ed93944b2a745f8d635e6505cbab60bc2d6e8e78e2c6eeaff6cf55cc44",
+    "covers/2026-11-14_1700_龙神医圣.jpg": "b4ad5e5a766f7784fade9a0e7ac59550fffbd30a93ead354c4335803cbb9ff91",
+    "covers/2026-11-14_2200_全民荒原求生.jpg": "a451071392703f333459752df5a6c613314730218f66817aeb6fbe373106fde7",
+    "covers/2026-11-15_1700_分家开出海神的鱼钩.jpg": "ac4918d80c2c32af2687330e24a395c18d72de10547ec46f737e23d087e82feb",
+    "covers/2026-11-15_2200_神级垂钓我钓尽世间天物.jpg": "c8e2660b257e709b724f27d694111d0aa479cd62479aa72e560fe7fccceaa713",
+    "covers/2026-11-16_1700_别惹真少爷他邪得发正.jpg": "a8f080d065f6a766b8085f94e65e4bea78e346178fec6451a788ec4f3c1f44be",
+    "covers/2026-11-16_2200_这个裁缝你惹不起.jpg": "766e993bc560fd2e1ed5a886aa460552a9acb2b1eb2c36f4470dfc6454c430e6",
+    "covers/2026-11-17_1700_破车开局造黎明之城.jpg": "7f0c196b62ab86f985c166eb17a0e260c13d3b3ef15829c64fe5f6af70378177",
+    "covers/2026-11-17_2200_霸王龙当保安谁敢抢我动物园.jpg": "23c9088e45fd208d42bdbb7e5d849d04f92d4f0ff3912907f2d0e2f2b0bd3732",
+    "covers/2026-11-18_1700_白月光被鱼钓走妻子悔断肠.jpg": "5f3d274d45386d3b594aced8d0ed4f168c4d30f6082a1ee794769b1119ef0596",
+    "covers/2026-11-18_2200_三年替补一朝封神.jpg": "5da0d82ad1ee3748fb3528de9309455e938d6ba0929a8f0181768f1d6f9b9ef8",
+    "covers/2026-11-19_1700_开局变成三蹦子我吞噬星空.jpg": "d7acc894d90c0026de13376c228ba29d8c146046ce2f91873346404e4919e0aa",
+    "covers/2026-11-19_2200_剑道巅峰从一把锈剑开始.jpg": "0a669f0595e20a00fea7308a101028c29339110522c488565062c52bb692233f",
+    "covers/2026-11-20_1700_天王之巨星归来.jpg": "0c6c96ef66eb2617074a964a69a63c8175a88116b136a48281260e3f1df6a54a",
+    "covers/2026-11-20_2200_开局变鹦鹉气疯所有人.jpg": "fd09bd9634bd5b7b8cba1513cdb608c6783fcbc0a11a3127c249253d41125ada"
+  }
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "job_id": "74358dee41b2c60f",
+    "title_zh": "万倍返还弟子越强我越神",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-07",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T17:00:00+08:00",
+    "publish_at": "2026-11-07T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 760,
+        "resource_title": "万倍返还弟子越强我越神",
+        "drama_code": "2609 KR44",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d6f1856fec55319c",
+    "title_zh": "重回八零我靠山林奇珍系统养家",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-07",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-07T22:00:00+08:00",
+    "publish_at": "2026-11-07T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1062,
+        "resource_title": "重回八零我靠山林奇珍系统养家",
+        "drama_code": "2026 WW63",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e234bbae239b13f2",
+    "title_zh": "满级大师兄制霸都市",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-08",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T17:00:00+08:00",
+    "publish_at": "2026-11-08T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 769,
+        "resource_title": "满级大师兄制霸都市",
+        "drama_code": "2609 KR48",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "56ad541ac16abde0",
+    "title_zh": "我剑即天威",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-08",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-08T22:00:00+08:00",
+    "publish_at": "2026-11-08T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1043,
+        "resource_title": "我剑即天威",
+        "drama_code": "2026 WW60",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ddc384b827b875cd",
+    "title_zh": "囤千万物资到古代娶女帝",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-09",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T17:00:00+08:00",
+    "publish_at": "2026-11-09T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 719,
+        "resource_title": "囤千万物资到古代娶女帝",
+        "drama_code": "2609 KR29",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "5a2ae1faf5e28fc5",
+    "title_zh": "满级枪神回都市开局领证",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-09",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-09T22:00:00+08:00",
+    "publish_at": "2026-11-09T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1022,
+        "resource_title": "满级枪神回都市开局领证",
+        "drama_code": "2026 WW54",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "35072f10201bb5b1",
+    "title_zh": "跌入古井觉醒神农秘术",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 745,
+        "resource_title": "跌入古井觉醒神农秘术",
+        "drama_code": "2609 KR41",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "36539608943445f7",
+    "title_zh": "被换灵骨后我成了大帝",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-10",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T22:00:00+08:00",
+    "publish_at": "2026-11-10T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1009,
+        "resource_title": "被换灵骨后我成了大帝",
+        "drama_code": "2026 WW48",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a8fd465e5a9c3df8",
+    "title_zh": "师娘送我出狱我横扫天下",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T17:00:00+08:00",
+    "publish_at": "2026-11-11T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 968,
+        "resource_title": "师娘送我出狱我横扫天下",
+        "drama_code": "2026 WW17",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "fe09e93d9aab5311",
+    "title_zh": "水库无限加速钓鱼佬排队爆杆",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-11",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T22:00:00+08:00",
+    "publish_at": "2026-11-11T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1020,
+        "resource_title": "水库无限加速钓鱼佬排队爆杆",
+        "drama_code": "2026 WW53",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e8621e9de245e42f",
+    "title_zh": "民宿惊现恐龙蛋",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T17:00:00+08:00",
+    "publish_at": "2026-11-12T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 958,
+        "resource_title": "民宿惊现恐龙蛋",
+        "drama_code": "2026 WW12",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "2c719b776248070c",
+    "title_zh": "我一邪修养反派为徒很正常吧",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-12",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T22:00:00+08:00",
+    "publish_at": "2026-11-12T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 957,
+        "resource_title": "我一邪修养反派为徒很正常吧",
+        "drama_code": "2026 WW26",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "65aee2b8b052c96c",
+    "title_zh": "重生千禧年我靠赶海带大哥致富",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T17:00:00+08:00",
+    "publish_at": "2026-11-13T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 948,
+        "resource_title": "重生千禧年我靠赶海带大哥致富",
+        "drama_code": "2026 WW09",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "31558f1bcfb78c8c",
+    "title_zh": "我缩小后妻子悔疯了",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-13",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T22:00:00+08:00",
+    "publish_at": "2026-11-13T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1032,
+        "resource_title": "我缩小后妻子悔疯了",
+        "drama_code": "2026 WW55",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "01f66e6432624e43",
+    "title_zh": "龙神医圣",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T17:00:00+08:00",
+    "publish_at": "2026-11-14T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 944,
+        "resource_title": "龙神医圣",
+        "drama_code": "2026 WW07",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "415ec64fc858ae43",
+    "title_zh": "全民荒原求生",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-14",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T22:00:00+08:00",
+    "publish_at": "2026-11-14T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1039,
+        "resource_title": "全民荒原求生",
+        "drama_code": "2026 WW57",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "96760c9eb3d22c61",
+    "title_zh": "分家开出海神的鱼钩",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1080,
+        "resource_title": "分家开出海神的鱼钩",
+        "drama_code": "2026 WW67",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a87e1e12b2dff10a",
+    "title_zh": "神级垂钓我钓尽世间天物",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-15",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T22:00:00+08:00",
+    "publish_at": "2026-11-15T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 939,
+        "resource_title": "神级垂钓我钓尽世间天物",
+        "drama_code": "2026 WW22",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "86965aaf887f2519",
+    "title_zh": "别惹真少爷他邪得发正",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T17:00:00+08:00",
+    "publish_at": "2026-11-16T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 925,
+        "resource_title": "别惹真少爷他邪得发正",
+        "drama_code": "2026 WW37",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "258754a407d9eaa4",
+    "title_zh": "这个裁缝你惹不起",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-16",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T22:00:00+08:00",
+    "publish_at": "2026-11-16T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 937,
+        "resource_title": "这个裁缝你惹不起",
+        "drama_code": "2026 WW21",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "828a162a0f0fb39e",
+    "title_zh": "破车开局造黎明之城",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T17:00:00+08:00",
+    "publish_at": "2026-11-17T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 922,
+        "resource_title": "破车开局造黎明之城",
+        "drama_code": "2026 WW04",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "80a3f8841dfaceb7",
+    "title_zh": "霸王龙当保安谁敢抢我动物园",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-17",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T22:00:00+08:00",
+    "publish_at": "2026-11-17T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 920,
+        "resource_title": "霸王龙当保安谁敢抢我动物园",
+        "drama_code": "2026 WW36",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "68f3b2a0a453568d",
+    "title_zh": "白月光被鱼钓走妻子悔断肠",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T17:00:00+08:00",
+    "publish_at": "2026-11-18T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1105,
+        "resource_title": "白月光被鱼钓走妻子悔断肠",
+        "drama_code": "2026 WW72",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "97269a8fc7b690df",
+    "title_zh": "三年替补一朝封神",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-18",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T22:00:00+08:00",
+    "publish_at": "2026-11-18T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 947,
+        "resource_title": "三年替补一朝封神",
+        "drama_code": "2026 WW24",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3cb74671680f8e86",
+    "title_zh": "开局变成三蹦子我吞噬星空",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T17:00:00+08:00",
+    "publish_at": "2026-11-19T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 910,
+        "resource_title": "开局变成三蹦子我吞噬星空",
+        "drama_code": "2026 WW33",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e8f503e34c0b7f52",
+    "title_zh": "剑道巅峰从一把锈剑开始",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-19",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T22:00:00+08:00",
+    "publish_at": "2026-11-19T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1042,
+        "resource_title": "剑道巅峰从一把锈剑开始",
+        "drama_code": "2026 WW59",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "9820e42497f9f22d",
+    "title_zh": "天王之巨星归来",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T17:00:00+08:00",
+    "publish_at": "2026-11-20T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1084,
+        "resource_title": "天王之巨星归来",
+        "drama_code": "2026 WW68",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c3de120217105a74",
+    "title_zh": "开局变鹦鹉气疯所有人",
+    "channel": "俄语男频",
+    "channel_id": "UC_o03Jz0Ek8xYGE_oy3zapg",
+    "language": "ru",
+    "date": "2026-11-20",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T22:00:00+08:00",
+    "publish_at": "2026-11-20T14:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 664,
+        "resource_title": "开局变鹦鹉气疯所有人",
+        "drama_code": "2609 KR09",
+        "category": "男频",
+        "audio_language": "ru",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
