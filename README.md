@@ -130,3 +130,5 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 韩语对应22部新素材：[封面与单标题素材包](releases/korean_materials_22_20261110_20261120_1080p.zip)，[导入说明](KOREAN_22_MATERIALS_GUIDE.md)。2026年11月10—20日每天北京时间12:00、17:00，每部一张1920×1080无字新封面、一个韩语标题，附中文备注、标题Excel和预览页。绑定UCYIkDEkNEAiaJA2HkBZtNFA，在原程序选择韩语，素材文件夹设为 `assets_ko_20261110_two_daily22` 后加载。本批借鉴参考图的主角中心、高清写实质感和剧情特效，按各剧年代、身份安排人物与道具；素材导入未修改YouTube。
 
 韩语22部最新服饰版：[裙装与丝袜封面包](releases/korean_materials_skirts_v2_22_20261110_20261120_1080p.zip)，[使用说明](KOREAN_22_SKIRTS_GUIDE.md)。现代女主更换为包臀裙、修身连衣裙与丝袜，古装保留对应年代的收腰长裙，婚纱改为鱼尾剪裁；标题及全部排片沿用上一版。包含22张1920×1080封面和完整导入校验文件。在原程序选择韩语，将素材文件夹设为 `assets_ko_20261110_skirts_v2` 后重新加载。
+
+韩语22部全新剧情视觉版：[22张新封面素材包](releases/korean_materials_fresh_v3_22_20261110_20261120_1080p.zip)，[使用说明](KOREAN_22_FRESH_GUIDE.md)。全部从空白画布重做，每部依据剧情选用不同场景、角度和视觉爽点；原韩语标题和排片对应关系保持一致。将原程序的韩语素材文件夹设为 `assets_ko_20261110_fresh_v3` 并重新加载。

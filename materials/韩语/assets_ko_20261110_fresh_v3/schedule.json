@@ -1,0 +1,662 @@
+[
+  {
+    "job_id": "bf5017c522eb0268",
+    "title_zh": "破车开局造黎明之城",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-10",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T12:00:00+08:00",
+    "publish_at": "2026-11-10T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 922,
+        "resource_title": "破车开局造黎明之城",
+        "drama_code": "2026 WW04",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "89fd89d118c4308d",
+    "title_zh": "只想种地扶贫奈何万民归顺",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-10",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-10T17:00:00+08:00",
+    "publish_at": "2026-11-10T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 803,
+        "resource_title": "只想种地扶贫奈何万民归顺",
+        "drama_code": "2609 KR66",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f18c7a9dc712d398",
+    "title_zh": "驴神归来时速八百",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-11",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T12:00:00+08:00",
+    "publish_at": "2026-11-11T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1038,
+        "resource_title": "驴神归来时速八百",
+        "drama_code": "2026 WW56",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "afcd05541df521de",
+    "title_zh": "旁人笑我木讷不知我有老仙金手指",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-11",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-11T17:00:00+08:00",
+    "publish_at": "2026-11-11T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 848,
+        "resource_title": "旁人笑我木讷不知我有老仙金手指",
+        "drama_code": "2609 KR82",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "8639706fa3a7f8a1",
+    "title_zh": "大明憨王爹我真想就藩",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-12",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T12:00:00+08:00",
+    "publish_at": "2026-11-12T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1110,
+        "resource_title": "大明憨王爹我真想就藩",
+        "drama_code": "2026 WW73",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a1420f3bd0de306b",
+    "title_zh": "市井枭雄",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-12",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-12T17:00:00+08:00",
+    "publish_at": "2026-11-12T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 793,
+        "resource_title": "市井枭雄",
+        "drama_code": "2609 KR60",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "bd0ecc3580133a5a",
+    "title_zh": "百岁剑仙被千金倒追了",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-13",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T12:00:00+08:00",
+    "publish_at": "2026-11-13T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 976,
+        "resource_title": "百岁剑仙被千金倒追了",
+        "drama_code": "2026 WW38",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "dd98b4c8a0c2a6d0",
+    "title_zh": "逆天纸扎铺",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-13",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-13T17:00:00+08:00",
+    "publish_at": "2026-11-13T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 821,
+        "resource_title": "逆天纸扎铺",
+        "drama_code": "2609 KR75",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e70bdc7b9f03df08",
+    "title_zh": "一介渔夫靠龙珠号令沧海",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-14",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T12:00:00+08:00",
+    "publish_at": "2026-11-14T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 969,
+        "resource_title": "一介渔夫靠龙珠号令沧海",
+        "drama_code": "2026 WW18",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "56378ec5485b4b18",
+    "title_zh": "穿越女频开局送皇后白月光进东厂",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-14",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-14T17:00:00+08:00",
+    "publish_at": "2026-11-14T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 863,
+        "resource_title": "穿越女频开局送皇后白月光进东厂",
+        "drama_code": "2609 KR85",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "672e5045943c7577",
+    "title_zh": "太监从后宫签到成圣",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T12:00:00+08:00",
+    "publish_at": "2026-11-15T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 762,
+        "resource_title": "太监从后宫签到成圣",
+        "drama_code": "2609 KR45",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "adcbcddb7d73d1aa",
+    "title_zh": "全家穿越民国",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-15",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 669,
+        "resource_title": "全家穿越民国",
+        "drama_code": "2609 KR14",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "0d1b20773802b3c6",
+    "title_zh": "全人类变小收录万灵的我无敌了",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T12:00:00+08:00",
+    "publish_at": "2026-11-16T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1069,
+        "resource_title": "全人类变小收录万灵的我无敌了",
+        "drama_code": "2026 WW65",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "125f7d48ad03766b",
+    "title_zh": "我剑即天威",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-16",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T17:00:00+08:00",
+    "publish_at": "2026-11-16T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1043,
+        "resource_title": "我剑即天威",
+        "drama_code": "2026 WW60",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e957bd86e4f25810",
+    "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T12:00:00+08:00",
+    "publish_at": "2026-11-17T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 735,
+        "resource_title": "穿越成章鱼我预测世界杯全中变球王",
+        "drama_code": "2609 KR36",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "961711207ce955d2",
+    "title_zh": "化身为树主宰万物",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-17",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T17:00:00+08:00",
+    "publish_at": "2026-11-17T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 661,
+        "resource_title": "化身为树主宰万物",
+        "drama_code": "2609 KR08",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "08553f6fd4cc881e",
+    "title_zh": "被换灵骨后我成了大帝",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T12:00:00+08:00",
+    "publish_at": "2026-11-18T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1009,
+        "resource_title": "被换灵骨后我成了大帝",
+        "drama_code": "2026 WW48",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ea26b7c1f5400879",
+    "title_zh": "我绑定亲情系统宠全家",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-18",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T17:00:00+08:00",
+    "publish_at": "2026-11-18T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 648,
+        "resource_title": "我绑定亲情系统宠全家",
+        "drama_code": "2609 KR04",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "fff0fcdd64406d2b",
+    "title_zh": "水库无限加速钓鱼佬排队爆杆",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T12:00:00+08:00",
+    "publish_at": "2026-11-19T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1020,
+        "resource_title": "水库无限加速钓鱼佬排队爆杆",
+        "drama_code": "2026 WW53",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3368c2d80c26561f",
+    "title_zh": "绑定系统我成地表最强媒人",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-19",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T17:00:00+08:00",
+    "publish_at": "2026-11-19T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 690,
+        "resource_title": "绑定系统我成地表最强媒人",
+        "drama_code": "2609 KR22",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7805a482abd34771",
+    "title_zh": "我一邪修养反派为徒很正常吧",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T12:00:00+08:00",
+    "publish_at": "2026-11-20T04:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 957,
+        "resource_title": "我一邪修养反派为徒很正常吧",
+        "drama_code": "2026 WW26",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e8e29a8153e297b7",
+    "title_zh": "重生千禧年我靠赶海带大哥致富",
+    "channel": "韩语男频",
+    "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+    "language": "ko",
+    "date": "2026-11-20",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T17:00:00+08:00",
+    "publish_at": "2026-11-20T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 948,
+        "resource_title": "重生千禧年我靠赶海带大哥致富",
+        "drama_code": "2026 WW09",
+        "category": "男频",
+        "audio_language": "ko",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
