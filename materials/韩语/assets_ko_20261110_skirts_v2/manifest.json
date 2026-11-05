@@ -1,0 +1,534 @@
+{
+  "version": 5,
+  "language": "ko",
+  "channel": "韩语男频",
+  "channel_id": "UCYIkDEkNEAiaJA2HkBZtNFA",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-10",
+    "2026-11-20"
+  ],
+  "publish_times": [
+    "12:00",
+    "17:00"
+  ],
+  "timezone": "Asia/Shanghai",
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "ko22_skirt_wardrobe_v2_20261105",
+  "title_revision": "ko22_varied_korean_titles_20261105",
+  "scope": "已确认韩语22部排片，2026年11月10—20日，每天北京时间12:00、17:00，每部一个韩语标题和一张新封面。",
+  "jobs": [
+    {
+      "job_id": "bf5017c522eb0268",
+      "title_zh": "破车开局造黎明之城",
+      "date": "2026-11-10",
+      "language": "ko",
+      "drama_code": "2026 WW04",
+      "titles": [
+        "🚐 가족에게 버려진 남자, 낡은 밴 한 대로 하늘을 나는 도시를 세웠다! 좀비 세상의 주인이 바뀐다 🔥"
+      ],
+      "title_zh_gloss": "被家人抛弃的男人，靠破旧面包车一路升级，建成空中城市。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1200_破车开局造黎明之城.jpg"
+      ],
+      "publish_local": "2026-11-10T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "89fd89d118c4308d",
+      "title_zh": "只想种地扶贫奈何万民归顺",
+      "date": "2026-11-10",
+      "language": "ko",
+      "drama_code": "2609 KR66",
+      "titles": [
+        "🌾 쫓겨난 황태자는 농사만 지었다… 그런데 굶주린 백성들이 그를 황제로 따르기 시작했다! 👑"
+      ],
+      "title_zh_gloss": "被废太子只想种地扶贫，却靠粮食让百姓归顺、登上帝位。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-10_1700_只想种地扶贫奈何万民归顺.jpg"
+      ],
+      "publish_local": "2026-11-10T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "f18c7a9dc712d398",
+      "title_zh": "驴神归来时速八百",
+      "date": "2026-11-11",
+      "language": "ko",
+      "drama_code": "2026 WW56",
+      "titles": [
+        "🫏 가족의 처형까지 단 7일! 죽은 전쟁의 신이 당나귀로 돌아와 형장을 뒤집었다 ⚡"
+      ],
+      "title_zh_gloss": "家人七天后将被处死，重生成毛驴的战神大闹刑场救人。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1200_驴神归来时速八百.jpg"
+      ],
+      "publish_local": "2026-11-11T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "afcd05541df521de",
+      "title_zh": "旁人笑我木讷不知我有老仙金手指",
+      "date": "2026-11-11",
+      "language": "ko",
+      "drama_code": "2609 KR82",
+      "titles": [
+        "🤯 바보라던 잡역 제자가 검 한 번에 산을 갈랐다! 옥패 속 늙은 신선이 그의 스승이었다 ⚔️"
+      ],
+      "title_zh_gloss": "被当成痴傻杂役的弟子，一剑斩山；玉佩里的老仙竟是他的师父。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-11_1700_旁人笑我木讷不知我有老仙金手指.jpg"
+      ],
+      "publish_local": "2026-11-11T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "8639706fa3a7f8a1",
+      "title_zh": "大明憨王爹我真想就藩",
+      "date": "2026-11-12",
+      "language": "ko",
+      "drama_code": "2026 WW73",
+      "titles": [
+        "👑 지방으로 가고 싶었을 뿐인데! 떠나려 할 때마다 역모를 밝혀 버리는 명나라 왕자의 속사정 🔥"
+      ],
+      "title_zh_gloss": "明朝王爷只想去就藩，却每次都揭破叛乱阴谋，越走越进权力中心。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1200_大明憨王爹我真想就藩.jpg"
+      ],
+      "publish_local": "2026-11-12T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "a1420f3bd0de306b",
+      "title_zh": "市井枭雄",
+      "date": "2026-11-12",
+      "language": "ko",
+      "drama_code": "2609 KR60",
+      "titles": [
+        "🏬 건물주가 임대료를 폭등시켰다! 그는 맞은편 건물을 계약하고 원래 쇼핑몰까지 사 버렸다 🔥"
+      ],
+      "title_zh_gloss": "房东暴涨租金，他转租对面大厦，最终连原商场也买了下来。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-12_1700_市井枭雄.jpg"
+      ],
+      "publish_local": "2026-11-12T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "bd0ecc3580133a5a",
+      "title_zh": "百岁剑仙被千金倒追了",
+      "date": "2026-11-13",
+      "language": "ko",
+      "drama_code": "2026 WW38",
+      "titles": [
+        "💌 젊은 검선인 줄 알고 만나자고 했는데… 찾아온 건 지팡이 짚은 백 살 노인이었다! ⚔️"
+      ],
+      "title_zh_gloss": "她以为通信的剑仙是青年，相见时来的却是拄拐百岁老者。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1200_百岁剑仙被千金倒追了.jpg"
+      ],
+      "publish_local": "2026-11-13T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "dd98b4c8a0c2a6d0",
+      "title_zh": "逆天纸扎铺",
+      "date": "2026-11-13",
+      "language": "ko",
+      "drama_code": "2609 KR75",
+      "titles": [
+        "👻 귀신에게 돈을 쓰면 100배로 돌아온다! 어머니 약값을 벌려다 저승의 VIP가 됐다 💸"
+      ],
+      "title_zh_gloss": "给诡异花钱能百倍返现，为母筹药费的纸扎铺老板成了阴司贵客。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-13_1700_逆天纸扎铺.jpg"
+      ],
+      "publish_local": "2026-11-13T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "e70bdc7b9f03df08",
+      "title_zh": "一介渔夫靠龙珠号令沧海",
+      "date": "2026-11-14",
+      "language": "ko",
+      "drama_code": "2026 WW18",
+      "titles": [
+        "🐉 빚쟁이들이 배를 몰고 포위했다! 가난한 어부가 부르자 고래와 상어 떼가 몰려왔다 ⚡"
+      ],
+      "title_zh_gloss": "债主驾船围堵穷渔夫，他却用龙珠召来鲸群和鲨鱼。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1200_一介渔夫靠龙珠号令沧海.jpg"
+      ],
+      "publish_local": "2026-11-14T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "56378ec5485b4b18",
+      "title_zh": "穿越女频开局送皇后白月光进东厂",
+      "date": "2026-11-14",
+      "language": "ko",
+      "drama_code": "2609 KR85",
+      "titles": [
+        "👑 황후에게 무릎 꿇던 황제가 눈을 떴다! 첫 명령은 그녀의 첫사랑을 끌고 가라는 것 🔥"
+      ],
+      "title_zh_gloss": "曾向皇后卑躬屈膝的皇帝觉醒，首先命人带走她的白月光。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-14_1700_穿越女频开局送皇后白月光进东厂.jpg"
+      ],
+      "publish_local": "2026-11-14T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "672e5045943c7577",
+      "title_zh": "太监从后宫签到成圣",
+      "date": "2026-11-15",
+      "language": "ko",
+      "drama_code": "2609 KR45",
+      "titles": [
+        "🔥 말단 내시에게 생긴 출석 보상 시스템! 황제의 살수를 막던 그가 끝내 섭정왕이 됐다 👑"
+      ],
+      "title_zh_gloss": "底层太监觉醒后宫签到系统，反制皇帝杀局，最终成为摄政王。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1200_太监从后宫签到成圣.jpg"
+      ],
+      "publish_local": "2026-11-15T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "adcbcddb7d73d1aa",
+      "title_zh": "全家穿越民国",
+      "date": "2026-11-15",
+      "language": "ko",
+      "drama_code": "2609 KR14",
+      "titles": [
+        "💼 눈 떠 보니 1937년 조폭 두목?! 정체가 들통날 순간, 외삼촌도 함께 타임슬립해 있었다! 🤯"
+      ],
+      "title_zh_gloss": "全家穿越1937年，他假扮黑帮大哥，身份将暴露时发现舅舅也穿越了。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1700_全家穿越民国.jpg"
+      ],
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "0d1b20773802b3c6",
+      "title_zh": "全人类变小收录万灵的我无敌了",
+      "date": "2026-11-16",
+      "language": "ko",
+      "drama_code": "2026 WW65",
+      "titles": [
+        "🤯 인류가 작아진 세상, 괴물의 능력을 빼앗는 남자! 거미를 쓰러뜨린 순간 사냥감이 사냥꾼으로 바뀌었다 ⚡"
+      ],
+      "title_zh_gloss": "全人类变小后，他靠夺取变异怪物能力，从猎物逆袭成猎人。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_1200_全人类变小收录万灵的我无敌了.jpg"
+      ],
+      "publish_local": "2026-11-16T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "125f7d48ad03766b",
+      "title_zh": "我剑即天威",
+      "date": "2026-11-16",
+      "language": "ko",
+      "drama_code": "2026 WW60",
+      "titles": [
+        "⚔️ 기초 검술이 1만 배 강해졌다! 날 무시하던 문파의 수많은 검이 나를 주인으로 섬기기 시작했다 🔥"
+      ],
+      "title_zh_gloss": "基础剑法万倍增幅，曾轻视他的宗门之中，万剑竟向他朝拜。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_1700_我剑即天威.jpg"
+      ],
+      "publish_local": "2026-11-16T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "e957bd86e4f25810",
+      "title_zh": "穿越成章鱼我预测世界杯全中变球王",
+      "date": "2026-11-17",
+      "language": "ko",
+      "drama_code": "2609 KR36",
+      "titles": [
+        "🐙 월드컵 승부를 전부 맞히는 문어?! 물에 빠진 회사원은 예언 시스템으로 세계를 뒤흔들었다 ⚽"
+      ],
+      "title_zh_gloss": "溺水职员穿成章鱼，靠预言系统精准预测世界杯，震动全世界。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_1200_穿越成章鱼我预测世界杯全中变球王.jpg"
+      ],
+      "publish_local": "2026-11-17T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "961711207ce955d2",
+      "title_zh": "化身为树主宰万物",
+      "date": "2026-11-17",
+      "language": "ko",
+      "drama_code": "2609 KR08",
+      "titles": [
+        "🌳 딸의 약혼자가 날 죽였다… 마당의 복숭아나무가 되어 딸의 결혼식을 뒤집었다! ⚡"
+      ],
+      "title_zh_gloss": "被女儿未婚夫害死后，他化身桃树，守护女儿并揭穿婚约阴谋。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_1700_化身为树主宰万物.jpg"
+      ],
+      "publish_local": "2026-11-17T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "08553f6fd4cc881e",
+      "title_zh": "被换灵骨后我成了大帝",
+      "date": "2026-11-18",
+      "language": "ko",
+      "drama_code": "2026 WW48",
+      "titles": [
+        "💔 가족이 그의 영골을 빼앗았다! 끝까지 곁을 지킨 약초꾼 그녀를 위해, 대제의 힘이 깨어났다 ⚔️"
+      ],
+      "title_zh_gloss": "亲人夺走他的灵骨，唯一相伴的成年药女成为大帝力量觉醒的关键。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_1200_被换灵骨后我成了大帝.jpg"
+      ],
+      "publish_local": "2026-11-18T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "ea26b7c1f5400879",
+      "title_zh": "我绑定亲情系统宠全家",
+      "date": "2026-11-18",
+      "language": "ko",
+      "drama_code": "2609 KR04",
+      "titles": [
+        "💸 가족을 위해 쓸수록 보상이 쏟아진다! 다리가 불편하다고 무시받던 가장의 통 큰 반격 🔥"
+      ],
+      "title_zh_gloss": "残疾父亲被轻视，却靠为家人付出获得系统奖励，反击岳家与闲言。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_1700_我绑定亲情系统宠全家.jpg"
+      ],
+      "publish_local": "2026-11-18T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "fff0fcdd64406d2b",
+      "title_zh": "水库无限加速钓鱼佬排队爆杆",
+      "date": "2026-11-19",
+      "language": "ko",
+      "drama_code": "2026 WW53",
+      "titles": [
+        "🎣 버려진 저수지를 빌렸더니 낚싯대가 줄줄이 부러진다! 시간 가속 시스템이 키워 낸 건 거대한 용?! 🐉"
+      ],
+      "title_zh_gloss": "承包荒废水库后，系统加速鱼类成长，钓鱼佬爆杆，甚至巨龙现身。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_1200_水库无限加速钓鱼佬排队爆杆.jpg"
+      ],
+      "publish_local": "2026-11-19T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "3368c2d80c26561f",
+      "title_zh": "绑定系统我成地表最强媒人",
+      "date": "2026-11-19",
+      "language": "ko",
+      "drama_code": "2609 KR22",
+      "titles": [
+        "💘 아들 연애를 도와주던 대리기사, 알고 보니 그룹 회장?! 중매 시스템이 두 커플의 운명을 바꿨다 🔥"
+      ],
+      "title_zh_gloss": "帮儿子追爱的代驾司机，竟亮出集团董事长身份，最终成就两对恋人。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_1700_绑定系统我成地表最强媒人.jpg"
+      ],
+      "publish_local": "2026-11-19T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "7805a482abd34771",
+      "title_zh": "我一邪修养反派为徒很正常吧",
+      "date": "2026-11-20",
+      "language": "ko",
+      "drama_code": "2026 WW26",
+      "titles": [
+        "👻 날 죽이고 죄까지 뒤집어씌웠다! 귀신이 된 스승, 제자를 키울수록 100배 강해진다 🔥"
+      ],
+      "title_zh_gloss": "被害又被栽赃后，他化为鬼魂，收反派为徒获得百倍返还。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_1200_我一邪修养反派为徒很正常吧.jpg"
+      ],
+      "publish_local": "2026-11-20T12:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    },
+    {
+      "job_id": "e8e29a8153e297b7",
+      "title_zh": "重生千禧年我靠赶海带大哥致富",
+      "date": "2026-11-20",
+      "language": "ko",
+      "drama_code": "2026 WW09",
+      "titles": [
+        "🌊 2000년으로 돌아와 갯벌을 파자 돈이 쏟아졌다! 매일 절하면 해산물 위치가 보이는 남자 💰"
+      ],
+      "title_zh_gloss": "重回千禧年，靠拜妈祖触发系统，精准定位海货，带大哥赶海致富。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_1700_重生千禧年我靠赶海带大哥致富.jpg"
+      ],
+      "publish_local": "2026-11-20T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "依据简介制作的AI剧情概念封面，非实际演员剧照；人物成年、亚洲面容，服装得体，按剧情表现动作和互动。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-10_1200_破车开局造黎明之城.jpg": "2f735c3ab87d84ed5122fb738b524a82da5a8dab0cf65bd33907b808858c4839",
+    "covers/2026-11-10_1700_只想种地扶贫奈何万民归顺.jpg": "f2aecbc178a5903db7898244258414bd1967ec2b8b91ce193c2d5bb36716623c",
+    "covers/2026-11-11_1200_驴神归来时速八百.jpg": "b2555fe3b4d5aa36cb6b5c76009441417c2630bcdf302527f12f836d512511e2",
+    "covers/2026-11-11_1700_旁人笑我木讷不知我有老仙金手指.jpg": "4c1e8c3b04fcdccfbf2a44fc02edf2b8aa1c94039d8c0e4acc5257d95ce7a2c4",
+    "covers/2026-11-12_1200_大明憨王爹我真想就藩.jpg": "808b7e01cca3efd0d8bc68aa03d3fb1fc79261410367467172df3cce20b474ac",
+    "covers/2026-11-12_1700_市井枭雄.jpg": "92845abd43837b0d40da380970bb1c13bc12f660cd45a81f2bdd647a6afe47c5",
+    "covers/2026-11-13_1200_百岁剑仙被千金倒追了.jpg": "42f26911ad1eeb249926331cd41b5269f24424dd2c3f8e97caf23bc557bf56b5",
+    "covers/2026-11-13_1700_逆天纸扎铺.jpg": "b69b5b3fbf607d54c063316e3efd8c37fafb20e892aca680e4f167018662d3f8",
+    "covers/2026-11-14_1200_一介渔夫靠龙珠号令沧海.jpg": "60596a50052b47162fc90374d91387cf7162610708e1232420e9b82adec5addb",
+    "covers/2026-11-14_1700_穿越女频开局送皇后白月光进东厂.jpg": "5a102b56d5ee52964d37e74c8807ad14abf2ad6c97796729c1413d5b95b04657",
+    "covers/2026-11-15_1200_太监从后宫签到成圣.jpg": "2adb9dfb97a1eb8b24d97f997a535b5383fc7711a0307c79b473d97a240e0515",
+    "covers/2026-11-15_1700_全家穿越民国.jpg": "81e0760e50bc4da17ccf32bbc125658518e550b5b906b8a8357ef101e4b39736",
+    "covers/2026-11-16_1200_全人类变小收录万灵的我无敌了.jpg": "642331233ad6ce7812e15572788e58f4cd32ff5c0e1fb581fd07e8c21b03ce1d",
+    "covers/2026-11-16_1700_我剑即天威.jpg": "56d01d70787c0df2c6c675f7638a3567720cc41ca203738db52ca28328ee5142",
+    "covers/2026-11-17_1200_穿越成章鱼我预测世界杯全中变球王.jpg": "2910322d428e78c2b162ba2f253ae82b675cc3d7bb3f334f5779f3811a748488",
+    "covers/2026-11-17_1700_化身为树主宰万物.jpg": "9bb2064bada41fe476dccacdcc029a786127b628bf3c8798b56fd11db9a264d2",
+    "covers/2026-11-18_1200_被换灵骨后我成了大帝.jpg": "edb55ca93a6cdf09624af6a7ee9e073ec8ddfda629310fd5f9ade6b90f342246",
+    "covers/2026-11-18_1700_我绑定亲情系统宠全家.jpg": "eadb099e0976917f7799266c5a0997990918ff6dfcc8a0570d81847e4b8b3a9f",
+    "covers/2026-11-19_1200_水库无限加速钓鱼佬排队爆杆.jpg": "2d288a934dbc6dfd5ebd68cf881f30f66f75f41b7d84f788d7d5575d929832ef",
+    "covers/2026-11-19_1700_绑定系统我成地表最强媒人.jpg": "ff6a2c9c8aa95463586188abe55e91ec7af46aaa514fece37d491ea817f601af",
+    "covers/2026-11-20_1200_我一邪修养反派为徒很正常吧.jpg": "2ce592bf11e312d0b3df476630800a41ea86f8ba30c306cca393d429cd40d9c3",
+    "covers/2026-11-20_1700_重生千禧年我靠赶海带大哥致富.jpg": "5b60efaef6cdf61625b4ef8f2df95e2aae072f4595a6106989b4230ea19186da"
+  }
+}
