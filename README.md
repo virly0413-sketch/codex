@@ -123,7 +123,7 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 
 英语2上述14部排片的全新封面与标题版：[下载新素材包](releases/english2_materials_bestseller_v2_14_20261102_20261115_1080p.zip)，[导入说明](ENGLISH2_BESTSELLER_V2_GUIDE.md)。14张封面从空白画布重新生成，每部一个新的英语标题和中文译意；日期、18:00档、剧集代码及频道ID沿用前版。在已有英语2程序中将素材文件夹设为 `assets_en2_20261102_1800_bestseller_v2` 后重新加载。
 
-英语2最新续排：2026年11月16—29日每天北京时间18:00，新选14部与已交付英语2历史不重复的剧集。[下载排片、全新封面与单标题整包](releases/english2_new14_20261116_20261129_1800_covers_titles.zip)，[排片Excel](schedules/english2_20261116_20261129_daily18/英语2排期与筛查.xlsx)，[导入说明](ENGLISH2_NOV16_29_NEW14_GUIDE.md)。排除新旧资源表文字标注的外采、代运营、禁播剧，与已知其他频道同剧至少间隔168小时。原英语2程序将素材文件夹设为 `assets_en2_20261116_1800_new14` 后加载。
+英语2此前“11月16—29日另选14部新剧”的方案已被用户更正，现不再使用。**当前修订版**保留英语2原14部剧名、剧集代码和顺序，仅顺延至2026年11月16—29日每天北京时间18:00；封面和英语标题沿用此前从空白画布重做的版本。[下载修订排片与素材整包](releases/english2_original14_retimed_20261116_20261129_1800.zip)，[排期及间隔核对Excel](schedules/english2_20261116_20261129_original14/英语2排期与间隔核对.xlsx)，[使用说明](ENGLISH2_ORIGINAL14_RETIMED_GUIDE.md)。按固定顺序顺延有9部与已交付其他频道同剧间隔小于168小时，详见Excel；原程序将素材文件夹设为 `assets_en2_20261116_1800_original14_v3` 后加载。
 
 俄语2026年11月7—20日每日17:00、22:00排片：[Excel](schedules/russian_20261107_20261120_two_daily/russian_schedule_20261107_20261120.xlsx) / [排片打包下载](releases/russian_schedule_20261107_20261120_two_daily.zip)。共28部，保留最新表11月7—10日17:00已有4部，新增24部；明确有俄语配音、男频，排除资源表文字标注外采/代运营/禁播，俄语历史及已识别同剧情异名去重，其他频道已知同剧最小间隔169小时。仅输出排片，未修改YouTube。
 

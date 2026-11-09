@@ -1,0 +1,422 @@
+[
+  {
+    "job_id": "ac1fbc4e5bc7c0a5",
+    "title_zh": "天王之巨星归来",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T18:00:00+08:00",
+    "publish_at": "2026-11-16T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1084,
+        "resource_title": "天王之巨星归来",
+        "drama_code": "2026 WW68",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c526f07044901902",
+    "title_zh": "万古第一仙在都市",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T18:00:00+08:00",
+    "publish_at": "2026-11-17T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1041,
+        "resource_title": "万古第一仙在都市",
+        "drama_code": "2026 WW58",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c6033c4407ed41a9",
+    "title_zh": "水库无限加速钓鱼佬排队爆杆",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T18:00:00+08:00",
+    "publish_at": "2026-11-18T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1020,
+        "resource_title": "水库无限加速钓鱼佬排队爆杆",
+        "drama_code": "2026 WW53",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "182527807e69445b",
+    "title_zh": "我绑定亲情系统宠全家",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T18:00:00+08:00",
+    "publish_at": "2026-11-19T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 648,
+        "resource_title": "我绑定亲情系统宠全家",
+        "drama_code": "2609 KR04",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "633ef57dd99cb051",
+    "title_zh": "我缩小后妻子悔疯了",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T18:00:00+08:00",
+    "publish_at": "2026-11-20T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1032,
+        "resource_title": "我缩小后妻子悔疯了",
+        "drama_code": "2026 WW55",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "bc2596ec9e04414b",
+    "title_zh": "全民荒原求生",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-21",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-21T18:00:00+08:00",
+    "publish_at": "2026-11-21T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1039,
+        "resource_title": "全民荒原求生",
+        "drama_code": "2026 WW57",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d564050c67cc419c",
+    "title_zh": "别惹真少爷他邪得发正",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-22",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-22T18:00:00+08:00",
+    "publish_at": "2026-11-22T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 925,
+        "resource_title": "别惹真少爷他邪得发正",
+        "drama_code": "2026 WW37",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "32c5a110e698652d",
+    "title_zh": "这个裁缝你惹不起",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-23",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-23T18:00:00+08:00",
+    "publish_at": "2026-11-23T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 937,
+        "resource_title": "这个裁缝你惹不起",
+        "drama_code": "2026 WW21",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "158912444c880b65",
+    "title_zh": "归来假少爷挡不住我的医道锋芒",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-24",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-24T18:00:00+08:00",
+    "publish_at": "2026-11-24T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 917,
+        "resource_title": "归来假少爷挡不住我的医道锋芒",
+        "drama_code": "2026 WW35",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b282b81652e25d3f",
+    "title_zh": "三年替补一朝封神",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-25",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-25T18:00:00+08:00",
+    "publish_at": "2026-11-25T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 947,
+        "resource_title": "三年替补一朝封神",
+        "drama_code": "2026 WW24",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "72af0819095c071e",
+    "title_zh": "我造的机甲被老婆直播曝光了",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-26",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-26T18:00:00+08:00",
+    "publish_at": "2026-11-26T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 826,
+        "resource_title": "我造的机甲被老婆直播曝光了",
+        "drama_code": "2609 KR77",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a5ba83f178e41e7d",
+    "title_zh": "婚礼照常新娘换人",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-27",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-27T18:00:00+08:00",
+    "publish_at": "2026-11-27T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 861,
+        "resource_title": "婚礼照常新娘换人",
+        "drama_code": "2609 KR84",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "74e0e4a26c4e77cf",
+    "title_zh": "龙鳞一响四海相护",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-28",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-28T18:00:00+08:00",
+    "publish_at": "2026-11-28T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1086,
+        "resource_title": "龙鳞一响四海相护",
+        "drama_code": "2026 WW69",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7c16b67bf9c192d1",
+    "title_zh": "我相亲捡属性开局怒怼化债女",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-29",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-29T18:00:00+08:00",
+    "publish_at": "2026-11-29T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 783,
+        "resource_title": "我相亲捡属性开局怒怼化债女",
+        "drama_code": "2609 KR55",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
