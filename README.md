@@ -134,3 +134,5 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 韩语22部全新剧情视觉版：[22张新封面素材包](releases/korean_materials_fresh_v3_22_20261110_20261120_1080p.zip)，[使用说明](KOREAN_22_FRESH_GUIDE.md)。全部从空白画布重做，每部依据剧情选用不同场景、角度和视觉爽点；原韩语标题和排片对应关系保持一致。将原程序的韩语素材文件夹设为 `assets_ko_20261110_fresh_v3` 并重新加载。
 
 英语1频道2026年11月15—25日修订排片：[Excel](schedules/english1_20261115_20261125_two_daily/english1_schedule_20261115_20261125.xlsx) / [排片打包下载](releases/english1_schedule_20261115_20261125_two_daily.zip)，[筛查说明](ENGLISH1_NOV15_25_SCHEDULE_GUIDE.md)。每天北京时间17:00、21:00，11月15日两档也重新安排，共22部；依据11月9日上传的最新资源表优先筛选新剧，避开已交付英语1历史及已知同剧情异名，排除文字标明的外采、代运营、禁播剧，并核对跨频道间隔。本版替代先前保留11月15日两档的排片表。
+
+英语1修订排片对应的全新素材：[22部封面与单标题整包](releases/english1_materials_22_20261115_20261125_story_1080p.zip)，[导入说明](ENGLISH1_NOV15_25_MATERIALS_GUIDE.md)。每天北京时间17:00、21:00，每部一张1920×1080无字剧情封面、一个英语标题和中文备注，附Excel对应表及HTML预览。原程序选择英语1后，将所选频道素材文件夹设为 `assets_en_20261115_20261125_story_v1` 并重新加载；素材导入不自动修改YouTube。

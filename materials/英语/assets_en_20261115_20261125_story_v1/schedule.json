@@ -1,0 +1,662 @@
+[
+  {
+    "job_id": "7e1618fa8e10ff8e",
+    "title_zh": "浴缸一开六十岁大爷当龙王",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-15",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T17:00:00+08:00",
+    "publish_at": "2026-11-15T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1175,
+        "resource_title": "浴缸一开六十岁大爷当龙王",
+        "drama_code": "2026 WW95",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "5d015504a65860a8",
+    "title_zh": "豪婿归来锋芒毕露",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-15",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-15T21:00:00+08:00",
+    "publish_at": "2026-11-15T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1155,
+        "resource_title": "豪婿归来锋芒毕露",
+        "drama_code": "2026 WW92",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "9dc25ec5fde6530e",
+    "title_zh": "重来海洋末世我在水下搞基建",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T17:00:00+08:00",
+    "publish_at": "2026-11-16T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1154,
+        "resource_title": "重来海洋末世我在水下搞基建",
+        "drama_code": "2026 WW91",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "59d26a85a31d24bf",
+    "title_zh": "空车超载还我三个亿的货",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-16",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T21:00:00+08:00",
+    "publish_at": "2026-11-16T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 792,
+        "resource_title": "空车超载还我三个亿的货",
+        "drama_code": "2609 KR59",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4fe2536ad7f63642",
+    "title_zh": "为了女儿全身细胞都去修仙",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T17:00:00+08:00",
+    "publish_at": "2026-11-17T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1143,
+        "resource_title": "为了女儿全身细胞都去修仙",
+        "drama_code": "2026 WW87",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "86fe31a74659ff13",
+    "title_zh": "寄生霸总我在死敌耳中低语",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-17",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T21:00:00+08:00",
+    "publish_at": "2026-11-17T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 844,
+        "resource_title": "寄生霸总我在死敌耳中低语",
+        "drama_code": "2609 KR80",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d1c73b5d33d57283",
+    "title_zh": "赶我出基地丧尸来了你们别哭啊",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T17:00:00+08:00",
+    "publish_at": "2026-11-18T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1148,
+        "resource_title": "赶我出基地丧尸来了你们别哭啊",
+        "drama_code": "2026 WW88",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "13890c7757914242",
+    "title_zh": "一针定乾坤",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-18",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T21:00:00+08:00",
+    "publish_at": "2026-11-18T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 773,
+        "resource_title": "一针定乾坤",
+        "drama_code": "2609 KR49",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f656dcb0ca7eabef",
+    "title_zh": "荒年赶海海龟报恩满舱回村",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T17:00:00+08:00",
+    "publish_at": "2026-11-19T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1111,
+        "resource_title": "荒年赶海海龟报恩满舱回村",
+        "drama_code": "2026 WW74",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "c26ab9fdbf138a2c",
+    "title_zh": "我宗门真的全是老弱病残啊",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-19",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T21:00:00+08:00",
+    "publish_at": "2026-11-19T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 873,
+        "resource_title": "我宗门真的全是老弱病残啊",
+        "drama_code": "2609 KR87",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "4e108964d86de5fa",
+    "title_zh": "武魂觉醒我用锤子一人成军",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T17:00:00+08:00",
+    "publish_at": "2026-11-20T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1019,
+        "resource_title": "武魂觉醒我用锤子一人成军",
+        "drama_code": "2026 WW52",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a71c9bfa24bc35f1",
+    "title_zh": "是谁坑惨了朕",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-20",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T21:00:00+08:00",
+    "publish_at": "2026-11-20T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 812,
+        "resource_title": "是谁坑惨了朕",
+        "drama_code": "2609 KR71",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "623a7578b64686ba",
+    "title_zh": "无尽公路我大运亨通",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-21",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-21T17:00:00+08:00",
+    "publish_at": "2026-11-21T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 943,
+        "resource_title": "无尽公路我大运亨通",
+        "drama_code": "2026 WW23",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "2191b5565cc3528d",
+    "title_zh": "我用科技征服人皇",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-21",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-21T21:00:00+08:00",
+    "publish_at": "2026-11-21T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 795,
+        "resource_title": "我用科技征服人皇",
+        "drama_code": "2609 KR61",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "14001918ac344486",
+    "title_zh": "诡异降临我召唤三千祖师反向入侵",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-22",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-22T17:00:00+08:00",
+    "publish_at": "2026-11-22T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 779,
+        "resource_title": "诡异降临我召唤三千祖师反向入侵",
+        "drama_code": "2609 KR53",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "48e093b6fcbcc624",
+    "title_zh": "战神归来前妻你哭什么",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-22",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-22T21:00:00+08:00",
+    "publish_at": "2026-11-22T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 887,
+        "resource_title": "战神归来前妻你哭什么",
+        "drama_code": "2609 KR91",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "5eea6fa3af9a71e4",
+    "title_zh": "万倍返还弟子越强我越神",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-23",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-23T17:00:00+08:00",
+    "publish_at": "2026-11-23T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 760,
+        "resource_title": "万倍返还弟子越强我越神",
+        "drama_code": "2609 KR44",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "465000025472a149",
+    "title_zh": "三年受尽凌辱，禁令解除我为龙主",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-23",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-23T21:00:00+08:00",
+    "publish_at": "2026-11-23T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 676,
+        "resource_title": "三年受尽凌辱，禁令解除我为龙主",
+        "drama_code": "2609 KR18",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "832e4ca402a34f71",
+    "title_zh": "囤千万物资到古代娶女帝",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-24",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-24T17:00:00+08:00",
+    "publish_at": "2026-11-24T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 719,
+        "resource_title": "囤千万物资到古代娶女帝",
+        "drama_code": "2609 KR29",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3a91c26d04c07144",
+    "title_zh": "机械之心",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-24",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-24T21:00:00+08:00",
+    "publish_at": "2026-11-24T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 731,
+        "resource_title": "机械之心",
+        "drama_code": "2609 KR34",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a98076be10f009e5",
+    "title_zh": "九龙苏醒踏山河",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-25",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-25T17:00:00+08:00",
+    "publish_at": "2026-11-25T09:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 921,
+        "resource_title": "九龙苏醒踏山河",
+        "drama_code": "2026 WW03",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e27e12d9bd02224e",
+    "title_zh": "被师父赶下山我被迫娶真千金",
+    "channel": "Supreme Hero Flicks",
+    "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+    "language": "en",
+    "date": "2026-11-25",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-25T21:00:00+08:00",
+    "publish_at": "2026-11-25T13:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 918,
+        "resource_title": "被师父赶下山我被迫娶真千金",
+        "drama_code": "2026 WW02",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]

@@ -1,0 +1,534 @@
+{
+  "version": 5,
+  "language": "en",
+  "channel": "Supreme Hero Flicks",
+  "channel_id": "UC0koaDPTujsoVj-Tw27J0Qg",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-15",
+    "2026-11-25"
+  ],
+  "publish_times": [
+    "17:00",
+    "21:00"
+  ],
+  "timezone": "Asia/Shanghai",
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "en1_22_story_visuals_20261109",
+  "title_revision": "en1_22_varied_hooks_20261109",
+  "scope": "英语1频道2026年11月15—25日每天17:00、21:00，共22部。每部一个英语标题、一张1920×1080无字封面。",
+  "jobs": [
+    {
+      "job_id": "7e1618fa8e10ff8e",
+      "title_zh": "浴缸一开六十岁大爷当龙王",
+      "date": "2026-11-15",
+      "language": "en",
+      "drama_code": "2026 WW95",
+      "titles": [
+        "🐉 His Children Kicked Him Out at 60! Then His Bathtub Opened to the Dragon King's Sea 🌊"
+      ],
+      "title_zh_gloss": "六十岁被子女赶走，浴缸竟通海底，他成了龙王",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_1700_浴缸一开六十岁大爷当龙王.jpg"
+      ],
+      "publish_local": "2026-11-15T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "5d015504a65860a8",
+      "title_zh": "豪婿归来锋芒毕露",
+      "date": "2026-11-15",
+      "language": "en",
+      "drama_code": "2026 WW92",
+      "titles": [
+        "💍 She Married a 'Beggar' to Defy Her Father—Then He Became Her Company's New Executive 🔥"
+      ],
+      "title_zh_gloss": "赌气嫁给穷人，才发现协议丈夫是公司新高管",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-15_2100_豪婿归来锋芒毕露.jpg"
+      ],
+      "publish_local": "2026-11-15T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "9dc25ec5fde6530e",
+      "title_zh": "重来海洋末世我在水下搞基建",
+      "date": "2026-11-16",
+      "language": "en",
+      "drama_code": "2026 WW91",
+      "titles": [
+        "🌊 She Stole His Doomsday Ark! He Built a Kingdom Beneath the Ocean ⚡"
+      ],
+      "title_zh_gloss": "妻子抢走末日方舟，他却在海底建起新势力",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_1700_重来海洋末世我在水下搞基建.jpg"
+      ],
+      "publish_local": "2026-11-16T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "59d26a85a31d24bf",
+      "title_zh": "空车超载还我三个亿的货",
+      "date": "2026-11-16",
+      "language": "en",
+      "drama_code": "2609 KR59",
+      "titles": [
+        "🚛 They Fined His Empty Truck for Being Overweight—His Son Claimed 300 Million Yuan ⚖️"
+      ],
+      "title_zh_gloss": "空车被罚超载，律师儿子用三亿玉石反击收费站",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_2100_空车超载还我三个亿的货.jpg"
+      ],
+      "publish_local": "2026-11-16T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "4fe2536ad7f63642",
+      "title_zh": "为了女儿全身细胞都去修仙",
+      "date": "2026-11-17",
+      "language": "en",
+      "drama_code": "2026 WW87",
+      "titles": [
+        "⚡ They Called This Single Dad Powerless! His 60 Trillion Cells Awakened to Save His Daughter 🔥"
+      ],
+      "title_zh_gloss": "单亲爸爸被当废人，体内细胞觉醒守护女儿",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_1700_为了女儿全身细胞都去修仙.jpg"
+      ],
+      "publish_local": "2026-11-17T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "86fe31a74659ff13",
+      "title_zh": "寄生霸总我在死敌耳中低语",
+      "date": "2026-11-17",
+      "language": "en",
+      "drama_code": "2609 KR80",
+      "titles": [
+        "🤯 His Enemy Pushed Him Off a Building—He Returned as a Voice Inside the CEO's Head 👁️"
+      ],
+      "title_zh_gloss": "被死敌逼入绝境，他寄生其感官逐步复仇",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_2100_寄生霸总我在死敌耳中低语.jpg"
+      ],
+      "publish_local": "2026-11-17T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "d1c73b5d33d57283",
+      "title_zh": "赶我出基地丧尸来了你们别哭啊",
+      "date": "2026-11-18",
+      "language": "en",
+      "drama_code": "2026 WW88",
+      "titles": [
+        "🧟 They Abandoned Him to the Zombies! He Took Back Every Power He Gave Them ⚡"
+      ],
+      "title_zh_gloss": "三姐妹把他丢进尸群，他重生后收回全部异能",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_1700_赶我出基地丧尸来了你们别哭啊.jpg"
+      ],
+      "publish_local": "2026-11-18T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "13890c7757914242",
+      "title_zh": "一针定乾坤",
+      "date": "2026-11-18",
+      "language": "en",
+      "drama_code": "2609 KR49",
+      "titles": [
+        "🪡 The Dead Marshal Hid a Murder Secret—One Needle Exposed the General Behind It 👻"
+      ],
+      "title_zh_gloss": "大帅遗体藏着谋杀秘密，他一针揪出幕后将军",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_2100_一针定乾坤.jpg"
+      ],
+      "publish_local": "2026-11-18T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "f656dcb0ca7eabef",
+      "title_zh": "荒年赶海海龟报恩满舱回村",
+      "date": "2026-11-19",
+      "language": "en",
+      "drama_code": "2026 WW74",
+      "titles": [
+        "🐢 He Saved a Turtle, Then Lost His Leg—It Returned With a Sea Full of Fish! 🌊"
+      ],
+      "title_zh_gloss": "救下灵龟却被弃，灵龟报恩助他赶海养家",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_1700_荒年赶海海龟报恩满舱回村.jpg"
+      ],
+      "publish_local": "2026-11-19T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "c26ab9fdbf138a2c",
+      "title_zh": "我宗门真的全是老弱病残啊",
+      "date": "2026-11-19",
+      "language": "en",
+      "drama_code": "2609 KR87",
+      "titles": [
+        "💪 They Mocked His Weak Roots—Then His Daily Water Buckets Crushed the Arena ⚔️"
+      ],
+      "title_zh_gloss": "被嘲杂灵根，挑水修炼竟让他碾压擂台",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_2100_我宗门真的全是老弱病残啊.jpg"
+      ],
+      "publish_local": "2026-11-19T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "4e108964d86de5fa",
+      "title_zh": "武魂觉醒我用锤子一人成军",
+      "date": "2026-11-20",
+      "language": "en",
+      "drama_code": "2026 WW52",
+      "titles": [
+        "🔨 His 'Useless' Hammer Built a Mechanical Beast Army! The Palace Was Next 🔥"
+      ],
+      "title_zh_gloss": "废锤武魂进化，他打造机械兽军团杀向皇城",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_1700_武魂觉醒我用锤子一人成军.jpg"
+      ],
+      "publish_local": "2026-11-20T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "a71c9bfa24bc35f1",
+      "title_zh": "是谁坑惨了朕",
+      "date": "2026-11-20",
+      "language": "en",
+      "drama_code": "2609 KR71",
+      "titles": [
+        "👑 The Empress Ordered Him to Die—Her General Tore Up the Decree and Marched on the Capital ⚔️"
+      ],
+      "title_zh_gloss": "女帝赐死功臣，他撕诏起兵逼宫",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_2100_是谁坑惨了朕.jpg"
+      ],
+      "publish_local": "2026-11-20T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "623a7578b64686ba",
+      "title_zh": "无尽公路我大运亨通",
+      "date": "2026-11-21",
+      "language": "en",
+      "drama_code": "2026 WW23",
+      "titles": [
+        "🚚 Everyone Got a Random Car in the Apocalypse—He Got an Unstoppable Truck! 🌪️"
+      ],
+      "title_zh_gloss": "无尽公路求生，别人随机座驾他得到无敌重卡",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-21_1700_无尽公路我大运亨通.jpg"
+      ],
+      "publish_local": "2026-11-21T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "2191b5565cc3528d",
+      "title_zh": "我用科技征服人皇",
+      "date": "2026-11-21",
+      "language": "en",
+      "drama_code": "2609 KR61",
+      "titles": [
+        "🏗️ The Emperor Called Him a Fraud—Then His Modern Tech Rebuilt an Entire Kingdom ⚡"
+      ],
+      "title_zh_gloss": "人皇不信穿越者，他用现代科技改造王朝",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-21_2100_我用科技征服人皇.jpg"
+      ],
+      "publish_local": "2026-11-21T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "14001918ac344486",
+      "title_zh": "诡异降临我召唤三千祖师反向入侵",
+      "date": "2026-11-22",
+      "language": "en",
+      "drama_code": "2609 KR53",
+      "titles": [
+        "👻 The Ghosts Invaded His World—He Summoned 3,000 Taoist Masters Into Theirs 🔥"
+      ],
+      "title_zh_gloss": "诡异入侵，他召唤三千祖师反攻诡域",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-22_1700_诡异降临我召唤三千祖师反向入侵.jpg"
+      ],
+      "publish_local": "2026-11-22T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "48e093b6fcbcc624",
+      "title_zh": "战神归来前妻你哭什么",
+      "date": "2026-11-22",
+      "language": "en",
+      "drama_code": "2609 KR91",
+      "titles": [
+        "💔 She Lied to Her Husband for Years—At the Gala, His War God Identity Broke Her 😱"
+      ],
+      "title_zh_gloss": "妻子多年欺瞒，宴会上才知丈夫是隐退战神",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-22_2100_战神归来前妻你哭什么.jpg"
+      ],
+      "publish_local": "2026-11-22T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "5eea6fa3af9a71e4",
+      "title_zh": "万倍返还弟子越强我越神",
+      "date": "2026-11-23",
+      "language": "en",
+      "drama_code": "2609 KR44",
+      "titles": [
+        "🍑 He Gave a Monkey One Fruit—His 10,000x Return Turned Him Into a Cultivation God! ⚡"
+      ],
+      "title_zh_gloss": "投资小猴子一颗果实，万倍返还助他成神",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-23_1700_万倍返还弟子越强我越神.jpg"
+      ],
+      "publish_local": "2026-11-23T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "465000025472a149",
+      "title_zh": "三年受尽凌辱，禁令解除我为龙主",
+      "date": "2026-11-23",
+      "language": "en",
+      "drama_code": "2609 KR18",
+      "titles": [
+        "🐉 They Humiliated Their Live-In Son-in-Law for 3 Years—Then His Dragon Guards Arrived 🔥"
+      ],
+      "title_zh_gloss": "赘婿隐忍三年，禁令解除后龙阁势力齐至",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-23_2100_三年受尽凌辱，禁令解除我为龙主.jpg"
+      ],
+      "publish_local": "2026-11-23T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "832e4ca402a34f71",
+      "title_zh": "囤千万物资到古代娶女帝",
+      "date": "2026-11-24",
+      "language": "en",
+      "drama_code": "2609 KR29",
+      "titles": [
+        "📦 He Brought a Warehouse Into the Ancient World—An Empress and a Saintess Chose Him 👑"
+      ],
+      "title_zh_gloss": "他囤物资穿越古代，靠空间仓库获女帝青睐",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-24_1700_囤千万物资到古代娶女帝.jpg"
+      ],
+      "publish_local": "2026-11-24T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "3a91c26d04c07144",
+      "title_zh": "机械之心",
+      "date": "2026-11-24",
+      "language": "en",
+      "drama_code": "2609 KR34",
+      "titles": [
+        "🏎️ They Laughed at His Scrap-Built Race Car—He Won the Championship by 0.01 Seconds 🔥"
+      ],
+      "title_zh_gloss": "手工拼出的赛车被嘲，最后以0.01秒夺冠",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-24_2100_机械之心.jpg"
+      ],
+      "publish_local": "2026-11-24T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "a98076be10f009e5",
+      "title_zh": "九龙苏醒踏山河",
+      "date": "2026-11-25",
+      "language": "en",
+      "drama_code": "2026 WW03",
+      "titles": [
+        "🐉 His Ex Called Him a Nobody—Nine Dragons Revealed Who Came to Marry the Bride 👑"
+      ],
+      "title_zh_gloss": "前任轻视他，婚礼上九龙异象揭露真实身份",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-25_1700_九龙苏醒踏山河.jpg"
+      ],
+      "publish_local": "2026-11-25T17:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    },
+    {
+      "job_id": "e27e12d9bd02224e",
+      "title_zh": "被师父赶下山我被迫娶真千金",
+      "date": "2026-11-25",
+      "language": "en",
+      "drama_code": "2026 WW02",
+      "titles": [
+        "💉 Her Family Called Him a Fake Healer—One Needle Saved the Patriarch and Exposed the Plot 🔥"
+      ],
+      "title_zh_gloss": "真千金嫌弃婚约，天师一针救人并揭穿家族阴谋",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-25_2100_被师父赶下山我被迫娶真千金.jpg"
+      ],
+      "publish_local": "2026-11-25T21:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源简介制作的全新AI剧情概念封面，非实际演员剧照；每部围绕独立冲突或能力爽点。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-15_1700_浴缸一开六十岁大爷当龙王.jpg": "2b1cadd56ebaf358de58395778b293683af2bbbbeee9896719b17a78be8ff3e2",
+    "covers/2026-11-15_2100_豪婿归来锋芒毕露.jpg": "e9cda6aae9fc344380807969ae37e547abd814c69befda0f0624c6c15639df3e",
+    "covers/2026-11-16_1700_重来海洋末世我在水下搞基建.jpg": "c1d7c9c7023a5274240647d57e1543b9781d8dd1a5acaa01436f5b1d63618bf9",
+    "covers/2026-11-16_2100_空车超载还我三个亿的货.jpg": "e73449819020cd8ea98f7d1c0da562320d35b3396d519a5e8025d2a194c7c29b",
+    "covers/2026-11-17_1700_为了女儿全身细胞都去修仙.jpg": "d17e6ff1856b48908db6ef412a880439bf2eafb135e87e125b533a12d60f5105",
+    "covers/2026-11-17_2100_寄生霸总我在死敌耳中低语.jpg": "26344222fef1dabef9c02f6ba3e7fbe899c5d68bc2eee1dfba0fe306ab2b6fa1",
+    "covers/2026-11-18_1700_赶我出基地丧尸来了你们别哭啊.jpg": "ee48fb1a2463338ffebc83ff02b5e7536a749dd2bbbc2d081096eaddbb1d6b82",
+    "covers/2026-11-18_2100_一针定乾坤.jpg": "a74b2af57bec6fc1332f05554f1eeec7066c6908d032cbb1a9a8548f235d80d9",
+    "covers/2026-11-19_1700_荒年赶海海龟报恩满舱回村.jpg": "de655396de6ad0ae1aa7209b3d59e7e354e44a2184ac5364c607ddcc88407c27",
+    "covers/2026-11-19_2100_我宗门真的全是老弱病残啊.jpg": "6f2f5e09b1f5ad7ae9a9c6d1b1f6597b21811bdef805bfcf8cad1d67e32a91a4",
+    "covers/2026-11-20_1700_武魂觉醒我用锤子一人成军.jpg": "02e70c03ca743581b8a418576dd097c66ebd1d48f5dea7845eafb8a8376b25ac",
+    "covers/2026-11-20_2100_是谁坑惨了朕.jpg": "2d93d09b2f9ae6dfc2f93138d68dcd102fd9e862cc4794e5f587e48c3a4bdf7c",
+    "covers/2026-11-21_1700_无尽公路我大运亨通.jpg": "ddff56b7ab8a438b3f52f604823d536ff0737e261e384722168c332522dfc286",
+    "covers/2026-11-21_2100_我用科技征服人皇.jpg": "0833868ac0b83a1701f6ea2c91f2fb03308625f68cbc5eb943c7499474f156bb",
+    "covers/2026-11-22_1700_诡异降临我召唤三千祖师反向入侵.jpg": "01a13ea8fb9eae6911f37075932a7f97b7e489b210bc74c90d5694150b4fb954",
+    "covers/2026-11-22_2100_战神归来前妻你哭什么.jpg": "273f54e94ab513239457884b5a5688b6ead517ce2b8a6f6dd9f8dd0c5f078dde",
+    "covers/2026-11-23_1700_万倍返还弟子越强我越神.jpg": "f7a348570fbb000c5a58a8ad3e67622565b354a77fa46e6f603c841e8d0e88eb",
+    "covers/2026-11-23_2100_三年受尽凌辱，禁令解除我为龙主.jpg": "2d4ecbb5da7fdbb95cc7a17991af6de21fc0f8d1e9ce6acac531f469640f269f",
+    "covers/2026-11-24_1700_囤千万物资到古代娶女帝.jpg": "1a97b67a3f6a4ea7c123cf7dc6878a1e7f1979319fee9fc1d2e304191af23679",
+    "covers/2026-11-24_2100_机械之心.jpg": "bd8a4281eb8448a21fec946ae975396afaa8b617cbe9789dbf93bfa22e426ad4",
+    "covers/2026-11-25_1700_九龙苏醒踏山河.jpg": "bea33387ee0f482ece7a7cbbcd89ea3cd7d7d09cf7a87eb2c9aa1c8b7a9e8d1c",
+    "covers/2026-11-25_2100_被师父赶下山我被迫娶真千金.jpg": "d1db586adbb42d8c0e56742cc257b8f01fdd9cf10601e0debf93fc191804f3db"
+  }
+}
