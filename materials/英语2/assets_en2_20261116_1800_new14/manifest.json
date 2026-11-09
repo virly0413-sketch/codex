@@ -1,0 +1,347 @@
+{
+  "version": 5,
+  "language": "en",
+  "material_key": "en2",
+  "channel": "英语2",
+  "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+  "titles_per_job": 1,
+  "date_range": [
+    "2026-11-16",
+    "2026-11-29"
+  ],
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "cover_revision": "english2_new14_nov16_1800_20261109",
+  "title_revision": "english2_new14_varied_titles_20261109",
+  "scope": "2026年11月16—29日英语2新排片，每天北京时间18:00一部，共14部，排除外采、代运营、禁播。",
+  "cover_style": "明亮现代写实，成年亚洲人物，年轻漂亮女主得体修身穿搭，男主主动参与剧情冲突，无字。",
+  "jobs": [
+    {
+      "job_id": "b3ee47a55f250161",
+      "title_zh": "陷入泥石流七日自救指南",
+      "date": "2026-11-16",
+      "language": "en",
+      "drama_code": "2609 EN29",
+      "titles": [
+        "⛰️ Buried in a Mudslide for Seven Days, He Survived—and His Family’s Betrayal Fell Apart 🔥"
+      ],
+      "title_zh_gloss": "泥石流困七天他活着回来，家人和养子的算计开始败露",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_1800_陷入泥石流七日自救指南.jpg"
+      ],
+      "publish_local": "2026-11-16T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "aeae8cdc3e20df9c",
+      "title_zh": "七旬大爷每天买五斤鲜肉",
+      "date": "2026-11-17",
+      "language": "en",
+      "drama_code": "2026 WW71",
+      "titles": [
+        "🥩 A Vegetarian Grandpa Bought Five Pounds of Meat Every Night. Who Was Eating It? 😱"
+      ],
+      "title_zh_gloss": "吃素三十年的大爷夜夜买肉，屋里究竟是谁在吃",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_1800_七旬大爷每天买五斤鲜肉.jpg"
+      ],
+      "publish_local": "2026-11-17T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "7b14854d41ffedca",
+      "title_zh": "夜闯病院-诡异幽影",
+      "date": "2026-11-18",
+      "language": "en",
+      "drama_code": "2609 KR12",
+      "titles": [
+        "🏥 The Hospital Door Vanished Behind Them. He Found the Experiment Beneath the Maze 👁️"
+      ],
+      "title_zh_gloss": "废弃医院大门消失，他在迷宫下发现秘密实验",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_1800_夜闯病院-诡异幽影.jpg"
+      ],
+      "publish_local": "2026-11-18T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "f14413f2ed9e0584",
+      "title_zh": "开局当牛照样养全家",
+      "date": "2026-11-19",
+      "language": "en",
+      "drama_code": "2026 WW70",
+      "titles": [
+        "🐂 He Woke Up as His Family's Ox! Every Meal He Earned Brought Him Closer to Human Form ✨"
+      ],
+      "title_zh_gloss": "他魂穿自家黄牛，养活妻儿就能逐步变回人",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_1800_开局当牛照样养全家.jpg"
+      ],
+      "publish_local": "2026-11-19T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "ee3cda5b265b42e7",
+      "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+      "date": "2026-11-20",
+      "language": "en",
+      "drama_code": "2609 KR83",
+      "titles": [
+        "💎 His Brother Took the Orchard and Left Him Barren Hills. His Bracelet Made Them Bloom 🍎"
+      ],
+      "title_zh_gloss": "弟弟抢走肥沃果园，他靠聚宝镯让荒山开花结果",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_1800_分家后我靠聚宝镯走上人生巅峰.jpg"
+      ],
+      "publish_local": "2026-11-20T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "357a638d56aa4015",
+      "title_zh": "民宿惊现恐龙蛋",
+      "date": "2026-11-21",
+      "language": "en",
+      "drama_code": "2026 WW12",
+      "titles": [
+        "🦖 His Family Left Him for the Dinosaur. Reborn, He Let Them Face It Without Him 🔥"
+      ],
+      "title_zh_gloss": "家人把他丢给恐龙，重生后他先救自己",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-21_1800_民宿惊现恐龙蛋.jpg"
+      ],
+      "publish_local": "2026-11-21T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "b10b3e8bad7aa4a8",
+      "title_zh": "重回八零我靠山林奇珍系统养家",
+      "date": "2026-11-22",
+      "language": "en",
+      "drama_code": "2026 WW63",
+      "titles": [
+        "🌿 Back in 1983, He Found Wild Ginseng in the Mountains—and Changed His Family's Fate 💰"
+      ],
+      "title_zh_gloss": "重回1983年，他靠山林奇珍系统养家致富",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-22_1800_重回八零我靠山林奇珍系统养家.jpg"
+      ],
+      "publish_local": "2026-11-22T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "ecd0e82a123103e2",
+      "title_zh": "末日降临我的长工是丧尸",
+      "date": "2026-11-23",
+      "language": "en",
+      "drama_code": "2026 WW66",
+      "titles": [
+        "🧟 The Apocalypse Came. He Hired Zombies to Build His Farm—and Stunned Every Raider 🌾"
+      ],
+      "title_zh_gloss": "末日降临，他让丧尸种田建基地，掠夺者看傻",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-23_1800_末日降临我的长工是丧尸.jpg"
+      ],
+      "publish_local": "2026-11-23T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "81d28439e6ef92e4",
+      "title_zh": "龙神医圣",
+      "date": "2026-11-24",
+      "language": "en",
+      "drama_code": "2026 WW07",
+      "titles": [
+        "🐉 They Threw the Village Healer Off a Cliff. He Returned With the Dragon God's Cure ⚡"
+      ],
+      "title_zh_gloss": "被村霸踢落悬崖，他带龙神医术踏浪归来",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-24_1800_龙神医圣.jpg"
+      ],
+      "publish_local": "2026-11-24T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "6559c84c86529680",
+      "title_zh": "白月光被鱼钓走妻子悔断肠",
+      "date": "2026-11-25",
+      "language": "en",
+      "drama_code": "2026 WW72",
+      "titles": [
+        "🎣 His Wife Chose the Man With the Fortune Fish. He Knew What It Really Wanted 😨"
+      ],
+      "title_zh_gloss": "妻子跟着钓到巨青的人走，他知道邪鱼真正想钓的是贪念",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-25_1800_白月光被鱼钓走妻子悔断肠.jpg"
+      ],
+      "publish_local": "2026-11-25T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "665233f78d2e9266",
+      "title_zh": "全人类变小收录万灵的我无敌了",
+      "date": "2026-11-26",
+      "language": "en",
+      "drama_code": "2026 WW65",
+      "titles": [
+        "🐜 Everyone Shrunk Overnight. He Stole a Giant Ant's Power and Became Their Worst Nightmare ⚡"
+      ],
+      "title_zh_gloss": "人类缩小后，他夺取巨蚁能力反击追杀",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-26_1800_全人类变小收录万灵的我无敌了.jpg"
+      ],
+      "publish_local": "2026-11-26T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "a739c23dfc5904d6",
+      "title_zh": "重生千禧年我靠赶海带大哥致富",
+      "date": "2026-11-27",
+      "language": "en",
+      "drama_code": "2026 WW09",
+      "titles": [
+        "🚢 They Called Him a Street Punk in 2000. His First Fishing Ship Silenced the Whole Village 🦀"
+      ],
+      "title_zh_gloss": "千禧年被笑街溜子，他买下渔船满载海货归港",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-27_1800_重生千禧年我靠赶海带大哥致富.jpg"
+      ],
+      "publish_local": "2026-11-27T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "5a5c7c47cbd48e15",
+      "title_zh": "逆天纸扎铺",
+      "date": "2026-11-28",
+      "language": "en",
+      "drama_code": "2609 KR75",
+      "titles": [
+        "🚗 He Burned a Car for a Ghost. His System Returned a Fortune Outside the Shop! 💰"
+      ],
+      "title_zh_gloss": "给诡烧纸车，店外竟出现真豪车与百倍返还",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-28_1800_逆天纸扎铺.jpg"
+      ],
+      "publish_local": "2026-11-28T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    },
+    {
+      "job_id": "a030f076cbb4da69",
+      "title_zh": "八零怀旧怪谈这就是找茬儿",
+      "date": "2026-11-29",
+      "language": "en",
+      "drama_code": "2026 WW62",
+      "titles": [
+        "📺 A Deadly 1980s Puzzle Trapped Everyone. He Fixed One TV and Found the Exit 🔍"
+      ],
+      "title_zh_gloss": "八零怀旧怪谈困住众人，他修好电视识破规则陷阱",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-29_1800_八零怀旧怪谈这就是找茬儿.jpg"
+      ],
+      "publish_local": "2026-11-29T18:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "根据资源表简介制作的AI剧情概念封面；人物成年，衣着完整得体。"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-16_1800_陷入泥石流七日自救指南.jpg": "5e6c51b5e27e6e72e75dc832c1f5817ed6ca18df815c9da9a7f2f3ea1f8db357",
+    "covers/2026-11-17_1800_七旬大爷每天买五斤鲜肉.jpg": "17b2c611aa792ae55d19f592e4d9edf7578f88695e7bee5dcc9a29f9abee96eb",
+    "covers/2026-11-18_1800_夜闯病院-诡异幽影.jpg": "16c7044dbe9dd1baae8a400d6bb252e2f4a56033500be8e95cb0a925a59a4e60",
+    "covers/2026-11-19_1800_开局当牛照样养全家.jpg": "441896641f3e177ee7eeebc15709a5bf5aed5cb200e7654e45d7072aad74159f",
+    "covers/2026-11-20_1800_分家后我靠聚宝镯走上人生巅峰.jpg": "9cde68be8385f36d4fa162002a4d298d67c21eb8719ddcf1ca6c6c03fa36637e",
+    "covers/2026-11-21_1800_民宿惊现恐龙蛋.jpg": "146ed8dce4ad04635ec11a6dd2f22198e1ef2673ff0d2235178db88ca1338c5e",
+    "covers/2026-11-22_1800_重回八零我靠山林奇珍系统养家.jpg": "2d165446e4b17def09d55331dbf7399c1e364f418e9bcfe7b08cc4bfca99fa14",
+    "covers/2026-11-23_1800_末日降临我的长工是丧尸.jpg": "5c339b7c1af3e8a6f48d44407fb1d1deaae45ca2999e507d0a67b981f4fd4e01",
+    "covers/2026-11-24_1800_龙神医圣.jpg": "6ad449a58f54c78c698a6951d6c988e216da216e3d591dd06bbe63d084acd459",
+    "covers/2026-11-25_1800_白月光被鱼钓走妻子悔断肠.jpg": "79836e97c5f233b8092b0e5729df892712597fdbc744eb4f3c38cce97c7447dd",
+    "covers/2026-11-26_1800_全人类变小收录万灵的我无敌了.jpg": "91ccd943f9bb55cc710747e7dea65dfb819b0b8e61887f83aa2e809e9f2c0ad9",
+    "covers/2026-11-27_1800_重生千禧年我靠赶海带大哥致富.jpg": "700d619e707fb16e1b0232e11ddf987ecf5dddddd37a88bda7bd1c47b204712f",
+    "covers/2026-11-28_1800_逆天纸扎铺.jpg": "40c3231a19e781b5f5f7506815bb7be3b9b88d286a67ab2104176972e0b9fe6d",
+    "covers/2026-11-29_1800_八零怀旧怪谈这就是找茬儿.jpg": "a581c95646644dc230e1b5a5f88898e7637209ae0555b1a3e2e19a2f9566b25f"
+  }
+}

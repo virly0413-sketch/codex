@@ -1,0 +1,422 @@
+[
+  {
+    "job_id": "b3ee47a55f250161",
+    "title_zh": "陷入泥石流七日自救指南",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T18:00:00+08:00",
+    "publish_at": "2026-11-16T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 459,
+        "resource_title": "陷入泥石流七日自救指南",
+        "drama_code": "2609 EN29",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "aeae8cdc3e20df9c",
+    "title_zh": "七旬大爷每天买五斤鲜肉",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T18:00:00+08:00",
+    "publish_at": "2026-11-17T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1101,
+        "resource_title": "七旬大爷每天买五斤鲜肉",
+        "drama_code": "2026 WW71",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7b14854d41ffedca",
+    "title_zh": "夜闯病院-诡异幽影",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T18:00:00+08:00",
+    "publish_at": "2026-11-18T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 667,
+        "resource_title": "夜闯病院-诡异幽影",
+        "drama_code": "2609 KR12",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "f14413f2ed9e0584",
+    "title_zh": "开局当牛照样养全家",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T18:00:00+08:00",
+    "publish_at": "2026-11-19T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1099,
+        "resource_title": "开局当牛照样养全家",
+        "drama_code": "2026 WW70",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ee3cda5b265b42e7",
+    "title_zh": "分家后我靠聚宝镯走上人生巅峰",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T18:00:00+08:00",
+    "publish_at": "2026-11-20T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 856,
+        "resource_title": "分家后我靠聚宝镯走上人生巅峰",
+        "drama_code": "2609 KR83",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "357a638d56aa4015",
+    "title_zh": "民宿惊现恐龙蛋",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-21",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-21T18:00:00+08:00",
+    "publish_at": "2026-11-21T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 958,
+        "resource_title": "民宿惊现恐龙蛋",
+        "drama_code": "2026 WW12",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b10b3e8bad7aa4a8",
+    "title_zh": "重回八零我靠山林奇珍系统养家",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-22",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-22T18:00:00+08:00",
+    "publish_at": "2026-11-22T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1062,
+        "resource_title": "重回八零我靠山林奇珍系统养家",
+        "drama_code": "2026 WW63",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ecd0e82a123103e2",
+    "title_zh": "末日降临我的长工是丧尸",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-23",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-23T18:00:00+08:00",
+    "publish_at": "2026-11-23T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1079,
+        "resource_title": "末日降临我的长工是丧尸",
+        "drama_code": "2026 WW66",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "81d28439e6ef92e4",
+    "title_zh": "龙神医圣",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-24",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-24T18:00:00+08:00",
+    "publish_at": "2026-11-24T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 944,
+        "resource_title": "龙神医圣",
+        "drama_code": "2026 WW07",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "6559c84c86529680",
+    "title_zh": "白月光被鱼钓走妻子悔断肠",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-25",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-25T18:00:00+08:00",
+    "publish_at": "2026-11-25T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1105,
+        "resource_title": "白月光被鱼钓走妻子悔断肠",
+        "drama_code": "2026 WW72",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "665233f78d2e9266",
+    "title_zh": "全人类变小收录万灵的我无敌了",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-26",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-26T18:00:00+08:00",
+    "publish_at": "2026-11-26T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1069,
+        "resource_title": "全人类变小收录万灵的我无敌了",
+        "drama_code": "2026 WW65",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a739c23dfc5904d6",
+    "title_zh": "重生千禧年我靠赶海带大哥致富",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-27",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-27T18:00:00+08:00",
+    "publish_at": "2026-11-27T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 948,
+        "resource_title": "重生千禧年我靠赶海带大哥致富",
+        "drama_code": "2026 WW09",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "5a5c7c47cbd48e15",
+    "title_zh": "逆天纸扎铺",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-28",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-28T18:00:00+08:00",
+    "publish_at": "2026-11-28T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 821,
+        "resource_title": "逆天纸扎铺",
+        "drama_code": "2609 KR75",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有/新"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "a030f076cbb4da69",
+    "title_zh": "八零怀旧怪谈这就是找茬儿",
+    "channel": "英语2",
+    "channel_id": "UCXdinQ6fQ8RyenilKIymAFA",
+    "language": "en",
+    "date": "2026-11-29",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-29T18:00:00+08:00",
+    "publish_at": "2026-11-29T10:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1047,
+        "resource_title": "八零怀旧怪谈这就是找茬儿",
+        "drama_code": "2026 WW62",
+        "category": "男频",
+        "audio_language": "en",
+        "audio_availability": "有"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
