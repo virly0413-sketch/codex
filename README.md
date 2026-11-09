@@ -132,3 +132,5 @@ Studio提取插件v1.3.0：[下载更新包](releases/studio_copyright_extension
 韩语22部最新服饰版：[裙装与丝袜封面包](releases/korean_materials_skirts_v2_22_20261110_20261120_1080p.zip)，[使用说明](KOREAN_22_SKIRTS_GUIDE.md)。现代女主更换为包臀裙、修身连衣裙与丝袜，古装保留对应年代的收腰长裙，婚纱改为鱼尾剪裁；标题及全部排片沿用上一版。包含22张1920×1080封面和完整导入校验文件。在原程序选择韩语，将素材文件夹设为 `assets_ko_20261110_skirts_v2` 后重新加载。
 
 韩语22部全新剧情视觉版：[22张新封面素材包](releases/korean_materials_fresh_v3_22_20261110_20261120_1080p.zip)，[使用说明](KOREAN_22_FRESH_GUIDE.md)。全部从空白画布重做，每部依据剧情选用不同场景、角度和视觉爽点；原韩语标题和排片对应关系保持一致。将原程序的韩语素材文件夹设为 `assets_ko_20261110_fresh_v3` 并重新加载。
+
+英语1频道2026年11月15—25日排片：[Excel](schedules/english1_20261115_20261125_two_daily/english1_schedule_20261115_20261125.xlsx) / [排片打包下载](releases/english1_schedule_20261115_20261125_two_daily.zip)，[筛查说明](ENGLISH1_NOV15_25_SCHEDULE_GUIDE.md)。每天北京时间17:00、21:00，保留11月15日已有两档，11月16—25日新增20部；依据11月9日上传的最新资源表筛选英语配音男频并核对已知重复和跨频道间隔。
