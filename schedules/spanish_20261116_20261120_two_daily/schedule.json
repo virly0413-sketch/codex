@@ -1,0 +1,322 @@
+[
+  {
+    "job_id": "73ca46b5da4bb44f",
+    "title_zh": "全界通缉我靠吞噬砍翻神明",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T00:00:00+08:00",
+    "publish_at": "2026-11-15T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 645,
+        "resource_title": "《全界通缉我靠吞噬砍翻神明》AI仿真人",
+        "drama_code": "2609 KR02",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "65",
+        "episodes": "40"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "36d901c17dd4fe92",
+    "title_zh": "收下三根毫毛后我无敌了",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-16",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T05:00:00+08:00",
+    "publish_at": "2026-11-15T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 996,
+        "resource_title": "《收下三根毫毛后我无敌了》AI真人",
+        "drama_code": "2026 WW45",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "",
+        "episodes": "60"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "3838afcf9cdf9a3e",
+    "title_zh": "别碰那个瑜伽球",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T00:00:00+08:00",
+    "publish_at": "2026-11-16T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 665,
+        "resource_title": "《别碰那个瑜伽球》",
+        "drama_code": "2609 KR10",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "d6818317517c56a2",
+    "title_zh": "别惹卖鱼的他海底有龙宫",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-17",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T05:00:00+08:00",
+    "publish_at": "2026-11-16T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 915,
+        "resource_title": "《别惹卖鱼的他海底有龙宫》AI+实拍",
+        "drama_code": "2026 WW34",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "105",
+        "episodes": "71"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "9875cb27df2ca31e",
+    "title_zh": "开局小陨石进化成宇宙",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T00:00:00+08:00",
+    "publish_at": "2026-11-17T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 955,
+        "resource_title": "《开局小陨石进化成宇宙》AI真人",
+        "drama_code": "2026 WW25",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "85.6",
+        "episodes": "50"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "22805e1fa7ef051d",
+    "title_zh": "瞎眼百年猴子都成圣了",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-18",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T05:00:00+08:00",
+    "publish_at": "2026-11-17T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1045,
+        "resource_title": "《瞎眼百年猴子都成圣了》AI真人",
+        "drama_code": "2026 WW61",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "80",
+        "episodes": "60"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e28645ea4b10add1",
+    "title_zh": "玄孙女曝光我的仙人身份藏不住了",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T00:00:00+08:00",
+    "publish_at": "2026-11-18T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 734,
+        "resource_title": "《玄孙女曝光我的仙人身份藏不住了》",
+        "drama_code": "2609 KR35",
+        "audio_language": "es",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "100",
+        "episodes": "70"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "738b556ef7b4453f",
+    "title_zh": "满级枪神回都市开局领证",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-19",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T05:00:00+08:00",
+    "publish_at": "2026-11-18T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1022,
+        "resource_title": "《满级枪神回都市开局领证》AI+实拍",
+        "drama_code": "2026 WW54",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "100.4",
+        "episodes": "68"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "aa4c70360b1a83dd",
+    "title_zh": "旁人笑我木讷不知我有老仙金手指",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T00:00:00+08:00",
+    "publish_at": "2026-11-19T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 848,
+        "resource_title": "《旁人笑我木讷不知我有老仙金手指》AI真人",
+        "drama_code": "2609 KR82",
+        "audio_language": "es",
+        "audio_availability": "有/新",
+        "category": "男频",
+        "minutes": "88",
+        "episodes": "59"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "b293fbe4162a7305",
+    "title_zh": "厨神帝王录",
+    "channel": "西语男频",
+    "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+    "language": "es",
+    "date": "2026-11-20",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T05:00:00+08:00",
+    "publish_at": "2026-11-19T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 685,
+        "resource_title": "《厨神帝王录》AI仿真人",
+        "drama_code": "2609 KR20",
+        "audio_language": "es",
+        "audio_availability": "有",
+        "category": "男频",
+        "minutes": "70",
+        "episodes": "50"
+      }
+    ],
+    "description_mode": "append_code_only_preserve_existing",
+    "description_code_position": "last_line",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]
