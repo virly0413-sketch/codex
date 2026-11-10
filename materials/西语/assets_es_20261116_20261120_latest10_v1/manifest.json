@@ -1,0 +1,249 @@
+{
+  "version": 2,
+  "language": "es",
+  "channel": "西语男频",
+  "channel_id": "UCaQI24vmsim_8jDI0NuwbEg",
+  "titles_per_job": 1,
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "scope": "2026年11月16—20日，每天北京时间00:00、05:00，共10部。",
+  "cover_style": "全新写实真人电影感；年轻亚洲男女主，剧情冲突与特效；无封面文字。",
+  "title_revision": "2026-11-10按最新排片制作，一剧一个西语标题，首尾表情与多样化钩子。",
+  "jobs": [
+    {
+      "job_id": "3e03dfe830050442",
+      "title_zh": "收下三根毫毛后我无敌了",
+      "date": "2026-11-16",
+      "language": "es",
+      "drama_code": "2026 WW45",
+      "titles": [
+        "🐒 Salvó a un mono y recibió tres pelos divinos; al quemar uno, todo el pueblo tembló 🔥"
+      ],
+      "title_zh_gloss": "救下小猴得到三根神毫；烧掉第一根，全村震惊。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_0000_收下三根毫毛后我无敌了.jpg"
+      ],
+      "publish_local": "2026-11-16T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "果园救猴、金毫召唤猴群、反派退缩"
+    },
+    {
+      "job_id": "18d2555a6a0cdfc0",
+      "title_zh": "别惹卖鱼的他海底有龙宫",
+      "date": "2026-11-16",
+      "language": "es",
+      "drama_code": "2026 WW34",
+      "titles": [
+        "🌊 Su familia lo echó; la bañera de su casa escondía un palacio submarino lleno de oro 💰"
+      ],
+      "title_zh_gloss": "家人把他赶走，家中浴缸竟藏着满是黄金的海底龙宫。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_0500_别惹卖鱼的他海底有龙宫.jpg"
+      ],
+      "publish_local": "2026-11-16T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "都市浴缸通海底、妻子陪同、势利亲戚震惊"
+    },
+    {
+      "job_id": "d4db225ffb9a817f",
+      "title_zh": "开局小陨石进化成宇宙",
+      "date": "2026-11-17",
+      "language": "es",
+      "drama_code": "2026 WW25",
+      "titles": [
+        "☄️ Su esposa lo lanzó al abismo; renació como un meteorito capaz de devorar planetas 🤯"
+      ],
+      "title_zh_gloss": "妻子将他推下悬崖，他竟重生为能吞噬星球的陨石。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_0000_开局小陨石进化成宇宙.jpg"
+      ],
+      "publish_local": "2026-11-17T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "悬崖背叛、陨石坠落、男主宇宙力量苏醒"
+    },
+    {
+      "job_id": "0d8b3dad58f2a5d5",
+      "title_zh": "被师父赶下山我被迫娶真千金",
+      "date": "2026-11-17",
+      "language": "es",
+      "drama_code": "2026 WW02",
+      "titles": [
+        "💍 Ella aceptó casarse solo de nombre; él salvó a su abuelo y reveló el complot ⚡"
+      ],
+      "title_zh_gloss": "她只愿名义结婚，他却救下爷爷并揭穿家族阴谋。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_0500_被师父赶下山我被迫娶真千金.jpg"
+      ],
+      "publish_local": "2026-11-17T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "豪门婚约、道术医治、家族反派败露"
+    },
+    {
+      "job_id": "6014c2b8df02ec09",
+      "title_zh": "瞎眼百年猴子都成圣了",
+      "date": "2026-11-18",
+      "language": "es",
+      "drama_code": "2026 WW61",
+      "titles": [
+        "👁️ El maestro ciego enseñó a un mono; siglos después, hasta los dioses le temieron 🐒"
+      ],
+      "title_zh_gloss": "盲眼老师教出神猴，数百年后连天神也畏惧。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_0000_瞎眼百年猴子都成圣了.jpg"
+      ],
+      "publish_local": "2026-11-18T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "盲眼男主、神猴弟子、仙界大军"
+    },
+    {
+      "job_id": "5ce2a2e8575f905c",
+      "title_zh": "满级枪神回都市开局领证",
+      "date": "2026-11-18",
+      "language": "es",
+      "drama_code": "2026 WW54",
+      "titles": [
+        "🔫 Recién casados, una bala se curvó ante él: su esposa descubrió al tirador más temido 😱"
+      ],
+      "title_zh_gloss": "新婚当日子弹竟在他面前拐弯，妻子发现他是最可怕的枪神。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_0500_满级枪神回都市开局领证.jpg"
+      ],
+      "publish_local": "2026-11-18T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "都市婚礼、银币挡弹、男主护妻"
+    },
+    {
+      "job_id": "1fb8df7272fd0f87",
+      "title_zh": "驴神归来时速八百",
+      "date": "2026-11-19",
+      "language": "es",
+      "drama_code": "2026 WW56",
+      "titles": [
+        "🫏 Reencarnó en un burro; el día de la ejecución volvió para salvar a su familia 🔥"
+      ],
+      "title_zh_gloss": "重生为驴的战神在行刑当天归来救全家。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_0000_驴神归来时速八百.jpg"
+      ],
+      "publish_local": "2026-11-19T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "古代刑场、神驴与男主双重形象、家人获救"
+    },
+    {
+      "job_id": "c456fa8bbf73fc25",
+      "title_zh": "师娘送我出狱我横扫天下",
+      "date": "2026-11-19",
+      "language": "es",
+      "drama_code": "2026 WW17",
+      "titles": [
+        "⚔️ Salió de prisión y detuvo la boda de su prometida; nadie sabía quién era 🤯"
+      ],
+      "title_zh_gloss": "他出狱闯入未婚妻婚礼，满场权贵不知他的真实身份。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_0500_师娘送我出狱我横扫天下.jpg"
+      ],
+      "publish_local": "2026-11-19T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "豪门婚宴、男主闯入、未婚妻与反派对峙"
+    },
+    {
+      "job_id": "e4b3040d80685a6f",
+      "title_zh": "八零怀旧怪谈这就是找茬儿",
+      "date": "2026-11-20",
+      "language": "es",
+      "drama_code": "2026 WW62",
+      "titles": [
+        "📺 En la aldea de los 80, elegir mal una bombilla podía matarlo; él vio la regla oculta 👻"
+      ],
+      "title_zh_gloss": "八零村落选错灯泡就会丧命，他看穿了隐藏规则。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_0000_八零怀旧怪谈这就是找茬儿.jpg"
+      ],
+      "publish_local": "2026-11-20T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "八零乡村、电视灯泡谜题、男女主识破怪谈"
+    },
+    {
+      "job_id": "d086aaa84b251ac8",
+      "title_zh": "大明憨王爹我真想就藩",
+      "date": "2026-11-20",
+      "language": "es",
+      "drama_code": "2026 WW73",
+      "titles": [
+        "👑 Solo quería irse lejos; una sequía obligó al príncipe a salvar a todo un reino 🔥"
+      ],
+      "title_zh_gloss": "他只想去封地，却被一场大旱逼成救国王爷。",
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_0500_大明憨王爹我真想就藩.jpg"
+      ],
+      "publish_local": "2026-11-20T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "大明宫廷、男主谋划赈灾、皇帝与朝臣震惊"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-16_0000_收下三根毫毛后我无敌了.jpg": "2af4054f3ccbb5ca6e06baf6c73a4e38bd9c731e4e8637b9821bd9f8ac52bc62",
+    "covers/2026-11-16_0500_别惹卖鱼的他海底有龙宫.jpg": "83fd2b7d3fc4c3a8c3b3e9f20f01797a4f419eb8252f3bd2146b335f7c4d4f38",
+    "covers/2026-11-17_0000_开局小陨石进化成宇宙.jpg": "bf7bbb9667183d28037b79dc62e71732cfa5d0bcd564283f11c6d3995d8398e4",
+    "covers/2026-11-17_0500_被师父赶下山我被迫娶真千金.jpg": "ecc285fc0bebfb807b3674547974b9a8299eadb9eb880f72aee8b14f434d6326",
+    "covers/2026-11-18_0000_瞎眼百年猴子都成圣了.jpg": "fb5265d005749ab5c61f79a4c780885a3cf1f5f7363f875b294b5480a3e4908c",
+    "covers/2026-11-18_0500_满级枪神回都市开局领证.jpg": "e5f8ca0780499805112d5186186d612a865ffbc88802ab9ac02544cce04b8960",
+    "covers/2026-11-19_0000_驴神归来时速八百.jpg": "179987a774d92e55d5ae50fc606560c072eb60d300dc5b2e4db938f0c01baf59",
+    "covers/2026-11-19_0500_师娘送我出狱我横扫天下.jpg": "8f15c4c0d4d4a93cc2af1aedf963d6eff83ad6a7468a60c672873b7950a98258",
+    "covers/2026-11-20_0000_八零怀旧怪谈这就是找茬儿.jpg": "e4e9eb887f4dc1e79310b5a9f9d66e7626b9f48cfe3cd3b927aa11e61295941a",
+    "covers/2026-11-20_0500_大明憨王爹我真想就藩.jpg": "8f91192437262b3fab25f6a2ce12e9faf92b5dee26e4d910b29a994ddc86eac8"
+  }
+}
