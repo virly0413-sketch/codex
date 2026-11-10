@@ -15,13 +15,15 @@ OUT = ROOT / 'schedules/spanish_20261116_20261120_two_daily'
 CHANNEL = 'UCaQI24vmsim_8jDI0NuwbEg'
 SHANGHAI = dt.timezone(dt.timedelta(hours=8))
 CHOICES = [
-    (16, 0, '2609 KR02'), (16, 5, '2026 WW45'),
-    (17, 0, '2609 KR10'), (17, 5, '2026 WW34'),
-    (18, 0, '2026 WW25'), (18, 5, '2026 WW61'),
-    (19, 0, '2609 KR35'), (19, 5, '2026 WW54'),
-    (20, 0, '2609 KR82'), (20, 5, '2609 KR20'),
+    (16, 0, '2026 WW45'), (16, 5, '2026 WW34'),
+    (17, 0, '2026 WW25'), (17, 5, '2026 WW02'),
+    (18, 0, '2026 WW61'), (18, 5, '2026 WW54'),
+    (19, 0, '2026 WW56'), (19, 5, '2026 WW17'),
+    (20, 0, '2026 WW62'), (20, 5, '2026 WW73'),
 ]
-ALIASES = {'2026 WW34': {'2609 KR51'}}  # Same bathtub/ocean story, different catalog title.
+ALIASES = {
+    '2026 WW34': {'2609 KR51'},  # Same bathtub/ocean story, different catalog title.
+}
 
 
 def normalized(title):
@@ -124,7 +126,7 @@ def build():
         rows.append([start.date().isoformat(), '00:00' if hour == 0 else '05:00', title,
                      code, availability, number,
                      f'{closest[0]:.0f}' if closest else '未见同剧排期'])
-        audits.append([title, code, '2609 KR51' if code == '2026 WW34' else '',
+        audits.append([title, code, ', '.join(sorted(ALIASES.get(code, []))),
                        f'{closest[0]:.0f}' if closest else '未见同剧排期',
                        closest[1][4] if closest else ''])
     OUT.mkdir(parents=True, exist_ok=True)
@@ -156,7 +158,8 @@ def build():
     (OUT / 'README.md').write_text(
         '2026年11月16—20日，每天北京时间00:00、05:00，共10部。使用2026年11月9日上传的《YouTube剧集资源表-杭州 (1).xlsx》最新剧集表。'
         '合并此前上传的转置排片表及各语种已交付排片，排除西语历史同剧及资源表标注禁播、代运营、外采的剧；与已提供的各频道排期同剧至少间隔168小时。'
-        '《别惹卖鱼的他海底有龙宫》与《我家浴缸通海底》按同剧情核对。'
+        '《别惹卖鱼的他海底有龙宫》与《我家浴缸通海底》按同剧情核对；最新剧《诡异擂台我请万界天骄诛神》与西语历史同剧情，未纳入。'
+        '资源表更靠后的WW87、WW88、WW91、WW92、WW95在目标日期内与其他频道已排同剧不足168小时；WW90与西语旧排《末日之我的房车无限升级》同剧情，因此未选。'
         '本包只有排片，没有封面和西语标题，不能直接作为程序完整素材包导入；未修改YouTube或原排片。'
         '线上未提供的临时变更无法核验。\n', encoding='utf-8')
     print('Wrote', OUT, 'jobs', len(jobs))
