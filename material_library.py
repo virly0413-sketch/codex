@@ -89,11 +89,11 @@ def _schedule(config,pack,manifest):
     return jobs
 
 
-def load_materials(config):
+def load_materials(config, folder=None):
     """Offline only. Invalid replacement cannot change the active config/batch."""
     language=config['language'];channel=config['channel_id']
     if not re.fullmatch(r'UC[A-Za-z0-9_-]{22}',channel):raise ValueError('目标频道ID无效')
-    pack=find_pack(material_folder(config));manifest=run.load(pack/'manifest.json')
+    pack=find_pack(folder if folder is not None else material_folder(config));manifest=run.load(pack/'manifest.json')
     if manifest.get('channel_id') and manifest['channel_id']!=channel:raise ValueError('素材包属于其他频道')
     # Legacy English manifest is accepted only after exact schedule validation below.
     if manifest.get('language')!=language and not (language=='en' and manifest.get('language') is None):
@@ -134,6 +134,7 @@ def load_materials(config):
             stage.rename(target)
     # Retain current local OAuth/network preferences even when returning to an existing batch.
     prepared=run.load(target/'config.json')
+    prepared['material_source']=str(pack)
     for key in ('oauth_client','oauth_token','proxy_url','http_timeout_seconds'):
         if key in config:prepared[key]=config[key]
     run.save(target/'config.json',prepared)

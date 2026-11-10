@@ -11,6 +11,7 @@ import run
 from networking import proxy_url, timeout_seconds
 from publisher_profiles import available_profiles, validate_profile, remember_profile
 from material_library import material_folder, material_key, set_material_folder, load_materials
+from material_bundle import install_material_zip
 
 
 class PublisherScrollFrame(ttk.Frame):
@@ -89,9 +90,14 @@ class App:
         ttk.Label(preset_bar,text='选择目标频道及内置素材').pack(side='left')
         current=next((name for name,path in self.profile_paths.items() if run.load(path).get('channel_id')==self.config.get('channel_id')),'')
         self.profile_name=tk.StringVar(value=current)
-        ttk.Combobox(preset_bar,textvariable=self.profile_name,values=list(self.profile_paths),state='readonly',width=48).pack(side='left',padx=6)
+        self.profile_box=ttk.Combobox(preset_bar,textvariable=self.profile_name,values=list(self.profile_paths),state='readonly',width=48)
+        self.profile_box.pack(side='left',padx=6)
         preset_button=ttk.Button(preset_bar,text='切换频道并加载素材',command=self.switch_preset)
         preset_button.pack(side='left');self.buttons.append(preset_button)
+        zip_button=ttk.Button(preset_bar,text='导入所选频道素材ZIP',command=self.import_material_zip)
+        zip_button.pack(side='left',padx=5);self.buttons.append(zip_button)
+        filipino_button=ttk.Button(preset_bar,text='首次设置菲律宾语频道ID',command=self.configure_filipino)
+        filipino_button.pack(side='left',padx=5);self.buttons.append(filipino_button)
         folder_button=ttk.Button(preset_bar,text='设置所选频道素材文件夹',command=self.configure_material_folder)
         folder_button.pack(side='left',padx=5);self.buttons.append(folder_button)
         bar = ttk.Frame(root); bar.pack(fill='x', padx=10, pady=8)
@@ -173,6 +179,32 @@ class App:
             set_material_folder(material_key(config),folder)
             self.material_info.set('已设置 '+config['channel_name']+' 素材文件夹：'+folder+'；点击“切换频道并加载素材”生效。')
         except Exception as exc:messagebox.showerror('设置素材文件夹失败',str(exc))
+
+    def configure_filipino(self):
+        if self.busy:return
+        from filipino_setup import ensure_profile
+        path=ensure_profile(self.root)
+        if path is None:return
+        self.profile_paths=available_profiles(self.config_path)
+        self.root._publisher_profile_paths=self.profile_paths
+        self.profile_box['values']=list(self.profile_paths)
+        name=next((name for name,item in self.profile_paths.items() if Path(item)==Path(path)),None)
+        if name:self.profile_name.set(name)
+        messagebox.showinfo('菲律宾语频道已设置','请导入菲律宾语完整素材ZIP，然后进行官方授权。')
+
+    def import_material_zip(self):
+        if self.busy:return
+        try:
+            name=self.profile_name.get()
+            if name not in self.profile_paths:raise ValueError('请先选择目标频道；菲律宾语请先填写频道ID。')
+            config=run.load(self.profile_paths[name])
+            source=filedialog.askopenfilename(title='选择该频道完整排片封面标题ZIP',filetypes=[('ZIP素材包','*.zip')])
+            if not source:return
+        except Exception as exc:
+            messagebox.showerror('无法导入素材',str(exc));return
+        loaded={}
+        def operation():loaded['path']=install_material_zip(config,source)
+        self.task(operation,lambda:self.activate_profile(loaded['path']))
 
     def activate_profile(self,path):
         try:remember_profile(path)

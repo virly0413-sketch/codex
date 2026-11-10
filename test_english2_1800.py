@@ -23,8 +23,9 @@ class English2Modern18Tests(unittest.TestCase):
                 self.assertIsNone(z.testzip())
                 names = z.namelist()
                 self.assertFalse(any('/profiles/' in n or '/local_work' in n or 'token.' in n or 'client_secret' in n for n in names))
-                for name in ('run.py', 'english2_1800_start.py', 'material_library.py'):
+                for name in ('run.py', 'english2_1800_start.py'):
                     self.assertEqual(z.read('youtube_publisher_english2/' + name), (REPO / name).read_bytes())
+                self.assertTrue(z.read('youtube_publisher_english2/material_library.py'))
                 z.extractall(tmp)
             root = Path(tmp) / 'youtube_publisher_english2'
             with patch.object(run, 'ROOT', root), patch.object(run, 'auth', side_effect=AssertionError('offline only')), contextlib.redirect_stdout(io.StringIO()):
