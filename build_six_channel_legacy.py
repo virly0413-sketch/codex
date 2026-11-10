@@ -6,6 +6,8 @@ from zipfile import ZipFile, ZIP_DEFLATED
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'releases/six_channel_publisher_legacy_style_complete_20261110.zip'
+PART_ONE = ROOT / 'releases/six_channel_publisher_legacy_style_part1_20261110.zip'
+PART_TWO = ROOT / 'releases/six_channel_publisher_legacy_style_part2_20261110.zip'
 PREFIX = 'youtube_publisher/'
 PACKS = {
     'english': 'materials/英语/assets_en_20261115_20261125_story_v1',
@@ -67,5 +69,25 @@ def build():
     print(OUT, OUT.stat().st_size)
 
 
+def split_for_download():
+    """Keep each downloadable ZIP below GitHub's 100 MB per-file limit."""
+    with ZipFile(OUT) as source, \
+         ZipFile(PART_ONE, 'w', ZIP_DEFLATED, compresslevel=6) as first, \
+         ZipFile(PART_TWO, 'w', ZIP_DEFLATED, compresslevel=6) as second:
+        for info in source.infolist():
+            name = info.filename
+            other_material = name.startswith(PREFIX + 'materials/') and not name.startswith((
+                PREFIX + 'materials/英语/', PREFIX + 'materials/英语2/', PREFIX + 'materials/西语/'))
+            target = second if other_material else first
+            target.writestr(name, source.read(info))
+        first.writestr('先读我.txt',
+            '先把第1包和第2包都下载到电脑。分别右键“全部解压”，把两个包中的youtube_publisher文件夹合并到同一位置，全部解压完后再双击start_windows.bat。不要只运行第1包。')
+    for path in (PART_ONE, PART_TWO):
+        if path.stat().st_size >= 100_000_000:
+            raise ValueError('分卷超过GitHub文件大小限制：' + str(path))
+        print(path, path.stat().st_size)
+
+
 if __name__ == '__main__':
     build()
+    split_for_download()
