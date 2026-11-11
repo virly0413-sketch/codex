@@ -1,0 +1,312 @@
+[
+  {
+    "job_id": "666172f64a59002b",
+    "title_zh": "收下三根毫毛后我无敌了",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-16",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T00:00:00+08:00",
+    "publish_at": "2026-11-15T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 996,
+        "resource_title": "《收下三根毫毛后我无敌了》AI真人",
+        "drama_code": "2026 WW45",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e4f5d8f5d362c658",
+    "title_zh": "我家浴缸通海底",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-16",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-16T05:00:00+08:00",
+    "publish_at": "2026-11-15T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 775,
+        "resource_title": "《我家浴缸通海底》AI仿真人 ",
+        "drama_code": "2609 KR51",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "75",
+        "episodes": "46"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "e3dea9e5c87a84d8",
+    "title_zh": "开局小陨石进化成宇宙",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-17",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T00:00:00+08:00",
+    "publish_at": "2026-11-16T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 955,
+        "resource_title": "《开局小陨石进化成宇宙》AI真人",
+        "drama_code": "2026 WW25",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "85.6",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "35c8ec4c7cad07e0",
+    "title_zh": "豪婿归来锋芒毕露",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-17",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-17T05:00:00+08:00",
+    "publish_at": "2026-11-16T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1155,
+        "resource_title": "《豪婿归来锋芒毕露》AI真人",
+        "drama_code": "2026 WW92",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "83",
+        "episodes": "62"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "024fa9bc9565b276",
+    "title_zh": "瞎眼百年猴子都成圣了",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-18",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T00:00:00+08:00",
+    "publish_at": "2026-11-17T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1045,
+        "resource_title": "《瞎眼百年猴子都成圣了》AI真人",
+        "drama_code": "2026 WW61",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "80",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "7717537fabb2b674",
+    "title_zh": "满级枪神回都市开局领证",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-18",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-18T05:00:00+08:00",
+    "publish_at": "2026-11-17T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1022,
+        "resource_title": "《满级枪神回都市开局领证》AI+实拍",
+        "drama_code": "2026 WW54",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "100.4",
+        "episodes": "68"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "25bb48258912735f",
+    "title_zh": "驴神归来时速八百",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-19",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T00:00:00+08:00",
+    "publish_at": "2026-11-18T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1038,
+        "resource_title": "《驴神归来时速八百》AI真人",
+        "drama_code": "2026 WW56",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "93.4",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "ab09d37fe2f1a439",
+    "title_zh": "师娘送我出狱我横扫天下",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-19",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-19T05:00:00+08:00",
+    "publish_at": "2026-11-18T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 968,
+        "resource_title": "《师娘送我出狱我横扫天下》AI+实拍",
+        "drama_code": "2026 WW17",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "106",
+        "episodes": "72"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "1b7dea19cb9a8afd",
+    "title_zh": "八零怀旧怪谈这就是找茬儿",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-20",
+    "slot": 1,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T00:00:00+08:00",
+    "publish_at": "2026-11-19T16:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1047,
+        "resource_title": "《八零怀旧怪谈这就是找茬儿》AI真人",
+        "drama_code": "2026 WW62",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "84.8",
+        "episodes": "50"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  },
+  {
+    "job_id": "cd64329ee44b2a9f",
+    "title_zh": "诡异擂台我请万界天骄诛神",
+    "channel": "菲律宾语男频",
+    "language": "tl",
+    "date": "2026-11-20",
+    "slot": 2,
+    "timezone": "Asia/Shanghai",
+    "publish_local": "2026-11-20T05:00:00+08:00",
+    "publish_at": "2026-11-19T21:00:00Z",
+    "candidates": [
+      {
+        "resource_xlsx_sheet": "最新剧集",
+        "resource_row": 1171,
+        "resource_title": "《诡异擂台我请万界天骄诛神》AI真人",
+        "drama_code": "2026 WW93",
+        "category": "男频",
+        "audio_language": "tl",
+        "audio_availability": "有",
+        "minutes": "92",
+        "episodes": "60"
+      }
+    ],
+    "description_code_position": "last_line",
+    "description_mode": "append_code_only_preserve_existing",
+    "blockers": [
+      "youtube_oauth_not_connected",
+      "existing_video_selection_required"
+    ],
+    "approved": false
+  }
+]

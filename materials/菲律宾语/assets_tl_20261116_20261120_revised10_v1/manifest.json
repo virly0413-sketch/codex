@@ -1,0 +1,238 @@
+{
+  "version": 2,
+  "language": "tl",
+  "channel": "菲律宾语男频",
+  "channel_id": null,
+  "titles_per_job": 1,
+  "preserve_thumbnail_resolution": true,
+  "thumbnail_resolution": [
+    1920,
+    1080
+  ],
+  "scope": "2026年11月16—20日，每天北京时间00:00、05:00，共10部。",
+  "cover_style": "复用8张无文字写实封面，按替换剧剧情全新生成2张封面。",
+  "jobs": [
+    {
+      "job_id": "666172f64a59002b",
+      "title_zh": "收下三根毫毛后我无敌了",
+      "date": "2026-11-16",
+      "language": "tl",
+      "drama_code": "2026 WW45",
+      "titles": [
+        "🐒 Iniligtas niya ang unggoy at binigyan ng tatlong mahiwagang buhok—isa pa lang, nagkagulo na! 🔥"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_0000_收下三根毫毛后我无敌了.jpg"
+      ],
+      "publish_local": "2026-11-16T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "e4f5d8f5d362c658",
+      "title_zh": "我家浴缸通海底",
+      "date": "2026-11-16",
+      "language": "tl",
+      "drama_code": "2609 KR51",
+      "titles": [
+        "🌊 Pinalayas siya ng pamilya; sa lumang bathtub niya, may palasyong puno ng ginto! 💰"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-16_0500_我家浴缸通海底.jpg"
+      ],
+      "publish_local": "2026-11-16T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "同剧情菲律宾语配音版本，原西语代码2026 WW34无菲律宾语标记"
+    },
+    {
+      "job_id": "e3dea9e5c87a84d8",
+      "title_zh": "开局小陨石进化成宇宙",
+      "date": "2026-11-17",
+      "language": "tl",
+      "drama_code": "2026 WW25",
+      "titles": [
+        "☄️ Itinulak siya ng asawa sa bangin—muling isinilang bilang meteor na lumulunok ng planeta! 🤯"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_0000_开局小陨石进化成宇宙.jpg"
+      ],
+      "publish_local": "2026-11-17T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "35c8ec4c7cad07e0",
+      "title_zh": "豪婿归来锋芒毕露",
+      "date": "2026-11-17",
+      "language": "tl",
+      "drama_code": "2026 WW92",
+      "titles": [
+        "💍 Akala niya pulubi ang asawa; sa opisina, siya pala ang bagong bise direktor! 😱"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-17_0500_豪婿归来锋芒毕露.jpg"
+      ],
+      "publish_local": "2026-11-17T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "替换无菲律宾语配音的《被师父赶下山我被迫娶真千金》"
+    },
+    {
+      "job_id": "024fa9bc9565b276",
+      "title_zh": "瞎眼百年猴子都成圣了",
+      "date": "2026-11-18",
+      "language": "tl",
+      "drama_code": "2026 WW61",
+      "titles": [
+        "👁️ Bulag ang guro, pero ang unggoy na tinuruan niya ang kinatakutan ng mga diyos! 🐒"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_0000_瞎眼百年猴子都成圣了.jpg"
+      ],
+      "publish_local": "2026-11-18T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "7717537fabb2b674",
+      "title_zh": "满级枪神回都市开局领证",
+      "date": "2026-11-18",
+      "language": "tl",
+      "drama_code": "2026 WW54",
+      "titles": [
+        "🔫 Kasal pa lang sila nang lumiko ang bala—saka nalaman ng asawa kung sino talaga siya! 😱"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-18_0500_满级枪神回都市开局领证.jpg"
+      ],
+      "publish_local": "2026-11-18T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "25bb48258912735f",
+      "title_zh": "驴神归来时速八百",
+      "date": "2026-11-19",
+      "language": "tl",
+      "drama_code": "2026 WW56",
+      "titles": [
+        "🫏 Naging asno ang mandirigma; sa araw ng hatol, bumalik siya para iligtas ang pamilya! 🔥"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_0000_驴神归来时速八百.jpg"
+      ],
+      "publish_local": "2026-11-19T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "ab09d37fe2f1a439",
+      "title_zh": "师娘送我出狱我横扫天下",
+      "date": "2026-11-19",
+      "language": "tl",
+      "drama_code": "2026 WW17",
+      "titles": [
+        "⚔️ Kalalaya lang niya sa bilangguan, hinarang na niya ang kasal ng nobya—sino ba talaga siya? 🤯"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-19_0500_师娘送我出狱我横扫天下.jpg"
+      ],
+      "publish_local": "2026-11-19T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "1b7dea19cb9a8afd",
+      "title_zh": "八零怀旧怪谈这就是找茬儿",
+      "date": "2026-11-20",
+      "language": "tl",
+      "drama_code": "2026 WW62",
+      "titles": [
+        "📺 Isang maling bombilya sa nayon ng dekada '80, patay ka! Siya lang ang nakaalam ng tuntunin 👻"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_0000_八零怀旧怪谈这就是找茬儿.jpg"
+      ],
+      "publish_local": "2026-11-20T00:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "沿用无文字写实封面"
+    },
+    {
+      "job_id": "cd64329ee44b2a9f",
+      "title_zh": "诡异擂台我请万界天骄诛神",
+      "date": "2026-11-20",
+      "language": "tl",
+      "drama_code": "2026 WW93",
+      "titles": [
+        "👻 Tatlong talo na ang kaharian; tinawag niya ang mga bayani mula sa ibang mundo! 🔥"
+      ],
+      "recommended_title": 1,
+      "covers": [
+        "covers/2026-11-20_0500_诡异擂台我请万界天骄诛神.jpg"
+      ],
+      "publish_local": "2026-11-20T05:00:00+08:00",
+      "thumbnail_text_mode": "none",
+      "thumbnail_resolution": [
+        1920,
+        1080
+      ],
+      "creative_note": "替换菲律宾语11月5日已排的《大明憨王爹我真想就藩》"
+    }
+  ],
+  "sha256": {
+    "covers/2026-11-16_0000_收下三根毫毛后我无敌了.jpg": "2af4054f3ccbb5ca6e06baf6c73a4e38bd9c731e4e8637b9821bd9f8ac52bc62",
+    "covers/2026-11-16_0500_我家浴缸通海底.jpg": "83fd2b7d3fc4c3a8c3b3e9f20f01797a4f419eb8252f3bd2146b335f7c4d4f38",
+    "covers/2026-11-17_0000_开局小陨石进化成宇宙.jpg": "bf7bbb9667183d28037b79dc62e71732cfa5d0bcd564283f11c6d3995d8398e4",
+    "covers/2026-11-17_0500_豪婿归来锋芒毕露.jpg": "379fc1965d7d8558141a02e88ff9d9b3f6139a69a0c400731f4910653f4aa4ab",
+    "covers/2026-11-18_0000_瞎眼百年猴子都成圣了.jpg": "fb5265d005749ab5c61f79a4c780885a3cf1f5f7363f875b294b5480a3e4908c",
+    "covers/2026-11-18_0500_满级枪神回都市开局领证.jpg": "e5f8ca0780499805112d5186186d612a865ffbc88802ab9ac02544cce04b8960",
+    "covers/2026-11-19_0000_驴神归来时速八百.jpg": "179987a774d92e55d5ae50fc606560c072eb60d300dc5b2e4db938f0c01baf59",
+    "covers/2026-11-19_0500_师娘送我出狱我横扫天下.jpg": "8f15c4c0d4d4a93cc2af1aedf963d6eff83ad6a7468a60c672873b7950a98258",
+    "covers/2026-11-20_0000_八零怀旧怪谈这就是找茬儿.jpg": "e4e9eb887f4dc1e79310b5a9f9d66e7626b9f48cfe3cd3b927aa11e61295941a",
+    "covers/2026-11-20_0500_诡异擂台我请万界天骄诛神.jpg": "abc3a8f9b63a06f670586c1c29081b3cc7eddf7eac6d12fbb0d345babe76029b"
+  }
+}
