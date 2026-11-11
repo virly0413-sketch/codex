@@ -3,6 +3,7 @@ import hashlib
 import json
 import re
 import shutil
+import datetime as dt
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
@@ -14,8 +15,8 @@ from preview_filipino_20261116 import TITLES
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'materials/西语/assets_es_20261116_20261120_latest10_v1'
 RESOURCE = Path('/workspace/attachments/3d986933-f246-4639-b27d-c1da98129ba9/YouTube剧集资源表-杭州 (1).xlsx')
-OUT = ROOT / 'materials/菲律宾语/assets_tl_20261116_20261120_revised10_v1'
-RELEASE = ROOT / 'releases/filipino_materials_20261116_20261120_revised10_v1.zip'
+OUT = ROOT / 'materials/菲律宾语/assets_tl_20261116_20261120_1200_1700_v2'
+RELEASE = ROOT / 'releases/filipino_materials_20261116_20261120_1200_1700_v2.zip'
 REPLACEMENTS = {
     1: (775, None, TITLES[1], '同剧情菲律宾语配音版本，原西语代码2026 WW34无菲律宾语标记'),
     3: (1155, 'exec-a9ef52d1-fa1a-494f-89c5-d609515795c3.png',
@@ -61,13 +62,17 @@ def build():
             raise ValueError('与菲律宾语已有排片重复：' + name)
         if len(title.encode('utf-16-le')) // 2 > 100:
             raise ValueError('标题超过100字符：' + name)
-        when = source_job['publish_local']
+        hour = 12 if source_job['slot'] == 1 else 17
+        local = dt.datetime.fromisoformat(source_job['date']).replace(
+            hour=hour, tzinfo=dt.timezone(dt.timedelta(hours=8)))
+        when = local.isoformat()
+        utc = local.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
         job_id = hashlib.sha256(f'tl|{when}|{code}|{name}'.encode()).hexdigest()[:16]
         job = {
             'job_id': job_id, 'title_zh': name, 'channel': '菲律宾语男频',
             'language': 'tl', 'date': source_job['date'], 'slot': source_job['slot'],
             'timezone': 'Asia/Shanghai', 'publish_local': when,
-            'publish_at': source_job['publish_at'],
+            'publish_at': utc,
             'candidates': [{
                 'resource_xlsx_sheet': '最新剧集', 'resource_row': row_number,
                 'resource_title': str(row[0]), 'drama_code': code,
@@ -80,7 +85,7 @@ def build():
             'blockers': ['youtube_oauth_not_connected', 'existing_video_selection_required'],
             'approved': False,
         }
-        relative = f"covers/{job['date']}_{'0000' if job['slot'] == 1 else '0500'}_{name}.jpg"
+        relative = f"covers/{job['date']}_{'1200' if job['slot'] == 1 else '1700'}_{name}.jpg"
         target = OUT / relative
         if generated:
             source = Path('/workspace/generated_images') / generated
@@ -106,7 +111,7 @@ def build():
         }
         jobs.append(job)
         entries.append(entry)
-        table.append([job['date'], '00:00' if job['slot'] == 1 else '05:00',
+        table.append([job['date'], '12:00' if job['slot'] == 1 else '17:00',
                       name, code, title, relative, note, row_number])
     if len(jobs) != 10 or len({j['title_zh'] for j in jobs}) != 10:
         raise ValueError('菲律宾语新排片不是10部互异剧。')
@@ -114,7 +119,7 @@ def build():
         'version': 2, 'language': 'tl', 'channel': '菲律宾语男频',
         'channel_id': None, 'titles_per_job': 1,
         'preserve_thumbnail_resolution': True, 'thumbnail_resolution': [1920, 1080],
-        'scope': '2026年11月16—20日，每天北京时间00:00、05:00，共10部。',
+        'scope': '2026年11月16—20日，每天北京时间12:00、17:00，共10部。',
         'cover_style': '复用8张无文字写实封面，按替换剧剧情全新生成2张封面。',
         'jobs': entries, 'sha256': hashes,
     }
@@ -131,7 +136,7 @@ def build():
         sheet.column_dimensions[column[0].column_letter].width = min(100, max(14, max(len(str(cell.value or '')) for cell in column) + 2))
     book.save(OUT / '菲律宾语排片封面标题对应表.xlsx')
     (OUT / 'README.md').write_text(
-        '菲律宾语11月16—20日完整素材包，沿用西语版每天北京时间00:00、05:00的10个时间点。'
+        '菲律宾语11月16—20日完整素材包，每天北京时间12:00、17:00，共10部；剧目顺序沿用已确认版本。'
         '《别惹卖鱼的他海底有龙宫》改为同剧情、有菲律宾语音轨的《我家浴缸通海底》（2609 KR51）；'
         '《被师父赶下山我被迫娶真千金》换为《豪婿归来锋芒毕露》（2026 WW92）；'
         '重复的《大明憨王爹我真想就藩》换为《诡异擂台我请万界天骄诛神》（2026 WW93）。'
